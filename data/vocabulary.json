@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-24",
+    "generated_at": "2026-06-25",
     "source_dir": "D:/논문",
     "paper_count": 734,
-    "word_count": 1976
+    "word_count": 2000
   },
   "words": [
     {
@@ -59256,6 +59256,726 @@
         {
           "sentence": "During their interactions, they asked for clarification on confusing parts (Engage →Explore) and sought help from the learning companion when facing difficulties (Explore →Explain).",
           "source": "18.Enhancing graduate students’ data visualization literacy through an inquiry-based learning companion system integrated with generative AI.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1977",
+      "word": "contextually",
+      "lemma": "contextually",
+      "pos": "adverb",
+      "pos_ko": "부사",
+      "ipa": "",
+      "meaning_ko": "문맥상 — 상황에 맞는 방식으로; 문맥을 참고하여",
+      "en_def": "In a contextual manner; with reference to context",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "For example, Zhang et al. (2024b) developed SimClass, a classroom simulation with a “reflection-response” design; agents updated knowledge and chose contextually appropriate actions, while the system selected the optimal respondent to enhance instructional interactions.",
+          "source": "15.How to design LLM-based intelligent agent to support student’s learning in educational context A systematic literature review.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "For instance, Zhang et al. (2024b) developed SimClass, a multi- contextually appropriate responses in real time, showing strong adaptability to dynamic classroom scenarios.",
+          "source": "15.How to design LLM-based intelligent agent to support student’s learning in educational context A systematic literature review.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1978",
+      "word": "relational",
+      "lemma": "relational",
+      "pos": "adjective",
+      "pos_ko": "형용사",
+      "ipa": "",
+      "meaning_ko": "관계형 — 관계와 관련.",
+      "en_def": "Relating to relations.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Barad's agential realism frames ontological units not as static ‘things’ but as intra-­active phenomena that are ‘dynamic, topological re- configuratings/entanglements/relationalities/(re)articulations of the world’ (Barad, 2007, p. 141).",
+          "source": "2.A topological exploration of convergencedivergence of human-mediated and algorithmically mediated pedagogy.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "This also resonates with a ‘postdigital ethics of care’ (Costello, 2024) in which the inherently relational, dynamic and challenging nature of human/nonhuman entanglements call for sustained human attention to the detail and prov- enance of pedagogical intra-­action.",
+          "source": "2.A topological exploration of convergencedivergence of human-mediated and algorithmically mediated pedagogy.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1979",
+      "word": "thesis",
+      "lemma": "thesis",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/ˈθisɪs/",
+      "meaning_ko": "명제 — 논리, 수사학 등과 관련된 감각.",
+      "en_def": "Senses relating to logic, rhetoric, etc.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "As the participants were all adults, the written informed consent assured participants that their participation was anonymous, and that the information provided would be used exclusively for this research and its publication as part of the researcher’s thesis.",
+          "source": "3.Language teachers’ perceptions and acceptance of educational robotics for classroom integration.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "One dashboard does not fit all: Promoting user engagement through dashboard design in an energy monitoring platform [Master's thesis].",
+          "source": "7.Investigating the motivational and knowledge affordances of conversational AI using induction, concretization and exemplification in math learning.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1980",
+      "word": "praise",
+      "lemma": "praise",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/pɹeɪz/",
+      "meaning_ko": "칭찬 — 칭찬; 말로는 호의적인 표현",
+      "en_def": "Commendation; favourable representation in words",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "The majority of 28.57% of all students praised the intuitiveness of the quizzes.",
+          "source": "47.The impact of large language models on computer science student writing.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Yu et al. studies could examine the differential effects of positive (e.g., social praise) and negative feedback (e.g., marked wrong answers) on writing explanations in synchronous video lesson.",
+          "source": "3.Investigating the impact of explanation type and peer relationship closeness on multimedia learning.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1981",
+      "word": "standardize",
+      "lemma": "standardize",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "/ˈstændə(ɹ)daɪz/",
+      "meaning_ko": "표준화하다 — 조직 전체에서 어떤 일이 어떻게 수행되어야 하는지에 대한 규정으로 구성된 표준을 확립하는 것입니다.",
+      "en_def": "To establish a standard consisting of regulations for how something is to be done across an organization.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Participants had to visit the areas in a predefined order marked on the floor to standardize the procedure.",
+          "source": "8.Spatial versus normal audio guides in exhibitions Cognitive mechanisms and effects on learning.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "In addition, most prior studies using this scale have not reported standardized effect sizes, making it dif- ficult to benchmark or compare results across contexts.",
+          "source": "Redundancy effects of information design on immersive virtual literary reading the exploration of cognitive load, empathy, and reading comprehension.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1982",
+      "word": "postgraduate",
+      "lemma": "postgraduate",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "대학 졸업 후의 — 학위 과정을 성공적으로 마친 후에도 해당 분야에서 계속 공부하는 사람.",
+      "en_def": "A person continuing to study in a field after having successfully completed a degree course.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "The research follows a design-based approach, mapping validated SRL scales to LMS data indicators, developing the rubric for a Canvas LMS, and validat- ing it with postgraduate students.",
+          "source": "15.Development and validation of a learning analytics rubric for self-regulated learning.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Through design-based research, we mapped SRL scales to LMS indicators and validated them with postgraduate students.",
+          "source": "15.Development and validation of a learning analytics rubric for self-regulated learning.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1983",
+      "word": "corroborate",
+      "lemma": "corroborate",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "/kəˈɹɒbəɹeɪ̯t/",
+      "meaning_ko": "확증하다 — 추가 증거로 어떤 것을 확인하거나 뒷받침하다. 증명하거나 보증하기 위해.",
+      "en_def": "To confirm or support something with additional evidence; to attest or vouch for.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "The hypothesis posed is: The effects of the application of mixed gamification will demonstrate statistical differences that corroborate the effects on the reduction of low academic performance when accompanied by a pedagogical model: D-S-F[IR].",
+          "source": "9.Effects of feedback dynamics and mixed gamification on cognitive underachievement in school.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "It seems that the feedback dynamics were stronger in group A subjects, which corroborates that the use of playful tools should be cooperative rather than individualistic (Scolari et al., 2018).",
+          "source": "9.Effects of feedback dynamics and mixed gamification on cognitive underachievement in school.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1984",
+      "word": "overly",
+      "lemma": "overly",
+      "pos": "adjective",
+      "pos_ko": "형용사",
+      "ipa": "",
+      "meaning_ko": "지나치게 — 표면적; 철저하지 않음; 부주의한, 부주의한, 부주의한.",
+      "en_def": "Superficial; not thorough; careless, negligent, inattentive.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Such offloading can be beneficial when it frees resources for higher-order reflection, but it can also become maladaptive when users overly rely on external support (Fröscher et al., 2022; Gilbert, 2015).",
+          "source": "2.Designing a mobile chatbot-based learning journaling system for intrinsic motivation and engagement.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Learners might become overly reliant on ChatGPT, using it to easily complete specific learning tasks without fully engaging in the learning or actively participating in the regulation process.",
+          "source": "3.Beware of metacognitive laziness Effects of generative artificial intelligence on learning motivation, processes, and performance.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1985",
+      "word": "mediator",
+      "lemma": "mediator",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/ˈmidieɪtɚ/",
+      "meaning_ko": "중재인 — 당사자들 사이에서 상호 합의를 위해 협상하는 사람.",
+      "en_def": "One who negotiates between parties seeking mutual agreement.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Educational MAS typically comprise student agents for modeling behavior, teacher/pedagogical agents for instructional decisions, and mediator/proxy agents that manage communication and collaboration in virtual environments (Hamal et al., 2021; Liu et al., 2003; Sun et al., 2007; Viswanathan et al., 2022).",
+          "source": "22.An LLM-powered multi-agent system Enabling real-time cognitive and psychological state assessment in K-12 mathematics learning.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Users with both high betweenness and high in-­degree centrality are called social mediators because of their role in connecting users in the network.",
+          "source": "12.Exploring Twitter as a social learning space for education scholars An analysis of value-added contributions to the #TPACK network.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1986",
+      "word": "exclusively",
+      "lemma": "exclusively",
+      "pos": "adverb",
+      "pos_ko": "부사",
+      "ipa": "/ɪkˈskluːsɪvli/",
+      "meaning_ko": "독점적으로 — (초점) 어떤 것 또는 다른 사람을 제외합니다. 전적으로 또는 전적으로",
+      "en_def": "(focus) to the exclusion of anything or anyone else; solely or entirely",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "This justifies the use of ADR as the artefact is designed, developed and implemented as an ensemble of material and organisational requirements focusing exclusively on end-­users, ADR facilitates the alignment of technological solutions with organisational goals, ultimately resulting in more effective interventions.",
+          "source": "18.Chatbots in tertiary education Exploring the impact of warm and competent avatars on self-directed learning.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Furthermore, the research concentrates exclusively on the engagement with 3D visualisations and models of injuries, and it remains to be seen could explore how specific tasks may invoke the use of the resources introduced here, with the aim of deepening the understanding of collaborative learning environments that involve tablets.",
+          "source": "6.Collaborative learning with tablets Analysing students' meaning making of 3D body models in upper secondary education.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1987",
+      "word": "inclusivity",
+      "lemma": "inclusivity",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "포괄성 — 포용성.",
+      "en_def": "Inclusiveness.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "For inclusivity, users are also explicitly shown and told the stop at which they will disembark. to signal they want to disembark the bus (Figures 5C-5G).",
+          "source": "6.Catch the Bus© Development and validation of a gamified travel training application for students with exceptionalities.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "To maximize inclusivity, we used four main channels to reach a diverse group of educa- tors: (1) Wiki Education Foundation mailing list; (2) Wikimedia Movement mailing lists; (3) Various social media platforms, mainly Facebook and Telegram groups; and (4) Per- sonal contacts of the authors.",
+          "source": "30.Writing for the greater good what do educators think about using Wikipedia as a teaching tool.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1988",
+      "word": "dedicate",
+      "lemma": "dedicate",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "/ˈdɛdɪkeɪt/",
+      "meaning_ko": "전념하다 — 신이나 종교적 목적을 위해 구별하다. 바치다.",
+      "en_def": "To set apart for a deity or for religious purposes; consecrate.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Training programs and dedicated support teams can aid educators in transitioning to innovative assessments.",
+          "source": "17.Ensuring academic integrity in the age of ChatGPT Rethinking exam design, assessment strategies, and ethical AI policies in higher education.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Previous studies have found that MUVEs are overall easy to operate and capable of bringing many benefits to learning, such as increased learning engagement and satisfaction (Sierra et al., 2012; Vrellis et al., 2016). 2017), as it indicates the time and efforts dedicated by students during their learning process (Lu & Churchill, 2014).",
+          "source": "21.Student intention to use MUVEs An integrated model of technology acceptance and learning engagement theories.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1989",
+      "word": "conceptualisation",
+      "lemma": "conceptualisation",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "개념화 — 개념화하는 행위, 또는 개념화된 것.",
+      "en_def": "The act of conceptualising, or something conceptualised.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Author contributions Jose Cela-Ranilla: Conceptualisation, Writing – original draft, Writing – review and editing, Francesc M.",
+          "source": "2.Design-based research in higher education A systematic literature review between 2019 and 2023.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Author contributions Richard McInnes: Conceptualisation, Methodology, Investigation, Formal analysis, Project administration, Writing – original draft, Writing – review and editing; Ngoc Nhu (Ruby) Nguyen: Writing – original draft, Writing – review and editing, Methodology; Sasikala Rathnappulige: Writing – original draft, Writing – review and editing; Simon Marek: Investigation, Writing – review ",
+          "source": "2.Beyond guesstimating Calculating student workload in fully online micro-credentials.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1990",
+      "word": "satisfactory",
+      "lemma": "satisfactory",
+      "pos": "adjective",
+      "pos_ko": "형용사",
+      "ipa": "/sætɪsˈfækt(ə)ɹi/",
+      "meaning_ko": "만족스러운 — 만족스럽게 완료되었습니다. 적절하거나 충분합니다.",
+      "en_def": "Done to satisfaction; adequate or sufficient.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Complementing these analyses, item-level validation was conducted on the full dataset to refine the scale’s discriminative power 27% of total scorers through independent t-tests, with statistical significance (p < .05) indicating satisfactory discriminative power.",
+          "source": "8.Interdisciplinary competence in AI-enabled learning Scale development and validation.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "For this population, differential scaffolding activate messages that reaffirm their autonomy and the idea that their effort and persistence generate satisfactory results.",
+          "source": "9.Academic self-efficacy, online self-efficacy, and fixed and faded scaffolding in computer-based learning environments.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1991",
+      "word": "profound",
+      "lemma": "profound",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/pɹəˈfaʊnd/",
+      "meaning_ko": "심오한 — 깊은 곳; 바다; 바다.",
+      "en_def": "The deep; the sea; the ocean.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Notably, the field of teacher education stands out as a significant area where GAI’s impact is notably profound, underscoring its potential to transform traditional practices and methodologies (Narayanan, 2024; Wu et al., 2023).",
+          "source": "2.Understanding pre-service teachers’ acceptance of generative artificial intelligence an extended technology acceptance model approach.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "GAI is an emerging technology and has the potential to profoundly influence global education (Guo et al., 2024).",
+          "source": "2.Understanding pre-service teachers’ acceptance of generative artificial intelligence an extended technology acceptance model approach.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1992",
+      "word": "benchmark",
+      "lemma": "benchmark",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "기준 — 어떤 것을 평가하거나 측정하는 기준.",
+      "en_def": "A standard by which something is evaluated or measured.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Note that the convergent criterion-related validity measures of students’ essay PFnets were estimated using Pearson correlation by comparing the text-to-essay PFnet similar- ity scores to human-rater scores of the essays (criterion benchmarks).",
+          "source": "8.Visualizing the influence of text structures on readers’ knowledge structures Pathfinder network scaling technique.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "For example, gamification dynamics are the basic principles that guided the design of CtB, including constraints (e.g., in-game token and currency for successful boarding and riding), emotions (e.g., reinforcement of common coping mechanisms, ambient music selection), narration (e.g., differentiated instruction and context driven auditory cues), and progress (e.g., context driven visual cues, in-g",
+          "source": "6.Catch the Bus© Development and validation of a gamified travel training application for students with exceptionalities.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1993",
+      "word": "craft",
+      "lemma": "craft",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/kɹɑːft/",
+      "meaning_ko": "선박 — 힘; 힘; 할 것 같다; 힘 .",
+      "en_def": "Strength; power; might; force .",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "It is essential that students understand how to analyze market trends, identify target audiences, and craft messages that resonate with consumers.",
+          "source": "2.Top 6 literacies in marketing education State-of-the-art approach.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "It involves using basic tools like pen and paper, capturing images and textures through photography, and often employing software like Photoshop for editing and crafting something unique.",
+          "source": "11.Integrating image-generative AI into conceptual design in computer-aided design education Exploring student perceptions, prompt behaviors, and artifact creativity.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1994",
+      "word": "incomplete",
+      "lemma": "incomplete",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/ɪn.kəm.ˈpliːt/",
+      "meaning_ko": "불완전한 — 뭔가 불완전해요.",
+      "en_def": "Something incomplete.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "From an initial sample of 135 participants, our final analysis included 114 participants after removing cases with incomplete post-­task data and those showing non-­engagement patterns in our measurement instruments.",
+          "source": "5.Breaking human dominance Investigating learners' preferences for learning feedback from generative AI and human tutors.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Excluding incomplete and invalid data, the final dataset of this research included seven groups’ data generated in 5 weekly activities, namely 35 recordings (approximately 805 min) and 35 concept maps.",
+          "source": "19.Hierarchical clustering of groups’ collaborative discourses during the computer-supported collaborative concept mapping process.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1995",
+      "word": "deployment",
+      "lemma": "deployment",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/dɪˈplɔɪmənt/",
+      "meaning_ko": "전개 — 사물의 배열이나 분류.",
+      "en_def": "An arrangement or classification of things.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Furthermore, many schools were found to lack the essential technical infrastructure and support for the effective deployment of digital tools.",
+          "source": "16.Bridging the digital divide Promoting inclusive education for students with disabilities in Ethiopian schools.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Policymakers, in formulating AI education strategies, should look beyond deployment effi- ciency to consider issues such as data ethics, teacher labor protections, educational equity, and student privacy.",
+          "source": "5.The journey of challenges and victories exploring the transformation action framework in the GenAI era from multifaceted policies.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1996",
+      "word": "stance",
+      "lemma": "stance",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/stæns/",
+      "meaning_ko": "위치 — 사람이 서 있는 태도, 자세, 자세.",
+      "en_def": "The manner, pose, or posture in which one stands.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "From a pedagogi- cal stance, teachers are expected to design learning experiences that promote meaningful learning through productive struggle (Trinter & Hughes, 2021; Warshauer, 2015a, 2015b).",
+          "source": "11.“We are too dumb for this” a critical discourse analysis of stereotypical attributions to struggle with computational thinking.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "For in- stance, ChatGPT demonstrates multi-­agency by combining internet searches with synthesis capabilities to provide well-­structured and relevant responses to user queries.",
+          "source": "7.Investigating the motivational and knowledge affordances of conversational AI using induction, concretization and exemplification in math learning.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1997",
+      "word": "conducive",
+      "lemma": "conducive",
+      "pos": "adjective",
+      "pos_ko": "형용사",
+      "ipa": "/kənˈdjuːsɪv/",
+      "meaning_ko": "도움이 되는 — 어떤 결과에 기여하거나 격려하거나 결과를 가져오는 경향이 있습니다.",
+      "en_def": "Tending to contribute to, encourage, or bring about some result.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "The interactive nature of social media facilitates the sharing of creative ideas, thereby creating an environment conducive to entrepreneurship (Abdelfattah et al., 2022).",
+          "source": "11.RETRACTED ARTICLE Exploring the use of social media for informal learning in professional development in Saudi Arabian higher education.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "This result echoed the con- cept of reflective practice, verifying that guiding students to reflect on their motor skills from an objective perspective was conducive to the growth of their skill performance (Hsia & Hwang, 2020; Koh & Tan, 2018).",
+          "source": "6.Artificial intelligence-supported physical education during the pandemic a physical skill auto-assessment and feedback approach based on a reflection-promoting mechanism.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1998",
+      "word": "aforementioned",
+      "lemma": "aforementioned",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/əˈfɔːˌmɛn.ʃənd/",
+      "meaning_ko": "앞서 말한 — 이전에 언급된 것 중 하나입니다.",
+      "en_def": "The one or ones mentioned previously.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Future directions For future direction, this paper encourages more experimentation with synthetic data in the education field to overcome the aforementioned limitation.",
+          "source": "4.Ensuring privacy through synthetic data generation in education.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "A list of the hypotheses of the study and whether they were supported or rejected based on the aforementioned find- ings is shown in Table 8.",
+          "source": "4.The role of self-regulated learning in modelling the relationships between learning approaches, FoMO and smartphone addiction among university students.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1999",
+      "word": "deem",
+      "lemma": "deem",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/diːm/",
+      "meaning_ko": "생각하다 — 의견, 판단, 추측.",
+      "en_def": "An opinion, a judgment, a surmise.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Apperley and Walsh (2012) and Arduini (2018) deemed game paratexts a promising source for multimodal literacy practice to bridge students’ game literacy and school literacy education.",
+          "source": "1.Exploring adolescents’ multimodal literacy as critical and creative prosumers in digital game-based multimodal composition.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "For instance, G1 deemed their video content “clear” and “comprehensive” but also “mediocre” and “lacking interactivity” due to insufficient time for more self-filmed videos, which could have been included to enhance interaction.",
+          "source": "1.Exploring adolescents’ multimodal literacy as critical and creative prosumers in digital game-based multimodal composition.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w2000",
+      "word": "award",
+      "lemma": "award",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/əˈwɔːd/",
+      "meaning_ko": "상 — 판결, 선고 또는 최종 결정. 구체적으로는 제출된 사건에 대한 중재인의 결정입니다.",
+      "en_def": "A judgment, sentence, or final decision. Specifically: The decision of arbitrators in a case submitted.",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Acknowledgment The research is supported by a grant from the Dean’s Research Fund from the Faculty of Liberal Arts and Social Sciences, The Education University of Hong Kong (Project Reference No: 0400V), awarded to the first author.",
+          "source": "17.Educational robotics may enhance students’ conceptual knowledge, applied skills, and learning attitude in STEM education A meta-analysis.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Javed et al. (2024) discovered no overall convergence in AI research capability, but did find convergence in four of five nation groups for research output and three of four for patent awards.",
+          "source": "Science of artificial intelligence research capacity on research and innovation productivities of higher education learning in the top 10 countries.pdf",
           "type": "from_paper"
         }
       ],
