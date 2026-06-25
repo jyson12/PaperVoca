@@ -4633,8 +4633,8 @@
       "pos": "adjective",
       "pos_ko": "형용사",
       "ipa": "/diːp/",
-      "meaning_ko": "깊은 — (\"the\"와 함께) 호수나 바다 등의 깊은 부분.",
-      "en_def": "(with \"the\") The deep part of a lake, sea, etc.",
+      "meaning_ko": "깊은 — 정도가 깊거나 심층적인 (예: 심층 학습, 깊은 이해).",
+      "en_def": "Extending far down or in; profound or thorough.",
       "frequency": 1900,
       "doc_spread": 498,
       "score": 11803.95,
@@ -5361,13 +5361,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Effect of feedback Feedback, constructed as information imparted by an agent such as a teacher, peer, or parent, or derived from individual experience, plays a pivotal role in enhancing student achievement by bridging the gap between the learner’s current and desired states (Mertens et al., 2022; Shute, 2008).",
-          "source": "77.Exploring the effects of elaborated and motivational feedback on learning engagement in online scripted role discussion.pdf",
+          "sentence": "H2a Method Participants Data were collected at a mid-size Canadian University from 108 students (61.1% male, 38.9% female) with an average age of 21.23 (SD = 4.81).",
+          "source": "22.Student reactions to AI versus human feedback in teamwork skills assessment.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Previous research on TPACK showed that online col- laborative learning helps PSTs co-­construct their knowledge through learning by design (Yeh, 2021; Zhang et al., 2019), which enables them to exercise teacher agency and effec- tively apply their knowledge and experiences in their teaching (Woo & Henriksen, 2023).",
-          "source": "10.Preservice teachers' learning by design through space construction in the metaverse.pdf",
+          "sentence": "Professors may already benefit from higher perceived credibility, while TAs, being closer in age and experience to students, may be perceived as more relatable and empathetic.",
+          "source": "22.Student reactions to AI versus human feedback in teamwork skills assessment.pdf",
           "type": "from_paper"
         }
       ],
@@ -6943,8 +6943,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ɹiːd/",
-      "meaning_ko": "읽다 — 독서 또는 독서 행위, 특히 연극에서 배우의 역할.",
-      "en_def": "A reading or an act of reading, especially an actor's part of a play.",
+      "meaning_ko": "읽다 — 글을 보고 그 의미를 이해하다.",
+      "en_def": "To look at and understand the meaning of written text.",
       "frequency": 1488,
       "doc_spread": 364,
       "score": 8779.05,
@@ -7513,16 +7513,16 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/sɜːt͡ʃ/",
-      "meaning_ko": "찾다 — 뭔가를 찾으려는 시도.",
-      "en_def": "An attempt to find something.",
+      "meaning_ko": "검색 — 정보나 자료를 찾는 행위; 탐색.",
+      "en_def": "The act of looking for or seeking information or data.",
       "frequency": 1430,
       "doc_spread": 331,
       "score": 8301.34,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Design-­based implementation re- search: An emerging model for transforming the relationship of research and practice.",
-          "source": "9.Fostering deliberation and action in context An analysis of implementation research among healthcare professionals in LMICs from a post-digital perspective.pdf",
+          "sentence": "Identifying relevant work Following the established PRISMA 2020 standard (Page et al., 2021, Figure 2), the search was conducted using an electronic search of databases, ProQuest and ERIC.",
+          "source": "3.Working with physical and virtual manipulatives A systematic review of affordance and cognitive engagement manifested through implementation.pdf",
           "type": "from_paper"
         },
         {
@@ -7753,8 +7753,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ʃeɪp/",
-      "meaning_ko": "모양 — 어떤 것의 상태나 상태",
-      "en_def": "The status or condition of something",
+      "meaning_ko": "형성하다 — 어떤 것의 형태·성격·방향을 결정하거나 만들어가다.",
+      "en_def": "To determine or influence the form, nature, or direction of something.",
       "frequency": 1368,
       "doc_spread": 376,
       "score": 8115.31,
@@ -9043,8 +9043,8 @@
       "pos": "adjective",
       "pos_ko": "형용사",
       "ipa": "/ˈfɪzɪkəl/",
-      "meaning_ko": "물리적 — 신체검사.",
-      "en_def": "Physical examination.",
+      "meaning_ko": "물리적인 — 물질이나 신체에 관련된; 실재하는.",
+      "en_def": "Relating to material things or the body; tangible.",
       "frequency": 1277,
       "doc_spread": 277,
       "score": 7186.47,
@@ -9193,21 +9193,21 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/feɪs/",
-      "meaning_ko": "얼굴 — 사람이나 다른 동물의 머리 앞부분으로 눈, 코, 입과 그 주변 부분이 특징입니다.",
-      "en_def": "The front part of the head of a human or other animal, featuring the eyes, nose and mouth, and the surrounding area.",
+      "meaning_ko": "직면하다 — 문제·상황·도전 등에 부딪히거나 마주하다.",
+      "en_def": "To confront or deal with a problem or situation.",
       "frequency": 1166,
       "doc_spread": 436,
       "score": 7089.2,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The task guidance module directs learners to the project inter- face and initiates the learning sequence.",
-          "source": "The effects of a metacognitive scaffolding-supported online inquiry-based learning approach on students’ science achievement, metacognitive ability, and inquiry skills.pdf",
+          "sentence": "Each focus group interview with student participants lasted for 60 minutes in a face-to-face setting.",
+          "source": "19.Effectiveness of explicit guidance and practices on abstraction (EGPA) Focusing on computational tasks in a fifth-grade STEM-integrative robotic education program .pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "SE influenced not only the initial decision to engage with mobile learning but also the extent to which students were willing to persevere in the face of difficulties.",
-          "source": "16.Determinants of student engagement and behavioral intention towards mobile learning platforms.pdf",
+          "sentence": "Teachers often provide simplified information to help students easily understand concepts, but simplified information does not reflect the types of issues engineers and scientists face in real-life situations.",
+          "source": "19.Effectiveness of explicit guidance and practices on abstraction (EGPA) Focusing on computational tasks in a fifth-grade STEM-integrative robotic education program .pdf",
           "type": "from_paper"
         }
       ],
@@ -9291,13 +9291,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Interoperability is no longer an issue as all data (ie, personal and operational) is in the one platform ready for analy- sis via dashboards.",
-          "source": "5.From a ‘patchwork of platforms’ to the platformized school The changing nature of data infrastructures in education.pdf",
+          "sentence": "Oliver and Omari (1999) investigated online collaboration via problem-based tasks and found that while students valued peer interaction, they still depended heavily on teacher presence, regarding teacher input as essential.",
+          "source": "1.Building on the foundations Revisiting AJET’s second decade (1995– 2004) and its enduring legacy.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "And what kinds of infrastructural decisions are they making, given they are required to both protect the digital rights of staff and students and remain viable in an increasingly competitive marketplace?",
-          "source": "5.From a ‘patchwork of platforms’ to the platformized school The changing nature of data infrastructures in education.pdf",
+          "sentence": "In other words, if an individual believes they gain personal benefits (time, feedback, ease of learning) from learning via a chatbot and that the risks (privacy, security, misinformation) are lower than these gains, they find the technology valuable.",
+          "source": "8.General chatbot acceptance, enjoyment, perceived risk, and value (G-CAVS) Scale development and validation.pdf",
           "type": "from_paper"
         }
       ],
@@ -9711,13 +9711,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "To address these gaps, the present study examined the effectiveness of VSR as a reflective tool in EFL teacher education by exploring PTs’ levels of reflectivity, differences between verbal and written reflections and perceptions of VSR as a tool for professional growth.",
-          "source": "4.Rewinding to reflect Unpacking L2 pre-service teachers' growth through video-stimulated recall.pdf",
+          "sentence": "This may in- clude adding warmup tasks, formative assessments or culturally relevant adaptations (Meidl & Meidl, 2011; Walkington, 2013).",
+          "source": "2.Scaffolding middle school mathematics curricula with large language models.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "To address these limitations, recent research in teacher education has increasingly turned to video-based reflection tools, such as VSR, which allow teachers to revisit and analyse their own teaching more objectively and deeply.",
-          "source": "4.Rewinding to reflect Unpacking L2 pre-service teachers' growth through video-stimulated recall.pdf",
+          "sentence": "This implementation occurred primarily at the resource level, with teachers describing two main approaches: adaptation and supplementation of Adaptation often involved light-­touch edits and modifications to the original materials, such as adding definitions, reducing cognitive demand and making other minor tweaks to improve accessibility and relevance for students.",
+          "source": "2.Scaffolding middle school mathematics curricula with large language models.pdf",
           "type": "from_paper"
         }
       ],
@@ -11293,8 +11293,8 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/trʊst/",
-      "meaning_ko": "신뢰하다 — 특정 사람이나 자질에 대한 신뢰 또는 의존입니다.",
-      "en_def": "Confidence in or reliance on some person or quality.",
+      "meaning_ko": "신뢰 — 어떤 사람이나 대상의 능력·진실성에 대한 믿음이나 의존.",
+      "en_def": "Firm belief in or reliance on the ability or truth of someone or something.",
       "frequency": 1130,
       "doc_spread": 189,
       "score": 5929.14,
@@ -16191,13 +16191,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Conversely, students’ isolation from instructors and peers can impact academic performance, attendance, or other engagement dimensions (Gupta, 2023; Kiatkeeree & Ruangjaroon, 2022).",
-          "source": "6.Exploring the role of synchrony in asynchronous, synchronous, and quasi-synchronous online learner engagement.pdf",
+          "sentence": "The intervention program covered 11 topics with a total of four hours and four weeks, allocating one hour per week for each group.",
+          "source": "5.Motivational effect of shifting educational video in a blended instructional design.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "They found that synchronous communication “positively affects students’ perceptions of belonging, positive affect, and cognitive processes” (p. 7), while asynchronous communication may not function as intended in instructional design due to its impact on students’ perception of interdependence.",
-          "source": "6.Exploring the role of synchrony in asynchronous, synchronous, and quasi-synchronous online learner engagement.pdf",
+          "sentence": "The required sample size for detecting the observed combined effect size (0.915) with 80% power at α = 0.05 was estimated at 20 participants per group.",
+          "source": "5.Motivational effect of shifting educational video in a blended instructional design.pdf",
           "type": "from_paper"
         }
       ],
@@ -18441,13 +18441,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The questionnaire was translated into Vietnamese and back-translated to ensure linguistic and cultural equivalence.",
-          "source": "5.AI for English speaking practice A study of effectiveness and engagement among Vietnamese university learners.pdf",
+          "sentence": "And then, for each answer I went back to the rubric again and again.",
+          "source": "(2022)Teachers' trust in AI-powered educational technology and a professional development program to improve it.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Including diverse students from various cultural backgrounds, age groups, and educational levels can provide a more comprehensive understanding (Mendo-Lázaro et al., 2022).",
-          "source": "10.Investigating EFL students’ perceived values of online cooperative learning in MOOCs.pdf",
+          "sentence": "She recalled the following anecdote: “There were some [technical] terms that I found a bit hard to say, so I kept them on a small note to refer back to, encouraging kids to repeat them.",
+          "source": "1.From avoidance to ownership preschool teachers learn to teach code—a case study.pdf",
           "type": "from_paper"
         }
       ],
@@ -19856,8 +19856,8 @@
           "type": "from_paper"
         },
         {
-          "sentence": "The study appeals to a more transparent and child-­centred approach in designing video apps, a mixed parental mediation for facilitating children's video app usage, and educa- tors' empowering children's autonomy in online pri- INTRODUCTION Watching videos on video apps has become one of the most popular online activities for children worldwide.",
-          "source": "6.Design and validation of a conceptual model for children's continuance intention to use video apps.pdf",
+          "sentence": "Keywords: Australasian Journal of Educational Technology, AJET, Educational Technology, History, Editorial Introduction To celebrate the 40th anniversary of the Australasian Journal of Educational Technology (AJET) we will dedicate the next three editorials to exploring the origins and history of the journal.",
+          "source": "4.40 years of AJET The first 10 years.pdf",
           "type": "from_paper"
         }
       ],
@@ -19941,13 +19941,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Contextual factors affecting teachers’ integration of ICT Optimal forms of digitally enhanced education are sometimes considered universal.",
-          "source": "19.Pedagogical uses of ICT in Finnish and Chilean schools A systematic review.pdf",
+          "sentence": "The decision to use these data collection techniques was also influenced by the fact that they account for (to some extent) students' embodied learning and their importance in multisensory systems (eg, stu­ dents externalize their actions with the use of their body/skeleton).",
+          "source": "2.Generative AI and multimodal data for educational feedback Insights from embodied math learning.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Given such contextual factors and their role in planning a sustainable and enriching education, any irreflexive incorporation of technologies into school systems should be questioned.",
-          "source": "19.Pedagogical uses of ICT in Finnish and Chilean schools A systematic review.pdf",
+          "sentence": "This debate is complicated by the fact that the cognitive and metacognitive learning process is complex and multifaceted, and often represented in APLE only through convenient proxies that can be easily designed and captured through data (Cebi & Guyer, 2020; Ye & Pennisi, 2022).",
+          "source": "2.Uncovering variations in learning behaviors and cognitive engagement among students with diverse learning goals and outcomes.pdf",
           "type": "from_paper"
         }
       ],
@@ -21261,13 +21261,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "This underscores DBIR's capacity to generate learning even under imperfect conditions, though a major limitation is that findings can quickly lose their applicability or lack the rich insights that the DBIR aimed to generate.",
-          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "sentence": "Mann-Whitney U tests indicated no significant group differences (Z = -1.452, p = .146; Table 4), though higher median motivation was observed in the 2D group.",
+          "source": "23.Uncanny valley effect Research on the impact of digital human appearance on learners in a multi-agent collaborative learning environment.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This [may have] happened because they thought that they were being evaluated’ [W1] Ran a parent consent session and attempted to get signed informed consent forms from all parents This was a shift from local approaches where the head teacher consents on behalf of the parents and learners.",
-          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "sentence": "Wilcoxon signed-rank tests revealed no significant differences (Z = -0.968, p = .333; Table 6), though mean motivation was higher for 3D high-fidelity digital humans.",
+          "source": "23.Uncanny valley effect Research on the impact of digital human appearance on learners in a multi-agent collaborative learning environment.pdf",
           "type": "from_paper"
         }
       ],
@@ -21411,13 +21411,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The present study evaluated the impact of a mobile notification system on academic procrastination, with the objective of determining whether the system could enhance students’ efficiency in completing their weekly homework and forum assignments.",
-          "source": "43.You have a notification the role of push notifications in shaping students’ engagement, self-regulation and academic procrastination.pdf",
+          "sentence": "We investigated how ChatGPT assists students in exploring “Conflicts of Roles in Home Care for the Elderly” through reflective writing to understand their perceptions of caregiving and analyze their HOTS.",
+          "source": "15.Generative AI-assisted reflective writing for improving students’ higher order thinking Evidence from quantitative and epistemic network analysis.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Since the follow­ ing day is the final day for homework submissions, system entries are generally more frequent on the day before class.",
-          "source": "43.You have a notification the role of push notifications in shaping students’ engagement, self-regulation and academic procrastination.pdf",
+          "sentence": "In the reflective phase, students read scenarios involving role conflicts concerning elderly home care.",
+          "source": "15.Generative AI-assisted reflective writing for improving students’ higher order thinking Evidence from quantitative and epistemic network analysis.pdf",
           "type": "from_paper"
         }
       ],
@@ -21651,8 +21651,8 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The first draft of the manu- script was written by Enrico Gandolfi and all authors commented on previous versions of the manuscript.",
-          "source": "5.Exploring the relationship between motivation and augmented reality presence using the augmented reality presence scale (ARPS).pdf",
+          "sentence": "A pre-­defined conversational structure, imple­ mented via Soul Machine's interface and pre-­scripted dialogue trees, limited GPT-­4's open-­ endedness to maintain control while testing how different styles affect engagement.",
+          "source": "18.Chatbots in tertiary education Exploring the impact of warm and competent avatars on self-directed learning.pdf",
           "type": "from_paper"
         },
         {
@@ -22731,8 +22731,8 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "This was some- thing we considered including in the initial stages of this project.",
-          "source": "6.Beyond verbal self-explanations Student annotations of a code-tracing solution produced by ChatGPT.pdf",
+          "sentence": "I try to share things with the students in a simple manner.",
+          "source": "13.Changing assessment landscape in management education with AI-driven technologies impacts and drivers.pdf",
           "type": "from_paper"
         },
         {
@@ -22903,21 +22903,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/deɪ/",
-      "meaning_ko": "낮 — 24시간의 모든 기간.",
-      "en_def": "Any period of 24 hours.",
+      "meaning_ko": "날 — 하루; 특정한 날짜나 시점.",
+      "en_def": "A period of 24 hours; a particular date or time.",
       "frequency": 543,
       "doc_spread": 182,
       "score": 2828.75,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Unplugged activities were implemented in two contexts: A: a group of 18 girls and 16 boys in an ele- mentary school in Spain, and B: an unknown number of families attended an “Fluor Satur- days” event aiming to “making visible and observing gender roles in adults and children” (p. 211).",
-          "source": "17.An educational model of equity and computing a study of marginalized student experience during COVID pandemic.pdf",
+          "sentence": "Following Bai et al. (2020), the studies were categorised by duration: ≤ 1 day, 1 day – 1 week, 1 week – 1 month, 1 month – 1 year, and N/A (not mentioned).",
+          "source": "17.Educational robotics may enhance students’ conceptual knowledge, applied skills, and learning attitude in STEM education A meta-analysis.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "To address RQ1, we assessed the video learners' retention, comprehension and application of knowledge immediately after learning and again 7 days later.",
-          "source": "11.Teaching expectancy improves video-based learning Evidence from eye-movement synchronization.pdf",
+          "sentence": "Shorter interventions (less than a day or up to a month) had larger effects on applied skills, while longer interventions (ranging from one month to a year) had larger effects on positive learning attitude. 4.2.5.",
+          "source": "17.Educational robotics may enhance students’ conceptual knowledge, applied skills, and learning attitude in STEM education A meta-analysis.pdf",
           "type": "from_paper"
         }
       ],
@@ -22939,7 +22939,18 @@
       "doc_spread": 312,
       "score": 2827.13,
       "difficulty": "academic",
-      "examples": [],
+      "examples": [
+        {
+          "sentence": "Policymakers can support satisfaction initiatives by funding research into the long-term benefits of GenAI in education, ensuring tools evolve with educators’ needs.",
+          "source": "74.Factors influencing academic staff satisfaction and continuous usage of generative artificial intelligence (GenAI) in higher education.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Policymakers can address dis­ parities in technological infrastructure by funding improvements in under-resourced institutions, ensuring equitable access.",
+          "source": "74.Factors influencing academic staff satisfaction and continuous usage of generative artificial intelligence (GenAI) in higher education.pdf",
+          "type": "from_paper"
+        }
+      ],
       "audio": {
         "mode": "web_speech",
         "file": null
@@ -23260,13 +23271,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "For example, while teaching the word “Bird,” the children were asked to discuss their image of birds and to perform like a bird. (2) Applying images and sounds: This step was accomplished by using images and sounds to strengthen memory and recall.",
-          "source": "21.Using gesture recognition with the memory strategy to improve preschoolers’ learning performance, motor skills, and executive function.pdf",
+          "sentence": "The motivators in Study 2 were: (a) A monetary incentive promised for high achievement in the follow-up exam; and (b) The provision of information about the teacher’s high professional status.",
+          "source": "5.Teacher’s nonverbal expressiveness boosts students’ attitudes and achievements controlled experiments and meta-analysis.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "For example, the teacher/system provided many kinds of fruits, such as a banana on a tree or a tomato in a field.",
-          "source": "21.Using gesture recognition with the memory strategy to improve preschoolers’ learning performance, motor skills, and executive function.pdf",
+          "sentence": "To evaluate participants’ learning achievements, we constructed an exam on the topic of the lecture.",
+          "source": "5.Teacher’s nonverbal expressiveness boosts students’ attitudes and achievements controlled experiments and meta-analysis.pdf",
           "type": "from_paper"
         }
       ],
@@ -23770,13 +23781,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "What are the impacts and cost-­ effectiveness of strategies to improve performance of untrained and under-­trained teachers in the class- room in developing countries?",
-          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "sentence": "The incorporation of forums, chat rooms, ranking systems, and reward mechanisms can foster communication and social interaction among learners, thus encouraging them to invest their mental and emotional resources, and stimulate their active participation.",
+          "source": "3.Influence of the elderly’s e-learning engagement on their continuous music e-learning intentions and well-being.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "They can interact instantly as if they were in a real class- room environment.",
-          "source": "25.Evaluation of metaverse use intention in software education of university students combining technology acceptance model with external variables.pdf",
+          "sentence": "Regardless of the mode, the classroom was configured to provide sufficient room for students to manoeuvre with a 360-­degree range of motion for their hands and head.",
+          "source": "9.Genes in 3D The impact of virtual reality on biology students' performance and perceptions.pdf",
           "type": "from_paper"
         }
       ],
@@ -26530,13 +26541,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "By exploring strategies such as faculty training programs, AI literacy initiatives, and ethical AI policies, the study provides actionable insights that can help build faculty confidence and foster meaningful AI integration (Lin, 2022; Zawacki-Richter et al., 2019).",
-          "source": "11.AI and higher education Understanding faculty roles in teaching, research, and administration.pdf",
+          "sentence": "The collected data provided rich, qualitative insights into the role of social media in informal learning and professional development among higher education professionals.",
+          "source": "11.RETRACTED ARTICLE Exploring the use of social media for informal learning in professional development in Saudi Arabian higher education.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Research indicates that AI applications enhance academic support services, provide personalized learning experiences, and lead to positive outcomes for students (Hutson et al., 2022; Wang et al., 2023; Zawacki-Richter et al., 2019).",
-          "source": "11.AI and higher education Understanding faculty roles in teaching, research, and administration.pdf",
+          "sentence": "The case studies provided rich qualitative insights but involved only 16 participants limiting the ability to draw broader conclusions from the findings.",
+          "source": "11.RETRACTED ARTICLE Exploring the use of social media for informal learning in professional development in Saudi Arabian higher education.pdf",
           "type": "from_paper"
         }
       ],
@@ -26890,8 +26901,8 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Lastly, structural- equation and deep-learning models examine the psychological and behavioral precursors of sustainable learning in immersive environments (Arpaci & Bahari, 2023; Iqbal et al., 2025).",
-          "source": "20.Sustainability education meets artificial intelligence A post‑2022 bibliometric map and thematic analysis.pdf",
+          "sentence": "Moreo- ver, each of the three models will be used in the estimation of the 13 equations specified under the model specifications stated above according to the objectives of the study.",
+          "source": "Science of artificial intelligence research capacity on research and innovation productivities of higher education learning in the top 10 countries.pdf",
           "type": "from_paper"
         },
         {
@@ -27100,8 +27111,8 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Students should, inter alia: (d) acquire knowl- edge and develop skills and abilities to explore their immediate social environment, (e) learn to evaluate the impact of technological and social developments on the quality of people's lives; (f) learn about people's lives in the past and compare them with life today.",
-          "source": "20.Robot NAO integrated lesson vs. traditional lesson Measuring learning outcomes on the topic of “societal change” and the mediating effect of students' attitudes.pdf",
+          "sentence": "EdTech implementers need researchers to be at the leading edge of their research discipline, able to identify appropriate research questions, use appropriate methods and generate outputs that contribute to both theory and practice.",
+          "source": "14.The role of EdTech Implementation Research in connecting evidence and practice Insights for a high-impact future.pdf",
           "type": "from_paper"
         },
         {
@@ -27615,8 +27626,8 @@
           "type": "from_paper"
         },
         {
-          "sentence": "However, whether AR technology can effectively im- prove students’ innovation abilities remains a topic of debate, as different studies have reported significant discrepancies in their findings.",
-          "source": "2.The impact of augmented reality technology on students' innovation ability Evidence from a meta-analysis.pdf",
+          "sentence": "Overall, facilitator-level questions proved the most challenging for all models, likely due to their nuanced nature.",
+          "source": "3.Analysing AI utilisation in education through learner question types A constructivist approach.pdf",
           "type": "from_paper"
         }
       ],
@@ -28360,13 +28371,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Cognitive Engagement pertains to students actively engaging in processes such as information storage, retrieval, and organization (Pilotti et al., 2017).",
-          "source": "70.Empowering students’ agentive engagement through formative assessment in online learning environment.pdf",
+          "sentence": "The primary aim of the current pilot study is to evaluate the Theoretical framework for early literacy skills Ehri’s phase theory for reading development (1995) posits that children progress through four phases to become efficient readers by developing the ability to quickly read words with automaticity, or by sight.",
+          "source": "Evaluating the impact of an early reading app on preschool literacy skills A pilot randomized control study.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "A pilot study was conducted with a separate sample of 50 students from Ajman University, who were demographically similar to the main study sample but not included in the final analysis.",
-          "source": "14.Degree of university students’ awareness of using artificial intelligence applications (ChatGPT) in the educational process in the UAE.pdf",
+          "sentence": "The first limitation relates to the sam- ple for this pilot study.",
+          "source": "Evaluating the impact of an early reading app on preschool literacy skills A pilot randomized control study.pdf",
           "type": "from_paper"
         }
       ],
@@ -28660,13 +28671,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Artificial intelligence (AI) technology has gained its popularity in online learning environments during the pandemic to assist students’ learning.",
-          "source": "(2023)Teachers' AI digital competencies and twenty-first century skills in the post-pandemic world.pdf",
+          "sentence": "Let us have a look at it through the most prominent AI tool of today, OpenAI's ChatGPT.1 Most state-­of-­the-­art language models today including ChatGPT are based on a transformer architecture.",
+          "source": "2.The interplay of learning, analytics and artificial intelligence in education A vision for hybrid intelligence.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Among these, artificial intelligence in education (AIED) technology has gained its popularity during the pandemic.",
-          "source": "(2023)Teachers' AI digital competencies and twenty-first century skills in the post-pandemic world.pdf",
+          "sentence": "Educators can design interdisciplinary lessons that embed SR activities into core subjects, such as mathematics, science, or art, supporting students’ cognitive development through hands-on, immersive learning experiences.",
+          "source": "11.Cultivating students’ spatial reasoning skills through an experiential learning-based virtual reality approach.pdf",
           "type": "from_paper"
         }
       ],
@@ -29860,13 +29871,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Yang et al. (2024) tested nine existing automated writing assessment methods and found that carefully engineered traditional machine learning models had less bias against specific genders, English learners, or economically disadvantaged students than neural network models.",
-          "source": "5.NLP-enabled automated assessment of scientific explanations Towards eliminating linguistic discrimination.pdf",
+          "sentence": "The case happened many years ago, the student was punished by the juvenile court, he was placed under the care of a probation officer (R719, F, 64).",
+          "source": "4.Online attacks on teachers versus strategies to address cyberbullying and cyberaggression in the school ecosystem.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Regardless of the advantages, educators should carefully con- sider any potential negative effects to make sure gamified experiences stimulate learning opportunities.",
-          "source": "30.Effect of Gamified, Mobile, Cloud-Based Learning Management System (GMCLMS) on student engagement and achievement.pdf",
+          "sentence": "Key instructor behaviours associated with an emotional presence include the following: (1) recognising the affective states and struggles of online students; (2) offering support to students; (3) using brief messages to encourage students; and (4) showing care and concern for students' well-­being (Cleveland-­Innes & Campbell).",
+          "source": "10.Development and validation of the online instructor presence scale Assessing the dimensions of online teaching.pdf",
           "type": "from_paper"
         }
       ],
@@ -30092,8 +30103,8 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ɹuːt/",
-      "meaning_ko": "뿌리 — 일반적으로 지하에 위치하여 식물체를 고정하고 지지하며 물과 영양분을 흡수하고 저장하며 일부 식물에서는 영양 생식을 수행할 수 있는 부분입니다.",
-      "en_def": "The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction.",
+      "meaning_ko": "뿌리 — 근원이나 기반; 어떤 것이 비롯되는 근본.",
+      "en_def": "The basic cause, source, or origin of something.",
       "frequency": 368,
       "doc_spread": 198,
       "score": 1947.94,
@@ -31022,21 +31033,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/taɪ/",
-      "meaning_ko": "묶다 — 매듭; 고정.",
-      "en_def": "A knot; a fastening.",
+      "meaning_ko": "유대 — 사람·집단·개념 사이의 관계나 연결.",
+      "en_def": "A connection or relationship between people or things.",
       "frequency": 347,
       "doc_spread": 208,
       "score": 1853.79,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Considering that activi- ties such as comprehending, planning how to approach a particular learning task or evaluat- ing one's progress towards the completion of a task are carried out by metacognition, it is thought that metacognition, in particular, plays a critical role in successful learning (Stanton et al., 2021).",
-          "source": "4.The role of self-regulated learning in modelling the relationships between learning approaches, FoMO and smartphone addiction among university students.pdf",
+          "sentence": "Although now closely tied to technology-­enhanced individual learning, ‘personalisation’ has its origins in digital marketing and was introduced into education during the UK's New Public Management reforms as a tool for improving learning outcomes (Mincu, 2012).",
+          "source": "4.Anticipating data sharing for student-centred education Governmental policy initiatives in Switzerland and Japan.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This is consid- ered necessary because SRL is an inherently constructive and self-­directed process and has strong ties to constructivism (De Corte, 2019).",
-          "source": "4.The role of self-regulated learning in modelling the relationships between learning approaches, FoMO and smartphone addiction among university students.pdf",
+          "sentence": "To advance these goals, the policies concentrate on intermediary services, whereby policy legitimacy becomes ‘tied to connectiveness to data infrastructures, and to the capacity to contribute to infrastructural expansion’ (Hartong, 2024, p. 105).",
+          "source": "4.Anticipating data sharing for student-centred education Governmental policy initiatives in Switzerland and Japan.pdf",
           "type": "from_paper"
         }
       ],
@@ -31172,21 +31183,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ˈɪə̯ɹ.ə/",
-      "meaning_ko": "연대 — 길이가 불확실한 기간으로, 일반적으로 1년 이상입니다.",
-      "en_def": "A time period of indeterminate length, generally more than one year.",
+      "meaning_ko": "시대 — 특정 특징으로 구분되는 역사적·사회적 시기.",
+      "en_def": "A distinct period of time marked by particular characteristics.",
       "frequency": 359,
       "doc_spread": 172,
       "score": 1850.03,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "COURSE In response to RQ1, the findings of this study echoed previous studies, revealing a gen- erally high level of acceptance among students towards the HyFlex course, consistent with the observations of Malczyk (2019) and Nweke et al. (2022).",
-          "source": "2.Examining students' acceptance of the large-scale HyFlex course An empirical study.pdf",
+          "sentence": "Even now, in the post- COVID pandemic era, the aforementioned limitations of cost, time, etc. still exist.",
+          "source": "23.The use of virtual chatbots to support Chinese as a foreign language learners’ communication skills through scaffolded self-directed learning.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "It is essential to examine the balance between lev- eraging GenAI to enhance students’ learning experiences and ensuring that it does not hinder their ability to develop independent thinking skills.",
-          "source": "35.Exploring students’ experiences and perceptions of human-AI collaboration in digital content making.pdf",
+          "sentence": "Such skills are necessary for becoming an integral part of society in general and of the employment market in particular—in today's era (Collins & Halverson, 2018).",
+          "source": "22.The integration of digital games into teaching and learning—A unique constructivist framework.pdf",
           "type": "from_paper"
         }
       ],
@@ -32849,24 +32860,24 @@
       "id": "w1103",
       "word": "sign",
       "lemma": "sign",
-      "pos": "verb",
-      "pos_ko": "동사",
+      "pos": "noun",
+      "pos_ko": "명사",
       "ipa": "/saɪn/",
-      "meaning_ko": "징후 — (가끔 셀 수 없을 정도로 사용되기도 함) 눈에 보이는 표시.",
-      "en_def": "(sometimes also used uncountably) A visible indication.",
+      "meaning_ko": "신호 — 어떤 것을 나타내거나 알리는 표시·징후.",
+      "en_def": "An indication or signal that shows the presence of something.",
       "frequency": 333,
       "doc_spread": 173,
       "score": 1717.97,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Results from the motivation questionnaire and student interviews indicated a significant increase in competence and relatedness after completing the intervention.",
-          "source": "17.Motivation in online course design using self-determination theory an action research study in a secondary mathematics course.pdf",
+          "sentence": "In the meantime, the United States signed “Every Student Succeeds Act” into law in 2015, giving CT education equal importance to other academic disciplines such as Mathematics, English, and Science (U.S.",
+          "source": "2.Mapping the public understanding of computational thinking education Insights from social Q&A platform discussions.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "While no significant increase in autonomy was evident in the quantitative results, the qualitative findings showed some support for improved autonomy.",
-          "source": "17.Motivation in online course design using self-determination theory an action research study in a secondary mathematics course.pdf",
+          "sentence": "Students then access the system with a single click from their LMS interface, leveraging secure single sign-on without the need for separate credentials.",
+          "source": "17.Multi-agent vs. single-agent AI for EFL speaking practice A controlled experiment with hybrid input, contextual dialogue, and proficiency-adaptive feedback.pdf",
           "type": "from_paper"
         }
       ],
@@ -33242,8 +33253,8 @@
       "pos": "adjective",
       "pos_ko": "형용사",
       "ipa": "",
-      "meaning_ko": "표적이 된 — 어떤 것, 특히 무기를 (목표물)에 겨누다.",
-      "en_def": "To aim something, especially a weapon, at (a target).",
+      "meaning_ko": "표적화된 — 특정 대상이나 목표에 맞추어진; 대상으로 삼은.",
+      "en_def": "Aimed at or directed toward a particular group or objective.",
       "frequency": 321,
       "doc_spread": 195,
       "score": 1694.27,
@@ -33467,36 +33478,6 @@
         {
           "sentence": "As indicated in Table 3, the variables are significantly correlated with each other confirming the linearity of the relationships among the main variables.",
           "source": "21.Contributions of self-efficacy, L2 grit and digital literacy to informal digital learning of English A structural equation modelling approach.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
-      "id": "w1124",
-      "word": "min",
-      "lemma": "min",
-      "pos": "noun",
-      "pos_ko": "명사",
-      "ipa": "/mɪn/",
-      "meaning_ko": "분 — 60초(1시간의 1/60)에 해당하는 시간 단위입니다.",
-      "en_def": "A unit of time equal to sixty seconds (one-sixtieth of an hour).",
-      "frequency": 348,
-      "doc_spread": 125,
-      "score": 1683.03,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "This approach reduced the number of parameters and minimised the model complexity.",
-          "source": "5.Investigating the role of emotions in pre-service teachers’ acceptance and use of learning management systems.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "Lee et al. (2024) found that both positive and negative emotions influenced attitudes towards ChatGPT among adults, though the effects were minimal.",
-          "source": "5.Investigating the role of emotions in pre-service teachers’ acceptance and use of learning management systems.pdf",
           "type": "from_paper"
         }
       ],
@@ -34112,21 +34093,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/saɪd/",
-      "meaning_ko": "옆 — 2차원 도형의 경계 직선 모서리입니다.",
-      "en_def": "A bounding straight edge of a two-dimensional shape.",
+      "meaning_ko": "측면 — 어떤 사물이나 문제의 한 부분이나 관점.",
+      "en_def": "An aspect or part of something.",
       "frequency": 332,
       "doc_spread": 140,
       "score": 1642.99,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Using other interactive methods for consulting ChatGPT such as making it as a partner in interaction shows much better results and a high degree of satisfaction on the students’ side.",
-          "source": "2.ChatGPT and the development of core language skills An exploratory study of EFL college students.pdf",
+          "sentence": "Despite the use of the CSCQA approach, the performance of the control group of PSTs in enhancing and linking the different cognitive levels appeared to be one-sided and limited, which affected their overall learning outcomes and experiences.",
+          "source": "13.Fostering pre-service teachers’ generative AI literacy and critical thinking An RSCQA approach.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "In this process, the nature and meaning of sub-categories under each of the four categories should be carefully recon- sidered when applying AI features in instruction.",
-          "source": "Digital learning innovation engineering students’ learning motivation for AI scaffolding.pdf",
+          "sentence": "The distribution of the red and blue dots shows that the centroid of the model for PSTs in the experimental group is located primarily on the right side of the graph.",
+          "source": "13.Fostering pre-service teachers’ generative AI literacy and critical thinking An RSCQA approach.pdf",
           "type": "from_paper"
         }
       ],
@@ -35530,13 +35511,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Our students’ help-seeking pro- files were all somewhat close to the middle of the 5-point scale (between 2.30 for help- seeking avoidance and 3.25 for instrumental help-seeking).",
-          "source": "17.The role of help-seeking from ChatGPT in digital game-based learning.pdf",
+          "sentence": "Most of the 50 most-cited studies on AI in higher education collected students’ log files from learning platforms (n = 24; e.g., MOOCs, e- learning systems), followed by mixed (n = 20) and students’ log files from online forums (n = 2; e.g., log activities in online forums).",
+          "source": "(2022)Roles and research trends of artificial intelligence in higher education A systematic review of the top 50 most-cited articles.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "The next research question addressed the relationship among students’ help-seeking pro- file and their AI-assisted help-seeking behaviors.",
-          "source": "17.The role of help-seeking from ChatGPT in digital game-based learning.pdf",
+          "sentence": "Results were analyzed considering the system’s files of log data and the workshops’ records.",
+          "source": "26.Analyzing socio-affectivity in preschool children’s interactions with the Aquarela Virtual System.pdf",
           "type": "from_paper"
         }
       ],
@@ -36839,24 +36820,24 @@
       "id": "w1239",
       "word": "live",
       "lemma": "live",
-      "pos": "verb",
-      "pos_ko": "동사",
+      "pos": "adjective",
+      "pos_ko": "형용사",
       "ipa": "/lɪv/",
-      "meaning_ko": "살다 — 살아있다; 생명을 가지기 위해.",
-      "en_def": "To be alive; to have life.",
+      "meaning_ko": "실시간의 — 녹화가 아닌 실시간으로 이루어지는.",
+      "en_def": "Happening in real time rather than recorded.",
       "frequency": 286,
       "doc_spread": 150,
       "score": 1434.94,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Furthermore, when design teams fail to properly test and receive feedback from students, system use can fail to align with designer intent, potentially leading to poor or incorrect de- livery of educational content, which could harm students in the long term.",
-          "source": "5.Enhancing student experience and learning with iterative design in an intelligent educational game.pdf",
+          "sentence": "Meanwhile, young learners regularly interact with AI in their daily lives through smart devices and intelligent systems, and their understandings of AI concepts are often shaped by how AI is portrayed in media, news or movies (Kreinsen & Schulz, 2021).",
+          "source": "3.From simplification to sophistication Secondary students' conceptual change in understanding machine learning model decision making.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This reciprocal interaction allowed participants to relate the chatbot’s experiences to their own lives, resulting in more nuanced inter- pretation.",
-          "source": "51.Enhancing academic stress assessment through self-disclosure chatbots effects on engagement, accuracy, and self-reflection.pdf",
+          "sentence": "Additionally, we encourage learners to make connections between ML decision making and practical use, which can help them critically evaluate AI's role in their real lives and future careers.",
+          "source": "3.From simplification to sophistication Secondary students' conceptual change in understanding machine learning model decision making.pdf",
           "type": "from_paper"
         }
       ],
@@ -39092,21 +39073,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/læb/",
-      "meaning_ko": "랩 — 실험실.",
-      "en_def": "A laboratory.",
+      "meaning_ko": "실험실 — 실험과 연구를 수행하는 공간.",
+      "en_def": "A room or facility for scientific experiments and research.",
       "frequency": 280,
       "doc_spread": 94,
       "score": 1275.09,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The three factors were labelled by the focus of different questions with reference to the core cognitive processes of abstraction. and after taking the designated curriculum.",
-          "source": "19.Effectiveness of explicit guidance and practices on abstraction (EGPA) Focusing on computational tasks in a fifth-grade STEM-integrative robotic education program .pdf",
+          "sentence": "The participants’ understanding was deepened through a lab session of training neural networks to learn to distinguish different data points within various data sets.",
+          "source": "(2023)Evaluating an Artificial Intelligence Literacy Programme for Developing University Students_Conceptual Understanding, Literacy, Empowerment and Ethical Awareness.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "During phase two, the researcher generated initial codes for each sentence and highlighted segments relevant to the quantitative findings and generated proper labels to describe them (Braun & Clarke, 2006).",
-          "source": "19.Effectiveness of explicit guidance and practices on abstraction (EGPA) Focusing on computational tasks in a fifth-grade STEM-integrative robotic education program .pdf",
+          "sentence": "The participants were also introduced to convolution neural networks through a lab session and various discussions.",
+          "source": "(2023)Evaluating an Artificial Intelligence Literacy Programme for Developing University Students_Conceptual Understanding, Literacy, Empowerment and Ethical Awareness.pdf",
           "type": "from_paper"
         }
       ],
@@ -39356,36 +39337,6 @@
       }
     },
     {
-      "id": "w1323",
-      "word": "tor",
-      "lemma": "tor",
-      "pos": "noun",
-      "pos_ko": "명사",
-      "ipa": "/tɔː(ɹ)/",
-      "meaning_ko": "토르 — 바위의 침식과 풍화로 인해 형성된 언덕 꼭대기의 울퉁불퉁한 바위 노두입니다.",
-      "en_def": "A craggy outcrop of rock on the summit of a hill, created by the erosion and weathering of rock.",
-      "frequency": 250,
-      "doc_spread": 151,
-      "score": 1255.97,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "The WES was designed with feedback from educa- tors and students on the degree to which the items made sense and reflected the dimension F I G U R E 1 Partial screenshot of compose and code platform.",
-          "source": "4.Development of the Coding Engagement Scale to measure elementary students’ engagement in coding.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "We used a confirma- tory approach because the CodES is an adapted version of the WES, which underwent validation with a similar sample of students, and is focused on a topic similar to coding (Brown, 2015).",
-          "source": "4.Development of the Coding Engagement Scale to measure elementary students’ engagement in coding.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
       "id": "w1324",
       "word": "applicability",
       "lemma": "applicability",
@@ -39520,13 +39471,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "EdTech tools, including virtual, augmented, and mixed realities, 3D printing, drones, Internet of Things, robotics, AI, holograms, wearable devices, virtual labs, and blockchain, offer diverse applications for instruction, assessment, modeling, and visualization (Hernandez-De-Menendez et al., 2019).",
-          "source": "12.Educators perception on integrating virtual reality in the classrooms.pdf",
+          "sentence": "Next, students add objects and implement block programming in Entry, using the chunked results of the simplified “English Translation” algorithm to bridge theoretical concepts with practical application (see Fig. 7).",
+          "source": "4.Localized learning content in software education effects on computational thinking and learning motivation among elementary students.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "For example, Shih et al. (2023) developed an ITS for teaching multiplication and division of fractions, utilizing a block-­based matching method to diagnose student misconceptions.",
-          "source": "7.Investigating the motivational and knowledge affordances of conversational AI using induction, concretization and exemplification in math learning.pdf",
+          "sentence": "Lee Fig. 5 Translation program development at APEC house 2035 Localized learning content in software education: effects… Fig. 6 Block coding for algorithms and programming for English translation S.",
+          "source": "4.Localized learning content in software education effects on computational thinking and learning motivation among elementary students.pdf",
           "type": "from_paper"
         }
       ],
@@ -41530,13 +41481,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Nevertheless, the number of micro- and macro-level errors have been shown to significantly decrease in revised drafts when students received audio instead of written feedback (Morra & Asís, 2009).",
-          "source": "7.Low-proficiency students’ engagement with combined written and audio feedback in an EFL writing class.pdf",
+          "sentence": "I was in [the city in Turkey], together with people from around the world, who, normally, I would never have had the chance to meet, who had a lot to share with me, and who I could learn a lot from” (S3).",
+          "source": "22.Virtual exchange as a mode of internationalization at a distance Experiences from Türkiye.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This variable would equal zero if the student was never asked the question.",
-          "source": "4.Affective, behavioral, and cognitive engagement in ePIRLS a latent profile analysis.pdf",
+          "sentence": "Undoubtedly, AI technology and tools have greatly advanced in recent times and revolutionized how academic and scientific writings work; however, there is a dire need to understand that AI-generated writing will never replace human writing.",
+          "source": "(2023)Analyzing the role of ChatGPT as a writing assistant at higher education level A systematic review of the literature.pdf",
           "type": "from_paper"
         }
       ],
@@ -41620,13 +41571,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Beyond simple text generation, GenAI’s applications in design education span a wide range of functionalities, from providing real-time, personalised feedback to students to support advanced ideation and speed up the prototyping process (Fleischmann, 2024b).",
-          "source": "2.72-hour advertising challenge with generative AI in an undergraduate graphic design module A case study.pdf",
+          "sentence": "The association between countries and literature is not one-to-one; for instance, the study by Pan et al. (2023) encompasses China and South Korea, while research by Pal et al. (2023) spans India and Thailand.",
+          "source": "4.The current status and contributing factors of the metaverse adoption in education A systematic review.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "The findings indicated that SELT had the lowest accuracy rates for Mongolian and Filipino, while the highest accuracy rates were observed for Spanish, Russian, and French.",
-          "source": "10.Effects of applying speech-enabled language translation technology to EMI lectures on students’ discussion quality and learning achievement.pdf",
+          "sentence": "In supporting nontraditional students' needs, AI applications in higher education span four main areas: profiling and prediction, intelligent tutoring systems, assessment and evaluation, and adaptive systems and personalization (Zawacki-­Richter et al., 2019).",
+          "source": "13.Analysing nontraditional students' ChatGPT interaction, engagement, self-efficacy and performance A mixed-methods approach.pdf",
           "type": "from_paper"
         }
       ],
@@ -41669,24 +41620,24 @@
       "id": "w1400",
       "word": "none",
       "lemma": "none",
-      "pos": "noun",
-      "pos_ko": "명사",
+      "pos": "pronoun",
+      "pos_ko": "대명사",
       "ipa": "/nɒn/",
-      "meaning_ko": "없음 — 종교적 성향이 없는 사람.",
-      "en_def": "A person without religious affiliation.",
+      "meaning_ko": "아무것도 — 하나도 없음; 어느 것도 ~아니다.",
+      "en_def": "Not any; not one; no part.",
       "frequency": 226,
       "doc_spread": 152,
       "score": 1136.88,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "More recently, Cheng et al. (2023) identified three emotion profiles in online college students: a “pure positive” group dominated by enjoyment, a “blends of negative emotions” group with high anxiety, hopelessness, and boredom, and a “nonemotional” group with no significant emotions.",
-          "source": "21.College students’ time management and effort regulation patterns, academic emotions, and performance in an asynchronous online class.pdf",
+          "sentence": "None of the students had previously received fundamental aim of environmental education within the region.",
+          "source": "15.The impact of game-based learning and jigsaw cooperative learning on elementary school students’ marine environmental awareness.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Nonetheless, the present study was conducted over 6 weeks and represents the first phase of a broader, ongoing research project on sustainable EFL learning.",
-          "source": "19.Effect of a sustainable and smart context-aware learning system on English writing and speaking.pdf",
+          "sentence": "Although post-test means were marginally higher than pre-test means across all subdimensions and the total score, none of the differences reached statistical significance (p > .05), indicating that the intervention did not produce measurable improvements in students’ marine environmental attitudes or related competencies.",
+          "source": "15.The impact of game-based learning and jigsaw cooperative learning on elementary school students’ marine environmental awareness.pdf",
           "type": "from_paper"
         }
       ],
@@ -43922,21 +43873,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ˈhəʊldə/",
-      "meaning_ko": "보유자 — 유지되는 것.",
-      "en_def": "A thing that holds.",
+      "meaning_ko": "보유자 — 어떤 지위·자격·자원을 가지고 있는 사람.",
+      "en_def": "A person who holds a position, qualification, or resource.",
       "frequency": 202,
       "doc_spread": 175,
       "score": 1044.44,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "A particular challenge in DBIR4DEER—as opposed to smaller-­scale DBIR—is the mag- nitude of the intervention, including its diverse governmental and non-­governmental stake- holders, (technological) implementation components and their interdependencies.",
-          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "sentence": "Cluster 1, in contrast, is predom­ inantly composed of bachelor’s degree holders (over 50%), with fewer respondents in postgraduate categories.",
+          "source": "10.Uncovering adoption personas for generative AI in higher education a clustering-based segmentation approach.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "DBIR4DEER can provide evidence on persistent problems of practice, which can then be prioritised during co-­design sessions, identifying which stake- holders are best placed to address the issue (CIMO7).",
-          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "sentence": "This has been useful for understanding teacher activity on social media; for example, Rosenberg et al.'s (2016) review of 500 accounts present in teacher-­ focused X/Twitter hashtags found that only 54% of account holders were clearly employed in schools (though another 33% articulated ties to education).",
+          "source": "16.The dark side of affinity spaces for teacher professional learning.pdf",
           "type": "from_paper"
         }
       ],
@@ -44579,19 +44530,19 @@
       "id": "w1498",
       "word": "median",
       "lemma": "median",
-      "pos": "adjective",
-      "pos_ko": "형용사",
+      "pos": "noun",
+      "pos_ko": "명사",
       "ipa": "/ˈmiːdɪən/",
-      "meaning_ko": "중앙값 — 중심 정맥 또는 신경, 특히 팔뚝과 팔을 통과하는 정중 정맥 또는 정중 신경.",
-      "en_def": "A central vein or nerve, especially the median vein or median nerve running through the forearm and arm.",
+      "meaning_ko": "중앙값 — 데이터를 크기순으로 늘어놓았을 때 한가운데에 위치하는 값.",
+      "en_def": "The middle value in a data set ordered from smallest to largest.",
       "frequency": 237,
       "doc_spread": 72,
       "score": 1016.84,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The attention immersion levels of the remaining three groups are moderate, reflected by a median area size on the graph, suggesting that these three group learners maintain a reasonable degree of interest and focus on various learning resources.",
-          "source": "3.Diversity of interactions within connectivist learning context insights from flow of collective attention.pdf",
+          "sentence": "Although there were no significant differences in mental load or mental effort, Class 1 exhibited higher median scores in both measures, suggesting potential trends favouring this class in terms of cognitive load.",
+          "source": "3.Investigating the impact of ChatGPT-assisted feedback on the dynamics and outcomes of online inquiry-based discussion.pdf",
           "type": "from_paper"
         },
         {
@@ -46472,21 +46423,21 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/seɪv/",
-      "meaning_ko": "구하다 — 각종 스포츠에서 상대의 득점을 막는 블록.",
-      "en_def": "In various sports, a block that prevents an opponent from scoring.",
+      "meaning_ko": "저장하다 — 데이터나 자료를 보관하다; (시간·자원을) 절약하다.",
+      "en_def": "To store data; to avoid spending time or resources.",
       "frequency": 194,
       "doc_spread": 124,
       "score": 936.69,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Chen et al. of publication, author affiliations, and publication year, for all 3,801 articles were gathered and saved in an Excel spreadsheet for further analysis.",
-          "source": "5.Metacognition research in education topic modeling and bibliometrics.pdf",
+          "sentence": "This is due to the time saved through being able to access recorded lectures, as opposed to attending face-to-face lectures.",
+          "source": "10.Online learning and problem-solving skills during the COVID-19 pandemic (framework for designing instruction and assessment).pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Multimedia glosses incorporated with textual, visual, aural or pictorial aids are useful and effective for promoting EFL students’ vocabulary acquisition and reading comprehension and save students’ time and effort while reading L2 texts (Alqahtani, 2024; Ouyang et al., 2020; S.",
-          "source": "7.Implementing the digital multimodality of a Google Translate-assisted approach to online academic EFL reading.pdf",
+          "sentence": "In particular, students may appreciate the immediate feedback, as it saves time and implies unbiased grading (Alsadoon, 2017; Jamil et al., 2012).",
+          "source": "10.Online learning and problem-solving skills during the COVID-19 pandemic (framework for designing instruction and assessment).pdf",
           "type": "from_paper"
         }
       ],
@@ -46862,8 +46813,8 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ˈkɔːpəs/",
-      "meaning_ko": "신체 — 특정 주제, 특정 장르, 특정 인구통계 또는 특정 작가 등이 쓴 글 모음입니다.",
-      "en_def": "A collection of writings, often on a specific topic, of a specific genre, from a specific demographic or a particular author, etc.",
+      "meaning_ko": "말뭉치 — 언어 분석을 위해 모아 둔 대규모 텍스트 자료.",
+      "en_def": "A large collection of texts used for linguistic analysis.",
       "frequency": 213,
       "doc_spread": 77,
       "score": 927.98,
@@ -47590,8 +47541,8 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The book refers to the riddle’s text, while the gray circle refers to an additional activity (a game or a puzzle) that helps The box marked with the location symbol is an interactive image containing the geo- graphical and historical details of the riddles listed above (Fig. 1).",
-          "source": "14.DUDA a digital didactic learning unit based on educational escape rooms and multisensory learning activities for primary school children during COVID-19 lockdown.pdf",
+          "sentence": "This graphical summary demonstrates at a glance the comprehensive impact of these technologies, showing that the benefits extend beyond immediate skill acquisition to include motivation, prac- tice habits, and long-term retention.",
+          "source": "The impact of emerging educational technologies, including artificial intelligence and augmented reality, on the improvement of practical skills learning.pdf",
           "type": "from_paper"
         },
         {
@@ -49202,21 +49153,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/fʊn/",
-      "meaning_ko": "재미있는 — 오락, 즐거움 또는 즐거움",
-      "en_def": "Amusement, enjoyment or pleasure",
+      "meaning_ko": "재미 — 즐거움이나 흥미를 주는 성질이나 경험.",
+      "en_def": "Enjoyment, amusement, or playful interest.",
       "frequency": 177,
       "doc_spread": 106,
       "score": 827.09,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "This instrument can serve an important function as elementary curricula and programs are being rapidly developed to introduce coding to elementary students.",
-          "source": "4.Development of the Coding Engagement Scale to measure elementary students’ engagement in coding.pdf",
+          "sentence": "Maximizing learning without sacrificing the fun: Stealth assessment, adaptivity and learning supports in educational games.",
+          "source": "8.Hybrid teaching intelligence Lessons learned from an embodied mathematics learning experience.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "The phrases of the green group, such as ‘text generation’, ‘human-like interaction’, and ‘ethics in education’, were mainly directed at the function, features, and ethical issues of generative AI.",
-          "source": "17.Generative artificial intelligence in education A topic-based bibliometric analysis.pdf",
+          "sentence": "A model of the metaverse learning environment Recommendations The metaverse is transforming online education to allow creation of an engaging and life-like online classroom, promote communication, support immersive learning, make learning fun, and enrich students’ learning experience (Pappas, 2022).",
+          "source": "(2022)What is the metaverse Definitions, technologies and the community of inquiry.pdf",
           "type": "from_paper"
         }
       ],
@@ -49330,13 +49281,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Data were stored securely in password-­protected files accessible only to the research team.",
-          "source": "12.From crisis to transformation Evaluating the implementation of DIKSHA in India's EdTech landscape.pdf",
+          "sentence": "Intrinsic motivation refers to engagement on the user’s own accord: the willingness to carry out activities due to enjoyment and passion.",
+          "source": "2.Are online behavioural characteristics effective predictors of intrinsic motivation and user engagement in the online learning environment.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This may also mean that as they adopt a surface learning approach, students not only tend to simply memorize information and strive only to pass their exams but also display a lack of course participation or motivation (Biggs, 1989; Cano, 2007).",
-          "source": "4.The role of self-regulated learning in modelling the relationships between learning approaches, FoMO and smartphone addiction among university students.pdf",
+          "sentence": "Learners were asked to read four units of the reading materials and then pass the exam.",
+          "source": "2.Are online behavioural characteristics effective predictors of intrinsic motivation and user engagement in the online learning environment.pdf",
           "type": "from_paper"
         }
       ],
@@ -49367,36 +49318,6 @@
         {
           "sentence": "Cloud technology also enables dynamic virtual environments with multimedia, 3D mod- els and VR/AR technologies, fostering personalised learning and revitalising classrooms (Ahmad et al., 2020; Alam & Saiyeda, 2020; Bdiwi & Bargaoui, 2015; Jeong et al., 2013).",
           "source": "13.‘Cloud for Youth’ An implementation research of cloud-based solutions for bridging the digital divide in rural China.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
-      "id": "w1661",
-      "word": "pant",
-      "lemma": "pant",
-      "pos": "noun",
-      "pos_ko": "명사",
-      "ipa": "/pænt/",
-      "meaning_ko": "바지 — 빠른 호흡; 숨이 가빠짐; 헐떡거림.",
-      "en_def": "A quick breathing; a catching of the breath; a gasp.",
-      "frequency": 176,
-      "doc_spread": 105,
-      "score": 820.77,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "The feedback features also gave partici- pants’ authentic control in their environment, which is a catalyst for improved autonomy reflecting on one’s progress, and sustaining motivation for task completion” (p. 5).",
-          "source": "17.Motivation in online course design using self-determination theory an action research study in a secondary mathematics course.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "The helpful, low pressure, and optimally challenging options described by the partici- pants may have also improved autonomy and competence.",
-          "source": "17.Motivation in online course design using self-determination theory an action research study in a secondary mathematics course.pdf",
           "type": "from_paper"
         }
       ],
@@ -50055,8 +49976,8 @@
           "type": "from_paper"
         },
         {
-          "sentence": "For example, in Figure A.2, the concept ‘chunk’ (ie, ‘each composed of one material’) in game-­specific in- formation will be ‘pure substance’ in domain-­specific information and the concept ‘a particle’ (ie, ‘single “chunk” composed of various materials’) in game-­specific information will be ‘a mixture’ in domain-­specific information.",
-          "source": "15.Timing of information presentation matters Effects on secondary school students' cognition, motivation and emotion in game-based learning.pdf",
+          "sentence": "In this regard, education and access to information networks play a decisive role in the formation of competent citizens in a globalized world, prepared for continuous learning and equipped to face challenges that could lead to social exclusion.",
+          "source": "18.Self-perceived information literacy skills in Peruvian university students a metric and descriptive-comparative study.pdf",
           "type": "from_paper"
         }
       ],
@@ -50350,13 +50271,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "NASA-TLX (Hart, 2006) scores, situational awareness was assessed through SAGAT (Endsley, 2020) scores, and clinical competencies were evaluated using the NPP5 instru- ment (Hinton et al., 2020).",
-          "source": "23.Improving nursing education through an AI-enhanced mixed reality training platform development and pilot evaluation.pdf",
+          "sentence": "If the player encountered a difficult problem, there was a hint option at the bottom left corner of the game screen to avoid the player getting stuck.",
+          "source": "10.Effects of escape room game-based civics education on junior high school students' learning motivation, critical thinking and flow experience.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Positioning international students as a population placing demands on infrastructure—as opposed to contributing to the economic development of that infrastructure—hinted at a rhetorical shift.",
-          "source": "20.International student mobility and the politics of distance education.pdf",
+          "sentence": "However, there were hints in the game mechanism to help students build the scaffold and find the key to solving the problem more easily, but the hints would consume the group's time.",
+          "source": "10.Effects of escape room game-based civics education on junior high school students' learning motivation, critical thinking and flow experience.pdf",
           "type": "from_paper"
         }
       ],
@@ -50440,13 +50361,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "In addition, the writing samples were reformatted and were similar in terms of topic and length.",
-          "source": "14.The impact of generative AI on academic integrity of authentic assessments within a higher education context.pdf",
+          "sentence": "Acknowledgment This research was supported by the 2022 Xi’an University of Technology Graduate Education and Teaching Reform Project (202246), the 2024 Shaanxi Key R&D General Project (2024GX-YBXM-529), and the 2023 Shaanxi Province Art Science Planning Project (2023HZ1758).",
+          "source": "3.Adaptive template-based caching and LLM-driven summarization for richer student feedback insights.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Analyzing public discussions and opinions provides valuable insights that can inform future educational policies and reforms.",
-          "source": "2.Mapping the public understanding of computational thinking education Insights from social Q&A platform discussions.pdf",
+          "sentence": "This finding is based on Fullan’s (2007) research, which underscored the necessity of systemic support for educational reform.",
+          "source": "17.Investigating the use of AI tools in English language learning A phenomenological approach.pdf",
           "type": "from_paper"
         }
       ],
@@ -50846,36 +50767,6 @@
       }
     },
     {
-      "id": "w1712",
-      "word": "ent",
-      "lemma": "ent",
-      "pos": "noun",
-      "pos_ko": "명사",
-      "ipa": "/ɛnt/",
-      "meaning_ko": "엔트 — J. R. R. Tolkien의 작품에 등장하는 가상의 대형 인간형 이동식 말하는 나무입니다.",
-      "en_def": "A fictional, large, humanoid, mobile talking tree in works by J. R. R. Tolkien.",
-      "frequency": 162,
-      "doc_spread": 119,
-      "score": 775.57,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "INTRODUCTION Ideally, higher education (HE) internationalization entails an enriching educational expe- rience, promoting global understanding and cooperation, preparing students, faculty and institutions to thrive in an interconnected and diverse world, and more recently, effectively utilizing digital technologies to improve learning experiences (Brewer & Leask, 2022; Madge et al., 2019).",
-          "source": "23.Internationalization at a distance via virtual mobility in the Global South Advances and challenges.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "Virtual manipulatives have evolved to deliver finer and seamless perceptual models representing entities, variables, and relationships that cannot be perceived in a real laboratory without relying on measurement instruments, such as force, current flow, or virus particles (i.e., Snir et al., 1993; Smetana & Bell, 2012).",
-          "source": "3.Working with physical and virtual manipulatives A systematic review of affordance and cognitive engagement manifested through implementation.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
       "id": "w1713",
       "word": "ownership",
       "lemma": "ownership",
@@ -51236,36 +51127,6 @@
       }
     },
     {
-      "id": "w1725",
-      "word": "tial",
-      "lemma": "tial",
-      "pos": "adjective",
-      "pos_ko": "형용사",
-      "ipa": "",
-      "meaning_ko": "티알",
-      "en_def": "",
-      "frequency": 161,
-      "doc_spread": 118,
-      "score": 769.44,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "Previous research has portrayed the poten- tial of flipped learning for enhancing students’ learning effectiveness, such as self-efficacy beliefs, intrinsic motivation, and higher-order thinking ability (Hwang et al., 2022; Long et al., 2017).",
-          "source": "14.Facilitating EFL students’ class engagement, motivation, self-efficacy, and achievements adopting differentiated instruction in self-regulated flipped learning.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "Lastly, and most importantly, addressing the reported methodological issues, it is essen- tial for future research to expand the range of research variables and to collect longitudi- nal mixed data to better understand students' actual online learning behaviours (Psathas et al., 2023).",
-          "source": "2.A systematic review of online persistent learning Methodologies, findings and issues.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
       "id": "w1726",
       "word": "combined",
       "lemma": "combined",
@@ -51597,18 +51458,29 @@
     },
     {
       "id": "w1737",
-      "word": "statutory",
-      "lemma": "statutory",
-      "pos": "adjective",
-      "pos_ko": "형용사",
-      "ipa": "/ˈstætjʊt(ə)ɹɪ/",
-      "meaning_ko": "법정 — 법령에 의해 관련되거나 제정되거나 규제됩니다.",
-      "en_def": "Of, relating to, enacted or regulated by a statute.",
+      "word": "experimentation",
+      "lemma": "experimentation",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "실험 — 새로운 방법이나 아이디어를 시험적으로 시도하고 탐구하는 행위.",
+      "en_def": "The action of trying out new methods, ideas, or activities.",
       "frequency": 151,
       "doc_spread": 151,
       "score": 758.61,
       "difficulty": "academic",
-      "examples": [],
+      "examples": [
+        {
+          "sentence": "They described using content delivery approaches emphasizing experimentation, exploration, and reflection to support students’ creative development.",
+          "source": "6.Exploring expert perceptions of creativity in instructional design a phenomenographic study.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "These findings reinforce the necessity of sustaining student engagement across multiple tasks, as well as the need for larger samples and extended experimentation to fully assess the system’s iterative improvements with more than three rounds.",
+          "source": "3.Data-driven peer recommendation in higher education A pilot study on academic reading.pdf",
+          "type": "from_paper"
+        }
+      ],
       "audio": {
         "mode": "web_speech",
         "file": null
@@ -51741,8 +51613,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ɹɪˈliːs/",
-      "meaning_ko": "풀어 주다 — (누군가 또는 사물)을 자유롭게 하는 사건(예: 인질, 노예, 죄수, 우리에 갇힌 동물, 갈고리 또는 갇힌 메커니즘).",
-      "en_def": "The event of setting (someone or something) free (e.g. hostages, slaves, prisoners, caged animals, hooked or stuck mechanisms).",
+      "meaning_ko": "공개하다 — 자료·제품·정보를 외부에 내놓거나 배포하다.",
+      "en_def": "To make data, a product, or information available to the public.",
       "frequency": 166,
       "doc_spread": 95,
       "score": 757.68,
@@ -51771,21 +51643,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ˈfæsɪt/",
-      "meaning_ko": "한 면 — 평평한 표면 중 하나가 보석으로 잘립니다.",
-      "en_def": "Any one of the flat surfaces cut into a gem.",
+      "meaning_ko": "측면 — 어떤 대상이 지닌 여러 양상 중 하나.",
+      "en_def": "One of the various aspects or features of something.",
       "frequency": 171,
       "doc_spread": 83,
       "score": 757.67,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The application of this framework in the context of an immer- sive astronomy simulation demonstrates its utility for capturing the complex and multi- faceted nature of collaborative knowledge-building processes.",
-          "source": "10.A multimodal representation framework for collaborative knowledge-building in an immersive astronomy simulation using transmodal ordered network analysis.pdf",
+          "sentence": "It emphasizes the importance of considering not only the expectancy of success but also various facets of task values, including intrinsic, utility, and attainment values, as well as negative cost values.",
+          "source": "4.Latent profiles of AI learning conditions among university students Implications for educational intentions.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Compared with the solidified classroom environment and stereotyped teaching process of traditional face-to-face teaching, online learning has attested to the various facets of its power for facilitating language learning: flexibility, accessibility, and collaborative inter- action (Chapelle, 2010).",
-          "source": "18.Online presence and technology-enhanced language learning experience a multivariate relationship of learning aspiration, perceived authenticity and learning engagement.pdf",
+          "sentence": "Creative thinking facets and creative problem solving tasks in the PISA 2022 CPS domain Facets of creative thinking Task Social 1.",
+          "source": "15.Learners leveraging generative AI for creative problem solving Focusing on the PISA 2022 creative thinking problems.pdf",
           "type": "from_paper"
         }
       ],
@@ -51801,21 +51673,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/fəʊ̯n/",
-      "meaning_ko": "핸드폰 — 실시간으로 거리를 넘어 대화 및 기타 소리를 전송하는 장치로, 이제는 소프트웨어 등을 실행할 수도 있는 소형 휴대용 장치인 경우가 많습니다.",
-      "en_def": "A device for transmitting conversations and other sounds in real time across distances, now often a small portable unit also capable of running software etc.",
+      "meaning_ko": "전화 — 음성 통신 장치; (구어) 스마트폰.",
+      "en_def": "A device for voice communication; a smartphone.",
       "frequency": 170,
       "doc_spread": 85,
       "score": 757.24,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Video and subtitles (1 in Figure 5) The video data consist of screen recordings and webcam footage, captured via OBS and laptop webcams, with subtitles from transcribed student speech captured via lapel micro- phones.",
-          "source": "7.A multimodal approach to support teacher, researcher and AI collaboration in STEM+C learning environments.pdf",
+          "sentence": "Over the past twenty years, numerous mobile technology devices have emerged; some of these were highlighted in earlier studies on m-learning, including standard mobile phones, smartphones, personal digital assistants (PDAs), mp3 and mp4 players, iPods, digital cameras, netbooks, laptops, tablets, and e-readers such as Kindle and Nook.",
+          "source": "3.Exploring TAM and ECT components influencing satisfaction and acceptance of smart tools integration in teaching A case study of Omani universities.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Additionally, Luo and Li (2017) applied PA to primary school English classes and found that students were more willing to express themselves in English and rely less on Chinese phonetic thinking, which also helped them to develop divergent and logical thinking.",
-          "source": "13.Exploring the effect of performance assessment in robotics education A tool for guidance or reflection.pdf",
+          "sentence": "Furthermore, among all these mobile devices, mobile phones and PDAs have been the most frequently utilized for m-learning (Eldow et al., 2006; Hernández Lagana et al., 2022).",
+          "source": "3.Exploring TAM and ECT components influencing satisfaction and acceptance of smart tools integration in teaching A case study of Omani universities.pdf",
           "type": "from_paper"
         }
       ],
@@ -51869,13 +51741,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "To operationally define the different categories of educational and learning technologies that were evaluated, the research team extracted verbatim excerpts from the included articles that described the evaluated technology.",
-          "source": "(2022)Usability research in educational technology a state-of-the-art systematic review.pdf",
+          "sentence": "Sanosi (2022) found that students using AWE systems made significantly fewer errors in usage and subject-verb agreement than other students.",
+          "source": "2.The role of ChatGPT in enhancing English teaching A paradigm shift in lesson planning and instructional practices.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Con- versations were jotted in the moment and transcribed as described above, with emails included in the project record verbatim. • Five of the eight course designers, along with five faculty members who were clients of the course design office, also made themselves available for formal interviews.",
-          "source": "19.Course designers at work a critical case study of optimization in online course design.pdf",
+          "sentence": "However, the reductions in other types of errors, such as those relating to verb tense and word choice, were smaller.",
+          "source": "2.The role of ChatGPT in enhancing English teaching A paradigm shift in lesson planning and instructional practices.pdf",
           "type": "from_paper"
         }
       ],
@@ -51945,44 +51817,14 @@
       }
     },
     {
-      "id": "w1749",
-      "word": "ate",
-      "lemma": "ate",
-      "pos": "noun",
-      "pos_ko": "명사",
-      "ipa": "/eɪt/",
-      "meaning_ko": "먹었다 — 섭취하다; 섭취됩니다.",
-      "en_def": "To ingest; to be ingested.",
-      "frequency": 157,
-      "doc_spread": 120,
-      "score": 752.94,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "AI can gener- ate rich, multimodal learning content; interact with humans and reduce emotional barriers; and provide multimodal and personalized feedback, all of which can engage students to learn (Diwan et al., 2023; Rad et al., 2023; Wang & Xue, 2024).",
-          "source": "12.AI-powered vocabulary learning for lower primary school students.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "In the post-­group discussion, participating students elaborated that ARCHe gave immedi- ate feedback and aided their learning, though some criticized its incorrect, rigid assessments of their work.",
-          "source": "12.AI-powered vocabulary learning for lower primary school students.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
       "id": "w1750",
       "word": "animation",
       "lemma": "animation",
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/æn.əˈmeɪ.ʃən/",
-      "meaning_ko": "생기 — 생기를 불어넣거나 생명이나 정신을 부여하는 행위.",
-      "en_def": "The act of animating, or giving life or spirit.",
+      "meaning_ko": "애니메이션 — 이미지를 연속적으로 보여 움직임을 구현한 영상.",
+      "en_def": "A sequence of images displayed to create the illusion of movement.",
       "frequency": 171,
       "doc_spread": 80,
       "score": 751.45,
@@ -52199,13 +52041,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "I’m an artificial general intelligence aimed at being helpful, honest and harmless in our interactions” (03/19/2024).",
-          "source": "1.Pre-service science teachers’ perception on using generative artificial intelligence in science education.pdf",
+          "sentence": "In these realities, we can witness a major shift in placing emphasis on designers' abilities to make good decisions and judgements in creating learning experiences that do not harm any- one's privacy, exacerbate certain biases, or spread misinformation.",
+          "source": "2.Value-sensitive design in the praxis of instructional design A view of designers in situ.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Within Switzerland's federal structure, in which the cantons are autonomously responsible for compulsory education, the EDK serves as an important political actor in harmonising education policies across cantons (Criblez, 2012).",
-          "source": "4.Anticipating data sharing for student-centred education Governmental policy initiatives in Switzerland and Japan.pdf",
+          "sentence": "The present study showed that ChatGPT assistance neither significantly helped nor harmed in reducing the inclusion of incorrect information in students' writings.",
+          "source": "10.“ChatGPT can make mistakes. Check important info.” Epistemic beliefs and metacognitive accuracy in students' integration of ChatGPT content into academic writing.pdf",
           "type": "from_paper"
         }
       ],
@@ -53609,13 +53451,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Keywords Gesture recognition · Memory strategy · Motor skills · Executive functions Introduction Gesture recognition pertains to recognizing meaningful expressions of motion by a human, involving the hands, arms, face, head, or body (Mitra & Acharya, 2007).",
-          "source": "21.Using gesture recognition with the memory strategy to improve preschoolers’ learning performance, motor skills, and executive function.pdf",
+          "sentence": "The actor uses a variety of technologies to change their voice to sound like different students and to control stu- dent movements (raising hands, nodding heads, etc.) in vivo.",
+          "source": "16.Technology enriched teaching simulations.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "In this version the themes were still divided by years, but the headings and subheadings had been slightly expanded.",
-          "source": "1.An AI-generated editorial on the history of AJET’s early years An experiment.pdf",
+          "sentence": "Thereby mainly the head of the instructor was shown (“talking head”) while the instructor was lecturing and looking at the camera.",
+          "source": "2.Temporary instructor presence in lecture slides does not enhance online learning.pdf",
           "type": "from_paper"
         }
       ],
@@ -53961,8 +53803,8 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/pul/",
-      "meaning_ko": "수영장 — 샘에서 공급되거나 하천의 과정에서 발생하는 (보통) 담수의 작고 다소 깊은 집합입니다. 물을 담는 저수지.",
-      "en_def": "A small and rather deep collection of (usually) fresh water, as one supplied by a spring, or occurring in the course of a stream; a reservoir for water.",
+      "meaning_ko": "풀 — 어떤 목적을 위해 모아 둔 자원·인력·데이터의 집합.",
+      "en_def": "A combined collection of resources, people, or data.",
       "frequency": 154,
       "doc_spread": 99,
       "score": 709.2,
@@ -55191,21 +55033,21 @@
       "pos": "noun",
       "pos_ko": "명사",
       "ipa": "/ˈstændɪŋ/",
-      "meaning_ko": "서 있는 — (제목) 물리적으로 위치를 잡거나 위치를 잡다.",
-      "en_def": "(heading) To position or be positioned physically.",
+      "meaning_ko": "지위 — 어떤 집단이나 분야에서 차지하는 위치나 평판.",
+      "en_def": "A person's status, position, or reputation.",
       "frequency": 143,
       "doc_spread": 113,
       "score": 677.28,
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Ankhi (2019) reported that when the teacher used simple analogy learning, such as conceiving cells to be factories and car- diovascular systems to city water supply systems, it largely contributed to students’ under- standing of the scientific knowledge.",
-          "source": "14.From analogy to reflective thinking an observation-identification-analogy-based virtual learning approach.pdf",
+          "sentence": "Our continued commitment to ensuring that BJET publications are of the highest quality means that we maintain our standing in the field of educational research, as indicated in the 2024 Clarivate Journal Citation Reports.",
+          "source": "7.BJET Editorial Spring 2025 Reporting on AIED research and ethical considerations.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Future research should investigate how these factors interact with text genre and L2 proficiency to provide a more nuanced under- standing of L2 reading processes.",
-          "source": "8.Visualizing the influence of text structures on readers’ knowledge structures Pathfinder network scaling technique.pdf",
+          "sentence": "Proportion of studies per year of publication (the authors’ own work) Contemporary Educational Technology, 2025 Contemporary Educational Technology, 17(2), ep577 7 / 13 Main Countries A considerable number of countries produced the analyzed articles, with Spain standing out (25%), followed by Indonesia, Norway and Switzerland (5%).",
+          "source": "16.Teacher digital competence Keys for an educational future through a systematic review.pdf",
           "type": "from_paper"
         }
       ],
@@ -55341,8 +55183,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ˈdʒʌstɪfaɪ/",
-      "meaning_ko": "신이 옳다고 하다 — 에 대해 수용 가능한 설명을 제공합니다.",
-      "en_def": "To provide an acceptable explanation for.",
+      "meaning_ko": "정당화하다 — 어떤 행동·주장·결정이 타당함을 근거를 들어 설명하다.",
+      "en_def": "To show or prove to be reasonable or valid with evidence.",
       "frequency": 147,
       "doc_spread": 96,
       "score": 672.48,
@@ -55379,13 +55221,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "However, no such at- tempts have yet been made with educational datasets, a stark contrast to the increasingly pressing challenges surrounding personal data in education.",
-          "source": "4.Ensuring privacy through synthetic data generation in education.pdf",
+          "sentence": "There was a pressing need to explore universal applications compatible with multiple operating systems and suitable for students who spend most of their day in general education classrooms rather than specialized environments.",
+          "source": "2.Technology based self-monitoring for a student with EBD to improve academic engagement.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This has been a rich area of scientific focus since at least 1928 when Pressey patented one of the first teaching machines––devices designed to present con- tent, allow students to respond to the content, and provide students feedback, all without instructor intervention (Benjamin, 1988).",
-          "source": "Assessing the impact of substituting interaction types an empirical study of the interaction equivalency theory.pdf",
+          "sentence": "Therefore, there is a pressing need for more context- sensitive research that examines how technological factors and cultural differences impact m-learning adoption in developing countries.",
+          "source": "A comparative study of students’ adoption and usage of mobile learning in developing countries Tunisia, Morocco, and Libya.pdf",
           "type": "from_paper"
         }
       ],
@@ -55431,8 +55273,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ˈkɒn.vəːt/",
-      "meaning_ko": "전환하다 — 종교로 개종한 사람입니다.",
-      "en_def": "A person who has converted to a religion.",
+      "meaning_ko": "전환하다 — 한 형태·상태·값을 다른 것으로 바꾸다; 변환하다.",
+      "en_def": "To change something into a different form, state, or value.",
       "frequency": 148,
       "doc_spread": 92,
       "score": 670.82,
@@ -56391,8 +56233,8 @@
       "pos": "verb",
       "pos_ko": "동사",
       "ipa": "/ʌndəˈmaɪn/",
-      "meaning_ko": "훼손하다 — (무언가) 밑을 파다, 파괴적이거나 군사적 목적으로 통로를 만들다. 수액에.",
-      "en_def": "To dig underneath (something), to make a passage for destructive or military purposes; to sap.",
+      "meaning_ko": "훼손하다 — 어떤 것의 기반이나 효력을 서서히 약화시키다.",
+      "en_def": "To gradually weaken the basis or effectiveness of something.",
       "frequency": 142,
       "doc_spread": 96,
       "score": 649.61,
@@ -56556,36 +56398,6 @@
         {
           "sentence": "In fields such as vocational education and nursing, AI literacy is focused on improving students’ professional skills and research into how AI literacy can be integrated into nursing curricula (Abou Hashish & Alnajjar, 2024; Porter & Foronda, 2024; Tomlinson et al., 2025).",
           "source": "9.Exploring the scope of artificial intelligence literacy in education A bibliometric approach.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
-      "id": "w1908",
-      "word": "tively",
-      "lemma": "tively",
-      "pos": "adverb",
-      "pos_ko": "부사",
-      "ipa": "",
-      "meaning_ko": "적극적으로",
-      "en_def": "",
-      "frequency": 137,
-      "doc_spread": 111,
-      "score": 646.43,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "The findings showed that integrating the two-tier testing mechanism in the digital game increased the experimental group’s learning time, effec- tively reduced their mathematics anxiety, and helped them learn well.",
-          "source": "14.A progressive concept map-based digital gaming approach for mathematics courses.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "The ques- tionnaire mainly asked the participants whether they had the self-awareness to posi- tively face the problems to be solved when they encountered the problems themselves.",
-          "source": "14.A progressive concept map-based digital gaming approach for mathematics courses.pdf",
           "type": "from_paper"
         }
       ],
@@ -56895,36 +56707,6 @@
       }
     },
     {
-      "id": "w1919",
-      "word": "tal",
-      "lemma": "tal",
-      "pos": "adjective",
-      "pos_ko": "형용사",
-      "ipa": "",
-      "meaning_ko": "탈",
-      "en_def": "",
-      "frequency": 140,
-      "doc_spread": 94,
-      "score": 637.54,
-      "difficulty": "academic",
-      "examples": [
-        {
-          "sentence": "In the field of education, the majority of research has utilized feature-­based (Hassan et al., 2022; Talebinamvar & Zarrabi, 2022; Zhang et al., 2019) and shape-­based (He et al., 2023; Ma'ady et al., 2022; Shen & Chi, 2017) methods, primarily due to their ease of interpretation and lower computational complexity.",
-          "source": "7.Ink and algorithm Exploring temporal dynamics in generative AI-assisted writing.pdf",
-          "type": "from_paper"
-        },
-        {
-          "sentence": "Talebinamvar and Zarrabi (2022) processed keystroke log data from student essays, extracting 14 process indicators (eg, pause variance, total keystrokes, and mean word length) for cluster identification within the dataset.",
-          "source": "7.Ink and algorithm Exploring temporal dynamics in generative AI-assisted writing.pdf",
-          "type": "from_paper"
-        }
-      ],
-      "audio": {
-        "mode": "web_speech",
-        "file": null
-      }
-    },
-    {
       "id": "w1920",
       "word": "disaster",
       "lemma": "disaster",
@@ -57089,13 +56871,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "This suggests not only greater com- munity solidarity and stability in 3D VR co-creation but also greater needs of 3D VR co- creators for interconnection when facing the novelty effect.",
-          "source": "Understanding online knowledge communities via social networks and self-regulation in synchronous VR co-creation for distance learning during the COVID-19 pandemic.pdf",
+          "sentence": "These studies provide a solid framework for evaluating self-perceived information competencies, validating the usefulness of the instrument in various educational contexts.",
+          "source": "18.Self-perceived information literacy skills in Peruvian university students a metric and descriptive-comparative study.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Such comparatively higher connection and interactivity reflected not only the solidarity, stability, and collective behaviors of 3D VR co-creation but also its restrictedness and fewer subgroups (cliques).",
-          "source": "Understanding online knowledge communities via social networks and self-regulation in synchronous VR co-creation for distance learning during the COVID-19 pandemic.pdf",
+          "sentence": "This finding suggests that students moved from a clearly deficient initial understanding of derivatives to a solid mastery of the topic, reflecting significant learn­ ing gains.",
+          "source": "16.Escape from mathematical−skill deficiencies gamified interactive platforms to reinforce quantitative skills.pdf",
           "type": "from_paper"
         }
       ],
@@ -57719,13 +57501,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "The crowdsourcing sample was drawn from a pool of subjects from one of the com­ mercial companies that have spread in recent years for purposes of providing ready participants for surveys and for research in various domains.",
-          "source": "5.Teacher’s nonverbal expressiveness boosts students’ attitudes and achievements controlled experiments and meta-analysis.pdf",
+          "sentence": "Thirdly, the 4 Cs competencies training programme was conducted over a short period, consisting of 10-h intensive sessions spread across three weeks.",
+          "source": "45.The power of play integrating competitive sandbox game for experiential learning to foster twenty-first century skills.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Documentation: the hub of course design From the office’s perspective: streamlining production As a course project began, designers introduced faculty to what would become a crucial artifact throughout the process: a documentation spreadsheet used to collect information and facilitate planning (Fig. 2).",
-          "source": "19.Course designers at work a critical case study of optimization in online course design.pdf",
+          "sentence": "It has already been banned in Russia, China, Venezuela, Belarus, and Iran as they claim that ChatGPT spreads US political propaganda (Wodecki, 2023).",
+          "source": "(2023)Revolutionizing education with AI Exploring the transformative potential of ChatGPT.pdf",
           "type": "from_paper"
         }
       ],
@@ -58109,13 +57891,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Parked … Some are left over, but those in the middle belong to one group and also to the other ...",
-          "source": "9.Effects of feedback dynamics and mixed gamification on cognitive underachievement in school.pdf",
+          "sentence": "The card on the left presents a Hamiltonian graph challenge, which involves finding a circular path through all the vertices while visiting each vertex only once—modeling A.",
+          "source": "27.Applying participatory design for developing an unplugged game to learning graph theory.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "This discovery is consistent with the research conducted by Ertmer and Ottenbreit-Leftwich (2010), which underscored the significance of policy support in adopting technology.",
-          "source": "17.Investigating the use of AI tools in English language learning A phenomenological approach.pdf",
+          "sentence": "Of the six questions posed by the WPR approach, our analysis concentrates on the following issues: what is the problem (concerning data use) represented; what assumptions (about future learning) are associated with the problem representations and what is left unproblematic or omitted (Germundsson, 2022).",
+          "source": "4.Anticipating data sharing for student-centred education Governmental policy initiatives in Switzerland and Japan.pdf",
           "type": "from_paper"
         }
       ],
@@ -58889,13 +58671,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "Moreover, scholars have urged educators to train students not just as computer scientists, but also to prepare every student to possess the 7C abilities (Korkmaz et al., 2017).",
-          "source": "22.Exploring gender and educational background effects on 21st-century competencies in robot-integrated STEM education The role of learning attitudes and satisfaction.pdf",
+          "sentence": "Compared to non-AI technology, AI is a more disruptive and ever-evolving technology; engaging in updating its technical knowledge is required for student AI competency (Chiu, 2024; Chiu et al., 2024; Falloon, 2020; Liu et al., 2021; Zhou et al., 2025).",
+          "source": "32.Validating student AI competency self-efficacy (SAICS) scale and its framework.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "An example of the learning satisfaction questionnaire is “I have endeavored to observe the differences between the target learning objects in this learning activity.” An example of the learning attitude questionnaire is “It is important for everyone to take the STEM course.” Table 2.",
-          "source": "22.Exploring gender and educational background effects on 21st-century competencies in robot-integrated STEM education The role of learning attitudes and satisfaction.pdf",
+          "sentence": "It is because young people require ever-increasingly complex knowledge and abilities to operate in a variety of digitally mediated environments in an ethical, responsible, safe, and productive manner (Falloon, 2020).",
+          "source": "32.Validating student AI competency self-efficacy (SAICS) scale and its framework.pdf",
           "type": "from_paper"
         }
       ],
@@ -59189,13 +58971,13 @@
       "difficulty": "academic",
       "examples": [
         {
-          "sentence": "We included both empirical studies and reviews about the use of adaptive learning systems in K-12 and higher education written in English and published in peer-reviewed journals.",
-          "source": "8.AI and personalized learning Bridging the gap with modern educational goals .pdf",
+          "sentence": "F. line-bot-sdk: When building a chatbot on the Line communication platform, developers must install the line-bot-sdk package and adhere to its guidelines for chatbot develop- ment.",
+          "source": "18.Enhancing phonetic accuracy through chatbot-assisted language learning.pdf",
           "type": "from_paper"
         },
         {
-          "sentence": "Hence, designers of PL technologies need to exercise caution when considering integrating both gamification elements and games into computer-based learning environments.",
-          "source": "8.AI and personalized learning Bridging the gap with modern educational goals .pdf",
+          "sentence": "Students' interactions with the chat- bot involved primarily cognitive interactions but also metacognitive and socio-­emotional interactions.",
+          "source": "19.Group interaction patterns in generative AI-supported collaborative problem solving Network analysis of the interactions among students and a GAI chatbot.pdf",
           "type": "from_paper"
         }
       ],
@@ -59284,8 +59066,8 @@
           "type": "from_paper"
         },
         {
-          "sentence": "For instance, Zhang et al. (2024b) developed SimClass, a multi- contextually appropriate responses in real time, showing strong adaptability to dynamic classroom scenarios.",
-          "source": "15.How to design LLM-based intelligent agent to support student’s learning in educational context A systematic literature review.pdf",
+          "sentence": "The results of the study support the value of contextually tailored reflection directives related to concrete contrasting cases, particularly for low pretest students.",
+          "source": "4.Providing tailored reflection instructions in collaborative learning using large language models.pdf",
           "type": "from_paper"
         }
       ],
@@ -59976,6 +59758,246 @@
         {
           "sentence": "Javed et al. (2024) discovered no overall convergence in AI research capability, but did find convergence in four of five nation groups for research output and three of four for patent awards.",
           "source": "Science of artificial intelligence research capacity on research and innovation productivities of higher education learning in the top 10 countries.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1997",
+      "word": "underpin",
+      "lemma": "underpin",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "",
+      "meaning_ko": "뒷받침하다 — 어떤 이론·주장·구조의 근거나 기반이 되다.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Additionally, SR underpins higher-order thinking skills, supporting analogical reasoning and computational thinking (Avci, 2024; Zhu et al., 2024).",
+          "source": "11.Cultivating students’ spatial reasoning skills through an experiential learning-based virtual reality approach.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "These AOIs were selected because they represent the key informational and interactive components that underpin the learning process within the experimental set-­up.",
+          "source": "2.Generative AI and multimodal data for educational feedback Insights from embodied math learning.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1998",
+      "word": "stimulus",
+      "lemma": "stimulus",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/ˈstɪm.jə.ləs/",
+      "meaning_ko": "자극 — 반응이나 활동을 유발하는 요인이나 사건.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "In our case, participants responded to the stimulus, “How well do the following words describe the feedback provider?”, followed by adjectives corresponding to the subscales, on a five-­point Likert scale (from ‘applies completely’ to ‘applies not at all’).",
+          "source": "5.Applying social cognition to feedback chatbots Enhancing trustworthiness through politeness.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "The randomisation of the stimuli was carried out automatically using the SMI Experiment Center software, which was employed for stimulus presentation and data recording.",
+          "source": "5.Exploring the effects of metacognitive prompts on learning outcomes An experimental study in higher education.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1999",
+      "word": "generalization",
+      "lemma": "generalization",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "",
+      "meaning_ko": "일반화 — 특정 사례에서 도출한 결론을 더 넓은 범위로 확장하는 것.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Broader generalizations require replication across diverse methodologies, more varied samples, and objective performance measures.",
+          "source": "8.Navigating the game-changer ChatGPT’s influence on in-service teachers’ self-regulation and teaching practices in the UAE.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "This consistency enhances the reliability of the findings and allows for broader generalization.",
+          "source": "8.Navigating the game-changer ChatGPT’s influence on in-service teachers’ self-regulation and teaching practices in the UAE.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w2000",
+      "word": "realm",
+      "lemma": "realm",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/ɹɛlm/",
+      "meaning_ko": "영역 — 특정 분야나 활동의 범위.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "Self-efficacy can be general or realm-specific, and both aspects of self-efficacy promote optimal functioning in various areas of life (Schutte & Malouff, 2016).",
+          "source": "6.The role of self-efficacy and curiosity in student use of artificial intelligence (AI).pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Realm specific self-efficacy is the expectation of being able to achieve desired outcomes in a specific realm of life, such as sleep (Ghose et al., 2023) or in relation to role-specific tasks, such as a teacher’s self-efficacy for literacy instruction (Schwab et al., 2023).",
+          "source": "6.The role of self-efficacy and curiosity in student use of artificial intelligence (AI).pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1997",
+      "word": "prioritise",
+      "lemma": "prioritise",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "",
+      "meaning_ko": "우선시하다 — 여러 일 중 더 중요한 것을 먼저 처리하도록 순위를 정하다.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "This is to offer possibilities for choice in the participatory process (Bødker et al., 2022) of deciding how to reflect and prioritise competing values in design trade-­offs (Friedman et al., 2013).",
+          "source": "3.Supporting teachers' value-sensitive reflections on the cost–benefit dynamics of technology in educational practices.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "This could be because educators in early childhood education prioritise childcare-related activities, an area less likely to be immediately substituted by AI.",
+          "source": "4.Assessing structural relationships in pre-service preschool teachers’ perceived AI readiness Do emotional and psychological aspects matter.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1998",
+      "word": "redesign",
+      "lemma": "redesign",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "",
+      "meaning_ko": "재설계하다 — 기존의 구조나 방식을 새롭게 다시 설계하다.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "In the Modification stage, technology is used to redesign a task significantly (e.g., students collaborating in real-time on a shared document, enabling instant feedback and diverse input).",
+          "source": "2.The role of ChatGPT in enhancing English teaching A paradigm shift in lesson planning and instructional practices.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Tools, plans and tests are redesigned and reimplemented for the next DBIR cycle and approved changes are integrated into the broader MEWAKA intervention, where possible.",
+          "source": "8.Design-based implementation research for digitally enabled education reform Teacher professional development in Tanzania.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w1999",
+      "word": "zone",
+      "lemma": "zone",
+      "pos": "noun",
+      "pos_ko": "명사",
+      "ipa": "/zəʊn/",
+      "meaning_ko": "영역 — 특정 목적이나 특성으로 구분되는 구역이나 범위.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "These authors suggest the use of interactive platforms to help students begin their studies at the required level, referred to as the Necessary Zone of Real Develop­ ment, by addressing their learning needs through platform−facilitated processes.",
+          "source": "16.Escape from mathematical−skill deficiencies gamified interactive platforms to reinforce quantitative skills.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "Therefore, students transitioned from a zone of real development below the necessary level to one sufficient for developing QS in university degrees.",
+          "source": "16.Escape from mathematical−skill deficiencies gamified interactive platforms to reinforce quantitative skills.pdf",
+          "type": "from_paper"
+        }
+      ],
+      "audio": {
+        "mode": "web_speech",
+        "file": null
+      }
+    },
+    {
+      "id": "w2000",
+      "word": "withdraw",
+      "lemma": "withdraw",
+      "pos": "verb",
+      "pos_ko": "동사",
+      "ipa": "/wɪðˈdɹɔː/",
+      "meaning_ko": "철회하다 — 참여·진술·동의 등을 거두어들이거나 중단하다.",
+      "en_def": "",
+      "frequency": 0,
+      "doc_spread": 0,
+      "score": 0.0,
+      "difficulty": "academic",
+      "examples": [
+        {
+          "sentence": "They knew that the participation was voluntary and they could withdraw from the study at any time.",
+          "source": "The effects of a metacognitive scaffolding-supported online inquiry-based learning approach on students’ science achievement, metacognitive ability, and inquiry skills.pdf",
+          "type": "from_paper"
+        },
+        {
+          "sentence": "The reasons for withdrawing or not completing the study were not available for the majority of the participants.",
+          "source": "Evaluating the impact of an early reading app on preschool literacy skills A pilot randomized control study.pdf",
           "type": "from_paper"
         }
       ],
