@@ -2,7 +2,62 @@
 
 > 마지막 업데이트: 2026-10-20
 > 작업 디렉토리: `d:\test\논문단어집\`
-> 현재 배포 상태: **2000개 단어, 3차 전수 검토(뜻·정의·품사·예문·IPA) 반영** (커밋은 아래 2026-10-20 항목 참고)
+> 현재 배포 상태: **2000개 단어, 3차 전수 검토(뜻·정의·품사·예문·IPA) 반영, 소스 백업 완료** (최신 커밋은 `git log -1`)
+> ▶ **새 창·새 세션에서는 바로 아래 "인수인계" 섹션부터 읽을 것.**
+
+---
+
+## ▶ 새 세션 인수인계 (2026-10-20 기준)
+
+### 한눈에 보는 현재 상태
+- **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 완료.
+  예문 2개씩 — `is_bad_example()` 불합격 0개, IPA·en_def 2000/2000.
+- **배포**: https://jyson12.github.io/PaperVoca (원격 `origin/main`과 동기화 상태로 마무리).
+- **원본 PDF**: `D:\논리전개연습` — 영문 저널 6종 872편만 대상, 최상위 ★ 폴더(한국 학술지 4종 1,213편)는 제외.
+  `raw_text/`에는 기존에 추출한 734편이 그대로 있음 (재추출하지 않음).
+- **저장소 백업**: `scripts/`·`.claude/`·`.mcp.json`·`data/`·기획서까지 git 추적.
+  `raw_text/`(저작권·용량)·`web/`(빌드 산출물)는 `.gitignore`로 로컬 전용. **저장소는 공개(public)**.
+
+### 작업 규칙 (사용자 선호 포함)
+- **진행 메모·보고는 모두 한국어로** 쓴다 (사용자 요청).
+- 단어를 추가·수정할 때는 **CLAUDE.md의 QA 3단계**를 따르고, 끝나면 예문을 검증한다:
+  `python scripts/reextract_examples.py --dry-run` → 대상 0개여야 정상 (불합격 예문만 교체하는 스크립트라 재실행해도 안전).
+- 빌드·배포: `python scripts/build_dashboard.py` → `cp web/index.html index.html` → 변경 파일 add → commit → `git push origin main`.
+- ⛔ 재실행 금지: `full_review_fix3.py`(1회용 — 다시 돌리면 지정 용례 예문이 또 교체됨), `review_vocabulary.py`(접두 오매칭 결함).
+- 공개 저장소이므로 새 파일을 올리기 전에 개인정보·인증 정보(이메일·전화번호·API 키·토큰 등)를 검사한다.
+
+### 결정 대기 중 (사용자 응답 필요 — 아래 "개인정보·보안 점검" 항목 참고)
+1. **커밋 이메일 비공개 전환** — GitHub 설정에서 "Keep my email addresses private"을 켜는 것은 사용자가 직접 해야 함.
+   원하면 이 저장소의 `git config user.email`을 GitHub noreply 주소로 바꿔 줄 수 있음 (미실행).
+3. **`.mcp.json`의 MCP 서버 패키지 버전 고정** — 제안만 하고 아직 실행하지 않음.
+4. **`D:\논문` 폴더 삭제** — 사용자가 직접 진행 예정. 프로젝트에는 영향 없음을 확인 완료.
+
+### 이어서 할 수 있는 작업 (선택)
+- 음성 파일 사전 생성(edge-tts), 엑셀/CSV 내보내기, 즐겨찾기·학습 완료 체크 기능.
+- 규칙으로 못 잡는 잔여 깨진 예문(예: "…documentsa difference…") 수작업 점검.
+- 수기로 작성한 IPA 약 120개 사전 대조.
+
+---
+
+## 2026-10-20 작업 내역 — 개인정보·보안 점검 (공개 저장소)
+
+### 점검 범위와 방법
+- 현재 추적 파일 전체, 단어장 데이터(`vocabulary.json`·`index.html`), **전체 커밋 이력(삭제된 내용 포함)**,
+  커밋 작성자 정보, 저장소 공개 여부(GitHub API), 웹 단어장 코드(`build_dashboard.py`)를 검사.
+- 패턴: 개인키, GitHub·Anthropic/OpenAI·Google·AWS·Slack·Notion 토큰, `key/secret/token/password = "..."` 형태,
+  이메일, 휴대전화, 주민등록번호, IP 주소, PC 사용자 경로(`C:\Users\…`).
+
+### 결과 — 직접적인 유출 없음
+- 인증 정보(키·토큰·비밀번호·개인키): 현재 파일 0건, 커밋 이력 0건.
+- 주민번호·휴대전화·IP·PC 사용자 경로: 0건. 논문 원문(`raw_text/`)·`web/`은 이력상 한 번도 커밋된 적 없음.
+- 웹 단어장: 외부 스크립트·CDN 없음, 카드에 넣는 모든 값을 `esc()`/`hi()`/`hiEx()`로 이스케이프,
+  데이터에 `<script`·`javascript:`·`onerror=` 같은 조각 없음, 로그인·입력 저장 기능 없음(localStorage에는 테마만).
+- 스크립트의 외부 통신: 사전 API·구글 번역에 영어 단어·정의만 전송.
+
+### 주의 사항 (공개 저장소라서 생기는 것 — 조치는 사용자 결정 대기)
+1. 커밋 작성자 이메일이 커밋 18개에 공개되어 있음 → 스팸·피싱 대상이 될 수 있음.
+   과거 커밋의 이메일은 이력 재작성(강제 푸시) 없이는 지울 수 없음 — 권장하지 않음.
+3. `.mcp.json`이 `npx -y`로 MCP 서버 최신 버전을 매번 자동 설치·실행 → 패키지 오염 시 로컬 PC 위험(공급망). 버전 고정 권장.
 
 ---
 
@@ -266,7 +321,7 @@ D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개
 
 | 항목 | 상태 |
 |------|------|
-| PDF 추출 | 완료 (734/770) |
+| PDF 추출 | 완료 (734/770) — 이후 원본 폴더 `D:\논리전개연습`으로 변경(★ 제외 872편 대상), 재추출은 안 함 |
 | 단어 선별 | **완료 (2000개)** |
 | 뜻·IPA·예문 수집 | **완료** |
 | 전체 단어 카드 1차 검토 (06-24) | **완료** — 419개 뜻, 43개 POS, 22개 노이즈 삭제 |
@@ -277,7 +332,10 @@ D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개
 | 전체 단어장 3차 검토 (10-20) | **완료** — 뜻·정의·품사 1,393개, 예문 엄격 검증·재추출, IPA 373개, 중복 id 31개 |
 | IPA 발음기호 | **완료** — 2000/2000 (Wiktionary RP 기준) |
 | 웹 대시보드 HTML 생성 + 반영 검증 | **완료** (`index.html`, 2112 KB, 2000 카드 확인) |
-| GitHub Pages 배포 | **완료** — https://jyson12.github.io/PaperVoca (`bd80f03`) |
+| GitHub Pages 배포 | **완료** — https://jyson12.github.io/PaperVoca (3차 검토 반영 `7eeaa21` 이후 최신 유지) |
+| 원본 폴더 경로 변경 (10-20) | **완료** — `D:\논문` → `D:\논리전개연습`, 한국 학술지(★) 제외 |
+| 소스 백업 (10-20) | **완료** — scripts/·.claude/·data 추적, raw_text/·web/ 로컬 전용 |
+| 개인정보·보안 점검 (10-20) | **완료** — 유출 없음, 공개 저장소 주의 사항 3건 사용자 결정 대기 |
 | 음성 파일 사전 생성(edge-tts) | 미완료 (선택 사항) |
 
 ---
@@ -287,7 +345,8 @@ D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개
 ```
 d:\test\논문단어집\
 ├── log.md                          ← 이 파일
-├── .mcp.json                       ← Filesystem MCP 설정
+├── .gitignore                      ← (10-20) raw_text/·web/·캐시·개인 설정 제외
+├── .mcp.json                       ← Filesystem MCP 설정 (D:\논리전개연습 + 프로젝트 폴더)
 ├── 논문단어집_대시보드_기획서.md
 ├── .claude/
 │   ├── agents/
@@ -318,8 +377,8 @@ d:\test\논문단어집\
 │   ├── reextract_examples.py       ← (10-20) ★ 예문 엄격 검증(굴절형·보일러플레이트·깨진 문장) + 불합격 예문만 재추출
 │   ├── full_review_fix3.py         ← (10-20) 3차 검토 적용: review3_fixes.tsv + ipa_fixes.json (1회만 실행 — 재실행 시 예문이 또 바뀜)
 │   └── fix_duplicate_ids.py        ← (10-20) 중복 id 재배정
-├── raw_text/
-│   ├── metadata.json               ← 추출된 논문 메타데이터
+├── raw_text/                       ← 로컬 전용 (.gitignore)
+│   ├── metadata.json               ← 추출된 논문 메타데이터 (original_path는 D:\논리전개연습 기준)
 │   └── *.txt                       ← 734개 논문 텍스트
 ├── index.html                     ← ★ git 추적 대상 = 실제 배포 파일 (web/index.html 복사본)
 ├── data/
@@ -331,7 +390,7 @@ d:\test\논문단어집\
 │   ├── review3_fixes.tsv           ← (10-20) 3차 수기 검토표 (뜻·정의·품사 1,393 / #REEX 용례 지정 219 / #RENAME 1)
 │   ├── ipa_fixes.json              ← (10-20) Wiktionary 기반 IPA 373개
 │   └── reextract_report.json 등    ← 재추출 전후 예문 기록
-└── web/
+└── web/                            ← 로컬 전용 (.gitignore)
     ├── index.html                  ← build_dashboard.py 생성물 (→ root로 복사해 배포)
     └── audio/                      ← edge-tts mp3 저장 위치 (비어있음)
 ```
@@ -345,9 +404,10 @@ d:\test\논문단어집\
 
 # 단어 검토·수정 후 재빌드 및 배포 (표준 절차)
 cd d:\test\논문단어집
+python scripts/reextract_examples.py --dry-run   # 예문 검증 — "재추출 대상 0개"면 정상 (아니면 --dry-run 빼고 실행)
 python scripts/build_dashboard.py     # vocabulary.json → web/index.html
 cp web/index.html index.html          # ★ git이 추적하는 root index.html로 복사 (필수)
-git add data/vocabulary.json index.html
+git add data/vocabulary.json index.html   # 스크립트·검수표를 고쳤다면 scripts/ data/ 도
 git commit -m "메시지"                 # 끝에 Co-Authored-By: Claude ...
 git push origin main
 
@@ -355,7 +415,7 @@ git push origin main
 python scripts/find_extra_words.py    # 약 5~15분 → data/extra_candidates.json
 
 # 전체 파이프라인 (처음부터)
-python scripts/pdf_extractor.py       # PDF → raw_text/
+python scripts/pdf_extractor.py       # D:\논리전개연습 PDF(★ 한국 학술지 제외 872편) → raw_text/
 python scripts/vocab_analyzer.py      # raw_text/ → selected_words.json (TOP_N=2000)
 python scripts/vocabulary_builder.py  # selected_words.json → vocabulary.json
 python scripts/build_dashboard.py     # vocabulary.json → web/index.html
@@ -369,6 +429,10 @@ git add index.html && git push origin main
 
 > 핵심 작업(추출·선별·뜻/품사 검토·2000개 유지·배포·QA 문서화)은 **모두 완료**.
 > 아래는 선택 사항이며, 단어를 더 손볼 경우 **반드시 [CLAUDE.md](CLAUDE.md)의 3단계 QA를 먼저 따른다.**
+
+### 결정 대기 (사용자 응답 필요)
+- 공개 저장소 보안 정리(커밋 이메일 비공개, MCP 버전 고정)과 `D:\논문` 삭제
+  — 맨 위 "인수인계 → 결정 대기 중" 참고.
 
 ### 선택 사항
 - **음성 파일 사전 생성** — `audio-generator` 에이전트, edge-tts 설치 필요 (`pip install edge-tts`)

@@ -234,7 +234,12 @@ def main(dry_run=False):
     print(f"분절 정리된 예문: {cleaned}개")
     targets = {w["word"] for w in words
                if len(w["examples"]) < 2 or any(is_bad_example(w["word"], e["sentence"]) for e in w["examples"])}
-    needed = set().union(*(forms(t) for t in targets)) if targets else set()
+    if not targets:                       # 불합격 예문 없음 → 보고서·단어장을 건드리지 않고 종료
+        print("재추출 대상 단어: 0개 — 모든 예문이 검증을 통과했습니다.")
+        if cleaned and not dry_run:
+            VOCAB_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        return
+    needed = set().union(*(forms(t) for t in targets))
     print(f"재추출 대상 단어: {len(targets)}개 — 원문 색인 중…", flush=True)
     sents, index = load_sentences(needed)
     print(f"색인 문장: {len(sents)}개", flush=True)
