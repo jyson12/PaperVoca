@@ -1,8 +1,53 @@
 # PaperVoca 프로젝트 작업 로그
 
-> 마지막 업데이트: 2026-06-25
+> 마지막 업데이트: 2026-10-20
 > 작업 디렉토리: `d:\test\논문단어집\`
-> 현재 배포 상태: **2000개 단어, 전체 검토 완료, GitHub Pages 반영 완료** (커밋 `bd80f03`)
+> 현재 배포 상태: **2000개 단어, 3차 전수 검토(뜻·정의·품사·예문·IPA) 반영** (커밋은 아래 2026-10-20 항목 참고)
+
+---
+
+## 2026-10-20 작업 내역 — 3차 전수 검토 (예문 엄격 검증 + 뜻/정의/품사 + IPA)
+
+### 배경
+log의 "추가 품질 점검(선택)" 항목을 진행하다가, 2차 검토 이후에도 남은 문제가 훨씬 넓다는 것을 확인.
+- 예문 검증이 일부 단어에만 적용됐고, 접미사 화이트리스트에 파생 접미사(ly/en/ation)가 있어
+  `like`←"likely", `deep`←"deepen", `cognitive`←"cognitively" 같은 다른 단어 예문이 통과.
+- 이전 검토는 meaning_ko **첫 단어**만 봤기 때문에 `—` 뒤 설명과 en_def(카드에 표시)가
+  엉뚱한 sense로 남아 있었음 (`educational`="여행사 팸투어", `lead`=납, `key`=열쇠, `math`=풀베기 등).
+- IPA 없는 단어 282개 + 기존 IPA 중 조각 표기(`/-ʃnəl/`)·지역 방언(`/ˌɘndɘˈvɘd͡ʒɘl/` NZ)·
+  협의 표기(`[ʔæʔp̚]`) 등 90개.
+
+### 수행 (모두 스크립트로 재현 가능)
+1. **예문 엄격 검증·재추출** — `scripts/reextract_examples.py`
+   - 굴절형만 허용 + 보일러플레이트/절 제목 병합/합자 누락/front matter 문장 필터.
+   - 불합격 예문 보유 단어 299개 → 불합격 예문만 교체. 재검증 결과 표제어 미포함 예문 **0개**.
+2. **2000개 전수 수기 검토** — `data/review3_fixes.tsv` → `scripts/full_review_fix3.py`
+   - 뜻·설명·영어 정의·품사 교정 **1,393개**, 의미/품사가 맞는 용례로 예문 교체 **219개**
+     (정규식으로 용례 지정: `face`→"face challenges", `fit`→"model fit", `live`→"live sessions" 등).
+   - 표제어 교정 1개: `physic`(약) → **`physics`**(물리학) — 표제어화 오류.
+   - 품사 교정 예: `among`·`like`·`behind`·`outside` → 전치사, `must` → 동사(조동사),
+     `though`·`unless` → 접속사, `another` → 한정사, `total`·`patient`·`alternative` → 명사.
+3. **IPA 보완·교체 373개** — Wiktionary API 원문 파싱(영국식 RP 우선, 품사별 발음 구분:
+   permit/extract/update 등) → `data/ipa_fixes.json`. Wiktionary에 발음이 없는 파생어·복수형 등
+   ~120개는 수기 작성(ɹ·ɛ 표기 관례 통일). 결과: **IPA 없는 단어 282개 → 0개**, 조각·방언·협의 표기 90개 교체.
+4. **깨진 예문 추가 정리** — `is_broken()` 필터(절 제목·소제목 병합, 참고문헌 제목, 쪽 머리말 `14 / 18`,
+   자간 분리 `K E Y W O R D S`, 표 캡션, 합자 누락, 한중일 문자 혼입 등)를 예문 검증에 포함.
+   하이픈 분절(`pedagog- ical`) 정규화 916개, 깨진 예문 교체 3회 반복(309→123→16개 단어).
+   재추출 시 `#REEX` 정규식(지정 용례)을 계속 적용.
+5. **중복 id 31개 정리** — 단어 추가 스크립트가 '개수+1'부터 id를 매겨 생긴 충돌.
+   빈 번호를 재배정해 id 2000개 모두 고유 (`scripts/fix_duplicate_ids.py`). 대시보드는 id 미사용이라 화면 영향 없음.
+6. 대시보드 품사 필터에 `접속사`·`한정사` 라벨 추가 (기존엔 `conjunction`이 영어로 노출).
+7. CLAUDE.md QA 규칙 강화 (굴절형만 허용, 설명·en_def까지 검증, 보일러플레이트·깨진 문장 금지, 용례 지정 재추출).
+
+### 최종 검증
+- 단어 2000개·표제어 중복 0·id 중복 0, 예문 2개씩, **표제어 미포함/보일러플레이트/깨진 예문 0개**
+  (`is_bad_example()` 기준), IPA·en_def 누락 0개, 대시보드 카드 2000개, JS 문법 검사(node --check) 통과.
+- 한계: 문장 중간이 PDF에서 섞인 경우("…documentsa difference…")처럼 규칙으로 못 잡는 잔여 오류가
+  소수 남아 있을 수 있음.
+
+### 미결 (사용자 선택 대기 — 07-03부터 이어짐)
+- `scripts/`·`.claude/` 저장소 백업 여부. 이번에 추가된 `reextract_examples.py`, `full_review_fix3.py`,
+  `fix_duplicate_ids.py`, `data/review3_fixes.tsv`, `data/ipa_fixes.json`도 아직 로컬 전용.
 
 ---
 
@@ -11,6 +56,27 @@
 D:\논문 폴더의 PDF 논문(770개)에서 학습 가치 높은 영어 단어 **2000개**를 자동 추출하고,
 한국어 뜻·IPA 발음기호·예문·음성 재생이 포함된 웹 단어장 대시보드를 생성하는 프로젝트.
 페이지네이션 적용: 한 페이지에 20개 단어 표시.
+
+---
+
+## 2026-07-03 작업 내역 — 상태 점검 및 깃/배포 검증
+
+### 상태 검증 (log.md 기록과 일치 확인)
+- Git: 로컬 = 원격 동기화됨 (`ba8a995`), fetch/push 정상 동작.
+- 단어 **2000개**, 예문 0개인 단어 없음, 중복 표제어 없음.
+- GitHub Pages 라이브(HTTP 200), 배포본에 최신 수정(직면하다·말뭉치·experimentation)·
+  삭제 단어(tal·statutory) 모두 반영 확인. 카드 2000개 확인.
+- IPA 발음기호 없는 단어 **282개** (Free Dictionary API 미등록 — 알려진 이슈, 보완은 선택 사항).
+
+### ⚠️ 발견: 저장소에 소스가 백업돼 있지 않음
+- `git ls-files` 결과 **추적 파일은 4개뿐**: `CLAUDE.md`, `data/vocabulary.json`,
+  `index.html`, `log.md`.
+- **추적 안 됨(로컬 전용)**: `scripts/`(파이프라인·검수 스크립트 전체), `.claude/`(에이전트·스킬),
+  `raw_text/`(734개 논문 텍스트, ~41MB), `data/selected_words.json`·`extra_candidates.json`·
+  `review_batches/`·`review_results/`, `.mcp.json`.
+- 즉, 완성물만 배포되고 **그걸 만드는 스크립트/원문은 백업 안 됨** → 로컬 유실 시 재현 어려움.
+- 대응(미결정, 사용자 선택 대기): ① `scripts/`·`.claude/`를 저장소에 추가(권장, `raw_text/`는
+  용량·저작권상 `.gitignore` 제외) ② `.gitignore`만 정리 ③ 그대로 두기.
 
 ---
 
@@ -166,7 +232,9 @@ D:\논문 폴더의 PDF 논문(770개)에서 학습 가치 높은 영어 단어 
 | 24개 신규 단어 추가 + 검토 (06-25) | **완료** — 7 POS·15 뜻 수정, 2 예문 재추출 |
 | 전체 단어장 2차 검토 (06-25) | **완료** — 노이즈 8개 삭제, ~30개 뜻, ~70개 예문 재추출 |
 | 단어 수 2000개 유지 | **완료** — 삭제분만큼 보충, 예문 0개 단어 없음 |
-| QA 프로세스 문서화 (CLAUDE.md) | **완료** — 단어 추가/수정 시 자동 적용 |
+| QA 프로세스 문서화 (CLAUDE.md) | **완료** — 단어 추가/수정 시 자동 적용 (10-20 강화) |
+| 전체 단어장 3차 검토 (10-20) | **완료** — 뜻·정의·품사 1,393개, 예문 엄격 검증·재추출, IPA 373개, 중복 id 31개 |
+| IPA 발음기호 | **완료** — 2000/2000 (Wiktionary RP 기준) |
 | 웹 대시보드 HTML 생성 + 반영 검증 | **완료** (`index.html`, 2112 KB, 2000 카드 확인) |
 | GitHub Pages 배포 | **완료** — https://jyson12.github.io/PaperVoca (`bd80f03`) |
 | 음성 파일 사전 생성(edge-tts) | 미완료 (선택 사항) |
@@ -205,7 +273,10 @@ d:\test\논문단어집\
 │   ├── add_words.py                ← (06-25) 신규 단어 추가 (API+번역+예문)
 │   ├── fix_new_words.py            ← (06-25) 신규 24단어 POS·뜻·예문 교정
 │   ├── full_review_fix.py          ← (06-25) 2차 검토 1탄: 노이즈 삭제·뜻·예문·보충
-│   └── full_review_fix2.py         ← (06-25) 2차 검토 2탄: 잔여 노이즈·접두오매칭 예문 재추출
+│   ├── full_review_fix2.py         ← (06-25) 2차 검토 2탄: 잔여 노이즈·접두오매칭 예문 재추출
+│   ├── reextract_examples.py       ← (10-20) ★ 예문 엄격 검증(굴절형·보일러플레이트·깨진 문장) + 불합격 예문만 재추출
+│   ├── full_review_fix3.py         ← (10-20) 3차 검토 적용: review3_fixes.tsv + ipa_fixes.json (1회만 실행 — 재실행 시 예문이 또 바뀜)
+│   └── fix_duplicate_ids.py        ← (10-20) 중복 id 재배정
 ├── raw_text/
 │   ├── metadata.json               ← 추출된 논문 메타데이터
 │   └── *.txt                       ← 734개 논문 텍스트
@@ -215,7 +286,10 @@ d:\test\논문단어집\
 │   ├── vocabulary.json             ← 2000개 완성 단어집 (현재 배포 중)
 │   ├── review_batches/             ← batch_01~10.json (에이전트 검토용 분할 파일)
 │   ├── review_results/             ← 에이전트 검토 결과 저장
-│   └── extra_candidates.json       ← find_extra_words.py 결과 (2001위↓ 후보 124개)
+│   ├── extra_candidates.json       ← find_extra_words.py 결과 (2001위↓ 후보 124개)
+│   ├── review3_fixes.tsv           ← (10-20) 3차 수기 검토표 (뜻·정의·품사 1,393 / #REEX 용례 지정 219 / #RENAME 1)
+│   ├── ipa_fixes.json              ← (10-20) Wiktionary 기반 IPA 373개
+│   └── reextract_report.json 등    ← 재추출 전후 예문 기록
 └── web/
     ├── index.html                  ← build_dashboard.py 생성물 (→ root로 복사해 배포)
     └── audio/                      ← edge-tts mp3 저장 위치 (비어있음)
@@ -259,8 +333,8 @@ git add index.html && git push origin main
 - **음성 파일 사전 생성** — `audio-generator` 에이전트, edge-tts 설치 필요 (`pip install edge-tts`)
 - **엑셀/CSV 내보내기** — `data/vocabulary.json` → xlsx 변환
 - **검색·필터 기능 강화** — 즐겨찾기, 학습 완료 체크
-- **추가 품질 점검(선택)** — 길이가 긴 흔한 단어(head, card, day 등) 일부는 뜻이 다소
-  문자 그대로일 수 있음. 더 다듬으려면 예문 기준으로 재검토.
+- ~~추가 품질 점검~~ → 2026-10-20 3차 전수 검토로 완료.
+- **소스 백업 결정** — `scripts/`·`.claude/`를 저장소에 추가할지 (위 07-03·10-20 항목 참고).
 
 ---
 
@@ -269,11 +343,13 @@ git add index.html && git push origin main
 | 이슈 | 원인 | 해결책 |
 |------|------|--------|
 | 36개 PDF 추출 실패 | 폴더명에 한국어 포함 (`5.ETR&D` 하위) | 경로를 영문으로 변경 후 재실행 |
-| IPA 없는 단어 일부 | Free Dictionary API 미등록 단어 | 수동 보완 또는 다른 API 사용 |
+| ~~IPA 없는 단어 282개~~ (해결됨) | Free Dictionary API 미등록 단어 | Wiktionary 원문 + 수기 보완 → 0개 (10-20) |
+| ~~meaning_ko 설명·en_def 오역~~ (해결됨) | 이전 검토가 표제(첫 단어)만 확인 | 3차 전수 검토로 1,393개 교정 (10-20) |
 | vocabulary_builder 장시간 실행 | API 호출 포함 2000개 처리 시 ~2시간 소요 | 체크포인트 기능 추가, PC 재시작 후 이어서 실행 |
 | ~~단어 수 부족~~ (해결됨) | selected_words 상위 2000개에 노이즈 토큰 다수 포함 | 노이즈 삭제분만큼 학술 단어 보충 → **2000개 유지 완료** |
 | 예문 추출 시 접두/하이픈 오매칭 | `\bword\w*` 패턴이 다른 단어의 접두·하이픈 분절을 잡음 | 하이픈 합친 뒤 독립 토큰+접미사 화이트리스트로 검증 (CLAUDE.md 참조) |
 | Free Dictionary API 오역 sense | 학술과 다른 1번 정의(고어·종교·군사 등) 반환 | 예문 기준 뜻 검증 후 수동 교정 (CLAUDE.md 참조) |
+| **소스 미백업** (scripts/·raw_text/·.claude/ 로컬 전용) | 저장소가 완성물 4개 파일만 추적 | (미결정) scripts/·.claude/ 저장소 추가 권장, raw_text/는 .gitignore 제외 |
 
 ---
 

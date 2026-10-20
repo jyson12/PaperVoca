@@ -29,13 +29,26 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
   `none`→"nonetheless", `bot`→"both", `per`→"performance".
 - **하이픈 분절 아티팩트 금지**: PDF 줄바꿈으로 쪼개진 단어를 잡는다.
   예) `stance`←"in- stance"(=instance), `search`←"re- search"(=research), `face`←"inter- face".
-- **검증 방법**: 하이픈 분절을 먼저 합친 뒤(`(\w)-\s+(\w)` → `\1\2`),
-  `(?<![A-Za-z])word(굴절접미사)?\b` 가 매칭되고, 매칭 토큰의 나머지가 정규 접미사
-  화이트리스트(s/es/ed/ing/ly/ment/ation/al/...)에 있는지 확인한다. 아니면 다른 단어임.
-- 저자명·고유명사 매칭도 배제(`hint`→"Hinton", `tal`→"Talebinamvar", `left`→"Leftwich").
+- **검증 방법**: 하이픈·소프트하이픈 분절을 먼저 합친 뒤, 문장 토큰 중 표제어의
+  **굴절형만**(s/es/d/ed/ing/er/est, e탈락·y→i·자음중복) 허용한다.
+  ly/en/ation/ment 같은 **파생 접미사는 다른 단어**로 본다
+  (`like`→"likely", `deep`→"deepen", `cognitive`→"cognitively", `analytic`→"analytics").
+  → `scripts/reextract_examples.py`의 `forms()`/`is_bad_example()`을 그대로 쓸 것.
+- 저자명·고유명사 매칭도 배제(`hint`→"Hinton", `tal`→"Talebinamvar", `left`→"Leftwich",
+  `driver`→"Walshe & Driver", `law`→"Law & Chen").
+- **보일러플레이트·깨진 문장 금지**: 라이선스(Creative Commons/Open Access), `Keywords:`,
+  저자 기여·윤리 승인·소속 기관, 참고문헌 제목, 절 제목이 붙은 문장("Conclusion This study…"),
+  합자 누락("arti cial"), front matter(`raw_text/0_*`)는 예문으로 쓰지 않는다 (`good_sentence()`).
+- **의미·품사가 맞는 용례를 고를 것**: 표제어가 들어 있어도 다른 의미면 안 된다
+  (`face`←"face-to-face", `live`←"daily lives", `fit`←"one-size-fits-all", `art`←"state-of-the-art").
+  재추출 시 `pick(..., must=정규식)`으로 원하는 용례를 지정한다 (`data/review3_fixes.tsv`의 `#REEX` 참고).
 
 ### 2. 뜻 검증 — meaning_ko가 예문에서 쓰인 의미와 일치하는가
 - 예문을 읽고 그 문맥에서 단어가 실제 뜻하는 바를 파악한 뒤, meaning_ko 첫 단어가 그와 맞는지 본다.
+- **첫 단어만 보지 말 것**: `—` 뒤 한국어 설명과 `en_def`(카드에 표시됨)도 같은 의미·품사여야 한다.
+  3차 검토(2026-10)에서 1,393개를 교정했는데 상당수가 표제만 맞고 설명/영어 정의가 엉뚱했다.
+  예) `educational` en_def="여행사 팸투어", `lead`=금속 납, `key`=자물쇠 열쇠, `prior`=수도원장,
+  `rather` 설명="선호하다", `session` en_def=재즈 즉흥 연주 모임, `math` en_def=풀베기.
 - 흔한 오류 예: `offer` 권하다→**제공하다**, `resource` 의지→**자료**, `thesis` 명제→**학위논문**,
   `craft` 선박→**만들다**, `save` 스포츠 방어→**저장하다**, `corpus` 신체→**말뭉치**,
   `deploy(ment)` 전개→**배포**, `stance` 자세→**입장**, `mediator` 중재인→**매개자**.
@@ -63,4 +76,8 @@ git push origin main
 - `find_extra_words.py` — 2001위↓ 후보 추출
 - `add_words.py` — 새 단어 일괄 추가(API+번역+예문)
 - `full_review_fix.py` / `full_review_fix2.py` — 검수 결과 일괄 적용 예시(노이즈 삭제·뜻 교정·예문 재추출·보충)
+- `reextract_examples.py` — 전 단어 예문 엄격 검증 + 불합격 예문만 재추출 (QA 1단계 자동화)
+- `full_review_fix3.py` + `data/review3_fixes.tsv` — 3차 전수 검토 적용
+  (TSV: `word⇥pos⇥meaning_ko⇥en_def`, `=`는 유지 / `#REEX⇥word[⇥정규식]` 예문 교체 / `#RENAME` 표제어 교정)
+  + `data/ipa_fixes.json` (Wiktionary 기반 IPA 보완: 영국식(RP) 우선, 지역 방언·협의 표기·조각 표기 교체)
 - ⛔ `review_vocabulary.py` — 접두 오매칭 결함. 재실행 금지(참고용으로만 보존).
