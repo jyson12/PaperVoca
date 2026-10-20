@@ -11,6 +11,9 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 ```
 빌드 후 항상 `cp web/index.html index.html` (git이 추적하는 건 root의 index.html).
 
+원본 논문 PDF 폴더: **`D:\논리전개연습`** (2026-10-20부터, 이전 `D:\논문`).
+영문 저널 6종 + 한국 학술지 4종(★ 폴더) 포함 — 재추출 시 ★ 폴더 포함 여부를 먼저 정할 것.
+
 ## 단어장 불변 규칙
 - 단어장은 **항상 정확히 2000개**를 유지한다. 노이즈를 삭제하면 같은 수만큼 학술 단어를 보충한다.
 - 추가 후보는 `find_extra_words.py`로 2001위 이하에서 뽑는다(`data/extra_candidates.json`).

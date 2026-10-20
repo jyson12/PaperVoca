@@ -6,6 +6,21 @@
 
 ---
 
+## 2026-10-20 작업 내역 — 원본 논문 폴더 경로 변경 (`D:\논문` → `D:\논리전개연습`)
+
+- `D:\논리전개연습`은 이미 존재하던 폴더로, `D:\논문`의 PDF 872개를 같은 상대 경로로 모두 포함
+  (크기 872/872 일치, 표본 31개 MD5 일치) + 한국 학술지 4종 PDF 1,213개 추가
+  (★교육공학연구 345, ★교육정보미디어연구 513, ★직업능력개발연구 150, ★진로교육연구 205).
+- 변경한 곳: `scripts/pdf_extractor.py`(SOURCE_DIR), `scripts/vocabulary_builder.py`(meta.source_dir),
+  `.mcp.json`(Filesystem MCP 허용 폴더 — Claude Code 재시작 후 적용), `.claude/agents/pdf-extractor.md`,
+  `data/vocabulary.json`(meta.source_dir), `raw_text/metadata.json`(original_path 734개 — 새 경로 실재 734/734 확인),
+  `논문단어집_대시보드_기획서.md`.
+- `D:\논문` 폴더 자체는 손대지 않음(삭제 여부는 사용자 결정).
+- ⚠️ 주의: 이후 `pdf_extractor.py`를 다시 돌리면 한국 학술지 1,213편도 추출 대상에 포함된다
+  (대부분 국문 본문 + 영문 초록). 포함할지/★ 폴더를 제외할지 재추출 전에 결정 필요.
+
+---
+
 ## 2026-10-20 작업 내역 — 3차 전수 검토 (예문 엄격 검증 + 뜻/정의/품사 + IPA)
 
 ### 배경
@@ -53,7 +68,7 @@ log의 "추가 품질 점검(선택)" 항목을 진행하다가, 2차 검토 이
 
 ## 프로젝트 개요
 
-D:\논문 폴더의 PDF 논문(770개)에서 학습 가치 높은 영어 단어 **2000개**를 자동 추출하고,
+D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개)에서 학습 가치 높은 영어 단어 **2000개**를 자동 추출하고,
 한국어 뜻·IPA 발음기호·예문·음성 재생이 포함된 웹 단어장 대시보드를 생성하는 프로젝트.
 페이지네이션 적용: 한 페이지에 20개 단어 표시.
 
@@ -168,7 +183,7 @@ D:\논문 폴더의 PDF 논문(770개)에서 학습 가치 높은 영어 단어 
 ### Step 1 — 환경 설정
 - Python 패키지 설치: `pymupdf`, `nltk`, `deep-translator`, `requests`
 - 프로젝트 디렉토리 생성: `raw_text/`, `data/`, `web/audio/`, `scripts/`, `.claude/agents/`
-- Filesystem MCP 등록: `.mcp.json` (D:\논문 접근용)
+- Filesystem MCP 등록: `.mcp.json` (원본 논문 폴더 접근용 — 현재 `D:\논리전개연습`)
 
 ### Step 2 — Sub-agents 생성
 `.claude/agents/` 에 6개 에이전트 파일 생성:
