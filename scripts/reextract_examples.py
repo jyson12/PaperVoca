@@ -8,6 +8,10 @@ reextract_examples.py
   다른 단어로 본다 (like→likely, deep→deepen, cognitive→cognitively 방지).
 - 하이픈 복합어 안의 매칭(face-to-face, long-term)·문장 중간 대문자(고유명사)는 후순위.
 - 라이선스·키워드·저자기여·윤리승인 등 보일러플레이트 문장 불합격.
+- 절 제목 병합·띄어쓰기 누락 병합어·글머리표 목록 등 깨진 문장 불합격 (is_broken).
+  병합어·문장 중간 일반어 대문자 판정은 원문 코퍼스 빈도를 쓴다
+  (캐시 raw_text/token_counts.json — 원문 txt가 더 새로우면 자동 재생성).
+- 규칙으로 못 잡는 깨진 문장은 data/bad_examples.tsv (word⇥문장 앞부분)에 등록한다.
 
 사용: python scripts/reextract_examples.py [--dry-run]
 """
@@ -21,13 +25,15 @@ sys.stdout.reconfigure(encoding="utf-8")
 VOCAB_FILE = Path("data/vocabulary.json")
 RAW_DIR    = Path("raw_text")
 REPORT     = Path("data/reextract_report.json")
+BAD_FILE   = Path("data/bad_examples.tsv")
+COUNTS     = RAW_DIR / "token_counts.json"
 
 BOILER = re.compile(
     r"Creative Commons|licen[cs]ed under|Open Access|All rights reserved|text and data mining|"
     r"How to cite|Author contributions|Conflicts? of interest|Competing (financial )?interest|Ethics approval|"
     r"Data availability|Corresponding author|Published online|Received:|Accepted:|Keywords?:|"
     r"\bpp\.\s*\d|\bVol\.\s*\d|\bdoi\b|https?://|www\.|@|©|\bISSN\b|\bISBN\b|\bORCID\b|"
-    r"\bFunding\s*(?::|information|statement|This|The)|\bEmail\b",
+    r"\bFunding\s*(?::|information|statement|This|The)|\bEmail\b|Author Services|Calls for Special",
     re.I)
 HEADING = re.compile(r"\b(INTRODUCTION|METHODS?|RESULTS|DISCUSSION|CONCLUSIONS?|ABSTRACT|"
                      r"REFERENCES|ACKNOWLEDGE?MENTS?|STATEMENT|BACKGROUND|LIMITATIONS)\b")
@@ -41,22 +47,133 @@ PROPER_OK = {"british", "chinese", "european", "american", "japanese"}
 WORD_RE = re.compile(r"[A-Za-z][A-Za-z’']*")
 
 
-def _common_words():
-    """문장 중간에 대문자로 나오면 안 되는 일반어 (불용어 + 단어장 표제어)."""
-    words = set()
+def _stopwords():
     try:
         from nltk.corpus import stopwords
-        words |= set(stopwords.words("english"))
-    except Exception:  # noqa: BLE001 — nltk 데이터가 없으면 단어장만 사용
-        pass
+        return set(stopwords.words("english"))
+    except Exception:  # noqa: BLE001 — nltk 데이터가 없으면 최소 목록
+        return {"the", "a", "an", "of", "in", "on", "for", "to", "and", "or", "that", "this", "with", "by"}
+
+
+def _common_words():
+    """문장 중간에 대문자로 나오면 안 되는 일반어 (불용어 + 단어장 표제어)."""
+    words = set(STOP)
     if VOCAB_FILE.exists():
         words |= {w["word"] for w in json.loads(VOCAB_FILE.read_text(encoding="utf-8"))["words"]}
     return words - PROPER_OK - {"english"}
 
 
+STOP = _stopwords()
 COMMON = _common_words()
 MIDCAP_RE = re.compile(r"(?<=[a-z,] )([A-Z][a-z]+) (?=[a-z])")   # '… education Recent developments'
 ACRO_HEAD_RE = re.compile(r"\b[A-Z]{2,} (The|This|These|In|We|Our|It) ")  # '… in VR The VRSCT …'
+SECTION_CAP_RE = re.compile(r"\b(Literature review|Introduction|Method|Methods|Participants|Measures|"
+                            r"Procedure|Instruments?)\s+[A-Z][a-z]")   # 'Literature review Strategies …'
+# 병합어 판정에서 제외할 접두 (interlanguage, metastrategic, nonspeech … 는 정상 단어)
+PREFIXES = {"inter", "intra", "meta", "non", "sub", "post", "pre", "multi", "over", "under", "out",
+            "there", "here", "where", "self", "co", "re", "un", "anti", "cross", "super", "hyper",
+            "micro", "macro", "mis", "semi", "data", "socio", "cyber", "with", "any", "every", "some"}
+SUFFIX_PARTS = {"ability", "ness", "ment", "able", "book"}       # discoverability, guidebook …
+ABBREV = {"al", "vs", "etc", "e.g", "i.e", "Fig", "Figs", "Eq", "Dr", "Mr", "Ms", "Mrs", "No", "St",
+          "approx", "cf", "Ph.D", "U.S", "U.K"}
+
+
+def _load_bad_prefixes():
+    """data/bad_examples.tsv: 'word⇥문장 앞부분' — 수작업으로 불합격 처리한 문장."""
+    if not BAD_FILE.exists():
+        return ()
+    rows = [l.split("\t") for l in BAD_FILE.read_text(encoding="utf-8").splitlines()]
+    return tuple(r[1].strip() for r in rows if len(r) > 1 and r[0] and not r[0].startswith("#"))
+
+
+BAD_PREFIXES = _load_bad_prefixes()
+_counts = None
+
+
+def corpus_counts():
+    """원문 코퍼스의 (소문자 출현, 대문자 시작 출현) 빈도. 원문이 없으면 빈 사전."""
+    global _counts
+    if _counts is not None:
+        return _counts
+    txts = [p for p in RAW_DIR.glob("*.txt") if not p.name.startswith("0_")]
+    if COUNTS.exists() and all(p.stat().st_mtime <= COUNTS.stat().st_mtime for p in txts):
+        cnt = json.loads(COUNTS.read_text(encoding="utf-8"))
+    else:
+        cnt = defaultdict(int)
+        for tp in txts:
+            text = tp.read_text(encoding="utf-8", errors="ignore")
+            text = re.sub(r"(\w)-\s*\n\s*([a-z])", r"\1\2", text)
+            for t in WORD_RE.findall(clean(text.replace("\n", " "))):
+                cnt[t] += 1
+        if txts:
+            COUNTS.write_text(json.dumps(cnt, ensure_ascii=False), encoding="utf-8")
+    low, cap = defaultdict(int), defaultdict(int)
+    for t, c in cnt.items():
+        (low if t[0].islower() else cap)[t.lower()] += c
+    _counts = (low, cap)
+    return _counts
+
+
+def has_merged_token(s):
+    """띄어쓰기 누락 병합어 ('documentsa', 'theresearch', 'Expandingthe')."""
+    low, cap = corpus_counts()
+    for i, m in enumerate(re.finditer(r"[A-Za-z]+", s)):
+        t = m.group(0)
+        tl = t.lower()
+        if len(tl) < 6 or low[tl] + cap[tl] > 2:
+            continue
+        if any(c.isupper() for c in t[1:]) or (t[0].isupper() and i > 0):  # 고유명사·약어
+            continue
+        for k in range(3, len(tl)):
+            a, b = tl[:k], tl[k:]
+            if a in PREFIXES or b in SUFFIX_PARTS:
+                continue
+            if low[a] >= 100 and (b in ("a", "an") or (len(b) >= 2 and low[b] >= 300)):
+                return True
+    return False
+
+
+def has_midcap_common(s):
+    """문장 중간에 대문자로 시작한 일반어 — 절 제목 + 본문 병합 ('… education Understanding how …')."""
+    low, cap = corpus_counts()
+    toks = s.split()
+    for j in range(1, len(toks) - 1):
+        t, p, n = toks[j], toks[j - 1], toks[j + 1]
+        if not re.fullmatch(r"[A-Z][a-z]{2,}", t) or not p[:1].islower() or p[-1] in ",:;(":
+            continue
+        if p.lower() in STOP or not n[:1].islower():    # 'the Rules section', 'that Values and …' 등 명칭
+            continue
+        lo, ca = low[t.lower()], cap[t.lower()]
+        if lo >= 50 and lo / (lo + ca) >= 0.9:
+            return True
+    return False
+
+
+def _norm_tok(t):
+    t = t.replace("‑", "-").replace("–", "-")
+    return re.sub(r"[’']s?$", "", t).strip(",.;:()“”\"‘’").lower()
+
+
+def has_heading_repeat(s):
+    """제목 반복 ('Feature selection Feature selection leads …', 'Prompts for … Prompts in …')."""
+    toks = s.split()[:18]
+    nt = [_norm_tok(t) for t in toks]
+    for j in range(1, len(toks)):
+        t = toks[j]
+        if not t[:1].isupper() or len(nt[j]) < 4 or sum(c.isupper() for c in t) > 1 and "-" not in t:
+            continue
+        if re.fullmatch(r"[A-Z0-9-]+", t.strip(",.;:()")):              # 약어 (LASSO-DNN, STREAM)
+            continue
+        prev_low = toks[j - 1][:1].islower() and toks[j - 1][-1] not in ",:;"
+        nxt = toks[j + 1] if j + 1 < len(toks) else ""
+        for i in range(j):
+            if nt[i] != nt[j] or re.search(r"[,;:()]", " ".join(toks[i:j])):
+                continue
+            two = j + 1 < len(toks) and i + 1 < j and nt[i + 1] == nt[j + 1] and len(nt[j + 1]) >= 3
+            if (two and (prev_low or (i == 0 and j <= 6))) or ("-" in nt[j] and prev_low) \
+                    or (i == 0 and prev_low and not re.match(r"[\dA-Z(]", nxt)):
+                return True
+    return False
 
 
 def forms(w):
@@ -76,7 +193,8 @@ def forms(w):
 
 def clean(s):
     s = re.sub(r"­\s*", "", s)                                   # 소프트 하이픈
-    s = re.sub(r"([a-z])- (?!(?:and|or|to|and/or)\b)([a-z])", r"\1\2", s)  # in- stance → instance
+    s = re.sub("[\N{ZERO WIDTH SPACE}\N{ZERO WIDTH NON-JOINER}\N{ZERO WIDTH JOINER}\N{ZERO WIDTH NO-BREAK SPACE}]", "", s)  # 폭 없는 문자
+    s = re.sub(r"([a-z])[-‐‑] (?!(?:and|or|to|and/or)\b)([a-z])", r"\1\2", s)  # in- stance → instance
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -104,12 +222,15 @@ def is_broken(s):
     if not re.search(r"[.!?][”\"’')]?$", s): return True
     if re.search(r"[.!?]\s+[a-z]", s): return True             # 문장 병합 흔적
     if re.search(r"[.!?][”\"’]\s+[A-Z]", s): return True       # 인용 뒤 다음 문장 병합
+    if any(m.group(1) not in ABBREV for m in re.finditer(r"([A-Za-z.]+|\))[.!?] [A-Z][a-z]", s[:-1])):
+        return True                                              # 폭 없는 공백 등으로 못 나눈 두 문장
     if re.search(r"[a-z]{3,}[.!?]\s+\d", s): return True        # '… progress. 3.5.' 절 번호 꼬리
     if re.search(r"\b[A-Z]\.$", s): return True                  # 'J.' 등 머리말 꼬리
+    if re.search(r"\b(?:e\.g|i\.e|et al|cf|vs)\.$", s): return True   # '(e.g.' 약어에서 잘린 문장
     if re.search(r"[a-z]{2,}\d", s): return True                # 'Fryer1,4' 저자 각주 번호
     if re.search(r"\d+ / \d+", s): return True                  # '14 / 18' 쪽 번호 머리말
     if re.search(r"[-]", s): return True            # 설문 체크박스 등 사설 영역 글리프
-    if re.search(r"\b[A-Z] [A-Z] [A-Z] [A-Z]\b", s): return True  # 'K E Y W O R D S' 자간 분리 제목
+    if re.search(r"\b[A-Z]{1,2}(?: [A-Z]\b){3,}", s): return True  # 'K E Y W O R D S', 'TA B L E' 자간 분리
     if re.match(r"(Introduction|Conclusions?|Discussion|Results?|Methods?|Background|Abstract|"
                 r"Summary)\s+[A-Z]", s): return True              # 절 제목 + 본문 병합
     if re.search(r"[A-Za-z,] (The|A|An|This|These|Those|Our|We|It|In|To|For) [a-z]", s):
@@ -132,7 +253,19 @@ def is_broken(s):
     if re.search(r"\b([A-Z][a-z]+) \1\b", s): return True             # 'Hallucination Hallucination' 제목 반복
     if HEADING.search(s): return True
     if any(t.lower() in FRAG for t in WORD_RE.findall(s)): return True
+    if re.search(r"[•▪●]| · ", s): return True                  # 글머리표 목록 병합
+    if re.match(r"Keywords?\b", s): return True                  # 키워드 줄 (콜론 없는 형태)
+    if SECTION_CAP_RE.search(s): return True                     # 'Method Participants Data were …'
+    if any(_is_common(a) and _is_common(b)
+           for a, b in re.findall(r"\b([A-Z]{3,}) ([A-Z]{2,})\b", s)): return True  # 'PRACTICAL LESSONS ON …'
+    if has_heading_repeat(s) or has_midcap_common(s) or has_merged_token(s): return True
+    if BAD_PREFIXES and s.startswith(BAD_PREFIXES): return True  # 수작업 불합격 목록
     return False
+
+
+def _is_common(t):
+    t = t.lower()
+    return t in COMMON or any(t.endswith(x) and t[:-len(x)] in COMMON for x in ("s", "es", "ing", "ed"))
 
 
 def load_sentences(needed_forms):
@@ -211,10 +344,12 @@ def pick(word, sents, index, exclude_sents, exclude_srcs, n, must=None):
 
 
 def load_musts():
-    """data/review3_fixes.tsv 의 '#REEX⇥word⇥정규식' — 단어별로 지정된 의미·품사 용례."""
-    path = Path("data/review3_fixes.tsv")
+    """'#REEX⇥word⇥정규식' — 단어별로 지정된 의미·품사 용례.
+    data/review3_fixes.tsv(3차 검토) 다음 data/bad_examples.tsv 순으로 읽어 뒤의 지정이 우선한다."""
     musts = {}
-    if path.exists():
+    for path in (Path("data/review3_fixes.tsv"), BAD_FILE):
+        if not path.exists():
+            continue
         for line in path.read_text(encoding="utf-8").splitlines():
             p = line.split("\t")
             if p[0] == "#REEX" and len(p) > 2:

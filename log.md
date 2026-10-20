@@ -1,17 +1,18 @@
 # PaperVoca 프로젝트 작업 로그
 
-> 마지막 업데이트: 2026-10-20
+> 마지막 업데이트: 2026-10-21
 > 작업 디렉토리: `d:\test\논문단어집\`
-> 현재 배포 상태: **2000개 단어, 3차 전수 검토(뜻·정의·품사·예문·IPA) 반영, 소스 백업·보안 정리 완료** (최신 커밋은 `git log -1`)
+> 현재 배포 상태: **2000개 단어, 3차 전수 검토 + 4차 품질 점검(IPA 사전 대조·잔여 깨진 예문) 반영, 소스 백업·보안 정리 완료** (최신 커밋은 `git log -1`)
 > ▶ **새 창·새 세션에서는 바로 아래 "인수인계" 섹션부터 읽을 것.**
 
 ---
 
-## ▶ 새 세션 인수인계 (2026-10-20 기준)
+## ▶ 새 세션 인수인계 (2026-10-21 기준)
 
 ### 한눈에 보는 현재 상태
-- **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 완료.
-  예문 2개씩 — `is_bad_example()` 불합격 0개, IPA·en_def 2000/2000.
+- **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 + 4차 품질 점검 완료.
+  예문 2개씩 — `is_bad_example()` 불합격 0개(10-21 규칙 강화 후), IPA·en_def 2000/2000.
+  IPA는 영국식(RP) 기준으로 CMU 사전 대조·표기 스캔 통과 (`scripts/check_ipa.py` 표기 문제 0개).
 - **배포**: https://jyson12.github.io/PaperVoca (원격 `origin/main`과 동기화 상태로 마무리).
 - **원본 PDF**: `D:\논리전개연습` — 영문 저널 6종 872편만 대상, 최상위 ★ 폴더(한국 학술지 4종 1,213편)는 제외.
   `raw_text/`에는 기존에 추출한 734편이 그대로 있음 (재추출하지 않음).
@@ -29,10 +30,18 @@
 5. 보안 정리: log.md의 계정 관련 서술 삭제, MCP 버전 고정, 커밋 작성자 noreply 전환.
 6. 이력 재작성(작성자 이메일·옛 log.md 정리) → 저장소 삭제·재생성 → Pages 재설정 → 로컬 옛 객체·백업 정리.
 
+### 2026-10-21에 한 일 (자세한 내용은 아래 "4차 품질 점검")
+1. IPA 사전 대조: CMU 발음사전 + 표기 스캔으로 2000개 전수 점검 → **199개 교정** (오기·품사별 발음·강세·미국식/방언 표기).
+2. 잔여 깨진 예문: 규칙 보강(절 제목 병합·병합어·글머리표 등) + 수작업 불합격 목록 → **79개 단어 예문 교체**.
+
 ### 작업 규칙 (사용자 선호 포함)
 - **진행 메모·보고는 모두 한국어로** 쓴다 (사용자 요청).
 - 단어를 추가·수정할 때는 **CLAUDE.md의 QA 3단계**를 따르고, 끝나면 예문을 검증한다:
   `python scripts/reextract_examples.py --dry-run` → 대상 0개여야 정상 (불합격 예문만 교체하는 스크립트라 재실행해도 안전).
+  교체된 예문은 `data/reextract_report.json`에서 **뜻·품사에 맞는 용례인지 직접 읽고** 확인한다.
+  깨졌거나 뜻이 다른 문장은 `data/bad_examples.tsv`에 등록(또는 `#REEX` 용례 정규식 지정) 후 다시 실행.
+- IPA를 고칠 때: `python scripts/check_ipa.py`로 점검 → 고칠 값은 `data/ipa_fixes.json`에 넣고
+  `python scripts/apply_ipa_fixes.py`로 적용 (재실행 안전). 품사별 발음(lead·live·close, -ate 동사/형용사 등) 주의.
 - 빌드·배포: `python scripts/build_dashboard.py` → `cp web/index.html index.html` → 변경 파일 add → commit → `git push origin main`.
 - ⛔ 재실행 금지: `full_review_fix3.py`(1회용 — 다시 돌리면 지정 용례 예문이 또 교체됨), `review_vocabulary.py`(접두 오매칭 결함).
 - 공개 저장소이므로 새 파일을 올리기 전에 개인정보·인증 정보(이메일·전화번호·API 키·토큰 등)를 검사한다.
@@ -55,10 +64,39 @@
 
 ### 이어서 할 수 있는 작업 (선택)
 - 음성 파일 사전 생성(edge-tts), 엑셀/CSV 내보내기, 즐겨찾기·학습 완료 체크 기능.
-- 규칙으로 못 잡는 잔여 깨진 예문(예: "…documentsa difference…") 수작업 점검.
-- 수기로 작성한 IPA 약 120개 사전 대조.
+- ~~잔여 깨진 예문 수작업 점검~~, ~~수기 IPA 사전 대조~~ → 10-21 완료 (아래 "4차 품질 점검").
 
 ---
+
+## 2026-10-21 작업 내역 — 4차 품질 점검 (IPA 사전 대조 + 잔여 깨진 예문)
+
+### 1. IPA 사전 대조 → 199개 교정
+- **방법**: NLTK CMU 발음사전(미국식)과 대조. 모음 체계가 달라 **자음 골격 + 1차 강세 위치**만 비교하고,
+  RP 비R음화·요드 차이는 정규화했다. 여기에 미국식·방언·협의 표기 스캔과 음절 수 비교를 더했다.
+  → `scripts/check_ipa.py` (읽기 전용, 결과 `data/ipa_check_report.json`).
+- **수기 IPA(157개)** 중 실제 오류는 소수였고, 오히려 **Wiktionary 자동 채택분**에서 문제가 많이 나왔다:
+  - 오기·음절 누락: `act` /æk/, `translate` /ˈtɹɛnzlæet/, `limit` /ˈlɪmt/, `wide` /wɑed/, `trust` /trʊst/, `pursue` /pəˈʃu/ 등
+  - 품사에 안 맞는 발음: `lead`(동사인데 금속 '납' /lɛd/), `live`(형용사인데 /lɪv/), `close`(형용사인데 /kləʊz/),
+    `conduct`·`convert`(동사인데 명사 강세), `conflict`·`discourse`(명사인데 동사 강세),
+    `document`·`complement`·`supplement`·`associate`·`articulate`(동사인데 명사·형용사 발음), `moderate`(형용사인데 /-eɪt/)
+  - 방언(호주·뉴질랜드·Lindsey식) 표기: `without` /wɪθˈʌʊt/, `old` /ˈɒʊld/, `light` /lʌɪt/, `primary` /ˈpɹɒeməɹi/ 등
+  - 미국식 표기 혼입(ɚ ɝ oʊ, 짧은 ɑ, 모음 뒤 ɹ): `offer`, `world`, `leader`, `exposure` 등 약 90개 → RP로 통일
+  - 강세 오류: `evolution`, `automatically`, `motivational`, `illustrate`, `innovative` 등
+- 교정값은 `data/ipa_fixes.json`(IPA 교정 원장, 373 → 563개)에 병합하고 `scripts/apply_ipa_fixes.py`로 적용.
+- 남은 CMU 불일치 81개는 영·미 차이(RP의 `schedule` /ˈʃɛdjuːl/, `laboratory` /ləˈbɒɹətɹi/ 등)나 CMU 자체 편차로 확인 → 정상.
+
+### 2. 잔여 깨진 예문 → 79개 단어 예문 교체
+- 넓은 감사(코퍼스 빈도 기반)로 4000개 예문을 훑어 실제 불량 약 60개를 확인. 유형:
+  절 제목 병합("Feature selection Feature selection leads…", "Literature review Strategies for…"),
+  띄어쓰기 누락("documentsa", "theresearch", "Expandingthe"), 표 캡션("TA B L E 1"), 글머리표(•) 목록,
+  "(cf." 등 약어에서 잘린 문장, 폭 없는 공백(U+200B)으로 붙은 두 문장, 출판사 안내문("Author Services…").
+- `reextract_examples.py` 규칙 보강: 자간 분리 3글자↑, 글머리표, Keywords 줄, 절 제목+대문자, 대문자 일반어 연속,
+  제목 반복, 띄어쓰기 누락 병합어·문장 중간 일반어 대문자(코퍼스 빈도 — 캐시 `raw_text/token_counts.json`),
+  약어 잘림, 문장 병합, U+2011 하이픈 분절·폭 없는 문자 정리. 각 규칙은 현재 예문에 시험해 오탐을 줄였다.
+- 규칙으로 일반화하기 어려운 문장은 **`data/bad_examples.tsv`**(수작업 불합격 목록, 17건)에 등록.
+  같은 파일의 `#REEX` 줄로 용례를 지정(6건): `divide`(동사), `coordinate`(조율하다 — 좌표 명사 제외),
+  `overall`(형용사 — 문두 부사 제외), `feeling`(명사), `processing`(명사), `adolescent`(명사).
+- 교체된 예문은 모두 직접 읽고 뜻·품사를 확인했다. 최종 `--dry-run` 재추출 대상 0개.
 
 ## 2026-10-20 작업 내역 — 개인정보·보안 점검 (공개 저장소)
 
@@ -376,7 +414,8 @@ D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개
 | 단어 수 2000개 유지 | **완료** — 삭제분만큼 보충, 예문 0개 단어 없음 |
 | QA 프로세스 문서화 (CLAUDE.md) | **완료** — 단어 추가/수정 시 자동 적용 (10-20 강화) |
 | 전체 단어장 3차 검토 (10-20) | **완료** — 뜻·정의·품사 1,393개, 예문 엄격 검증·재추출, IPA 373개, 중복 id 31개 |
-| IPA 발음기호 | **완료** — 2000/2000 (Wiktionary RP 기준) |
+| IPA 발음기호 | **완료** — 2000/2000 (Wiktionary RP 기준, 10-21 CMU 사전 대조로 199개 교정) |
+| 잔여 깨진 예문 점검 (10-21) | **완료** — 규칙 보강 + 수작업 불합격 목록, 79개 단어 예문 교체 |
 | 웹 대시보드 HTML 생성 + 반영 검증 | **완료** (`index.html`, 2112 KB, 2000 카드 확인) |
 | GitHub Pages 배포 | **완료** — https://jyson12.github.io/PaperVoca (3차 검토 반영 `b44bea6` 이후 최신 유지) |
 | 원본 폴더 경로 변경 (10-20) | **완료** — `D:\논문` → `D:\논리전개연습`, 한국 학술지(★) 제외 |
@@ -423,9 +462,12 @@ d:\test\논문단어집\
 │   ├── full_review_fix2.py         ← (06-25) 2차 검토 2탄: 잔여 노이즈·접두오매칭 예문 재추출
 │   ├── reextract_examples.py       ← (10-20) ★ 예문 엄격 검증(굴절형·보일러플레이트·깨진 문장) + 불합격 예문만 재추출
 │   ├── full_review_fix3.py         ← (10-20) 3차 검토 적용: review3_fixes.tsv + ipa_fixes.json (1회만 실행 — 재실행 시 예문이 또 바뀜)
-│   └── fix_duplicate_ids.py        ← (10-20) 중복 id 재배정
+│   ├── fix_duplicate_ids.py        ← (10-20) 중복 id 재배정
+│   ├── check_ipa.py                ← (10-21) IPA 점검: CMU 사전 대조 + 표기 스캔 (읽기 전용)
+│   └── apply_ipa_fixes.py          ← (10-21) data/ipa_fixes.json → vocabulary.json 적용 (재실행 안전)
 ├── raw_text/                       ← 로컬 전용 (.gitignore)
 │   ├── metadata.json               ← 추출된 논문 메타데이터 (original_path는 D:\논리전개연습 기준)
+│   ├── token_counts.json           ← (10-21) reextract_examples.py 코퍼스 빈도 캐시 (원문이 바뀌면 자동 재생성)
 │   └── *.txt                       ← 734개 논문 텍스트
 ├── index.html                     ← ★ git 추적 대상 = 실제 배포 파일 (web/index.html 복사본)
 ├── data/
@@ -435,7 +477,9 @@ d:\test\논문단어집\
 │   ├── review_results/             ← 에이전트 검토 결과 저장
 │   ├── extra_candidates.json       ← find_extra_words.py 결과 (2001위↓ 후보 124개)
 │   ├── review3_fixes.tsv           ← (10-20) 3차 수기 검토표 (뜻·정의·품사 1,393 / #REEX 용례 지정 219 / #RENAME 1)
-│   ├── ipa_fixes.json              ← (10-20) Wiktionary 기반 IPA 373개
+│   ├── ipa_fixes.json              ← IPA 교정 원장 563개 (10-20 Wiktionary 373 + 10-21 사전 대조 교정)
+│   ├── ipa_check_report.json       ← (10-21) check_ipa.py 결과
+│   ├── bad_examples.tsv            ← (10-21) 수작업 불합격 예문 + #REEX 용례 지정
 │   └── reextract_report.json 등    ← 재추출 전후 예문 기록
 └── web/                            ← 로컬 전용 (.gitignore)
     ├── index.html                  ← build_dashboard.py 생성물 (→ root로 복사해 배포)
@@ -452,6 +496,7 @@ d:\test\논문단어집\
 # 단어 검토·수정 후 재빌드 및 배포 (표준 절차)
 cd d:\test\논문단어집
 python scripts/reextract_examples.py --dry-run   # 예문 검증 — "재추출 대상 0개"면 정상 (아니면 --dry-run 빼고 실행)
+python scripts/check_ipa.py           # IPA 점검 (표기 문제 0개 유지) — 교정은 ipa_fixes.json + apply_ipa_fixes.py
 python scripts/build_dashboard.py     # vocabulary.json → web/index.html
 cp web/index.html index.html          # ★ git이 추적하는 root index.html로 복사 (필수)
 git add data/vocabulary.json index.html   # 스크립트·검수표를 고쳤다면 scripts/ data/ 도

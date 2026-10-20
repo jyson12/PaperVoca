@@ -1,0 +1,1520 @@
+{
+ "cmu_mismatch": [
+  {
+   "word": "education",
+   "pos": "noun",
+   "ipa": "/ˌɛdjʊˈkeɪʃn̩/",
+   "issue": "자음",
+   "cmu": [
+    "EH2 JH AH0 K EY1 SH AH0 N",
+    "EH2 JH Y UW0 K EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "individual",
+   "pos": "adjective",
+   "ipa": "/ˌɪndɪˈvɪd͡ʒ(u)əl/",
+   "issue": "자음",
+   "cmu": [
+    "IH2 N D AH0 V IH1 JH AH0 W AH0 L"
+   ]
+  },
+  {
+   "word": "researcher",
+   "pos": "noun",
+   "ipa": "/ɹɪˈsɜː.t͡ʃə/",
+   "issue": "강세",
+   "cmu": [
+    "R IY1 S ER0 CH ER0"
+   ]
+  },
+  {
+   "word": "resource",
+   "pos": "noun",
+   "ipa": "/ɹɪˈzɔːs/",
+   "issue": "자음강세",
+   "cmu": [
+    "R IY1 S AO0 R S"
+   ]
+  },
+  {
+   "word": "intervention",
+   "pos": "noun",
+   "ipa": "/ɪntəˈvɛnʃən/",
+   "issue": "자음",
+   "cmu": [
+    "IH2 N T ER0 V EH1 N CH AH0 N",
+    "IH2 N ER0 V EH1 N CH AH0 N"
+   ]
+  },
+  {
+   "word": "educator",
+   "pos": "noun",
+   "ipa": "/ˈɛdjʊkeɪtə/",
+   "issue": "자음",
+   "cmu": [
+    "EH1 JH AH0 K EY2 T ER0",
+    "EH1 JH Y UW0 K EY2 T ER0"
+   ]
+  },
+  {
+   "word": "overall",
+   "pos": "adjective",
+   "ipa": "/ˌəʊ.vəˈɹɔːl/",
+   "issue": "강세",
+   "cmu": [
+    "OW1 V ER0 AO2 L"
+   ]
+  },
+  {
+   "word": "theoretical",
+   "pos": "adjective",
+   "ipa": "/ˌθi.əˈɹɛtɪkəl/",
+   "issue": "강세",
+   "cmu": [
+    "TH IY2 ER0 EH1 T IH0 K AH0 L"
+   ]
+  },
+  {
+   "word": "reliability",
+   "pos": "noun",
+   "ipa": "/ɹɪˌlaɪəˈbɪlɪti/",
+   "issue": "강세",
+   "cmu": [
+    "R IY0 L AY2 AH0 B IH1 L AH0 T IY0"
+   ]
+  },
+  {
+   "word": "intention",
+   "pos": "noun",
+   "ipa": "/ɪnˈtɛnʃən/",
+   "issue": "자음",
+   "cmu": [
+    "IH0 N T EH1 N CH AH0 N"
+   ]
+  },
+  {
+   "word": "conceptual",
+   "pos": "adjective",
+   "ipa": "/kənˈsɛptjʊəl/",
+   "issue": "자음",
+   "cmu": [
+    "K AH0 N S EH1 P CH UW0 AH0 L"
+   ]
+  },
+  {
+   "word": "creativity",
+   "pos": "noun",
+   "ipa": "/ˌkɹiːeɪˈtɪvɪti/",
+   "issue": "강세",
+   "cmu": [
+    "K R IY2 EY0 T IH1 V AH0 T IY0"
+   ]
+  },
+  {
+   "word": "beyond",
+   "pos": "preposition",
+   "ipa": "/biˈjɒnd/",
+   "issue": "자음",
+   "cmu": [
+    "B IH0 AA1 N D",
+    "B IY2 AO1 N D",
+    "B IH0 AO1 N D"
+   ]
+  },
+  {
+   "word": "visual",
+   "pos": "adjective",
+   "ipa": "/ˈvɪʒuəl/",
+   "issue": "자음",
+   "cmu": [
+    "V IH1 ZH AH0 W AH0 L"
+   ]
+  },
+  {
+   "word": "thereby",
+   "pos": "adverb",
+   "ipa": "/ðɛəˈbaɪ/",
+   "issue": "강세",
+   "cmu": [
+    "DH EH1 R B AY1"
+   ]
+  },
+  {
+   "word": "scientific",
+   "pos": "adjective",
+   "ipa": "/ˌsaɪənˈtɪfɪk/",
+   "issue": "강세",
+   "cmu": [
+    "S AY2 AH0 N T IH1 F IH0 K"
+   ]
+  },
+  {
+   "word": "suggestion",
+   "pos": "noun",
+   "ipa": "/səˈdʒɛstʃən/",
+   "issue": "자음",
+   "cmu": [
+    "S AH0 G JH EH1 S CH AH0 N"
+   ]
+  },
+  {
+   "word": "version",
+   "pos": "noun",
+   "ipa": "/ˈvɜːʃən/",
+   "issue": "자음",
+   "cmu": [
+    "V ER1 ZH AH0 N"
+   ]
+  },
+  {
+   "word": "coefficient",
+   "pos": "noun",
+   "ipa": "/ˌkəʊ.iˈfɪʃn̩t/",
+   "issue": "강세",
+   "cmu": [
+    "K OW2 AH0 F IH1 SH AH0 N T"
+   ]
+  },
+  {
+   "word": "transfer",
+   "pos": "noun",
+   "ipa": "/ˈtɹænzfɜː/",
+   "issue": "자음",
+   "cmu": [
+    "T R AE0 N S F ER1",
+    "T R AE1 N S F ER0"
+   ]
+  },
+  {
+   "word": "engineering",
+   "pos": "noun",
+   "ipa": "/ˌen.dʒɪˈnɪə.ɹɪŋ/",
+   "issue": "강세",
+   "cmu": [
+    "EH1 N JH AH0 N IH1 R IH0 NG"
+   ]
+  },
+  {
+   "word": "intrinsic",
+   "pos": "adjective",
+   "ipa": "/ɪn.ˈtɹɪn.zɪk/",
+   "issue": "자음",
+   "cmu": [
+    "IH0 N T R IH1 N S IH0 K"
+   ]
+  },
+  {
+   "word": "preference",
+   "pos": "noun",
+   "ipa": "/ˈpɹɛf(ə)ɹ(ə)ns/",
+   "issue": "자음",
+   "cmu": [
+    "P R EH1 F ER0 AH0 N S",
+    "P R EH1 F R AH0 N S"
+   ]
+  },
+  {
+   "word": "duration",
+   "pos": "noun",
+   "ipa": "/djʊˈɹeɪʃn̩/",
+   "issue": "강세",
+   "cmu": [
+    "D UH1 R EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "module",
+   "pos": "noun",
+   "ipa": "/ˈmɒdjuːl/",
+   "issue": "자음",
+   "cmu": [
+    "M AA1 JH UW0 L"
+   ]
+  },
+  {
+   "word": "undergraduate",
+   "pos": "adjective",
+   "ipa": "/ˌʌndəˈɡɹædʒuət/",
+   "issue": "자음",
+   "cmu": [
+    "AH2 N D ER0 G R AE1 JH AH0 W AH0 T"
+   ]
+  },
+  {
+   "word": "reinforce",
+   "pos": "verb",
+   "ipa": "/ˌɹiːɪnˈfɔːs/",
+   "issue": "강세",
+   "cmu": [
+    "R IY2 IH0 N F AO1 R S"
+   ]
+  },
+  {
+   "word": "actual",
+   "pos": "adjective",
+   "ipa": "/ˈæktʃuəl/",
+   "issue": "자음",
+   "cmu": [
+    "AE1 K CH AH0 W AH0 L",
+    "AE1 K SH AH0 L"
+   ]
+  },
+  {
+   "word": "infrastructure",
+   "pos": "noun",
+   "ipa": "/ˈɪnfɹəstɹʌktʃə/",
+   "issue": "강세",
+   "cmu": [
+    "IH2 N F R AH0 S T R AH1 K CH ER0"
+   ]
+  },
+  {
+   "word": "transform",
+   "pos": "verb",
+   "ipa": "/tɹænzˈfɔːm/",
+   "issue": "자음",
+   "cmu": [
+    "T R AE0 N S F AO1 R M",
+    "T R AE1 N S F AO0 R M"
+   ]
+  },
+  {
+   "word": "email",
+   "pos": "noun",
+   "ipa": "/ˈiːmeɪl/",
+   "issue": "강세",
+   "cmu": [
+    "IY0 M EY1 L"
+   ]
+  },
+  {
+   "word": "visualization",
+   "pos": "noun",
+   "ipa": "/ˌvɪʒ.ʊ.ə.laɪˈzeɪ.ʃən/",
+   "issue": "자음",
+   "cmu": [
+    "V IH2 ZH W AH0 L AH0 Z EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "orientation",
+   "pos": "noun",
+   "ipa": "/ˌɔːɹiənˈteɪʃən/",
+   "issue": "강세",
+   "cmu": [
+    "AO2 R IY0 EH0 N T EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "interdisciplinary",
+   "pos": "adjective",
+   "ipa": "/ˌɪntədɪsɪˈplɪnəɹi/",
+   "issue": "강세",
+   "cmu": [
+    "IH2 N T ER0 D IH1 S AH0 P L AH0 N EH2 R IY0"
+   ]
+  },
+  {
+   "word": "threshold",
+   "pos": "noun",
+   "ipa": "/ˈθɹɛʃhəʊld/",
+   "issue": "자음",
+   "cmu": [
+    "TH R EH1 SH OW2 L D"
+   ]
+  },
+  {
+   "word": "asynchronous",
+   "pos": "adjective",
+   "ipa": "/eɪˈsɪŋkɹənəs/",
+   "issue": "강세",
+   "cmu": [
+    "EY1 S IH1 NG K R AH0 N AH0 S"
+   ]
+  },
+  {
+   "word": "outside",
+   "pos": "preposition",
+   "ipa": "/ˌaʊtˈsaɪd/",
+   "issue": "강세",
+   "cmu": [
+    "AW1 T S AY1 D"
+   ]
+  },
+  {
+   "word": "overcome",
+   "pos": "verb",
+   "ipa": "/ˌəʊvəˈkʌm/",
+   "issue": "강세",
+   "cmu": [
+    "OW1 V ER0 K AH2 M"
+   ]
+  },
+  {
+   "word": "longitudinal",
+   "pos": "adjective",
+   "ipa": "/ˌlɒŋ.ɡɪˈtjuː.dɪ.nəl/",
+   "issue": "자음",
+   "cmu": [
+    "L AA2 N JH AH0 T UW1 D AH0 N AH0 L"
+   ]
+  },
+  {
+   "word": "immersion",
+   "pos": "noun",
+   "ipa": "/ɪˈmɜːʃən/",
+   "issue": "자음",
+   "cmu": [
+    "IH0 M ER1 ZH AH0 N"
+   ]
+  },
+  {
+   "word": "alongside",
+   "pos": "preposition",
+   "ipa": "/ə.lɒŋˈsaɪd/",
+   "issue": "강세",
+   "cmu": [
+    "AH0 L AO1 NG S AY1 D"
+   ]
+  },
+  {
+   "word": "conversely",
+   "pos": "adverb",
+   "ipa": "/kənˈvɜːsli/",
+   "issue": "강세",
+   "cmu": [
+    "K AA1 N V ER0 S L IY0"
+   ]
+  },
+  {
+   "word": "conceptualization",
+   "pos": "noun",
+   "ipa": "/kənˌsɛptʃuəlaɪˈzeɪʃən/",
+   "issue": "자음강세",
+   "cmu": [
+    "K AH0 N S EH1 P CH W AH0 L IH0 Z EY2 SH AH0 N"
+   ]
+  },
+  {
+   "word": "outperform",
+   "pos": "verb",
+   "ipa": "/ˌaʊtpəˈfɔːm/",
+   "issue": "강세",
+   "cmu": [
+    "AW1 T P ER0 F AO2 R M"
+   ]
+  },
+  {
+   "word": "familiarity",
+   "pos": "noun",
+   "ipa": "/fəˌmɪliˈæɹɪti/",
+   "issue": "강세",
+   "cmu": [
+    "F AH0 M IH2 L Y EH1 R AH0 T IY0"
+   ]
+  },
+  {
+   "word": "widespread",
+   "pos": "adjective",
+   "ipa": "/ˌwaɪdˈspɹɛd/",
+   "issue": "강세",
+   "cmu": [
+    "W AY1 D S P R EH1 D"
+   ]
+  },
+  {
+   "word": "applicable",
+   "pos": "adjective",
+   "ipa": "/əˈplɪkəbəl/",
+   "issue": "강세",
+   "cmu": [
+    "AE1 P L AH0 K AH0 B AH0 L"
+   ]
+  },
+  {
+   "word": "visualize",
+   "pos": "verb",
+   "ipa": "/ˈvɪʒʊəlaɪz/",
+   "issue": "자음",
+   "cmu": [
+    "V IH1 ZH W AH0 L AY2 Z"
+   ]
+  },
+  {
+   "word": "variability",
+   "pos": "noun",
+   "ipa": "/ˌveəɹiəˈbɪlɪti/",
+   "issue": "강세",
+   "cmu": [
+    "V EH0 R IY0 AH0 B IH1 L IH0 T IY0"
+   ]
+  },
+  {
+   "word": "intellectual",
+   "pos": "adjective",
+   "ipa": "/ˌɪntəˈlɛk(t)ʃʊəl/",
+   "issue": "자음",
+   "cmu": [
+    "IH2 N T AH0 L EH1 K CH UW0 AH0 L",
+    "IH2 N AH0 L EH1 K CH UW0 AH0 L"
+   ]
+  },
+  {
+   "word": "reinforcement",
+   "pos": "noun",
+   "ipa": "/ˌɹiːɪnˈfɔːsmənt/",
+   "issue": "강세",
+   "cmu": [
+    "R IY2 IH0 N F AO1 R S M AH0 N T"
+   ]
+  },
+  {
+   "word": "disciplinary",
+   "pos": "adjective",
+   "ipa": "/ˌdɪsəˈplɪnəɹi/",
+   "issue": "강세",
+   "cmu": [
+    "D IH1 S AH0 P L AH0 N EH2 R IY0"
+   ]
+  },
+  {
+   "word": "laboratory",
+   "pos": "noun",
+   "ipa": "/ləˈbɒɹətɹi/",
+   "issue": "강세",
+   "cmu": [
+    "L AE1 B R AH0 T AO2 R IY0"
+   ]
+  },
+  {
+   "word": "realistic",
+   "pos": "adjective",
+   "ipa": "/ˌɹɪəˈlɪstɪk/",
+   "issue": "강세",
+   "cmu": [
+    "R IY2 AH0 L IH1 S T IH0 K"
+   ]
+  },
+  {
+   "word": "overlook",
+   "pos": "verb",
+   "ipa": "/ˌəʊvəˈlʊk/",
+   "issue": "강세",
+   "cmu": [
+    "OW1 V ER0 L UH2 K"
+   ]
+  },
+  {
+   "word": "textual",
+   "pos": "adjective",
+   "ipa": "/ˈtɛk.stju.əl/",
+   "issue": "자음",
+   "cmu": [
+    "T EH1 K S CH AH0 W AH0 L"
+   ]
+  },
+  {
+   "word": "locate",
+   "pos": "verb",
+   "ipa": "/ləʊˈkeɪt/",
+   "issue": "강세",
+   "cmu": [
+    "L OW1 K EY2 T"
+   ]
+  },
+  {
+   "word": "influential",
+   "pos": "adjective",
+   "ipa": "/ɪnfluˈɛnʃəl/",
+   "issue": "자음",
+   "cmu": [
+    "IH2 N F L UW0 EH1 N CH AH0 L"
+   ]
+  },
+  {
+   "word": "tangible",
+   "pos": "adjective",
+   "ipa": "/ˈtæn(d)ʒɪb(ə)l/",
+   "issue": "자음",
+   "cmu": [
+    "T AE1 N JH AH0 B AH0 L"
+   ]
+  },
+  {
+   "word": "personalization",
+   "pos": "noun",
+   "ipa": "/ˌpɜːs(ə)nəlaɪˈzeɪʃən/",
+   "issue": "강세",
+   "cmu": [
+    "P ER2 S AH0 N AH0 L AH0 Z EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "diagnostic",
+   "pos": "adjective",
+   "ipa": "/ˌdaɪəɡˈnɒstɪk/",
+   "issue": "강세",
+   "cmu": [
+    "D AY2 AH0 G N AA1 S T IH0 K"
+   ]
+  },
+  {
+   "word": "accountability",
+   "pos": "noun",
+   "ipa": "/ə.ˌkaʊn.tə.ˈbɪl.ət.i/",
+   "issue": "강세",
+   "cmu": [
+    "AH0 K AW1 N T AH0 B IH0 L IH0 T IY0",
+    "AH0 K AW1 N AH0 B IH0 L IH0 T IY0"
+   ]
+  },
+  {
+   "word": "proactive",
+   "pos": "adjective",
+   "ipa": "/pɹəʊˈæk.tɪv/",
+   "issue": "강세",
+   "cmu": [
+    "P R OW1 AE1 K T IH0 V"
+   ]
+  },
+  {
+   "word": "geographical",
+   "pos": "adjective",
+   "ipa": "/ˌdʒiːəˈɡɹæfɪkəl/",
+   "issue": "강세",
+   "cmu": [
+    "JH IY2 AH0 G R AE1 F IH0 K AH0 L"
+   ]
+  },
+  {
+   "word": "schedule",
+   "pos": "noun",
+   "ipa": "/ˈʃɛdjuːl/",
+   "issue": "자음",
+   "cmu": [
+    "S K EH1 JH UH0 L",
+    "S K EH1 JH UW0 L"
+   ]
+  },
+  {
+   "word": "residual",
+   "pos": "noun",
+   "ipa": "/ɹɪˈzɪdjuəl/",
+   "issue": "자음",
+   "cmu": [
+    "R IH0 Z IH1 JH UW0 AH0 L"
+   ]
+  },
+  {
+   "word": "composite",
+   "pos": "adjective",
+   "ipa": "/ˈkɒmpəzɪt/",
+   "issue": "강세",
+   "cmu": [
+    "K AH0 M P AA1 Z AH0 T",
+    "K AA0 M P AA1 Z AH0 T"
+   ]
+  },
+  {
+   "word": "extrinsic",
+   "pos": "adjective",
+   "ipa": "/ɛks.ˈtɹɪn.zɪk/",
+   "issue": "자음",
+   "cmu": [
+    "EH0 K S T R IH1 N S IH0 K"
+   ]
+  },
+  {
+   "word": "undertake",
+   "pos": "verb",
+   "ipa": "/ˌʌndəˈteɪk/",
+   "issue": "강세",
+   "cmu": [
+    "AH1 N D ER0 T EY2 K"
+   ]
+  },
+  {
+   "word": "trainee",
+   "pos": "noun",
+   "ipa": "/tɹeɪˈniː/",
+   "issue": "강세",
+   "cmu": [
+    "T R EY1 N IY1"
+   ]
+  },
+  {
+   "word": "configuration",
+   "pos": "noun",
+   "ipa": "/kənˌfɪɡ.əˈɹeɪ.ʃən/",
+   "issue": "자음",
+   "cmu": [
+    "K AH0 N F IH2 G Y ER0 EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "mutual",
+   "pos": "adjective",
+   "ipa": "/ˈmjuːt͡ʃuəl/",
+   "issue": "자음",
+   "cmu": [
+    "M Y UW1 CH AH0 W AH0 L"
+   ]
+  },
+  {
+   "word": "theoretically",
+   "pos": "adverb",
+   "ipa": "/ˌθɪəˈɹɛtɪkli/",
+   "issue": "강세",
+   "cmu": [
+    "TH IY2 ER0 EH1 T IH0 K AH0 L IY0",
+    "TH IY2 ER0 EH1 T IH0 K L IY0"
+   ]
+  },
+  {
+   "word": "visuals",
+   "pos": "noun",
+   "ipa": "/ˈvɪʒuəlz/",
+   "issue": "자음",
+   "cmu": [
+    "V IH1 ZH W AH0 L Z"
+   ]
+  },
+  {
+   "word": "geographic",
+   "pos": "adjective",
+   "ipa": "/ˌdʒiːəˈɡɹæfɪk/",
+   "issue": "강세",
+   "cmu": [
+    "JH IY2 AH0 G R AE1 F IH0 K"
+   ]
+  },
+  {
+   "word": "factual",
+   "pos": "adjective",
+   "ipa": "/ˈfæk.(t)ʃ(ʊ)əl/",
+   "issue": "자음",
+   "cmu": [
+    "F AE1 K CH UW0 AH0 L"
+   ]
+  },
+  {
+   "word": "undermine",
+   "pos": "verb",
+   "ipa": "/ˌʌndəˈmaɪn/",
+   "issue": "강세",
+   "cmu": [
+    "AH1 N D ER0 M AY2 N"
+   ]
+  },
+  {
+   "word": "intersection",
+   "pos": "noun",
+   "ipa": "/ˈɪntəsɛkʃən/",
+   "issue": "강세",
+   "cmu": [
+    "IH2 N T ER0 S EH1 K SH AH0 N",
+    "IH2 N ER0 S EH1 K SH AH0 N"
+   ]
+  },
+  {
+   "word": "centrality",
+   "pos": "noun",
+   "ipa": "/sɛnˈtɹæl.ɪ.ti/",
+   "issue": "자음",
+   "cmu": [
+    "S EH0 N T AE1 L IH0 T IY0"
+   ]
+  },
+  {
+   "word": "visually",
+   "pos": "adverb",
+   "ipa": "/ˈvɪzju.əli/",
+   "issue": "자음",
+   "cmu": [
+    "V IH1 ZH W AH0 L IY0"
+   ]
+  },
+  {
+   "word": "underpin",
+   "pos": "verb",
+   "ipa": "/ˌʌn.dəˈpɪn/",
+   "issue": "강세",
+   "cmu": [
+    "AH1 N D ER0 P IH2 N"
+   ]
+  }
+ ],
+ "style": [],
+ "pos_dependent": [
+  {
+   "word": "conduct",
+   "pos": "verb",
+   "ipa": "/kənˈdʌkt/",
+   "cmu": [
+    "K AH0 N D AH1 K T",
+    "K AA1 N D AH0 K T"
+   ]
+  },
+  {
+   "word": "effective",
+   "pos": "adjective",
+   "ipa": "/ɪˈfɛktɪv/",
+   "cmu": [
+    "IH0 F EH1 K T IH0 V",
+    "IY1 F EH0 K T IH0 V"
+   ]
+  },
+  {
+   "word": "experimental",
+   "pos": "adjective",
+   "ipa": "/ɪkˌspɛɹɪˈmɛntəl/",
+   "cmu": [
+    "IH0 K S P EH2 R IH0 M EH1 N T AH0 L",
+    "IH0 K S P ER0 M EH1 N T AH0 L",
+    "IH0 K S P EH2 R IH0 M EH1 N AH0 L",
+    "IH0 K S P ER0 M EH1 N AH0 L"
+   ]
+  },
+  {
+   "word": "effectiveness",
+   "pos": "noun",
+   "ipa": "/ɪˈfɛktɪvnəs/",
+   "cmu": [
+    "IH0 F EH1 K T IH0 V N AH0 S",
+    "IY1 F EH0 K T IH0 V N AH0 S"
+   ]
+  },
+  {
+   "word": "complex",
+   "pos": "adjective",
+   "ipa": "/ˈkɒmplɛks/",
+   "cmu": [
+    "K AA1 M P L EH0 K S",
+    "K AH0 M P L EH1 K S"
+   ]
+  },
+  {
+   "word": "effectively",
+   "pos": "adverb",
+   "ipa": "/ɪˈfɛktɪvli/",
+   "cmu": [
+    "IH0 F EH1 K T IH0 V L IY0",
+    "IY1 F EH0 K T IH0 V L IY0"
+   ]
+  },
+  {
+   "word": "project",
+   "pos": "noun",
+   "ipa": "/ˈpɹɒd͡ʒ.ɛkt/",
+   "cmu": [
+    "P R AA1 JH EH0 K T",
+    "P R AH0 JH EH1 K T"
+   ]
+  },
+  {
+   "word": "subject",
+   "pos": "noun",
+   "ipa": "/ˈsʌb.dʒɪkt/",
+   "cmu": [
+    "S AH0 B JH EH1 K T",
+    "S AH1 B JH IH0 K T"
+   ]
+  },
+  {
+   "word": "emerge",
+   "pos": "verb",
+   "ipa": "/ɪˈmɜːdʒ/",
+   "cmu": [
+    "IH0 M ER1 JH",
+    "IY1 M ER0 JH"
+   ]
+  },
+  {
+   "word": "towards",
+   "pos": "preposition",
+   "ipa": "/təˈwɔːdz/",
+   "cmu": [
+    "T AH0 W AO1 R D Z",
+    "T AO1 R D Z"
+   ]
+  },
+  {
+   "word": "emotional",
+   "pos": "adjective",
+   "ipa": "/ɪˈməʊʃnəl/",
+   "cmu": [
+    "IH0 M OW1 SH AH0 N AH0 L",
+    "IY1 M OW0 SH AH0 N AH0 L"
+   ]
+  },
+  {
+   "word": "contrast",
+   "pos": "noun",
+   "ipa": "/ˈkɒntɹɑːst/",
+   "cmu": [
+    "K AA1 N T R AE0 S T",
+    "K AH0 N T R AE1 S T"
+   ]
+  },
+  {
+   "word": "combine",
+   "pos": "verb",
+   "ipa": "/kəmˈbaɪn/",
+   "cmu": [
+    "K AA1 M B AY0 N",
+    "K AH0 M B AY1 N"
+   ]
+  },
+  {
+   "word": "detail",
+   "pos": "noun",
+   "ipa": "/ˈdiːteɪl/",
+   "cmu": [
+    "D IH0 T EY1 L",
+    "D IY1 T EY0 L"
+   ]
+  },
+  {
+   "word": "emotion",
+   "pos": "noun",
+   "ipa": "/ɪˈməʊʃən/",
+   "cmu": [
+    "IH0 M OW1 SH AH0 N",
+    "IY1 M OW0 SH AH0 N"
+   ]
+  },
+  {
+   "word": "progress",
+   "pos": "noun",
+   "ipa": "/ˈpɹɒɡɹɛs/",
+   "cmu": [
+    "P R AA1 G R EH2 S",
+    "P R AH0 G R EH1 S",
+    "P R OW0 G R EH1 S"
+   ]
+  },
+  {
+   "word": "inquiry",
+   "pos": "noun",
+   "ipa": "/ɪnˈkwaɪəɹi/",
+   "cmu": [
+    "IH0 N K W AY1 R IY0",
+    "IH0 N K W ER0 R IY0"
+   ]
+  },
+  {
+   "word": "produce",
+   "pos": "verb",
+   "ipa": "/pɹəˈdjuːs/",
+   "cmu": [
+    "P R AH0 D UW1 S",
+    "P R OW1 D UW0 S"
+   ]
+  },
+  {
+   "word": "record",
+   "pos": "noun",
+   "ipa": "/ˈɹɛkɔːd/",
+   "cmu": [
+    "R AH0 K AO1 R D",
+    "R EH1 K ER0 D",
+    "R IH0 K AO1 R D"
+   ]
+  },
+  {
+   "word": "essay",
+   "pos": "noun",
+   "ipa": "/ˈɛseɪ/",
+   "cmu": [
+    "EH0 S EY1",
+    "EH1 S EY2"
+   ]
+  },
+  {
+   "word": "toward",
+   "pos": "preposition",
+   "ipa": "/təˈwɔːd/",
+   "cmu": [
+    "T AH0 W AO1 R D",
+    "T AO1 R D"
+   ]
+  },
+  {
+   "word": "transfer",
+   "pos": "noun",
+   "ipa": "/ˈtɹænzfɜː/",
+   "cmu": [
+    "T R AE0 N S F ER1",
+    "T R AE1 N S F ER0"
+   ]
+  },
+  {
+   "word": "object",
+   "pos": "noun",
+   "ipa": "/ˈɒb.d͡ʒɛkt/",
+   "cmu": [
+    "AA1 B JH EH0 K T",
+    "AH0 B JH EH1 K T"
+   ]
+  },
+  {
+   "word": "conflict",
+   "pos": "noun",
+   "ipa": "/ˈkɒnflɪkt/",
+   "cmu": [
+    "K AA1 N F L IH0 K T",
+    "K AH0 N F L IH1 K T"
+   ]
+  },
+  {
+   "word": "abstract",
+   "pos": "adjective",
+   "ipa": "/ˈæbstɹækt/",
+   "cmu": [
+    "AE0 B S T R AE1 K T",
+    "AE1 B S T R AE2 K T"
+   ]
+  },
+  {
+   "word": "transform",
+   "pos": "verb",
+   "ipa": "/tɹænzˈfɔːm/",
+   "cmu": [
+    "T R AE0 N S F AO1 R M",
+    "T R AE1 N S F AO0 R M"
+   ]
+  },
+  {
+   "word": "minute",
+   "pos": "noun",
+   "ipa": "/ˈmɪnɪt/",
+   "cmu": [
+    "M IH1 N AH0 T",
+    "M AY0 N UW1 T",
+    "M AY0 N Y UW1 T"
+   ]
+  },
+  {
+   "word": "adult",
+   "pos": "noun",
+   "ipa": "/ˈædʌlt/",
+   "cmu": [
+    "AH0 D AH1 L T",
+    "AE1 D AH0 L T"
+   ]
+  },
+  {
+   "word": "extract",
+   "pos": "verb",
+   "ipa": "/ɪkˈstɹækt/",
+   "cmu": [
+    "IH0 K S T R AE1 K T",
+    "EH1 K S T R AE2 K T"
+   ]
+  },
+  {
+   "word": "permit",
+   "pos": "verb",
+   "ipa": "/pəˈmɪt/",
+   "cmu": [
+    "P ER0 M IH1 T",
+    "P ER1 M IH2 T"
+   ]
+  },
+  {
+   "word": "sometimes",
+   "pos": "adverb",
+   "ipa": "/ˈsʌmtaɪmz/",
+   "cmu": [
+    "S AH0 M T AY1 M Z",
+    "S AH1 M T AY2 M Z"
+   ]
+  },
+  {
+   "word": "recall",
+   "pos": "verb",
+   "ipa": "/ɹɪˈkɔːl/",
+   "cmu": [
+    "R IY1 K AO2 L",
+    "R IH0 K AO1 L"
+   ]
+  },
+  {
+   "word": "concrete",
+   "pos": "adjective",
+   "ipa": "/ˈkɒnkɹiːt/",
+   "cmu": [
+    "K AH0 N K R IY1 T",
+    "K AA1 N K R IY0 T"
+   ]
+  },
+  {
+   "word": "decade",
+   "pos": "noun",
+   "ipa": "/ˈdɛkeɪd/",
+   "cmu": [
+    "D EH0 K EY1 D",
+    "D EH1 K EY0 D"
+   ]
+  },
+  {
+   "word": "segment",
+   "pos": "noun",
+   "ipa": "/ˈsɛɡ.mənt/",
+   "cmu": [
+    "S EH1 G M AH0 N T",
+    "S EH2 G M EH1 N T"
+   ]
+  },
+  {
+   "word": "update",
+   "pos": "verb",
+   "ipa": "/ʌpˈdeɪt/",
+   "cmu": [
+    "AH0 P D EY1 T",
+    "AH1 P D EY2 T"
+   ]
+  },
+  {
+   "word": "comparable",
+   "pos": "adjective",
+   "ipa": "/ˈkɒmpəɹəbəl/",
+   "cmu": [
+    "K AA1 M P ER0 AH0 B AH0 L",
+    "K AH0 M P EH1 R AH0 B AH0 L",
+    "K AH0 M P R AH0 B AH0 L"
+   ]
+  },
+  {
+   "word": "emergence",
+   "pos": "noun",
+   "ipa": "/ɪˈmɜːdʒ(ə)ns/",
+   "cmu": [
+    "IH0 M ER1 JH AH0 N S",
+    "IY1 M ER0 JH AH0 N S"
+   ]
+  },
+  {
+   "word": "inequality",
+   "pos": "noun",
+   "ipa": "/ˌɪnɪˈkwɒlɪti/",
+   "cmu": [
+    "IH2 N IH0 K W AA1 L AH0 T IY0",
+    "IH2 N AH0 K W AA1 L AH0 T IY0",
+    "IH1 N IY0 K W AA1 L AH0 T IY0"
+   ]
+  },
+  {
+   "word": "preschool",
+   "pos": "adjective",
+   "ipa": "/ˈpɹiːskuːl/",
+   "cmu": [
+    "P R IY0 S K UW1 L",
+    "P R IY1 S K UW2 L"
+   ]
+  },
+  {
+   "word": "navigation",
+   "pos": "noun",
+   "ipa": "/ˌnævɪˈɡeɪʃən/",
+   "cmu": [
+    "N AE1 V AH0 G EY1 SH AH0 N",
+    "N AE2 V AH0 G EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "convert",
+   "pos": "verb",
+   "ipa": "/kənˈvɜːt/",
+   "cmu": [
+    "K AA1 N V ER0 T",
+    "K AH0 N V ER1 T"
+   ]
+  },
+  {
+   "word": "cooperation",
+   "pos": "noun",
+   "ipa": "/kəʊˌɒp.əˈɹeɪ.ʃən/",
+   "cmu": [
+    "K OW0 AA2 P ER0 EY1 SH AH0 N",
+    "K W AA2 P ER0 EY1 SH AH0 N",
+    "K W AO2 P ER0 EY1 SH AH0 N"
+   ]
+  },
+  {
+   "word": "contrary",
+   "pos": "adjective",
+   "ipa": "/ˈkɒntɹəɹi/",
+   "cmu": [
+    "K AA1 N T R EH0 R IY0",
+    "K AH0 N T R EH1 R IY0"
+   ]
+  },
+  {
+   "word": "reject",
+   "pos": "verb",
+   "ipa": "/ɹɪˈd͡ʒɛkt/",
+   "cmu": [
+    "R IH0 JH EH1 K T",
+    "R IY1 JH EH0 K T"
+   ]
+  },
+  {
+   "word": "generalization",
+   "pos": "noun",
+   "ipa": "/ˌdʒɛnəɹəlaɪˈzeɪʃən/",
+   "cmu": [
+    "JH EH2 N ER0 AH0 L IH0 Z EY1 SH AH0 N",
+    "JH EH2 N R AH0 L IH0 Z EY1 SH AH0 N"
+   ]
+  }
+ ],
+ "not_in_cmu": [
+  {
+   "word": "behaviour",
+   "pos": "noun",
+   "ipa": "/bɪˈheɪvjə/"
+  },
+  {
+   "word": "chatbots",
+   "pos": "noun",
+   "ipa": "/ˈtʃætbɒts/"
+  },
+  {
+   "word": "chatbot",
+   "pos": "noun",
+   "ipa": "/ˈtʃætbɒt/"
+  },
+  {
+   "word": "analyse",
+   "pos": "verb",
+   "ipa": "/ˈænəlaɪz/"
+  },
+  {
+   "word": "metacognitive",
+   "pos": "adjective",
+   "ipa": "/ˌmɛtəˈkɒɡnɪtɪv/"
+  },
+  {
+   "word": "immersive",
+   "pos": "adjective",
+   "ipa": "/ɪˈmɜːsɪv/"
+  },
+  {
+   "word": "contextual",
+   "pos": "adjective",
+   "ipa": "/kənˈtɛkstʃuəl/"
+  },
+  {
+   "word": "multimodal",
+   "pos": "adjective",
+   "ipa": "/ˌmʌltiˈməʊdəl/"
+  },
+  {
+   "word": "gamification",
+   "pos": "noun",
+   "ipa": "/ˌɡeɪmɪfɪˈkeɪʃən/"
+  },
+  {
+   "word": "dataset",
+   "pos": "noun",
+   "ipa": "/ˈdeɪtəsɛt/"
+  },
+  {
+   "word": "behavioural",
+   "pos": "adjective",
+   "ipa": "/bɪˈheɪvjəɹəl/"
+  },
+  {
+   "word": "posttest",
+   "pos": "noun",
+   "ipa": "/ˈpəʊsttɛst/"
+  },
+  {
+   "word": "pretest",
+   "pos": "noun",
+   "ipa": "/ˈpɹiːtɛst/"
+  },
+  {
+   "word": "usability",
+   "pos": "noun",
+   "ipa": "/ˌjuːzəˈbɪlɪti/"
+  },
+  {
+   "word": "datasets",
+   "pos": "noun",
+   "ipa": "/ˈdeɪtəsɛts/"
+  },
+  {
+   "word": "epistemic",
+   "pos": "adjective",
+   "ipa": "/ˌɛpɪˈstiːmɪk/"
+  },
+  {
+   "word": "affordances",
+   "pos": "noun",
+   "ipa": "/əˈfɔːdənsɪz/"
+  },
+  {
+   "word": "emphasise",
+   "pos": "verb",
+   "ipa": "/ˈɛmfəsaɪz/"
+  },
+  {
+   "word": "gamified",
+   "pos": "adjective",
+   "ipa": "/ˈɡeɪmɪfaɪd/"
+  },
+  {
+   "word": "metaverse",
+   "pos": "noun",
+   "ipa": "/ˈmɛt.ə.vɜːs/"
+  },
+  {
+   "word": "enrol",
+   "pos": "verb",
+   "ipa": "/ɪnˈɹəʊl/"
+  },
+  {
+   "word": "dialogic",
+   "pos": "adjective",
+   "ipa": "/ˌdaɪ.əˈlɒd͡ʒɪk/"
+  },
+  {
+   "word": "metacognition",
+   "pos": "noun",
+   "ipa": "/ˌmɛtəkɒɡˈnɪʃən/"
+  },
+  {
+   "word": "synchronous",
+   "pos": "adjective",
+   "ipa": "/ˈsɪŋkɹənəs/"
+  },
+  {
+   "word": "iteration",
+   "pos": "noun",
+   "ipa": "/ˌɪtəˈɹeɪʃən/"
+  },
+  {
+   "word": "generalizability",
+   "pos": "noun",
+   "ipa": "/ˌdʒɛnəɹəlaɪzəˈbɪlɪti/"
+  },
+  {
+   "word": "constructivist",
+   "pos": "adjective",
+   "ipa": "/kənˈstɹʌktɪvɪst/"
+  },
+  {
+   "word": "transformative",
+   "pos": "adjective",
+   "ipa": "/tɹænsˈfɔːmətɪv/"
+  },
+  {
+   "word": "recognise",
+   "pos": "verb",
+   "ipa": "/ˈɹɛkəɡnaɪz/"
+  },
+  {
+   "word": "utilise",
+   "pos": "verb",
+   "ipa": "/ˈjuːtɪlaɪz/"
+  },
+  {
+   "word": "algorithmic",
+   "pos": "adjective",
+   "ipa": "/ˌælɡəˈɹɪðmɪk/"
+  },
+  {
+   "word": "gameplay",
+   "pos": "noun",
+   "ipa": "/ˈɡeɪmˌpleɪ/"
+  },
+  {
+   "word": "preservice",
+   "pos": "adjective",
+   "ipa": "/ˌpɹiːˈsɜːvɪs/"
+  },
+  {
+   "word": "conceptualize",
+   "pos": "verb",
+   "ipa": "/kənˈsɛptʃuəlaɪz/"
+  },
+  {
+   "word": "taxonomy",
+   "pos": "noun",
+   "ipa": "/tækˈsɒnəmi/"
+  },
+  {
+   "word": "collaboratively",
+   "pos": "adverb",
+   "ipa": "/kəˈlæbəɹətɪvli/"
+  },
+  {
+   "word": "multidimensional",
+   "pos": "adjective",
+   "ipa": "/ˌmʌltidaɪˈmɛnʃənəl/"
+  },
+  {
+   "word": "ivr",
+   "pos": "noun",
+   "ipa": "/ˌaɪviːˈɑː/"
+  },
+  {
+   "word": "bibliometric",
+   "pos": "adjective",
+   "ipa": "/ˌbɪbliəˈmɛtɹɪk/"
+  },
+  {
+   "word": "personalised",
+   "pos": "adjective",
+   "ipa": "/ˈpɜːsənəlaɪzd/"
+  },
+  {
+   "word": "personalise",
+   "pos": "verb",
+   "ipa": "/ˈpɜːsənəlaɪz/"
+  },
+  {
+   "word": "curation",
+   "pos": "noun",
+   "ipa": "/kjʊəˈɹeɪʃən/"
+  },
+  {
+   "word": "offline",
+   "pos": "adjective",
+   "ipa": "/ɒfˈlaɪn/"
+  },
+  {
+   "word": "scalable",
+   "pos": "adjective",
+   "ipa": "/ˈskeɪ.lə.bl̩/"
+  },
+  {
+   "word": "modelling",
+   "pos": "noun",
+   "ipa": "/ˈmɒdəlɪŋ/"
+  },
+  {
+   "word": "cognitively",
+   "pos": "adverb",
+   "ipa": "/ˈkɒɡ.nə.tɪv.li/"
+  },
+  {
+   "word": "podcasts",
+   "pos": "noun",
+   "ipa": "/ˈpɒdkæsts/"
+  },
+  {
+   "word": "integrative",
+   "pos": "adjective",
+   "ipa": "/ˈɪn.tɪ.ɡɹeɪ.tɪv/"
+  },
+  {
+   "word": "pedagogically",
+   "pos": "adverb",
+   "ipa": "/ˌpɛdəˈɡɒdʒɪkli/"
+  },
+  {
+   "word": "workflow",
+   "pos": "noun",
+   "ipa": "/ˈwɜːkfləʊ/"
+  },
+  {
+   "word": "predefined",
+   "pos": "adjective",
+   "ipa": "/ˌpɹiːdɪˈfaɪnd/"
+  },
+  {
+   "word": "discriminant",
+   "pos": "adjective",
+   "ipa": "/dɪˈskɹɪmɪnənt/"
+  },
+  {
+   "word": "sociocultural",
+   "pos": "adjective",
+   "ipa": "/ˌsəʊsiəʊˈkʌltʃəɹəl/"
+  },
+  {
+   "word": "dynamically",
+   "pos": "adverb",
+   "ipa": "/daɪˈnæmɪkli/"
+  },
+  {
+   "word": "scalability",
+   "pos": "noun",
+   "ipa": "/ˌskeɪ.ləˈbɪl.ɪ.ti/"
+  },
+  {
+   "word": "relatedness",
+   "pos": "noun",
+   "ipa": "/ɹɪˈleɪtɪdnəs/"
+  },
+  {
+   "word": "subscales",
+   "pos": "noun",
+   "ipa": "/ˈsʌbskeɪlz/"
+  },
+  {
+   "word": "covariate",
+   "pos": "noun",
+   "ipa": "/kəʊˈvɛɹ.i.eɪt/"
+  },
+  {
+   "word": "summarization",
+   "pos": "noun",
+   "ipa": "/ˌsʌməɹaɪˈzeɪʃən/"
+  },
+  {
+   "word": "inductive",
+   "pos": "adjective",
+   "ipa": "/ɪnˈdʌktɪv/"
+  },
+  {
+   "word": "organise",
+   "pos": "verb",
+   "ipa": "/ˈɔːɡənaɪz/"
+  },
+  {
+   "word": "internationalisation",
+   "pos": "noun",
+   "ipa": "/ˌɪntənæʃənəlaɪˈzeɪʃən/"
+  },
+  {
+   "word": "summative",
+   "pos": "adjective",
+   "ipa": "/ˈsʌm.ə.tɪv/"
+  },
+  {
+   "word": "bot",
+   "pos": "noun",
+   "ipa": "/bɒt/"
+  },
+  {
+   "word": "contextually",
+   "pos": "adverb",
+   "ipa": "/kənˈtɛkstʃuəli/"
+  },
+  {
+   "word": "postgraduate",
+   "pos": "adjective",
+   "ipa": "/ˌpəʊstˈɡɹædju.ət/"
+  },
+  {
+   "word": "inclusivity",
+   "pos": "noun",
+   "ipa": "/ˌɪŋkluːˈsɪvɪti/"
+  },
+  {
+   "word": "conceptualisation",
+   "pos": "noun",
+   "ipa": "/kənˌsɛptʃuəlaɪˈzeɪʃən/"
+  },
+  {
+   "word": "prioritise",
+   "pos": "verb",
+   "ipa": "/pɹaɪˈɒɹɪtaɪz/"
+  }
+ ]
+}

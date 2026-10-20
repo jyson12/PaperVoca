@@ -1,0 +1,26 @@
+# 수작업 불합격 예문 — reextract_examples.py 가 앞부분이 일치하는 문장을 불합격·후보 제외 처리한다.
+# 형식: word<TAB>문장 앞부분(clean() 적용 후)<TAB>사유
+scalability	While these advanced systems offer unprecedented capabilitie	단 병합으로 문장 끊김
+turn	When you see the level shape appearing, click in the middle 	게임 화면 안내문 병합
+towards	Pre-Post-Survey Results: Attitudes Towards AR (EG) EG Studen	표 제목 병합
+video	Generative AI in learning GenAI is a type of artificial inte	절 제목 병합(Generative AI in learning)
+specify	Identification Identify and specify problems with the argume	표 셀 병합
+accompany	G2’s Interaction with the audience Moreover, they adopted so	소제목 병합
+minimum	Effectiveness of minimum quality standards for primary educa	참고문헌 제목
+provision	Finally, an 8-min video was presented, demonstrating the use	고유명사 분절(Peer- Mark)
+feeling	Yıldırım Episodes were also coded as metacognitive experienc	저자명 병합
+combine	Combined approaches Considering the characteristics of bias 	절 제목 병합(Combined approaches)
+meet	Therefore, classroom learning does not meet their needs, and	짝 없는 인용부호(인용 조각)
+actively	Measuring actual learning versus feeling of learning in resp	논문 제목
+negatively	Although SRLSs positively predicted the adoption of a deep l	문장 깨짐
+popular	Despite being described by the head of IT at the catholic sc	부자연스러운 고유명사 나열
+adolescent	Fear of missing out and procrastination as mediators between	참고문헌 제목
+meet	The possible reason for this result could be user-friendly s	비문
+popular	Methodological agenda Section 4.1 and Appendix D only mentio	소제목 병합
+# 지정 용례: #REEX<TAB>word<TAB>정규식<TAB>설명 — 재추출 시 이 정규식에 맞는 문장만 고른다.
+#REEX	divide	\b(?:divided|dividing) (?:into|them|the|participants|students|equally)\b|\bdivide (?:the|them|students|participants|into)\b	동사 용례
+#REEX	coordinate	\bto coordinate\b|\bcoordinat(?:e|es|ed|ing) (?:with|the|their|what|efforts|activities|actions|multiple)\b	동사(조율하다) 용례 — 좌표 명사 제외
+#REEX	overall	\b(?:the|an|their|its|our|his|her) overall [a-z]+	형용사 용례 — 문두 부사 Overall 제외
+#REEX	feeling	\bfeelings? (?:of|about|toward|towards|that)\b|\b(?:a|the|their|positive|negative|students’|students') feelings?\b	명사(감정) 용례
+#REEX	processing	\b(?:language|data|information|signal|image|cognitive|text|speech|audio|parallel|visual) processing\b|\bprocessing (?:of|speed|time|power|capacity|load|techniques|algorithms|pipeline|tools)\b	명사(처리) 용례
+#REEX	adolescent	\badolescents\b	명사 복수형 용례

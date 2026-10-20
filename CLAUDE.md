@@ -49,6 +49,10 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 - **의미·품사가 맞는 용례를 고를 것**: 표제어가 들어 있어도 다른 의미면 안 된다
   (`face`←"face-to-face", `live`←"daily lives", `fit`←"one-size-fits-all", `art`←"state-of-the-art").
   재추출 시 `pick(..., must=정규식)`으로 원하는 용례를 지정한다 (`data/review3_fixes.tsv`의 `#REEX` 참고).
+- **재추출 결과는 직접 읽고 확인**한다 (`data/reextract_report.json`). 규칙을 통과해도 깨진 문장
+  (절 제목 병합, 띄어쓰기 누락 "documentsa", 논문 제목, 비문)이나 다른 의미 용례가 뽑힐 수 있다.
+  → `data/bad_examples.tsv`에 `word⇥문장 앞부분` 등록(불합격·후보 제외) 또는
+  `#REEX⇥word⇥정규식`으로 용례 지정 후 재실행 (예: `coordinate`→좌표 명사 제외, `overall`→문두 부사 제외).
 
 ### 2. 뜻 검증 — meaning_ko가 예문에서 쓰인 의미와 일치하는가
 - 예문을 읽고 그 문맥에서 단어가 실제 뜻하는 바를 파악한 뒤, meaning_ko 첫 단어가 그와 맞는지 본다.
@@ -70,6 +74,14 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
   (`learn`이 "learning/learner"를 잡아 동사를 명사로 오분류 — `review_vocabulary.py`의 실패 원인).
   코퍼스 다수결 POS(`selected_words.json`)가 per-sentence 추정보다 신뢰도가 높다.
 
+### (보조) 발음 검증 — IPA가 영국식(RP)이고 품사에 맞는가
+- 품사에 따라 발음이 갈리는 단어 주의: `lead` 동사 /liːd/(≠납 /lɛd/), `live` 형용사 /laɪv/, `close` 형용사 /kləʊs/,
+  `conduct`·`convert` 동사는 2음절 강세, `conflict`·`discourse` 명사는 1음절 강세,
+  `-ate` 동사 /-eɪt/ ↔ 형용사 /-ət/ (`moderate`, `associate`, `articulate`), `document` 동사 /-mɛnt/.
+- 미국식(ɚ ɝ oʊ, 짧은 ɑ) · 방언식(ʌɪ ʌʊ ɒʊ ɛː) · 협의(ɾ ɫ) 표기는 RP로 바꾼다. 표기 관례: `ɹ`, `ɛ`, 어말 `ə`.
+- `python scripts/check_ipa.py`로 점검(CMU 사전 대조 + 표기 스캔) → 고칠 값은 `data/ipa_fixes.json`에 넣고
+  `python scripts/apply_ipa_fixes.py`로 적용. CMU 불일치는 영·미 차이일 수 있으니 사람이 판단한다.
+
 ### 검수 후 마무리
 ```bash
 python scripts/build_dashboard.py
@@ -84,7 +96,9 @@ git push origin main
 - `add_words.py` — 새 단어 일괄 추가(API+번역+예문)
 - `full_review_fix.py` / `full_review_fix2.py` — 검수 결과 일괄 적용 예시(노이즈 삭제·뜻 교정·예문 재추출·보충)
 - `reextract_examples.py` — 전 단어 예문 엄격 검증 + 불합격 예문만 재추출 (QA 1단계 자동화)
+  + `data/bad_examples.tsv` (수작업 불합격 예문·`#REEX` 용례 지정). 코퍼스 빈도 캐시는 `raw_text/token_counts.json`
+- `check_ipa.py` (IPA 점검, 읽기 전용) / `apply_ipa_fixes.py` (`data/ipa_fixes.json` 적용, 재실행 안전)
 - `full_review_fix3.py` + `data/review3_fixes.tsv` — 3차 전수 검토 적용
   (TSV: `word⇥pos⇥meaning_ko⇥en_def`, `=`는 유지 / `#REEX⇥word[⇥정규식]` 예문 교체 / `#RENAME` 표제어 교정)
-  + `data/ipa_fixes.json` (Wiktionary 기반 IPA 보완: 영국식(RP) 우선, 지역 방언·협의 표기·조각 표기 교체)
+  + `data/ipa_fixes.json` (IPA 교정 원장: 3차 Wiktionary 기반 보완 + 4차 CMU 사전 대조 교정, 영국식(RP) 기준)
 - ⛔ `review_vocabulary.py` — 접두 오매칭 결함. 재실행 금지(참고용으로만 보존).
