@@ -1,0 +1,1120 @@
+{
+  "words": [
+    {
+      "word": "dent",
+      "lemma": "dent",
+      "pos": "noun",
+      "frequency": 1078,
+      "doc_spread": 294,
+      "score": 6130.56,
+      "difficulty": "academic"
+    },
+    {
+      "word": "tions",
+      "lemma": "tions",
+      "pos": "noun",
+      "frequency": 991,
+      "doc_spread": 344,
+      "score": 5790.95,
+      "difficulty": "academic"
+    },
+    {
+      "word": "tional",
+      "lemma": "tional",
+      "pos": "adjective",
+      "frequency": 655,
+      "doc_spread": 269,
+      "score": 3666.97,
+      "difficulty": "academic"
+    },
+    {
+      "word": "van",
+      "lemma": "van",
+      "pos": "noun",
+      "frequency": 518,
+      "doc_spread": 176,
+      "score": 2681.25,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ments",
+      "lemma": "ments",
+      "pos": "noun",
+      "frequency": 456,
+      "doc_spread": 214,
+      "score": 2449.01,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cal",
+      "lemma": "cal",
+      "pos": "adjective",
+      "frequency": 416,
+      "doc_spread": 195,
+      "score": 2195.7,
+      "difficulty": "academic"
+    },
+    {
+      "word": "rat",
+      "lemma": "rat",
+      "pos": "verb",
+      "frequency": 342,
+      "doc_spread": 155,
+      "score": 1727.05,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cation",
+      "lemma": "cation",
+      "pos": "noun",
+      "frequency": 289,
+      "doc_spread": 175,
+      "score": 1494.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "port",
+      "lemma": "port",
+      "pos": "noun",
+      "frequency": 287,
+      "doc_spread": 169,
+      "score": 1473.97,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ten",
+      "lemma": "ten",
+      "pos": "adjective",
+      "frequency": 286,
+      "doc_spread": 153,
+      "score": 1440.57,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ences",
+      "lemma": "ences",
+      "pos": "noun",
+      "frequency": 205,
+      "doc_spread": 146,
+      "score": 1023.04,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ogy",
+      "lemma": "ogy",
+      "pos": "noun",
+      "frequency": 184,
+      "doc_spread": 116,
+      "score": 876.24,
+      "difficulty": "academic"
+    },
+    {
+      "word": "red",
+      "lemma": "red",
+      "pos": "adjective",
+      "frequency": 197,
+      "doc_spread": 84,
+      "score": 875.2,
+      "difficulty": "academic"
+    },
+    {
+      "word": "der",
+      "lemma": "der",
+      "pos": "noun",
+      "frequency": 187,
+      "doc_spread": 91,
+      "score": 845.57,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ple",
+      "lemma": "ple",
+      "pos": "noun",
+      "frequency": 169,
+      "doc_spread": 125,
+      "score": 817.33,
+      "difficulty": "academic"
+    },
+    {
+      "word": "gy",
+      "lemma": "gy",
+      "pos": "noun",
+      "frequency": 167,
+      "doc_spread": 113,
+      "score": 790.95,
+      "difficulty": "academic"
+    },
+    {
+      "word": "nology",
+      "lemma": "nology",
+      "pos": "noun",
+      "frequency": 156,
+      "doc_spread": 101,
+      "score": 721.5,
+      "difficulty": "academic"
+    },
+    {
+      "word": "mance",
+      "lemma": "mance",
+      "pos": "noun",
+      "frequency": 151,
+      "doc_spread": 100,
+      "score": 696.88,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cess",
+      "lemma": "cess",
+      "pos": "noun",
+      "frequency": 143,
+      "doc_spread": 112,
+      "score": 676.02,
+      "difficulty": "academic"
+    },
+    {
+      "word": "mation",
+      "lemma": "mation",
+      "pos": "noun",
+      "frequency": 146,
+      "doc_spread": 101,
+      "score": 675.25,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ings",
+      "lemma": "ings",
+      "pos": "noun",
+      "frequency": 139,
+      "doc_spread": 110,
+      "score": 654.62,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ture",
+      "lemma": "ture",
+      "pos": "noun",
+      "frequency": 135,
+      "doc_spread": 101,
+      "score": 624.37,
+      "difficulty": "academic"
+    },
+    {
+      "word": "demic",
+      "lemma": "demic",
+      "pos": "adjective",
+      "frequency": 133,
+      "doc_spread": 88,
+      "score": 596.99,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cally",
+      "lemma": "cally",
+      "pos": "adverb",
+      "frequency": 126,
+      "doc_spread": 106,
+      "score": 588.78,
+      "difficulty": "academic"
+    },
+    {
+      "word": "contextually",
+      "lemma": "contextually",
+      "pos": "adverb",
+      "frequency": 128,
+      "doc_spread": 91,
+      "score": 578.79,
+      "difficulty": "academic"
+    },
+    {
+      "word": "succeed",
+      "lemma": "succeed",
+      "pos": "verb",
+      "frequency": 127,
+      "doc_spread": 94,
+      "score": 578.34,
+      "difficulty": "academic"
+    },
+    {
+      "word": "emergency",
+      "lemma": "emergency",
+      "pos": "noun",
+      "frequency": 144,
+      "doc_spread": 54,
+      "score": 577.06,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cational",
+      "lemma": "cational",
+      "pos": "adjective",
+      "frequency": 127,
+      "doc_spread": 93,
+      "score": 577.0,
+      "difficulty": "academic"
+    },
+    {
+      "word": "relational",
+      "lemma": "relational",
+      "pos": "adjective",
+      "frequency": 138,
+      "doc_spread": 64,
+      "score": 576.07,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ticipants",
+      "lemma": "ticipants",
+      "pos": "noun",
+      "frequency": 128,
+      "doc_spread": 88,
+      "score": 574.55,
+      "difficulty": "academic"
+    },
+    {
+      "word": "thesis",
+      "lemma": "thesis",
+      "pos": "noun",
+      "frequency": 150,
+      "doc_spread": 45,
+      "score": 574.3,
+      "difficulty": "academic"
+    },
+    {
+      "word": "elderly",
+      "lemma": "elderly",
+      "pos": "adjective",
+      "frequency": 212,
+      "doc_spread": 14,
+      "score": 574.11,
+      "difficulty": "academic"
+    },
+    {
+      "word": "australian",
+      "lemma": "australian",
+      "pos": "adjective",
+      "frequency": 136,
+      "doc_spread": 67,
+      "score": 573.85,
+      "difficulty": "academic"
+    },
+    {
+      "word": "praise",
+      "lemma": "praise",
+      "pos": "noun",
+      "frequency": 145,
+      "doc_spread": 51,
+      "score": 572.93,
+      "difficulty": "academic"
+    },
+    {
+      "word": "couple",
+      "lemma": "couple",
+      "pos": "verb",
+      "frequency": 124,
+      "doc_spread": 100,
+      "score": 572.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "ranking",
+      "lemma": "ranking",
+      "pos": "noun",
+      "frequency": 152,
+      "doc_spread": 42,
+      "score": 571.7,
+      "difficulty": "academic"
+    },
+    {
+      "word": "standardize",
+      "lemma": "standardize",
+      "pos": "verb",
+      "frequency": 128,
+      "doc_spread": 86,
+      "score": 571.64,
+      "difficulty": "academic"
+    },
+    {
+      "word": "postgraduate",
+      "lemma": "postgraduate",
+      "pos": "noun",
+      "frequency": 139,
+      "doc_spread": 60,
+      "score": 571.41,
+      "difficulty": "academic"
+    },
+    {
+      "word": "narration",
+      "lemma": "narration",
+      "pos": "noun",
+      "frequency": 162,
+      "doc_spread": 33,
+      "score": 571.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "attribution",
+      "lemma": "attribution",
+      "pos": "noun",
+      "frequency": 162,
+      "doc_spread": 33,
+      "score": 571.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "continuance",
+      "lemma": "continuance",
+      "pos": "noun",
+      "frequency": 194,
+      "doc_spread": 18,
+      "score": 571.22,
+      "difficulty": "academic"
+    },
+    {
+      "word": "corroborate",
+      "lemma": "corroborate",
+      "pos": "verb",
+      "frequency": 127,
+      "doc_spread": 88,
+      "score": 570.06,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cybersecurity",
+      "lemma": "cybersecurity",
+      "pos": "noun",
+      "frequency": 184,
+      "doc_spread": 21,
+      "score": 568.75,
+      "difficulty": "academic"
+    },
+    {
+      "word": "award",
+      "lemma": "award",
+      "pos": "verb",
+      "frequency": 132,
+      "doc_spread": 73,
+      "score": 568.14,
+      "difficulty": "academic"
+    },
+    {
+      "word": "overly",
+      "lemma": "overly",
+      "pos": "adverb",
+      "frequency": 125,
+      "doc_spread": 93,
+      "score": 567.91,
+      "difficulty": "academic"
+    },
+    {
+      "word": "cheat",
+      "lemma": "cheat",
+      "pos": "verb",
+      "frequency": 157,
+      "doc_spread": 36,
+      "score": 566.91,
+      "difficulty": "academic"
+    },
+    {
+      "word": "mediator",
+      "lemma": "mediator",
+      "pos": "noun",
+      "frequency": 133,
+      "doc_spread": 69,
+      "score": 565.05,
+      "difficulty": "academic"
+    },
+    {
+      "word": "exclusively",
+      "lemma": "exclusively",
+      "pos": "adverb",
+      "frequency": 120,
+      "doc_spread": 109,
+      "score": 564.06,
+      "difficulty": "academic"
+    },
+    {
+      "word": "extra",
+      "lemma": "extra",
+      "pos": "adjective",
+      "frequency": 129,
+      "doc_spread": 78,
+      "score": 563.66,
+      "difficulty": "academic"
+    },
+    {
+      "word": "inclusivity",
+      "lemma": "inclusivity",
+      "pos": "noun",
+      "frequency": 135,
+      "doc_spread": 64,
+      "score": 563.54,
+      "difficulty": "academic"
+    },
+    {
+      "word": "dedicate",
+      "lemma": "dedicate",
+      "pos": "verb",
+      "frequency": 123,
+      "doc_spread": 96,
+      "score": 562.69,
+      "difficulty": "academic"
+    },
+    {
+      "word": "conceptualisation",
+      "lemma": "conceptualisation",
+      "pos": "noun",
+      "frequency": 134,
+      "doc_spread": 65,
+      "score": 561.41,
+      "difficulty": "academic"
+    },
+    {
+      "word": "grader",
+      "lemma": "grader",
+      "pos": "noun",
+      "frequency": 136,
+      "doc_spread": 61,
+      "score": 561.29,
+      "difficulty": "academic"
+    },
+    {
+      "word": "satisfactory",
+      "lemma": "satisfactory",
+      "pos": "adjective",
+      "frequency": 126,
+      "doc_spread": 85,
+      "score": 561.25,
+      "difficulty": "academic"
+    },
+    {
+      "word": "zone",
+      "lemma": "zone",
+      "pos": "noun",
+      "frequency": 133,
+      "doc_spread": 67,
+      "score": 561.19,
+      "difficulty": "academic"
+    },
+    {
+      "word": "profound",
+      "lemma": "profound",
+      "pos": "adjective",
+      "frequency": 124,
+      "doc_spread": 91,
+      "score": 560.7,
+      "difficulty": "academic"
+    },
+    {
+      "word": "benchmark",
+      "lemma": "benchmark",
+      "pos": "noun",
+      "frequency": 129,
+      "doc_spread": 76,
+      "score": 560.35,
+      "difficulty": "academic"
+    },
+    {
+      "word": "nitive",
+      "lemma": "nitive",
+      "pos": "adjective",
+      "frequency": 127,
+      "doc_spread": 81,
+      "score": 559.65,
+      "difficulty": "academic"
+    },
+    {
+      "word": "sheet",
+      "lemma": "sheet",
+      "pos": "noun",
+      "frequency": 140,
+      "doc_spread": 53,
+      "score": 558.46,
+      "difficulty": "academic"
+    },
+    {
+      "word": "craft",
+      "lemma": "craft",
+      "pos": "verb",
+      "frequency": 126,
+      "doc_spread": 83,
+      "score": 558.28,
+      "difficulty": "academic"
+    },
+    {
+      "word": "join",
+      "lemma": "join",
+      "pos": "verb",
+      "frequency": 125,
+      "doc_spread": 86,
+      "score": 558.24,
+      "difficulty": "academic"
+    },
+    {
+      "word": "incomplete",
+      "lemma": "incomplete",
+      "pos": "adjective",
+      "frequency": 127,
+      "doc_spread": 80,
+      "score": 558.1,
+      "difficulty": "academic"
+    },
+    {
+      "word": "bad",
+      "lemma": "bad",
+      "pos": "adjective",
+      "frequency": 123,
+      "doc_spread": 92,
+      "score": 557.51,
+      "difficulty": "academic"
+    },
+    {
+      "word": "bit",
+      "lemma": "bit",
+      "pos": "noun",
+      "frequency": 129,
+      "doc_spread": 74,
+      "score": 556.96,
+      "difficulty": "academic"
+    },
+    {
+      "word": "deployment",
+      "lemma": "deployment",
+      "pos": "noun",
+      "frequency": 129,
+      "doc_spread": 74,
+      "score": 556.96,
+      "difficulty": "academic"
+    },
+    {
+      "word": "inside",
+      "lemma": "inside",
+      "pos": "noun",
+      "frequency": 129,
+      "doc_spread": 74,
+      "score": 556.96,
+      "difficulty": "academic"
+    },
+    {
+      "word": "stance",
+      "lemma": "stance",
+      "pos": "noun",
+      "frequency": 126,
+      "doc_spread": 82,
+      "score": 556.77,
+      "difficulty": "academic"
+    },
+    {
+      "word": "contextualized",
+      "lemma": "contextualized",
+      "pos": "adjective",
+      "frequency": 127,
+      "doc_spread": 79,
+      "score": 556.52,
+      "difficulty": "academic"
+    },
+    {
+      "word": "heighten",
+      "lemma": "heighten",
+      "pos": "verb",
+      "frequency": 127,
+      "doc_spread": 79,
+      "score": 556.52,
+      "difficulty": "academic"
+    },
+    {
+      "word": "fixation",
+      "lemma": "fixation",
+      "pos": "noun",
+      "frequency": 189,
+      "doc_spread": 18,
+      "score": 556.5,
+      "difficulty": "academic"
+    },
+    {
+      "word": "window",
+      "lemma": "window",
+      "pos": "noun",
+      "frequency": 134,
+      "doc_spread": 62,
+      "score": 555.18,
+      "difficulty": "academic"
+    },
+    {
+      "word": "thoroughly",
+      "lemma": "thoroughly",
+      "pos": "adverb",
+      "frequency": 120,
+      "doc_spread": 101,
+      "score": 555.0,
+      "difficulty": "academic"
+    },
+    {
+      "word": "spanish",
+      "lemma": "spanish",
+      "pos": "adjective",
+      "frequency": 141,
+      "doc_spread": 50,
+      "score": 554.39,
+      "difficulty": "academic"
+    },
+    {
+      "word": "sage",
+      "lemma": "sage",
+      "pos": "noun",
+      "frequency": 127,
+      "doc_spread": 77,
+      "score": 553.3,
+      "difficulty": "academic"
+    },
+    {
+      "word": "regional",
+      "lemma": "regional",
+      "pos": "adjective",
+      "frequency": 132,
+      "doc_spread": 65,
+      "score": 553.03,
+      "difficulty": "academic"
+    },
+    {
+      "word": "capital",
+      "lemma": "capital",
+      "pos": "noun",
+      "frequency": 146,
+      "doc_spread": 43,
+      "score": 552.49,
+      "difficulty": "academic"
+    },
+    {
+      "word": "competitive",
+      "lemma": "competitive",
+      "pos": "adjective",
+      "frequency": 136,
+      "doc_spread": 57,
+      "score": 552.22,
+      "difficulty": "academic"
+    },
+    {
+      "word": "impression",
+      "lemma": "impression",
+      "pos": "noun",
+      "frequency": 131,
+      "doc_spread": 66,
+      "score": 550.81,
+      "difficulty": "academic"
+    },
+    {
+      "word": "redesign",
+      "lemma": "redesign",
+      "pos": "verb",
+      "frequency": 131,
+      "doc_spread": 66,
+      "score": 550.81,
+      "difficulty": "academic"
+    },
+    {
+      "word": "conducive",
+      "lemma": "conducive",
+      "pos": "adjective",
+      "frequency": 120,
+      "doc_spread": 97,
+      "score": 550.2,
+      "difficulty": "academic"
+    },
+    {
+      "word": "escape",
+      "lemma": "escape",
+      "pos": "noun",
+      "frequency": 165,
+      "doc_spread": 27,
+      "score": 549.81,
+      "difficulty": "academic"
+    },
+    {
+      "word": "aforementioned",
+      "lemma": "aforementioned",
+      "pos": "adjective",
+      "frequency": 124,
+      "doc_spread": 83,
+      "score": 549.42,
+      "difficulty": "academic"
+    },
+    {
+      "word": "deem",
+      "lemma": "deem",
+      "pos": "verb",
+      "frequency": 120,
+      "doc_spread": 96,
+      "score": 548.97,
+      "difficulty": "academic"
+    },
+    {
+      "word": "networking",
+      "lemma": "networking",
+      "pos": "noun",
+      "frequency": 152,
+      "doc_spread": 36,
+      "score": 548.86,
+      "difficulty": "academic"
+    },
+    {
+      "word": "competent",
+      "lemma": "competent",
+      "pos": "noun",
+      "frequency": 127,
+      "doc_spread": 74,
+      "score": 548.32,
+      "difficulty": "academic"
+    },
+    {
+      "word": "mission",
+      "lemma": "mission",
+      "pos": "noun",
+      "frequency": 135,
+      "doc_spread": 57,
+      "score": 548.16,
+      "difficulty": "academic"
+    },
+    {
+      "word": "happy",
+      "lemma": "happy",
+      "pos": "adjective",
+      "frequency": 142,
+      "doc_spread": 46,
+      "score": 546.72,
+      "difficulty": "academic"
+    },
+    {
+      "word": "motor",
+      "lemma": "motor",
+      "pos": "noun",
+      "frequency": 147,
+      "doc_spread": 40,
+      "score": 545.9,
+      "difficulty": "academic"
+    },
+    {
+      "word": "possibly",
+      "lemma": "possibly",
+      "pos": "adverb",
+      "frequency": 118,
+      "doc_spread": 101,
+      "score": 545.75,
+      "difficulty": "academic"
+    },
+    {
+      "word": "blue",
+      "lemma": "blue",
+      "pos": "adjective",
+      "frequency": 128,
+      "doc_spread": 70,
+      "score": 545.62,
+      "difficulty": "academic"
+    },
+    {
+      "word": "normally",
+      "lemma": "normally",
+      "pos": "adverb",
+      "frequency": 121,
+      "doc_spread": 89,
+      "score": 544.48,
+      "difficulty": "academic"
+    },
+    {
+      "word": "entertainment",
+      "lemma": "entertainment",
+      "pos": "noun",
+      "frequency": 137,
+      "doc_spread": 52,
+      "score": 543.93,
+      "difficulty": "academic"
+    },
+    {
+      "word": "heart",
+      "lemma": "heart",
+      "pos": "noun",
+      "frequency": 139,
+      "doc_spread": 49,
+      "score": 543.77,
+      "difficulty": "academic"
+    },
+    {
+      "word": "tent",
+      "lemma": "tent",
+      "pos": "noun",
+      "frequency": 121,
+      "doc_spread": 88,
+      "score": 543.13,
+      "difficulty": "academic"
+    },
+    {
+      "word": "annual",
+      "lemma": "annual",
+      "pos": "adjective",
+      "frequency": 125,
+      "doc_spread": 76,
+      "score": 542.98,
+      "difficulty": "academic"
+    },
+    {
+      "word": "prioritise",
+      "lemma": "prioritise",
+      "pos": "verb",
+      "frequency": 131,
+      "doc_spread": 62,
+      "score": 542.75,
+      "difficulty": "academic"
+    },
+    {
+      "word": "evaluative",
+      "lemma": "evaluative",
+      "pos": "adjective",
+      "frequency": 129,
+      "doc_spread": 66,
+      "score": 542.41,
+      "difficulty": "academic"
+    },
+    {
+      "word": "genre",
+      "lemma": "genre",
+      "pos": "noun",
+      "frequency": 155,
+      "doc_spread": 32,
+      "score": 541.96,
+      "difficulty": "academic"
+    },
+    {
+      "word": "formance",
+      "lemma": "formance",
+      "pos": "noun",
+      "frequency": 121,
+      "doc_spread": 87,
+      "score": 541.76,
+      "difficulty": "academic"
+    },
+    {
+      "word": "underpin",
+      "lemma": "underpin",
+      "pos": "verb",
+      "frequency": 120,
+      "doc_spread": 90,
+      "score": 541.3,
+      "difficulty": "academic"
+    },
+    {
+      "word": "generalization",
+      "lemma": "generalization",
+      "pos": "noun",
+      "frequency": 131,
+      "doc_spread": 61,
+      "score": 540.65,
+      "difficulty": "academic"
+    },
+    {
+      "word": "physiological",
+      "lemma": "physiological",
+      "pos": "adjective",
+      "frequency": 142,
+      "doc_spread": 44,
+      "score": 540.55,
+      "difficulty": "academic"
+    },
+    {
+      "word": "screening",
+      "lemma": "screening",
+      "pos": "noun",
+      "frequency": 129,
+      "doc_spread": 65,
+      "score": 540.47,
+      "difficulty": "academic"
+    },
+    {
+      "word": "tweet",
+      "lemma": "tweet",
+      "pos": "noun",
+      "frequency": 225,
+      "doc_spread": 10,
+      "score": 539.53,
+      "difficulty": "academic"
+    },
+    {
+      "word": "hope",
+      "lemma": "hope",
+      "pos": "verb",
+      "frequency": 122,
+      "doc_spread": 82,
+      "score": 539.1,
+      "difficulty": "academic"
+    },
+    {
+      "word": "quick",
+      "lemma": "quick",
+      "pos": "adjective",
+      "frequency": 121,
+      "doc_spread": 85,
+      "score": 538.98,
+      "difficulty": "academic"
+    },
+    {
+      "word": "intended",
+      "lemma": "intended",
+      "pos": "adjective",
+      "frequency": 119,
+      "doc_spread": 91,
+      "score": 538.09,
+      "difficulty": "academic"
+    },
+    {
+      "word": "stimulus",
+      "lemma": "stimulus",
+      "pos": "noun",
+      "frequency": 130,
+      "doc_spread": 61,
+      "score": 536.53,
+      "difficulty": "academic"
+    },
+    {
+      "word": "withdraw",
+      "lemma": "withdraw",
+      "pos": "verb",
+      "frequency": 117,
+      "doc_spread": 97,
+      "score": 536.44,
+      "difficulty": "academic"
+    },
+    {
+      "word": "trainer",
+      "lemma": "trainer",
+      "pos": "noun",
+      "frequency": 171,
+      "doc_spread": 22,
+      "score": 536.17,
+      "difficulty": "academic"
+    },
+    {
+      "word": "executive",
+      "lemma": "executive",
+      "pos": "noun",
+      "frequency": 159,
+      "doc_spread": 28,
+      "score": 535.4,
+      "difficulty": "academic"
+    },
+    {
+      "word": "superficial",
+      "lemma": "superficial",
+      "pos": "adjective",
+      "frequency": 124,
+      "doc_spread": 74,
+      "score": 535.37,
+      "difficulty": "academic"
+    },
+    {
+      "word": "actor",
+      "lemma": "actor",
+      "pos": "noun",
+      "frequency": 130,
+      "doc_spread": 59,
+      "score": 532.26,
+      "difficulty": "academic"
+    },
+    {
+      "word": "slope",
+      "lemma": "slope",
+      "pos": "noun",
+      "frequency": 144,
+      "doc_spread": 39,
+      "score": 531.2,
+      "difficulty": "academic"
+    },
+    {
+      "word": "lay",
+      "lemma": "lay",
+      "pos": "verb",
+      "frequency": 116,
+      "doc_spread": 96,
+      "score": 530.67,
+      "difficulty": "academic"
+    },
+    {
+      "word": "upload",
+      "lemma": "upload",
+      "pos": "verb",
+      "frequency": 124,
+      "doc_spread": 71,
+      "score": 530.31,
+      "difficulty": "academic"
+    },
+    {
+      "word": "continued",
+      "lemma": "continued",
+      "pos": "adjective",
+      "frequency": 119,
+      "doc_spread": 85,
+      "score": 530.07,
+      "difficulty": "academic"
+    },
+    {
+      "word": "intentional",
+      "lemma": "intentional",
+      "pos": "adjective",
+      "frequency": 119,
+      "doc_spread": 83,
+      "score": 527.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "realm",
+      "lemma": "realm",
+      "pos": "noun",
+      "frequency": 119,
+      "doc_spread": 83,
+      "score": 527.27,
+      "difficulty": "academic"
+    },
+    {
+      "word": "experimentation",
+      "lemma": "experimentation",
+      "pos": "noun",
+      "frequency": 124,
+      "doc_spread": 69,
+      "score": 526.81,
+      "difficulty": "academic"
+    },
+    {
+      "word": "kindergarten",
+      "lemma": "kindergarten",
+      "pos": "noun",
+      "frequency": 140,
+      "doc_spread": 42,
+      "score": 526.57,
+      "difficulty": "academic"
+    },
+    {
+      "word": "binary",
+      "lemma": "binary",
+      "pos": "adjective",
+      "frequency": 126,
+      "doc_spread": 64,
+      "score": 525.97,
+      "difficulty": "academic"
+    },
+    {
+      "word": "regularly",
+      "lemma": "regularly",
+      "pos": "adverb",
+      "frequency": 119,
+      "doc_spread": 82,
+      "score": 525.84,
+      "difficulty": "academic"
+    },
+    {
+      "word": "remark",
+      "lemma": "remark",
+      "pos": "verb",
+      "frequency": 123,
+      "doc_spread": 70,
+      "score": 524.31,
+      "difficulty": "academic"
+    }
+  ]
+}

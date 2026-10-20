@@ -1,0 +1,410 @@
+WORD: ivr
+MEANING: 몰입형 가상현실 (iVR) — 몰입형 가상현실(Immersive Virtual Reality)의 약어
+REASON: 예문에서 "Immersive virtual reality (iVR)"로 정의되므로 학술 약어로 풀어야 함
+
+---
+WORD: transparent
+MEANING: 투명한 — 명확하고 이해하기 쉬운; 정보나 의도를 솔직하게 드러내는
+REASON: 예문("Transparent design", "transparent AI-based learning tools")은 물리적 투명성이 아닌 공개성·투명성의 학술적 의미
+
+---
+WORD: frontier
+MEANING: 개척 분야 — 어떤 학문이나 기술 영역의 최전선, 새로운 도전이 이루어지는 분야
+REASON: 예문("Frontiers in Education Conference")은 교육의 최전선을 의미; 지리적 국경 정의는 학술 맥락과 불일치
+
+---
+WORD: graphic
+MEANING: 그래픽의 — 시각적 표현이나 도표·그림과 관련된
+REASON: 예문("graphical and visual competencies", "graphic design")은 형용사 용법; 명사 정의를 그대로 옮긴 meaning_ko 교정 필요
+
+---
+WORD: geographical
+MEANING: 지리적인 — 지역이나 장소에 관한; 지리와 관련된
+REASON: 현재 meaning_ko("중독 치료 등을 희망하며 다른 곳으로 이사")는 slang 'geographical cure'로 학술 맥락과 불일치
+
+---
+WORD: button
+MEANING: 버튼 — 누르거나 클릭하는 입력 장치나 조작 요소
+REASON: en_def("One who adjusts…insurance industry")는 완전히 다른 단어 뜻; 예문은 명확히 UI 버튼을 가리킴
+
+---
+WORD: ogy
+MEANING: [삭제]
+REASON: technology, methodology 등의 어미 파편; 예문에서 독립 단어로 사용되지 않음
+
+---
+WORD: suit
+MEANING: 적합하다 — (어떤 목적·용도에) 맞다, 알맞다
+REASON: meaning_ko가 "정장(의류)"이라는 명사 정의; 예문("well-suited for group activities")은 동사/형용사 '적합하다' 의미
+
+---
+WORD: red
+MEANING: [삭제]
+REASON: 두 예문 모두 CAMIL VR 관련 내용으로 'red'와 무관; 학술 단어로서 가치 없고 예문이 잘못 배정됨
+
+---
+WORD: schedule
+MEANING: 일정 — 계획된 시간표나 시간 배치
+REASON: meaning_ko의 "종이 한 장; 짧은 메모"는 고어적·법률적 의미; 예문("learning schedule", "course schedule")은 시간표·일정 의미
+
+---
+WORD: der
+MEANING: [삭제]
+REASON: 단어 파편; 예문에서 단독으로 사용되지 않음
+
+---
+WORD: fast
+MEANING: 빠른 — 속도가 빠른; 신속한
+REASON: meaning_ko의 "일부 역에만 정차하는 열차"는 교통 도메인 의미; 예문("relatively fast way", "fast-paced world")은 형용사 '빠르다' 의미
+
+---
+WORD: aligns
+POS: verb
+MEANING: 일치하다 — (이론·결과 등이) 부합하거나 조화를 이루다
+REASON: pos가 명사이나 예문("This aligns with postmodern views")에서 동사로 사용됨
+
+---
+WORD: judge
+MEANING: 판단하다 — 평가하거나 판단하다
+REASON: pos는 동사인데 meaning_ko는 "판사"라는 명사 정의; 예문("judgemental")은 동사 파생어
+
+---
+WORD: stable
+MEANING: 안정적인 — 변하지 않고 일정한 상태를 유지하는
+REASON: meaning_ko("발굽이 있는 동물을 숙박하고 먹이는 건물")는 명사 '마구간'; 예문("stable physical environments")은 형용사 용법
+
+---
+WORD: joint
+MEANING: 공동의 — 둘 이상이 함께 참여하거나 공유하는
+REASON: meaning_ko("구조의 두 구성요소가 결합되지만 회전할 수 있는 지점")는 명사 '관절'; 예문("jointly created")은 '공동으로' 의미
+
+---
+WORD: fun
+MEANING: 재미 — 즐거움이나 유쾌한 오락
+REASON: meaning_ko에 형용사형으로 기재됨; pos는 명사; 예문도 'function'과 관련된 내용으로 잘못 배정 가능성
+
+---
+WORD: supplement
+MEANING: 보완하다 — 부족한 부분을 채우기 위해 추가하다
+REASON: pos는 동사인데 meaning_ko와 en_def 모두 명사 정의; 예문("can supplement discourse data")은 동사 용법
+
+---
+WORD: operational
+MEANING: 운영상의 — 시스템이나 조직의 운영·작동과 관련된
+REASON: meaning_ko("군사 작전과 관련")은 군사 도메인 한정 의미; 예문("operational tasks")은 일반 교육·행정 운영 맥락
+
+---
+WORD: cooperative
+MEANING: 협력적인 — 서로 협력하여 공동 목표를 추구하는
+REASON: meaning_ko("직원·고객이 소유하는 회사 유형")는 명사 '협동조합'; 예문("cooperative learning")은 형용사 '협력적인'
+
+---
+WORD: intuitive
+MEANING: 직관적인 — 직관에 의존하는; 별도 학습 없이 자연스럽게 이해되는
+REASON: meaning_ko("초심리학적 직관을 가진 사람")는 명사 정의; pos는 형용사
+
+---
+WORD: deeper
+POS: adjective
+MEANING: 더 깊은 — 수준이나 이해가 더 심층적인
+REASON: pos가 명사이나 예문("deeper learning", "deeper contextual understanding")은 형용사 비교급
+
+---
+WORD: reveals
+POS: verb
+MEANING: 드러내다 — (분석·연구 결과가) 보여주거나 밝혀내다
+REASON: pos가 명사이고 meaning_ko("창틀의 바깥쪽")는 건축 용어; 예문("scholarship reveals")은 동사
+
+---
+WORD: trusted
+MEANING: 신뢰받는 — 신뢰할 수 있다고 검증된; 믿을 수 있는
+REASON: meaning_ko가 동사 정의; pos는 형용사; 예문("trusted learning analytics")은 형용사 용법
+
+---
+WORD: sort
+MEANING: 분류하다 — 종류에 따라 나누거나 정렬하다
+REASON: pos는 동사인데 meaning_ko("일반적인 유형")는 명사 정의; 예문("waste sorting")은 동사 용법
+
+---
+WORD: ple
+MEANING: [삭제]
+REASON: "multiple"이나 "example"의 어미 파편
+
+---
+WORD: push
+MEANING: 밀어붙이다 — 힘을 가하여 앞으로 나아가게 하다; (학생이 한계를) 넘어서도록 도전하다
+REASON: meaning_ko("짧고 직접적인 힘의 적용")은 명사 정의; 예문("push students to discover")은 동사 의미
+
+---
+WORD: composite
+MEANING: 복합적인 — 여러 요소가 결합된; 합성의
+REASON: meaning_ko("다양한 구성 요소의 혼합물")는 명사 정의; pos는 형용사; 예문("composite reliability")은 형용사 용법
+
+---
+WORD: invest
+MEANING: 투자하다 — 시간·자원을 쏟아붓다; 깊이 관여하다
+REASON: 예문("investigate")은 'invest'의 파생어로 오추출 가능성; meaning_ko의 '투자하다'는 일반 금융 의미
+
+---
+WORD: gy
+MEANING: [삭제]
+REASON: 단어 파편(-gy 어미); 예문에서 독립 단어로 사용되지 않음
+
+---
+WORD: cohort
+MEANING: 코호트 — 같은 조건이나 시기를 공유하는 연구 대상자 집단
+REASON: meaning_ko("같은 사물을 지지하는 사람들의 집단")은 일상적 정의; 예문("cohort analytics", "student cohorts")은 학술 연구 표본 집단 의미
+
+---
+WORD: manifest
+MEANING: 나타나다 — (현상·특성이) 명백히 드러나거나 표현되다
+REASON: pos는 동사인데 meaning_ko("승객이나 물품의 목록")는 명사 '화물 목록'; 예문("manifested in online learning")은 동사 의미
+
+---
+WORD: mechanic
+MEANING: 메커닉 — 게임이나 시스템의 작동 규칙 또는 요소
+REASON: meaning_ko("육체 노동자; 장인")은 일반 직업 의미; 예문("Game Mechanics")은 학술 게임 설계 맥락
+
+---
+WORD: entail
+MEANING: 수반하다 — 필연적으로 포함하거나 요구하다
+REASON: meaning_ko("계승 예정 순위")는 법률·상속 도메인 명사; pos는 동사; 예문("it entailed users annotating")은 동사 '수반하다' 의미
+
+---
+WORD: tree
+MEANING: 트리 — (컴퓨터 과학) 계층적 구조를 표현하는 자료 구조; 의사결정 나무
+REASON: meaning_ko("Kruskal의 트리 정리를 기반으로 하는 빠르게 성장하는 함수")는 매우 전문적인 수학적 정의; 예문("classification trees")은 컴퓨터 과학 의사결정 나무 알고리즘
+
+---
+WORD: execute
+MEANING: 실행하다 — 계획·지시·과제를 수행하다
+REASON: meaning_ko("중범죄에 대한 처벌로 살인")은 법적·형사 도메인; 예문("plan, and execute didactic sessions")은 학술적으로 '수행하다' 의미
+
+---
+WORD: nearly
+MEANING: 거의 — 완전하지는 않지만 그에 가까운 정도로
+REASON: meaning_ko("철저한 조사를 통해; 주의하여")는 고어 의미; 예문("dropped to nearly half")은 현대적 '거의' 의미
+
+---
+WORD: drop
+MEANING: 감소하다 — 수치나 수준이 낮아지다; 중퇴하다
+REASON: meaning_ko("소량의 액체")는 명사 정의; pos는 동사; 예문("dropouts")은 동사·파생명사 맥락
+
+---
+WORD: proficient
+POS: adjective
+MEANING: 능숙한 — 특정 기술이나 분야에서 높은 수준의 역량을 갖춘
+REASON: pos가 명사이나 예문("teachers who are…proficient")은 형용사 용법
+
+---
+WORD: flip
+MEANING: 뒤집다 — (학습 방법·순서를) 역전시키다; 전환하다
+REASON: meaning_ko("물체를 끝에서 끝으로 회전시키는 동작")은 물리적 의미; 예문("flipped classrooms", "flipped learning strategy")은 역전학습 개념
+
+---
+WORD: tailored
+MEANING: 맞춤형의 — 특정 요구나 목적에 맞게 조정된
+REASON: meaning_ko("옷을 만들거나 수선하다")는 동사 정의; pos는 형용사; 예문("tailored to their individual needs")은 형용사 용법
+
+---
+WORD: dual
+MEANING: 이중의 — 두 가지 측면이나 기능을 동시에 가진
+REASON: meaning_ko("한 쌍의 항목 중 하나")는 언어학 문법 용어; 예문("dual nature", "dual operation")은 형용사 '이중의'
+
+---
+WORD: progressive
+MEANING: 점진적인 — 단계적으로 발전하거나 향상되는
+REASON: meaning_ko("사회·정부에서 개선을 선호하는 사람")는 명사 정의; pos는 형용사; 예문("progressive instructions")은 형용사 용법
+
+---
+WORD: convergent
+POS: adjective
+MEANING: 수렴적인 — 서로 다른 요소가 하나로 모이는; 수렴하는
+REASON: pos가 명사이나 예문("convergent mixed-method design")은 형용사 용법
+
+---
+WORD: deploy
+MEANING: 배포하다 — 시스템이나 서비스를 실제 환경에 설치하여 운영하다
+REASON: meaning_ko("배포")와 en_def("Deployment") 모두 명사; pos는 동사이므로 동사형으로 수정 필요
+
+---
+WORD: surround
+MEANING: 둘러싸다 — 주변을 에워싸거나 특정 상황·분위기가 어떤 것을 감싸다
+REASON: pos는 동사인데 meaning_ko("울타리나 경계선")은 명사 정의; 예문("enthusiasm surrounding AI")은 동사·파생어 용법
+
+---
+WORD: imperative
+MEANING: 필수적인 — 반드시 해야 하는; 매우 중요하고 긴급한
+REASON: meaning_ko("문법적 명령법 mood")는 좁은 문법 용어; 예문("more imperative")은 형용사 '필수적인'
+
+---
+WORD: enthusiasm
+MEANING: 열의 — 어떤 일에 대한 강한 흥미와 적극적인 의지
+REASON: meaning_ko("신의 소유; 신성한 영감이나 광란")은 고어적·어원적 의미; 예문("teacher enthusiasm")은 현대 학술적 '열의·열정' 의미
+
+---
+WORD: secure
+POS: adjective
+MEANING: 안전한 — 위험으로부터 보호된; 보안이 유지된
+REASON: pos가 명사이나 예문("secure, and maintainable web development")은 형용사 용법
+
+---
+WORD: harness
+MEANING: 활용하다 — (기술·자원 등을) 효과적으로 이용하거나 통제하다
+REASON: pos는 동사인데 meaning_ko("로프나 끈의 고리")는 명사 '마구'; 예문("harness these technologies")은 동사 '활용하다' 의미
+
+---
+WORD: scalable
+MEANING: 확장 가능한 — 규모나 범위를 늘릴 수 있는; 대규모로 적용 가능한
+REASON: meaning_ko("탑승이 가능한")은 물리적 '오를 수 있는' 의미; 예문("scalable and effective tool")은 기술·교육 맥락의 '확장 가능한' 의미
+
+---
+WORD: nology
+MEANING: [삭제]
+REASON: 단어 파편(-technology 등의 어미)
+
+---
+WORD: tackle
+MEANING: 다루다 — 문제나 어려운 상황을 적극적으로 해결하려고 시도하다
+REASON: meaning_ko("밧줄이나 갈고리 같은 장치")는 명사 정의; pos는 동사; 예문("tackle problems effectively")은 동사 '다루다' 의미
+
+---
+WORD: uptake
+MEANING: 수용 — 새로운 기술이나 방법을 받아들여 사용하는 것; 채택률
+REASON: meaning_ko("이해; 이해력")은 주요 의미가 다름; 예문("uptake of e-learning")은 학술적으로 '수용·채택' 의미
+
+---
+WORD: modelling
+MEANING: 모델링 — 이론적 모형을 구축하거나 시뮬레이션하는 행위; (교육에서) 시범을 보이는 것
+REASON: meaning_ko("패션 모델 역할을 수행하며 옷을 입는 것")은 패션 도메인; 예문("User Modelling")은 학술적 모델 구축 의미
+
+---
+WORD: mance
+MEANING: [삭제]
+REASON: "performance"의 어미 파편
+
+---
+WORD: integral
+MEANING: 필수적인 — 전체에서 빠질 수 없는 핵심 구성 요소인
+REASON: en_def와 meaning_ko가 수학 '적분'의 전문 정의; 예문("integral to the learning process")은 형용사 '필수적인·핵심적인' 의미
+
+---
+WORD: fix
+MEANING: 고정하다 — (변수·조건 등을) 일정하게 유지하거나 확정하다
+REASON: pos는 동사인데 meaning_ko("수리 또는 시정 조치")는 명사 정의; 예문("pre-determined fixed threshold")은 '고정된'의 의미
+
+---
+WORD: resolution
+MEANING: 해상도; 해결 — (이미지·데이터의) 정밀도; (문제·갈등의) 해결
+REASON: meaning_ko("강한 의지, 결단력")은 의미의 일부; 예문("EEG has high temporal resolution")은 '해상도' 의미
+
+---
+WORD: hoc
+MEANING: 임시의 — 특정 목적을 위해 즉흥적으로 마련된 (post-hoc: 사후의)
+REASON: 예문에서 항상 "post-hoc"으로만 사용됨; "사후(事後)의; 사후 검정을 위한" 뜻으로 보완 필요
+
+---
+WORD: cess
+MEANING: [삭제]
+REASON: "process"나 "access"의 어미 파편; 학술 맥락과 무관
+
+---
+WORD: mation
+MEANING: [삭제]
+REASON: "information", "transformation" 등의 어미 파편; "친구"라는 meaning_ko는 완전히 잘못됨
+
+---
+WORD: fifth
+MEANING: 다섯 번째의 — 순서상 다섯 번째에 해당하는
+REASON: meaning_ko("제오")는 한자어 표기; 예문("fifth-grade students")은 '5학년'을 의미
+
+---
+WORD: gaming
+MEANING: 게임 활용 — 교육적 목적으로 게임 요소를 활용하는 활동
+REASON: meaning_ko("도박하다")는 동사이고 부정적 의미; pos는 명사; 예문("educational gaming activities")은 교육 게임화 맥락
+
+---
+WORD: ture
+MEANING: [삭제]
+REASON: "feature"나 "future" 등의 어미 파편; "진짜"라는 meaning_ko는 잘못됨
+
+---
+WORD: political
+MEANING: 정치적인 — 정치나 권력 관계와 관련된
+REASON: meaning_ko("정치 대리인 또는 장교")는 명사 정의; pos는 형용사; 예문("political identity")은 형용사 용법
+
+---
+WORD: minor
+MEANING: 사소한 — 중요도나 규모가 작은; 부차적인
+REASON: meaning_ko("성년이 되지 않은 사람")은 법적 명사 정의; pos는 형용사; 예문("minor distractions")은 형용사 '사소한' 의미
+
+---
+WORD: terminology
+MEANING: 전문 용어 — 특정 분야에서 사용되는 전문화된 어휘 체계
+REASON: meaning_ko("용어의 교리; 용어에 관한 논문")은 메타적·문헌학적 정의; 예문("more precise terminology")은 단순히 '전문 용어(체계)'의 의미
+
+---
+WORD: discrimination
+MEANING: 차별 — 특정 집단에 대해 불공정하게 다르게 대우하는 것
+REASON: meaning_ko가 "분별력, 사물 간 차이를 구별하는 행위"라는 중립적 인지 의미; 예문("discrimination concerns in algorithms")은 사회적 불평등 대우의 의미
+
+---
+WORD: coordinate
+MEANING: 조율하다 — 여러 사람이나 요소를 체계적으로 협력하게 하다
+REASON: pos는 동사인데 meaning_ko("선이나 호를 따라 점의 위치를 나타내는 숫자")는 명사 '좌표'; 예문("coordinate with teammates")은 동사 '조율하다' 의미
+
+---
+WORD: saw
+MEANING: 보았다 — see(보다)의 과거형; 인식했다
+REASON: meaning_ko("톱니 모양의 칼날이 있는 도구")는 명사 '톱'; pos는 동사; 예문("schools saw only modest decreases")은 see의 과거형
+
+---
+WORD: clustering
+MEANING: 군집화 — 데이터를 유사한 특성끼리 묶어 그룹을 형성하는 분석 방법
+REASON: en_def("To form a cluster or group")는 동사 정의; pos는 명사; 예문("clustering quality")은 명사·데이터 분석 방법
+
+---
+WORD: cally
+MEANING: [삭제]
+REASON: "specifically", "theoretically" 등의 어미 파편
+
+---
+WORD: demic
+MEANING: [삭제]
+REASON: "academic"의 일부 파편; "전염병"이라는 meaning_ko는 완전히 잘못됨
+
+---
+WORD: enact
+MEANING: 제정하다 — (법률·정책을) 공식적으로 만들거나 시행하다; (행동을) 실천하다
+REASON: meaning_ko("목적; 결정")은 명사 정의이자 의미 오류; 예문("Enacting research ethics")은 동사 '제정하다·실천하다' 의미
+
+---
+WORD: cater
+MEANING: 부응하다 — 특정 요구나 필요에 맞게 제공하다
+REASON: meaning_ko("네 끗패 — 케이터링")은 의미 없는 잘못된 번역; pos는 동사; 예문("cater to the needs")은 동사 '부응하다' 의미
+
+---
+WORD: worldwide
+POS: adverb
+MEANING: 세계적으로 — 전 세계에 걸쳐; 전 세계적으로
+REASON: pos가 명사이나 예문("users worldwide")은 부사/형용사 용법
+
+---
+WORD: inadequate
+MEANING: 부적절한 — 기준이나 요구에 미치지 못하는
+REASON: meaning_ko("부족한 개인")은 명사 정의; pos는 형용사; 예문("guidelines for schools are inadequate")은 형용사 '부적절한' 의미
+
+---
+WORD: bot
+MEANING: 봇 — 자동화된 프로그램; 대화형 AI 에이전트
+REASON: meaning_ko("쇠파리의 유충")은 곤충학 의미; 예문("chatbots")은 소프트웨어 봇 맥락
+
+---
+WORD: principal
+MEANING: 주요한 — 가장 중요하거나 핵심적인
+REASON: meaning_ko("원래 투자하거나 대출한 돈")은 금융 도메인 '원금'; pos는 형용사; 예문("Principal component analysis")은 형용사 '주요한' 의미
+
+---
+WORD: comfortable
+MEANING: 편안한 — 심리적·신체적으로 불편함이 없는; 안정감을 주는
+REASON: meaning_ko("채워지거나 퀼팅된 이불")은 명사 정의; pos는 형용사; 예문("comfortable learning environment")은 형용사 '편안한' 의미

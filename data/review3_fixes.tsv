@@ -1,0 +1,1629 @@
+# 3차 전수 검토 수정표 (2026-10-20)
+# 형식: word<TAB>pos<TAB>meaning_ko<TAB>en_def   ('=' 는 기존 값 유지)
+# '#REEX<TAB>word' : 예문 전면 재추출 (깨진 문장·제목·소속기관·중복 예문)
+learning	=	학습 — 지식이나 기술을 익히는 과정.	The process of acquiring knowledge or skills.
+learn	=	=	To acquire knowledge or skill through study or experience.
+educational	=	=	Relating to education or serving to educate.
+skill	=	기술, 능력 — 학습이나 연습으로 익힌, 어떤 일을 잘 해내는 능력.	The ability to do something well, usually gained through training or practice.
+finding	=	연구 결과, 발견 — 연구나 조사를 통해 밝혀진 결과나 사실.	A conclusion or result reached through research or investigation.
+significant	=	유의미한, 중요한 — 통계적으로 의미가 있거나 실질적으로 중요한.	Statistically meaningful; important or notable in effect or size.
+assessment	=	평가 — 학습자의 지식·능력·성과 등을 측정하고 판단하는 일.	The process of judging or measuring someone's knowledge, ability, or performance.
+development	=	발달, 개발 — 성장하거나 더 나은 상태로 발전해 가는 과정.	The process of growing or advancing.
+score	=	점수 — 시험이나 평가에서 얻은 수치화된 결과.	A number representing performance on a test or measure.
+help	=	돕다 — 다른 사람이 어떤 일을 더 쉽게 할 수 있도록 지원하다.	To make it easier for someone to do something; to assist.
+teach	=	가르치다 — 지식이나 기술을 다른 사람에게 전달하여 익히게 하다.	To impart knowledge or skill to someone.
+within	=	=	Inside the range, limits, or scope of.
+critical	=	비판적인, 매우 중요한 — 분석적으로 따져 평가하는; 결정적으로 중요한.	Involving careful analytical judgment; also, of decisive importance.
+explore	=	탐구하다, 탐색하다 — 어떤 대상이나 문제를 자세히 조사하고 살펴보다.	To investigate or examine something in detail.
+across	=	=	Throughout or spanning a range of places, groups, or conditions.
+conduct	=	=	To carry out or perform (research, an experiment, etc.).
+teaching	=	교수(敎授), 가르치기 — 지식·기술을 학습자에게 전달하는 교육 행위.	The act or profession of instructing learners.
+engage	=	=	To take part or become actively involved in an activity.
+future	=	미래의, 향후의 — 앞으로 다가올 시기의.	Of or relating to time yet to come.
+human	=	인간의 — 사람에 관한 또는 사람이 지닌.	Of, relating to, or characteristic of people.
+among	preposition	~ 중에, ~ 사이에 — 여럿으로 이루어진 집단의 일부로 또는 그 사이에서.	In the group of; between or within several things or people.
+item	=	항목, 문항 — 목록·설문·검사 등을 구성하는 개별 요소.	An individual element in a list, questionnaire, or test.
+individual	=	개인의, 개별적인 — 한 사람 또는 하나의 대상에 각각 해당하는.	Relating to a single person or thing; separate.
+thinking	=	사고, 생각 — 판단하고 추론하는 정신 활동.	The process of using one's mind to reason or consider.
+create	=	만들다, 창출하다 — 새로운 것을 생겨나게 하다.	To bring something new into existence.
+article	=	논문, (학술) 글 — 학술지나 잡지 등에 실린 한 편의 글.	A piece of writing published in a journal, magazine, or newspaper.
+write	=	쓰다, 작성하다 — 글자나 글로 내용을 적다.	To put words down on paper or screen; to compose text.
+instructional	=	교수(敎授)의, 교육용의 — 가르치는 일이나 수업과 관련된.	Relating to or intended for teaching.
+integrate	=	통합하다 — 여러 요소를 결합하여 하나로 만들다.	To combine parts into a unified whole.
+author	=	저자 — 논문이나 책 등을 쓴 사람.	The writer of a paper, book, or other work.
+positive	=	긍정적인 — 좋거나 바람직한 방향의; 찬성하는.	Favourable, good, or constructive; showing improvement or agreement.
+material	=	자료, 학습 자료 — 학습이나 연구에 사용되는 내용물이나 도구.	Content or resources used for learning or research.
+control	=	통제, 제어 — 어떤 것을 조절하거나 관리하는 것; (실험의) 통제 조건.	The power to manage something; in research, a condition used for comparison.
+highlight	=	=	To draw special attention to; to emphasize.
+ensure	=	보장하다, 확실히 하다 — 어떤 일이 반드시 일어나거나 이루어지도록 하다.	To make certain that something happens or is the case.
+video	=	동영상, 비디오 — 움직이는 영상을 기록하거나 재생하는 매체.	A recording of moving images, often with sound.
+assess	=	평가하다 — 어떤 것의 수준·가치·특성을 판단하다.	To evaluate or judge the quality, level, or value of.
+like	preposition	~와 같은, ~처럼 — 예를 들거나 비슷함을 나타낼 때 쓰는 말.	Such as; similar to.
+term	=	용어; 기간 — 특정 개념을 나타내는 말; 일정한 기간 (in terms of: ~의 측면에서).	A word or expression with a specific meaning; also, a period of time.
+regard	verb	여기다, 간주하다; (regarding) ~에 관하여 — 어떤 것을 특정한 관점으로 보다.	To consider in a particular way; (regarding) concerning.
+significantly	=	유의하게, 상당히 — 통계적으로 의미 있게 또는 상당한 정도로.	In a statistically significant way; to a considerable extent.
+literacy	=	리터러시, 소양 — 특정 영역(디지털·AI 등)을 이해하고 활용하는 능력; 본래 읽고 쓰는 능력.	Competence or knowledge in a specified area; originally, the ability to read and write.
+collaborative	=	협력적인, 협동의 — 여럿이 함께 목표를 위해 협력하는.	Involving people working together toward a shared goal.
+evaluation	=	평가 — 어떤 것의 가치·효과·질을 판단하는 일.	The process of judging the value, quality, or effectiveness of something.
+ethical	=	윤리적인 — 도덕적 원칙에 관련되거나 부합하는.	Relating to or consistent with moral principles.
+intervention	=	개입, 중재 — 결과를 개선하기 위해 의도적으로 실시하는 프로그램이나 조치.	A deliberate program or action intended to improve an outcome.
+reveal	=	=	To make known something previously hidden or unknown.
+virtual	=	=	Existing or simulated by computer technology rather than physically.
+facilitate	=	촉진하다, 용이하게 하다 — 어떤 과정이나 행동을 더 쉽게 만들다.	To make an action or process easier.
+topic	=	주제 — 논의하거나 연구하는 대상이 되는 내용.	A subject of discussion, study, or writing.
+field	=	=	A particular area of study or activity.
+key	=	=	Of central importance; crucial.
+insight	=	통찰, 시사점 — 대상의 본질을 깊이 이해하게 해 주는 깨달음이나 정보.	A deep understanding of something, or information that provides it.
+#REEX	science
+experimental	=	실험의, 실험적인 — 실험에 기반하거나 실험과 관련된.	Relating to or based on experiments.
+perceive	=	인식하다, 지각하다 — 감각이나 생각을 통해 알아차리거나 받아들이다.	To become aware of or regard something in a particular way.
+lead	=	이끌다, (결과로) 이어지다 — 앞장서 이끌거나 어떤 결과를 낳다 (lead to).	To guide; to result in or cause (lead to).
+effectiveness	=	효과성 — 의도한 결과를 얼마나 잘 달성하는지의 정도.	The degree to which something produces the intended result.
+year	=	해, 연(年) — 열두 달로 이루어진 기간.	A period of twelve months.
+setting	=	=	The context or environment in which something takes place.
+reflect	=	반영하다, 성찰하다 — 어떤 것을 나타내어 보여 주다; 깊이 되돌아보다 (reflect on).	To show or express something; to think carefully about (reflect on).
+access	=	접근, 이용 — 무언가를 사용하거나 얻을 수 있는 기회나 권리.	The opportunity or right to use or obtain something.
+often	=	자주, 흔히 — 여러 번 반복하여; 대개.	Many times; frequently.
+interest	=	=	Curiosity or attention toward something.
+literature	=	문헌, 선행연구 — 특정 주제에 관해 발표된 연구 논문과 저술의 총체.	The body of published research and writing on a particular subject.
+professional	=	전문적인, 직업의 — 특정 직업이나 전문 분야와 관련된.	Relating to a profession or occupation.
+pedagogical	=	교수법의, 교육학적인 — 가르치는 방법이나 교육학과 관련된.	Relating to teaching methods or pedagogy.
+behavior	=	행동 — 사람이나 대상이 보이는 행위 방식.	The way a person or thing acts or responds.
+particularly	=	특히 — 다른 것보다 두드러지게.	Especially; to a greater degree than usual.
+instruction	=	교수(敎授), 수업; 지시 — 가르치는 활동; 무엇을 하도록 알려 주는 안내.	Teaching; also, a direction telling someone what to do.
+area	=	영역, 분야 — 특정 주제나 활동의 범위.	A particular subject or range of activity.
+size	=	=	The magnitude or extent of something.
+receive	=	받다 — 주어지거나 보내진 것을 받아들이다.	To be given or get something.
+concern	=	우려, 관심사 — 걱정하거나 신경 쓰는 문제.	A matter of worry or interest.
+overall	=	=	Taking everything into account; total.
+prior	=	=	Existing or coming before in time; previous.
+collaboration	=	협력, 협업 — 공동의 목표를 위해 함께 일하는 것.	The act of working together toward a shared goal.
+employ	=	=	To make use of (a method, tool, etc.).
+load	=	부하, 부담 — (주로 cognitive load) 처리해야 하는 정신적·작업적 부담의 양.	The amount of demand placed on a system or mind, as in cognitive load.
+guide	=	안내하다, 이끌다 — 방향이나 방법을 제시하여 이끌다.	To direct or influence the course of something.
+agent	=	에이전트, 행위자 — 스스로 판단해 행동하는 주체; (AI) 특정 기능을 수행하는 소프트웨어.	An entity that acts; in AI, software that performs tasks autonomously.
+lack	=	=	To be without or not have enough of something.
+#REEX	lack
+idea	=	생각, 아이디어 — 마음속에 떠오른 개념이나 착상.	A thought, concept, or suggestion.
+interactive	=	상호작용하는, 대화형의 — 사용자와 주고받으며 반응하는.	Allowing two-way communication or response between user and system.
+traditional	=	전통적인 — 오랫동안 이어져 온 관습이나 방식의.	Following long-established customs or methods.
+reflection	=	성찰 — 자신의 경험이나 학습을 깊이 되돌아보는 것.	Careful thought about one's own experiences or learning.
+share	=	=	To have or use something jointly with others; to tell others about something.
+child	=	아이, 아동 — 성인이 되지 않은 어린 사람.	=
+#REEX	child
+without	=	=	Not having or using; in the absence of.
+presence	=	존재(감), 실재감 — 어떤 곳에 있거나 함께 있다고 느끼는 상태 (예: social presence).	The state of being present; in online learning, the sense of being there with others.
+communication	=	의사소통 — 정보나 생각을 주고받는 일.	The exchange of information or ideas.
+whether	=	=	Used to introduce alternatives or an indirect question (if).
+current	=	=	Belonging to the present time.
+analyze	=	분석하다 — 대상을 요소별로 나누어 자세히 살펴보다.	To examine something in detail by breaking it down.
+align	=	일치하다, 부합하다 — 다른 것과 방향이나 내용이 맞다 (align with).	To be in agreement or consistent with something.
+complex	=	복잡한 — 여러 요소가 얽혀 있어 이해하기 어려운.	Consisting of many interconnected parts; complicated.
+creative	=	창의적인 — 새롭고 독창적인 생각을 만들어 내는.	Having or showing the ability to produce original ideas.
+#REEX	evidence
+#REEX	effectively
+multiple	=	=	More than one; several.
+writing	=	글쓰기, 작문 — 글을 쓰는 활동이나 그 결과물.	The activity or skill of composing text.
+remain	=	여전히 ~이다, 남아 있다 — 같은 상태로 계속 있다.	To continue to exist or stay in the same state.
+emphasize	=	강조하다 — 어떤 점을 특별히 중요하게 드러내다.	To give special importance to something.
+attention	=	주의, 주목 — 어떤 대상에 정신을 집중하는 것.	Mental focus on something; notice.
+rather	=	오히려, ~보다는 — (rather than) 어떤 것 대신에; 다소.	Instead of (rather than); to some degree.
+explain	=	설명하다 — 이해할 수 있도록 분명하게 밝히다; 원인이 되다.	To make something clear; to account for.
+total	noun	총계, 합계 — 모든 것을 더한 전체 수량 (a total of: 총 ~).	The whole number or amount.
+adopt	=	=	To take up and use (a method, approach, or technology).
+accord	=	(according to) ~에 따르면; 일치하다 — 출처나 기준에 따라 말할 때 쓰는 표현.	(according to) As stated by or in agreement with.
+ask	=	묻다, 요청하다 — 질문하거나 무엇을 해 달라고 부탁하다.	To put a question to someone; to request.
+practical	=	실용적인, 실제적인 — 이론보다 실제 적용과 관련된.	Concerned with actual use or practice rather than theory.
+state	=	상태; 주(州), 국가 — 어떤 대상의 조건; 행정 단위로서의 주나 국가.	A condition at a particular time; also, a political territory or nation.
+play	=	(역할을) 하다, 놀다 — 어떤 역할이나 기능을 수행하다 (play a role).	To perform a role or function (play a role); to engage in games.
+#REEX	play
+generative	=	생성형의, 생성적인 — 새로운 내용을 만들어 내는 (generative AI).	Able to produce new content, as in generative AI.
+great	=	큰, 대단한, 훌륭한 — 정도나 규모가 크거나 매우 좋은.	Large in amount or degree; very good.
+gap	=	격차, 공백 — 두 대상 사이의 차이나 연구에서 다루어지지 않은 부분 (research gap).	A difference between things, or a missing area, as in a research gap.
+code	=	규범, 코드; 부호 — 규칙의 체계(윤리강령); 프로그램 코드; 질적 분석에서 붙이는 범주 표시.	A system of rules; computer program instructions; a label assigned in qualitative analysis.
+encourage	=	장려하다, 격려하다 — 어떤 행동을 하도록 북돋우다.	To give support or confidence; to promote an action.
+incorporate	=	통합하다, 포함시키다 — 어떤 것을 전체의 일부로 넣다.	=
+gain	=	얻다 — 노력이나 경험을 통해 무엇을 획득하다.	To obtain or acquire something.
+#REEX	artificial
+dynamic	=	역동적인, 동적인 — 끊임없이 변화하고 움직이는.	Constantly changing or active.
+theoretical	=	이론적인 — 이론에 관련되거나 이론에 근거한.	Relating to or based on theory.
+subject	=	과목, 주제; 대상 — 학습·연구의 분야나 주제; 연구 대상자.	A field of study; a topic; a person studied in research.
+theme	=	주제, 테마 — (질적 분석에서) 자료에서 반복적으로 드러나는 핵심 의미.	A recurring idea or pattern, especially in qualitative analysis.
+emerge	=	나타나다, 부상하다 — 드러나거나 새롭게 등장하다.	To appear or become apparent.
+reliability	=	신뢰도 — 측정이나 결과가 일관되게 나오는 정도.	The degree to which a measure produces consistent results.
+age	=	나이, 연령 — 태어나서 지금까지 지난 햇수.	The length of time a person has lived.
+strong	=	강한 — 정도나 영향이 크고 확실한 (strong evidence).	Having great force, effect, or degree.
+essential	=	필수적인 — 반드시 필요한; 본질적인.	Absolutely necessary; fundamental.
+limit	=	제한하다 — 범위나 양을 일정한 한도 안으로 한정하다.	To restrict something within certain bounds.
+implication	=	시사점, 함의 — 연구 결과가 갖는 의미나 영향.	A likely consequence or meaning, as in the implications of findings.
+bias	=	편향, 편견 — 한쪽으로 치우친 경향이나 판단 (데이터·알고리즘 편향 포함).	A systematic tendency or prejudice that distorts judgment or results.
+solution	=	=	A means of solving a problem.
+available	=	이용 가능한 — 얻거나 사용할 수 있는.	Able to be used or obtained.
+#REEX	available
+initial	=	초기의, 처음의 — 어떤 과정의 시작 단계에 있는.	Occurring at the beginning; first.
+another	determiner	또 다른 (하나) — 같은 종류의 추가적인 하나; 다른 하나.	One more; a different one.
+#REEX	towards
+even	=	=	Used to emphasize something surprising or extreme.
+grade	=	성적, 학년 — 학업 평가 점수나 등급; 학년.	A mark showing the quality of student work; a school year level.
+early	=	초기의, 이른 — 시간이나 과정의 앞부분에 있는.	Near the beginning of a period or process.
+session	=	세션, (활동) 시간 — 특정 활동을 위해 정해진 한 차례의 시간.	A period of time devoted to a particular activity.
+build	=	구축하다, 만들다 — 무언가를 쌓아 만들거나 발전시키다 (build on: ~을 토대로 하다).	To construct or develop something; (build on) to use as a foundation.
+institution	=	기관 — 대학·학교 등 특정 목적을 가진 공식 조직.	An organization such as a university or school.
+instance	=	사례, 예 — (for instance) 예를 들어 보여 주는 하나의 경우.	An example or single occurrence of something.
+interact	=	=	To act on or communicate with each other.
+technical	=	=	Relating to a particular technology or specialized field.
+solve	=	=	To find an answer to a problem.
+competence	=	역량, 능력 — 어떤 일을 잘 해낼 수 있는 지식과 기술.	The ability to do something successfully or efficiently.
+plan	=	계획 — 앞으로 할 일의 방법이나 절차를 미리 정한 것.	A detailed proposal for doing or achieving something.
+personal	=	=	Belonging to or concerning a particular person.
+associate	=	연관시키다 — 어떤 것을 다른 것과 관련지어 생각하다 (be associated with: ~와 관련되다).	To connect in the mind; (be associated with) to be related to.
+primary	=	=	Of chief importance; main.
+average	=	평균의 — 평균을 낸; 보통 수준의.	Calculated as the mean; typical.
+negative	=	=	Harmful or unfavourable; showing a decrease or inverse relationship.
+conceptual	=	개념적인 — 개념이나 이론적 틀과 관련된.	Relating to concepts or ideas.
+reading	=	읽기, 독해 — 글을 읽고 이해하는 활동.	The activity of reading and understanding text.
+active	=	능동적인, 적극적인 — 스스로 활발하게 참여하는.	Engaging or participating with energy and initiative.
+determine	=	결정하다, 알아내다 — 어떤 것을 확정하거나 조사하여 밝히다.	To establish or find out; to decide or cause.
+open	=	개방된, 열린 — 누구나 이용·참여할 수 있게 열려 있는; 개방형의.	Accessible or available to all; not closed or restricted.
+#REEX	open
+must	verb	~해야 하다 — 의무나 필요를 나타내는 조동사.	Used to express obligation or necessity.
+validity	=	타당도, 타당성 — 측정이 의도한 것을 제대로 측정하는 정도.	The extent to which a measure assesses what it is intended to.
+acceptance	=	수용, 받아들임 — 무엇을 받아들이거나 사용하기로 하는 것.	The act of accepting or adopting something.
+assignment	=	과제 — 학생에게 부과된 학습 활동이나 작업.	A task or piece of work given to students.
+appropriate	=	적절한 — 특정 상황이나 목적에 알맞은.	Suitable for a particular situation or purpose.
+adapt	=	조정하다, 적응하다 — 상황에 맞게 바꾸거나 맞춰 나가다.	To change something to suit new conditions; to adjust.
+reason	=	이유, 근거 — 어떤 일이 일어나거나 그렇게 판단하는 까닭.	A cause or justification for something.
+empirical	=	실증적인, 경험적인 — 관찰이나 실험 자료에 근거한.	Based on observation or experiment rather than theory.
+establish	=	확립하다, 수립하다 — 체계나 관계 등을 세우거나 입증하다.	To set up or create; to prove or show to be true.
+#REEX	behaviour	\b(their|student|students'|students’|learning|human|learners'|learners’|online|help-seeking|positive|negative|social) behaviours?\b
+limited	=	제한된, 한정된 — 양이나 범위가 적거나 한정된.	Restricted in size, amount, or extent.
+clear	=	분명한, 명확한 — 이해하기 쉽고 모호하지 않은.	Easy to understand; obvious.
+others	pronoun	다른 사람들, 다른 것들 — 이미 언급된 것 외의 사람이나 것.	Other people or things.
+awareness	=	인식, 의식 — 어떤 사실이나 상황을 알고 있는 상태.	Knowledge or perception of a situation or fact.
+final	=	최종의, 마지막의 — 과정의 끝에 오는.	Coming at the end; last.
+accuracy	=	정확도, 정확성 — 오류 없이 옳거나 정밀한 정도.	The degree to which something is correct or exact.
+link	=	연결하다 — 둘 이상의 대상을 서로 이어 관련짓다.	To connect or associate two or more things.
+distribution	=	분포; 배포 — 값이나 대상이 퍼져 있는 양상; 나누어 주는 것.	The way values are spread; the act of distributing.
+# <<batch1 end: 1-250>>
+likely	=	~할 것 같은, 가능성 있는 — 어떤 일이 일어날 확률이 높은.	Probable; expected to happen or be true.
+management	=	관리, 경영 — 자원이나 활동을 계획하고 조정하여 다루는 일.	The process of controlling or organizing resources or activities.
+give	=	주다, 제공하다 — 어떤 것을 남에게 건네거나 제공하다.	To hand over or provide something.
+chatbots	=	챗봇(복수) — 사용자와 대화를 나누도록 설계된 컴퓨터 프로그램.	Computer programs designed to converse with users.
+contribution	=	기여, 공헌 — 어떤 결과나 분야의 발전에 보탬이 되는 것.	Something that helps advance a result or field.
+#REEX	shape	\b(shape|shaped|shaping)\b (students|learners|their|the|how|our|teachers|perceptions|attitudes|practices|educational|learning)
+#REEX	risk
+broad	=	=	Wide in range or scope; general.
+despite	=	=	Without being affected by; in spite of.
+community	=	공동체, 커뮤니티 — 공통의 관심이나 특성을 공유하는 사람들의 집단.	A group of people sharing common interests or characteristics.
+beyond	=	=	Further than; exceeding the scope or limits of.
+scaffold	=	=	To provide temporary support that helps learners accomplish a task.
+#REEX	scaffold	\bto scaffold\b|\bscaffolded\b|\bscaffold (students|learners|their|the|children)
+gender	=	=	The social and cultural categories of male, female, and other identities.
+contrast	=	대조, 차이 — 둘 이상의 대상 사이의 뚜렷한 차이 (in contrast: 이와 대조적으로).	A clear difference between things (in contrast: by comparison).
+innovation	=	혁신 — 새로운 아이디어·방법·기술을 도입하는 것.	The introduction of new ideas, methods, or technologies.
+chatbot	=	챗봇 — 사용자와 대화를 나누도록 설계된 컴퓨터 프로그램.	A computer program designed to converse with users.
+space	=	=	An area or environment, physical or digital; a field of activity.
+predict	=	=	To say or estimate what will happen in the future.
+line	=	선; (in line with) ~에 부합하는 — 줄이나 경계; 어떤 것과 일치하는 상태.	A continuous mark or boundary; (in line with) in agreement with.
+additional	=	=	Added or extra.
+map	=	지도, 맵 — 공간이나 개념 사이의 관계를 시각적으로 나타낸 것 (concept map).	A visual representation of an area or of relationships between ideas.
+#REEX	map
+analyse	=	분석하다 — 대상을 요소별로 나누어 자세히 살펴보다 (영국식 철자).	To examine something in detail by breaking it down (British spelling).
+rate	=	비율, 속도 — 일정 기준에 대한 발생 정도나 빈도 (dropout rate 등).	A measure or ratio of how often something happens.
+sense	=	감각, 느낌; 의미 — 무언가를 느끼는 인식 (a sense of ~); 이치 (make sense).	A feeling or awareness (a sense of); meaning or reason (make sense).
+serve	=	(역할을) 하다, 기능하다 — 특정 역할이나 목적에 쓰이다 (serve as).	To function or act as something (serve as).
+#REEX	serve
+order	=	순서; (in order to) ~하기 위해 — 배열의 차례; 목적을 나타내는 표현.	Sequence or arrangement; (in order to) for the purpose of.
+still	=	=	Even now; continuing until the present.
+original	=	=	Existing first; not copied; new and creative.
+behavioral	=	행동의, 행동적인 — 행동과 관련된.	=
+valuable	=	가치 있는, 귀중한 — 쓸모나 중요성이 큰.	Of great use or importance.
+necessary	=	필요한 — 반드시 있어야 하는.	Needed; required.
+direct	=	직접적인 — 중간 매개 없이 바로 이어지는.	Without intervening factors; immediate.
+#REEX	direct	\bdirect (interaction|interactions|instruction|effect|effects|contact|experience|feedback|involvement|supervision|observation|impact|relationship)\b
+capture	=	포착하다, 담아내다 — 어떤 특성이나 현상을 정확히 파악하여 나타내다.	To record or represent something accurately.
+consistent	=	일관된, 일치하는 — 변함없이 같거나 다른 것과 부합하는 (consistent with).	Unchanging over time; in agreement with (consistent with).
+collection	=	수집; 모음 — 자료 등을 모으는 일; 모아 놓은 것.	The act of gathering (e.g., data); a group of gathered items.
+#REEX	collection	\b(data|the) collection (process|procedures?|methods?|tools?|instruments?|of|was|took|phase)\b
+inform	=	알리다; (결정 등에) 정보를 제공하다 — 어떤 판단이나 실천의 근거가 되다.	To give information to; to guide or shape (decisions, practice).
+mobile	=	=	Portable; relating to devices such as phones and tablets.
+detail	=	세부 사항 — 어떤 것의 자세한 부분.	A small individual fact or part of something.
+#REEX	face	\b(face|faces|faced|facing) (the|a|an|many|several|significant|challenges|difficulties|similar|issues|problems|barriers|obstacles|considerable|numerous)\b
+via	=	=	By means of; through.
+target	=	목표, 대상 — 달성하려는 대상이나 겨냥하는 집단.	An objective or the intended group or object of an action.
+#REEX	target	\b(target|targets)\b
+progress	=	진전, 향상 — 목표를 향해 앞으로 나아가거나 나아지는 것.	Forward movement toward a goal; improvement.
+independent	=	=	Not depending on or connected with others.
+place	=	장소, 곳 — 어떤 일이 일어나거나 무엇이 있는 위치 (take place: 일어나다).	A particular position or location; (take place) to happen.
+#REEX	place	\b(place|places)\b
+format	=	형식, 포맷 — 자료나 출판물의 구성 방식.	The way something is arranged or presented.
+usage	=	사용, 이용(량) — 어떤 것을 쓰는 방식이나 정도.	The action or amount of using something.
+confirm	=	확인하다, 입증하다 — 사실임을 증명하거나 확실히 하다.	To establish the truth or correctness of something.
+metacognitive	=	메타인지의 — 자신의 사고 과정을 인식하고 조절하는 것과 관련된.	Relating to awareness and control of one's own thinking processes.
+directly	=	직접(적으로) — 중간 단계 없이 바로.	In a direct manner; without intermediaries.
+particular	=	특정한 — 여럿 가운데 하나를 특별히 가리키는.	Relating to a specific individual or thing.
+add	=	추가하다, 더하다 — 기존의 것에 무엇을 보태다.	To put something together with something else.
+reflective	=	=	Involving careful thought about one's own experiences.
+visual	=	시각적인, 시각의 — 보는 것과 관련된.	Relating to seeing or sight.
+programming	=	프로그래밍 — 컴퓨터 프로그램을 작성하는 일.	The process of writing computer programs.
+indicator	=	지표 — 상태나 수준을 나타내는 측정 기준.	A measurable sign that shows the state or level of something.
+background	=	배경 — 어떤 일이나 연구의 바탕이 되는 상황이나 정보.	The circumstances or information that form the context of something.
+#REEX	background
+output	=	산출물, 출력 — 시스템이나 활동이 만들어 낸 결과.	The result produced by a system or activity.
+quantitative	=	양적인 — 수치나 양으로 측정하는.	Based on or measured by numbers or quantity.
+meet	=	=	To satisfy (needs, requirements, or standards).
+extend	=	확장하다, 넓히다 — 범위나 영향을 더 크게 하다.	To expand the range or scope of something.
+maintain	=	유지하다 — 어떤 상태를 계속 지속시키다.	To keep something in the same state.
+comprehension	=	이해, 이해력 — 내용을 파악하여 아는 것 (reading comprehension).	The ability to understand something.
+#REEX	train	\b(train|trained)\b
+inquiry	=	탐구; 문의 — 질문을 통해 지식을 찾아가는 과정; 묻는 것.	A process of seeking knowledge through questioning; a request for information.
+#REEX	inquiry
+draw	=	(결론 등을) 이끌어 내다, 활용하다 — 결론을 도출하거나 자원을 끌어다 쓰다 (draw on).	To derive (a conclusion); (draw on) to make use of.
+recognize	=	인식하다, 인정하다 — 알아보거나 그 가치·사실을 받아들이다.	To identify or acknowledge the existence or value of something.
+produce	=	생산하다, 만들어 내다 — 결과물이나 효과를 만들어 내다.	To make, create, or bring about something.
+#REEX	produce	\b(produce|produces|produced|producing)\b
+basic	=	기초적인, 기본적인 — 가장 단순하고 근본적인.	Forming the essential foundation; simple.
+seek	=	=	To try to find or obtain something.
+positively	=	긍정적으로 — 좋은 방향으로; 정(+)의 방향으로 (positively correlated).	In a positive manner; with a positive relationship.
+thereby	=	그렇게 함으로써, 그 결과 — 앞서 말한 방법이나 결과로.	By that means; as a result of that.
+record	noun	기록 — 정보를 적거나 저장해 둔 것.	A stored account of information or events.
+common	=	흔한; 공통의 — 자주 일어나는; 여럿이 함께 가진.	Occurring often; shared by two or more.
+immersive	=	몰입형의, 몰입감 있는 — 사용자가 가상 환경에 빠져들게 하는.	Creating a deeply engaging, surrounding experience (as in VR).
+illustrate	=	보여 주다, 설명하다 — 예나 그림으로 분명히 나타내다.	To explain or make clear using examples or pictures.
+#REEX	illustrate
+complexity	=	복잡성 — 여러 요소가 얽혀 복잡한 정도.	The state of having many interconnected parts.
+#REEX	complexity
+mention	=	=	To refer to something briefly.
+cluster	=	군집, 클러스터 — 비슷한 특성으로 묶인 집단.	A group of similar items, as identified in cluster analysis.
+#REEX	cluster	\bclusters?\b
+perceived	=	인지된, 지각된 — 사람들이 그렇다고 느끼거나 인식하는 (perceived usefulness).	As understood or experienced by people (e.g., perceived usefulness).
+#REEX	perceived	\bperceived (usefulness|ease|value|risk|benefits?|enjoyment|competence|effectiveness|quality|support|self-efficacy|learning)\b
+privacy	=	개인정보 보호, 프라이버시 — 개인의 정보나 사생활이 보호되는 상태.	Protection of personal information or private life.
+international	=	=	Involving two or more countries.
+document	verb	기록하다, 문서화하다 — 사실이나 과정을 자료로 남기다.	To record something in written or other form.
+country	=	=	A nation with its own territory and government.
+essay	=	에세이, (논술형) 글 — 특정 주제에 대해 쓴 짧은 글.	A short piece of writing on a particular subject.
+consideration	=	고려 (사항) — 결정할 때 신중히 따져 보는 것이나 그 요소.	Careful thought, or a factor taken into account.
+advance	=	발전하다, 진전시키다 — 앞으로 나아가거나 더 발전하게 하다.	To move forward or make progress; to promote.
+#REEX	advance	\b(advance|advances|advanced|advancing) (the|our|their|knowledge|understanding|research|learning|educational)\b
+coding	=	코딩; (질적 자료) 부호화 — 프로그램을 작성하는 일; 자료에 범주 코드를 붙이는 일.	Writing computer programs; assigning codes to qualitative data.
+image	=	이미지 — 사진이나 그림 등 시각적 표현물.	A picture or visual representation.
+hand	=	손; (on the other hand) 반면에 — 신체 부위; 대조를 나타내는 표현.	The part of the body at the end of the arm; (on the other hand) in contrast.
+power	=	힘, 권력; (통계) 검정력 — 영향을 미치는 능력; 효과를 탐지하는 확률.	The ability to influence; in statistics, the probability of detecting an effect.
+#REEX	power	\b(statistical|the) power (of|to|analysis)\b|\bpower (analysis|dynamics|relations)\b
+investigation	=	조사, 연구 — 사실을 밝히기 위해 체계적으로 살펴보는 일.	A systematic inquiry to discover facts.
+keywords	=	키워드, 핵심어 — 논문이나 주제를 대표하는 중요한 단어들.	Significant words that represent the main topics of a text.
+feel	=	느끼다 — 감정이나 감각을 경험하다; ~라고 생각하다.	To experience an emotion or sensation; to believe.
+#REEX	feel	\b(feel|feels) (more|less|that|comfortable|confident|anxious|uncomfortable|connected|engaged|valued|supported|empowered|motivated|at ease|like)\b
+six	=	여섯, 6 — 5보다 하나 많은 수.	The number 6.
+suggestion	=	제안 — 고려해 보도록 내놓은 생각이나 의견.	An idea or plan put forward for consideration.
+regulation	=	조절, 규제 — (학습) 스스로 통제하고 조정하는 것; 규칙에 의한 관리.	The control or adjustment of something, as in self-regulation; an official rule.
+#REEX	regulation
+hypothesis	=	가설 — 검증을 위해 세운 잠정적인 설명이나 예측.	A proposed explanation or prediction to be tested.
+upon	=	~에 (근거하여), ~하자마자 — 어떤 것을 바탕으로; 어떤 일이 일어난 직후에.	On the basis of; immediately after.
+divide	=	나누다 — 전체를 여러 부분으로 가르다.	To separate into parts.
+discipline	=	=	A field of study or academic branch.
+core	adjective	핵심적인, 중심의 — 가장 중요하고 중심이 되는.	Central or most important.
+contemporary	=	=	Belonging to the present time; modern.
+#REEX	contemporary
+# <<batch2 end: 251-400>>
+#REEX	end	\b(the|an) end\b
+processing	=	=	The handling or transforming of information or data.
+machine	=	기계; (machine learning) 기계 학습 — 동력이나 연산으로 작업을 수행하는 장치.	A device that performs work; (machine learning) computer learning from data.
+recommendation	=	권고, 제언 — 어떻게 하는 것이 좋을지 제시하는 의견.	A suggestion about the best course of action.
+#REEX	recommendation
+tutor	=	튜터, 개별 지도 교사 — 학습자를 일대일이나 소그룹으로 가르치는 사람(또는 시스템).	A person or system that teaches learners individually or in small groups.
+account	=	설명하다; (account for) 차지하다, 고려하다 — 원인을 설명하거나 비율을 차지하다.	(account for) To explain, to make up a proportion of, or to take into consideration.
+consist	=	(consist of) ~로 구성되다 — 여러 요소로 이루어져 있다.	(consist of) To be made up of.
+toward	=	=	In the direction of; with regard to.
+world	=	세계, 세상 — 지구 전체 또는 인간 사회 전체.	The earth and all its people; human society.
+mode	=	=	A way or manner in which something is done or experienced.
+shift	=	=	A change in position, direction, or emphasis.
+generation	=	생성; 세대 — 무언가를 만들어 내는 것; 같은 시기에 태어난 사람들.	The production of something; also, people born around the same time.
+rely	=	의존하다 — (rely on) 무엇에 기대거나 의지하다.	(rely on) To depend on or trust in.
+together	=	=	With each other; in combination.
+discourse	=	담화, 담론 — 특정 주제에 관한 말이나 글의 교류; 사회적 논의.	Written or spoken communication or debate on a subject.
+long	=	긴, 오랜 — 길이나 시간이 긴 (long-term: 장기적인).	Lasting a great amount of time; extending far.
+#REEX	long	\blong(er)?\b(?!-)
+refer	=	=	To mention or relate to; (refer to) to denote.
+acquisition	=	습득, 획득 — 지식이나 기술을 얻는 것 (language acquisition).	The act of acquiring knowledge or skills.
+leverage	=	=	To use something to maximum advantage.
+variance	=	=	A statistical measure of how far values spread from the mean.
+service	=	서비스; (in-service) 현직의 — 도움을 제공하는 일; 근무.	Help or work done for others; (in-service) currently employed.
+#REEX	service	\bservices? (to|for|that|provided|delivery|quality)\b|\b(support|educational|library|student|online) services?\b
+profile	=	=	A description of the characteristics of a person or group.
+computational	=	컴퓨팅의, 계산의 — 컴퓨터 연산과 관련된 (computational thinking: 컴퓨팅 사고).	Relating to computing or calculation.
+hybrid	=	=	Combining two or more different elements or modes.
+difficult	=	=	Hard to do, understand, or deal with.
+expand	=	확장하다, 넓히다 — 크기나 범위를 더 크게 만들다.	To make or become larger in size or scope.
+#REEX	usefulness
+start	=	시작하다 — 어떤 일을 처음으로 하기 시작하다.	To begin doing something.
+around	=	~을 중심으로, ~ 주위에; 약 — 어떤 것을 둘러싸거나 중심으로 하여; 대략.	Centered on; surrounding; approximately.
+interpret	=	해석하다 — 의미를 이해하거나 설명하다.	To explain or understand the meaning of something.
+respond	=	=	To react or reply to something.
+faculty	=	교수진; 학부 — 대학의 교원 전체; 대학의 단과 조직.	The teaching staff of a university; a division of a university.
+#REEX	faculty	\bfaculty (members?|development|and|perceptions|who|were|are|in|at)\b
+easy	=	쉬운 — 힘들지 않고 하기 쉬운.	Not difficult; requiring little effort.
+detailed	=	=	Including many details; thorough.
+statistic	=	통계량, 통계치 — 표본 자료로부터 계산한 수치.	A numerical value calculated from sample data.
+#REEX	statistic
+fit	=	적합(도) — 모형이 자료에 잘 맞는 정도; 어울리는 정도 (model fit).	How well something matches; in statistics, how well a model matches the data.
+#REEX	fit	\b(model|good|goodness of|the|a|better|poor|acceptable|adequate|excellent) fit\b
+underscore	=	=	To emphasize the importance of something.
+appear	=	나타나다; ~인 것 같다 — 눈에 띄게 되다; 그렇게 보이다.	To come into view; to seem.
+reach	=	도달하다 — 어떤 수준이나 지점에 이르다.	To arrive at or attain a level or point.
+moderate	=	=	Average in amount or degree; not extreme.
+interface	=	인터페이스 — 사용자와 시스템이 상호작용하는 접점이나 화면.	The point where a user and a system interact.
+#REEX	interface	\b(user|the|an|graphical|interactive|simple|intuitive) interfaces?\b
+intelligent	=	지능형의, 지능적인 — 스스로 판단·적응하는 (intelligent tutoring system).	Able to adapt and make decisions; smart (as in intelligent systems).
+#REEX	intelligent
+public	=	공공의, 공개된 — 일반 대중을 위한; 누구나 접근할 수 있는.	Relating to or available to people in general.
+british	=	영국의 — 영국이나 영국 사람과 관련된.	Relating to the United Kingdom or its people.
+#REEX	british	\bBritish (students|universities|university|context|government|higher|English|school|schools|teachers|sample|participants|learners|education)\b
+personalized	=	개인 맞춤형의 — 개인의 필요나 특성에 맞춘.	Tailored to an individual's needs or preferences.
+reasoning	=	추론 — 근거를 바탕으로 논리적으로 결론을 이끌어 내는 사고 과정.	The process of thinking logically to form conclusions.
+#REEX	reasoning
+significance	=	중요성; (통계적) 유의성 — 어떤 것이 중요한 정도; 결과가 우연이 아닐 가능성.	Importance; in statistics, the likelihood that a result is not due to chance.
+contextual	=	맥락적인, 상황적인 — 맥락이나 주변 상황과 관련된.	Relating to or depending on the context.
+#REEX	contextual
+coefficient	=	계수 — 변수 간 관계의 크기를 나타내는 수치 (상관·신뢰도 계수 등).	A numerical value expressing the strength of a relationship or property (e.g., correlation coefficient).
+connect	=	연결하다, 관련짓다 — 둘 이상을 이어 관계를 맺게 하다.	To join or link things or people together.
+multimodal	=	다중양식의, 멀티모달 — 텍스트·이미지·음성 등 여러 표현 방식을 함께 쓰는.	Using several modes of representation such as text, image, and sound.
+representation	=	표상, 표현; 대표성 — 어떤 것을 나타내는 방식이나 형태; 집단이 반영된 정도.	The way something is depicted; also, the extent to which a group is included.
+female	adjective	여성의 — 여성인 또는 여성과 관련된.	Of or relating to women or girls.
+unique	=	고유한, 독특한 — 다른 것과 구별되는 유일한.	Being the only one of its kind; distinctive.
+transfer	=	전이, 이전 — 학습한 지식이나 기술을 새로운 상황에 적용하는 것; 옮기는 것.	The application of learning to new contexts; the act of moving something.
+life	=	삶, 생활 — 사람이 살아가는 일이나 일상.	The existence and daily activities of a person.
+engineering	=	공학; (prompt engineering) 프롬프트 설계 — 과학 원리를 응용해 무언가를 설계하는 일.	The application of science to design things; (prompt engineering) designing effective AI prompts.
+#REEX	expectation
+distinct	=	뚜렷이 구별되는, 별개의 — 다른 것과 분명히 다른.	Clearly different or separate.
+internal	=	내부의, 내적인 — 안쪽에 있거나 내부에서 비롯된 (internal consistency).	Inside or arising from within.
+#REEX	choice	(?<!-)\bchoices?\b(?!-)
+demand	=	요구, 부담 — 해야 하거나 필요로 하는 것 (cognitive demands).	Something that is required; a pressure or burden.
+primarily	=	주로 — 무엇보다 먼저; 대부분.	Mainly; chiefly.
+highly	=	매우, 대단히 — 정도가 매우 높게.	To a high degree; very.
+period	=	기간 — 일정하게 정해진 시간의 범위.	A length of time.
+direction	=	방향 — 나아가거나 발전해 가는 쪽 (future directions: 향후 연구 방향).	The course along which something moves or develops.
+assist	=	돕다, 지원하다 — 다른 사람이나 작업을 거들다.	To help someone or something.
+authentic	=	실제적인, 진정한 — 실제 상황과 같은; 가짜가 아닌 (authentic learning).	Real or genuine; resembling real-world situations.
+autonomy	=	자율성 — 스스로 결정하고 행동할 수 있는 상태.	The ability to make one's own decisions and act independently.
+medium	=	매체, 수단; 중간의 — 정보를 전달하는 수단; (효과크기) 중간 정도.	A means of communication or expression; also, middle in size or degree.
+input	=	입력, 의견 — 시스템에 넣는 정보; 제공된 조언이나 의견.	Information put into a system; advice or contributions.
+#REEX	input	\binput (from|data|and|of|on)\b|\b(provide|provided|user|student|learner|teacher) input\b
+#REEX	short	\bshort\b(?!-)
+creation	=	창작, 생성 — 새로운 것을 만들어 내는 일.	The act of making something new.
+object	=	대상, 물체 — 관심이나 행동이 향하는 것; 물리적인 사물.	A thing that can be seen or touched; the focus of attention or action.
+interpretation	=	해석 — 의미를 이해하고 설명하는 것.	An explanation or understanding of the meaning of something.
+pedagogy	=	교수법, 교육학 — 가르치는 방법과 그 이론.	The method and practice of teaching.
+natural	=	자연스러운, 자연의 — 인위적이지 않은 (natural language: 자연어).	Not artificial; occurring in nature (natural language: human language).
+actively	=	적극적으로, 능동적으로 — 스스로 활발하게 참여하여.	In an active, engaged manner.
+agree	=	동의하다 — 같은 의견을 가지다.	To have the same opinion.
+journal	=	=	A periodical publishing academic articles.
+#REEX	journal	(?<![A-Z][a-z] )\bjournals?\b
+intrinsic	=	내재적인, 본질적인 — 외부가 아닌 내부에서 비롯된 (intrinsic motivation).	Belonging naturally; coming from within (intrinsic motivation).
+conflict	=	갈등, 상충 — 의견이나 이해관계가 서로 충돌하는 것.	A disagreement or clash between opposing views or interests.
+#REEX	conflict	\bconflicts?\b
+evolve	=	=	To develop gradually over time.
+consistency	=	=	The quality of being uniform or reliable (internal consistency).
+descriptive	=	기술적인(記述的), 서술적인 — 특징을 묘사하거나 요약하는 (descriptive statistics: 기술통계).	Serving to describe; (descriptive statistics) summarizing data.
+single	=	=	Only one; individual.
+position	=	위치, 입장 — 놓인 자리; 어떤 문제에 대한 관점.	A place or location; a point of view.
+#REEX	position	\bpositions?\b
+refine	=	=	To improve something by making small changes.
+potentially	=	잠재적으로 — 그렇게 될 가능성이 있게.	Possibly; with the potential to happen.
+unit	=	단위; 부서 — 측정이나 구성의 기본 단위; 조직의 한 부분.	A single part of a whole; a standard of measurement; a department.
+path	=	=	A course or route toward a goal.
+post	noun	게시물; (post-) ~ 이후의 — 온라인 게시판 등에 올린 글; 접두어로 '뒤의' (post-test: 사후 검사).	A message published online (forum post); (as prefix post-) after.
+#REEX	post
+abstract	=	=	Existing as an idea rather than a concrete thing.
+#REEX	abstract	\babstract (concepts?|ideas?|thinking|knowledge|reasoning|nature)\b
+external	=	=	Outside or coming from outside.
+personalize	=	개인화하다, 맞춤화하다 — 개인의 필요나 특성에 맞게 조정하다.	=
+flow	=	흐름; 몰입(flow) — 끊임없이 이어지는 움직임; 활동에 완전히 빠져드는 상태.	A steady movement; in psychology, a state of complete absorption in an activity.
+#REEX	flow	\bflow (experience|state|theory)\b|\bthe flow of\b|\b(conversational|information|learning) flow\b
+request	=	요청 — 무엇을 해 달라고 부탁하는 것.	An act of asking politely for something.
+#REEX	request
+respectively	=	각각 — 앞에 나온 순서대로 하나씩 대응하여.	In the order mentioned, separately.
+preference	=	선호 — 다른 것보다 어떤 것을 더 좋아하는 것.	A greater liking for one thing over another.
+relatively	=	비교적, 상대적으로 — 다른 것과 비교하여 볼 때.	In comparison with something else; somewhat.
+validate	=	검증하다, 타당성을 입증하다 — 정확하거나 타당함을 확인하다.	To check or prove the accuracy or validity of something.
+inclusion	=	포함; 포용 — 어떤 대상에 넣는 것 (inclusion criteria: 포함 기준); 모두를 아우르는 것.	The act of including; also, ensuring all people can participate.
+#REEX	gamification
+reference	=	참고문헌, 참조 — 인용하거나 참고하는 자료; 언급.	A source cited or consulted; a mention of something.
+refers	verb	(refer to) ~을 가리키다, 지칭하다 — 어떤 대상이나 개념을 뜻하다 (refer의 3인칭 단수형).	(refers to) Denotes or relates to (third-person form of refer).
+#REEX	consent
+event	=	사건, 일 — 일어나는 일.	Something that happens; an occurrence.
+efficiency	=	효율(성) — 들인 노력이나 자원에 비해 얻는 결과의 정도.	The ability to achieve results with minimal waste of time or effort.
+structural	=	=	Relating to the structure or arrangement of parts.
+dataset	=	=	A structured collection of data used for analysis.
+statement	=	진술, 문장 — 말이나 글로 표현한 내용.	Something said or written; a declaration.
+increasingly	=	점점 더 — 시간이 지남에 따라 더욱.	More and more.
+best	=	가장 좋은, 최선의 — 다른 어떤 것보다 좋은.	Of the highest quality; most suitable.
+#REEX	best
+contain	=	포함하다, 담고 있다 — 안에 지니거나 구성 요소로 가지다.	To have or hold within.
+cause	=	일으키다, 야기하다 — 어떤 결과가 생기게 하다.	To make something happen.
+continuous	=	지속적인, 계속되는 — 끊임없이 이어지는.	Without stopping or interruption.
+# <<batch3 end: 401-550>>
+duration	=	(지속) 기간 — 어떤 일이 계속되는 시간의 길이.	The length of time something lasts.
+check	=	=	To examine something to make sure it is correct.
+#REEX	check	\b(check|checked|checks|checking) (whether|if|the|their|for|that)\b
+right	=	올바른, 적절한; 오른쪽의 — 옳거나 알맞은; 오른쪽의.	Correct or appropriate; on the right side.
+#REEX	right	\bthe right (direction|time|balance|tools?|answers?|questions?|way|support|information)\b
+secondary	=	=	Relating to education after primary school; of lesser importance.
+male	adjective	남성의 — 남성인 또는 남성과 관련된.	Of or relating to men or boys.
+#REEX	male	\bmale (students|participants|and|teachers|learners|respondents)\b
+recommend	=	권고하다, 추천하다 — 좋다고 생각하는 방법을 제안하다.	To suggest something as good or suitable.
+pandemic	=	(감염병의) 세계적 대유행, 팬데믹 — 넓은 지역에 걸쳐 많은 사람에게 퍼진 감염병 (COVID-19 등).	A disease outbreak spreading across a large region or worldwide.
+module	=	모듈, 단원 — 독립적으로 구성된 학습 단위나 시스템 구성 요소.	A self-contained unit of a course or system.
+tailor	=	맞추다, 맞춤화하다 — 특정 대상의 필요에 맞게 조정하다.	To adapt something for a particular purpose or person.
+structured	=	구조화된, 체계적인 — 일정한 틀에 따라 짜인.	Organized according to a clear plan or framework.
+#REEX	structured	(?<!-)\bstructured\b
+relation	=	관계 — 두 대상이 서로 연관된 방식 (in relation to: ~와 관련하여).	The way two things are connected (in relation to: concerning).
+retention	=	유지, (기억의) 파지 — 학습한 내용을 기억 속에 간직하는 것; 계속 머무르게 하는 것.	The ability to keep learned information in memory; keeping something or someone.
+ease	=	용이함, 쉬움 — 어렵지 않음 (ease of use: 사용 용이성).	The absence of difficulty (ease of use).
+turn	=	차례; (in turn) 결국, 차례로 — 순서에 따라 돌아오는 기회; 그 결과로.	An opportunity in sequence; (in turn) as a result.
+adjust	=	조정하다 — 상황에 맞게 조금 바꾸다.	To change something slightly to fit or improve it.
+affective	=	정의적(情意的), 정서적인 — 감정이나 태도와 관련된.	Relating to emotions, feelings, or attitudes.
+memory	=	기억(력) — 정보를 저장하고 떠올리는 능력 (working memory: 작업 기억).	The capacity to store and recall information.
+begin	=	시작하다 — 어떤 일을 처음 하다.	To start doing something.
+#REEX	begin	\b(begin|began|begins|begun)\b
+manage	=	관리하다, (어려운 일을) 해내다 — 다루거나 통제하다.	To control or handle something; to succeed in doing something difficult.
+undergraduate	=	학부(생)의 — 대학 학부 과정에 있는.	Relating to university students who have not yet earned a first degree.
+argue	=	주장하다 — 근거를 들어 자신의 견해를 내세우다.	To give reasons in support of a claim.
+differ	=	다르다 — 서로 같지 않다.	To be unlike or different.
+psychological	=	심리적인 — 마음이나 정신 상태와 관련된.	Relating to the mind or mental state.
+planning	=	=	The process of making plans for something.
+transition	=	전환, 이행 — 한 상태에서 다른 상태로 바뀌는 과정.	=
+look	=	보다, 살펴보다 — 눈길을 주어 확인하다; (look for) 찾다.	To direct one's eyes toward; (look for) to search for.
+parent	=	부모 — 아버지나 어머니.	A mother or father.
+young	=	어린, 젊은 — 나이가 적은.	Having lived for a short time; not old.
+list	=	=	A series of items written one after another.
+scholar	=	학자, 연구자 — 학문을 깊이 연구하는 사람.	A person who studies a subject in depth; an academic.
+#REEX	scholar	(?<!Google )\bscholars?\b
+assumption	=	가정, 전제 — 사실로 받아들이는 전제 (normality assumption: 정규성 가정).	Something accepted as true without proof; a premise.
+barrier	=	장벽, 장애 요인 — 어떤 일을 방해하는 요소.	Something that prevents or hinders progress.
+#REEX	barrier	\bbarriers?\b
+description	=	설명, 묘사 — 어떤 것의 특징을 말이나 글로 나타낸 것.	A spoken or written account of what something is like.
+scaffolding	=	=	Temporary support provided to help learners complete tasks beyond their current ability.
+balance	=	=	To give appropriate weight to different elements; to offset one thing against another.
+acknowledge	=	인정하다; 감사를 표하다 — 사실을 받아들이다; 도움에 고마움을 밝히다.	To accept or admit the truth of; to express thanks for.
+actual	=	실제의 — 실제로 존재하거나 일어나는.	Existing in fact; real.
+infrastructure	=	기반 시설, 인프라 — 활동에 필요한 기본 시설이나 체계.	The basic systems and facilities needed for an activity.
+raise	=	=	To bring up (a question or issue); to increase.
+aid	verb	돕다, 지원하다 — 어떤 일을 쉽게 하도록 거들다.	To help or support.
+pose	=	=	To present (a problem, question, or challenge).
+requirement	=	요구 사항, 필요조건 — 반드시 충족해야 하는 조건.	Something that is needed or demanded.
+deliver	=	=	To provide or present (instruction, content, or services).
+full	=	전체의, 완전한 — 빠진 것 없이 전부의 (full text: 전문).	Complete; entire.
+#REEX	full	\bfull\b(?!-)
+behavioural	=	행동의, 행동적인 — 행동과 관련된 (영국식 철자).	Relating to behaviour (British spelling).
+foundation	=	기초, 토대 — 어떤 것이 세워지는 바탕.	The basis on which something is built.
+conversational	=	대화형의, 대화의 — 대화와 관련되거나 대화 방식의 (conversational agent).	Relating to or carried out through conversation.
+struggle	=	=	To have difficulty doing something.
+posttest	=	사후 검사 — 처치나 수업 후에 실시하는 검사.	A test given after an intervention or instruction.
+robot	=	로봇 — 프로그램에 따라 작업을 수행하는 기계.	=
+revise	=	=	To change or improve something after reconsidering it.
+argument	=	논거, 주장 — 어떤 견해를 뒷받침하는 이유나 진술.	=
+prepare	=	=	To make ready for something.
+hold	=	가지다, 지니다; 유지되다 — (생각·지식 등을) 갖고 있다; 사실로 유효하다.	To have or possess (beliefs, knowledge); to remain true.
+efficacy	=	효능, 효과; (self-efficacy) 자기효능감 — 원하는 효과를 내는 능력.	The ability to produce a desired effect; (self-efficacy) belief in one's own capability.
+successful	=	성공적인 — 원하는 결과를 이룬.	Achieving the desired result.
+stress	verb	강조하다 — 특별히 중요하다고 힘주어 말하다; (명사) 스트레스.	To emphasize; (noun) psychological pressure.
+back	=	다시, 되돌아 — 원래 자리나 상태로.	To or toward a former place or state.
+revision	=	수정, 개정 — 글이나 계획을 고쳐 다듬는 것.	The process of changing and improving something, especially writing.
+generally	=	일반적으로, 대체로 — 대부분의 경우에.	In most cases; usually.
+demographic	=	인구통계학적인 — 나이·성별 등 인구 특성과 관련된.	Relating to characteristics of a population such as age and gender.
+#REEX	demographic	\bdemographic\b
+alpha	=	알파; (통계) 유의수준, 크론바흐 알파 — 그리스 문자 α; 통계적 기준값이나 신뢰도 계수.	The Greek letter α; in statistics, the significance level or Cronbach's reliability coefficient.
+cover	=	=	To deal with or include (a topic).
+act	=	행동하다, 작용하다 — 어떤 역할을 하거나 행동을 취하다 (act as).	To take action; (act as) to function as.
+mixed	=	혼합된 — 여러 요소가 섞인 (mixed methods: 혼합 연구 방법).	Consisting of different elements combined.
+draft	=	=	An early version of a piece of writing.
+outline	=	=	To describe the main points of something.
+formative	=	=	Relating to assessment that monitors and supports learning during instruction.
+staff	=	=	The people who work for an organization.
+style	=	방식, 스타일 — 특유의 형태나 방법 (learning styles: 학습 양식).	A particular manner or way of doing something.
+ground	=	근거를 두다 — 이론이나 자료에 기반하다 (grounded theory: 근거이론).	To base something on (grounded in); (grounded theory) a method building theory from data.
+college	=	=	An institution of higher education; a division of a university.
+#REEX	college	\bcolleges?\b
+simple	=	=	Easy to understand or do; not complicated.
+encompass	=	포함하다, 아우르다 — 여러 요소를 범위 안에 두다.	To include a wide range of things.
+recognition	=	인식; 인정 — 알아보는 것; 가치나 업적을 인정받는 것.	Identification of something; acknowledgement of value or achievement.
+alignment	=	정렬, 일치 — 서로 방향이나 내용이 맞는 상태.	Agreement or consistency between things.
+acquire	=	습득하다, 얻다 — 지식이나 기술을 익혀 가지다.	To gain knowledge or a skill.
+selection	=	선택, 선정 — 여럿 가운데 골라내는 것.	The act of choosing from a range of options.
+advancement	=	발전, 진보 — 앞으로 나아가거나 향상되는 것.	Progress or development.
+along	=	(along with) ~와 함께; ~을 따라 — 함께 곁들여; 방향을 따라서.	(along with) together with; following the line of.
+agreement	=	동의, 일치 — 의견이 같거나 서로 맞는 정도 (inter-rater agreement).	Harmony of opinion; the degree to which ratings match.
+assistant	=	=	A person or system that helps someone with tasks.
+#REEX	population
+strengthen	=	강화하다 — 더 강하게 만들다.	To make stronger.
+want	=	원하다 — 무엇을 갖거나 하고 싶어 하다.	To wish for or desire something.
+whereas	=	=	In contrast; while on the other hand.
+regression	=	회귀 (분석) — 변수 간 관계를 추정하는 통계 기법.	A statistical method for estimating relationships between variables.
+body	=	(연구 등의) 축적; 기관, 단체 — 많은 양의 모음 (a body of research); 조직체.	A large collection (a body of research); an organized group.
+sentence	=	문장 — 하나의 완결된 생각을 나타내는 말의 단위.	A set of words expressing a complete thought.
+stakeholder	=	=	A person or group with an interest in a decision or activity.
+database	=	데이터베이스 — 체계적으로 정리하여 검색할 수 있게 저장한 자료 모음.	An organized collection of data that can be searched.
+#REEX	database
+intend	=	의도하다 — (be intended to) ~하기 위한 것이다.	To have as a purpose; (be intended to) to be designed for.
+argumentation	=	논증 — 근거를 들어 주장을 펼치는 과정.	The process of developing and supporting arguments.
+wide	=	=	Extending over a large range.
+introduction	=	서론; 도입 — 글의 첫 부분; 새로 들여오는 것.	The opening section of a text; the act of bringing something in.
+organize	=	조직하다, 구성하다 — 체계적으로 짜거나 마련하다.	To arrange systematically; to plan an event.
+integrity	=	진실성, 정직성 — 도덕적 원칙을 지키는 태도 (academic integrity: 학문적 정직성).	Adherence to moral and ethical principles; honesty.
+audio	noun	오디오, 음성 — 녹음되거나 재생되는 소리.	Recorded or transmitted sound.
+#REEX	responsibility
+consequently	=	따라서, 결과적으로 — 앞의 일의 결과로.	As a result.
+exercise	=	연습 (문제), 활동 — 기술을 익히기 위한 과제나 활동.	A task or activity designed to practice a skill.
+cost	=	비용 — 무엇을 얻거나 하는 데 드는 돈이나 노력.	The amount of money or effort needed for something.
+carry	=	(carry out) 수행하다; 나르다 — 일을 실행하다; 옮기다.	(carry out) to perform or conduct; to transport.
+light	=	빛; (in light of) ~에 비추어 — 밝게 하는 것; ~을 고려하여.	Visible radiation; (in light of) considering.
+screen	=	화면; 선별하다 — 영상이 표시되는 면; (연구) 기준에 따라 걸러내다.	A display surface; (verb) to filter studies or people by criteria.
+substantial	=	상당한 — 양이나 정도가 꽤 큰.	Large in amount or degree; considerable.
+transform	=	변화시키다, 전환하다 — 형태나 성질을 크게 바꾸다.	To change completely in form or nature.
+metric	=	지표, 척도 — 무언가를 정량적으로 측정하는 기준.	A standard of measurement.
+detect	=	감지하다, 탐지하다 — 찾아내거나 알아차리다.	=
+responsible	=	책임 있는; (be responsible for) ~을 맡은 — 의무나 책임을 지닌.	Having a duty or obligation; accountable.
+medical	=	=	Relating to medicine or healthcare.
+bring	=	가져오다, 불러오다 — 어떤 것을 오게 하거나 결과를 낳다 (bring together: 모으다).	To cause to come; (bring together) to unite.
+#REEX	bring
+narrative	=	서사, 이야기 — 사건이나 경험을 이야기 형식으로 풀어낸 것.	A spoken or written account of connected events.
+exclude	=	제외하다 — 범위나 대상에서 빼다.	To leave out or not include.
+environmental	=	환경의, 환경적인 — 환경과 관련된.	=
+product	=	산출물, 결과물; 제품 — 활동의 결과로 만들어진 것.	Something produced as a result of an activity; an item for sale.
+availability	=	이용 가능성 — 사용하거나 얻을 수 있는 정도.	The quality of being able to be used or obtained.
+building	=	구축, 형성 — 무언가를 만들어 가는 과정 (building on: ~을 토대로).	The process of developing or constructing something.
+chinese	=	중국의; 중국어 — 중국이나 중국어와 관련된.	Relating to China or the Chinese language.
+meaning	=	의미 — 말이나 경험이 나타내는 뜻 (make meaning: 의미를 구성하다).	What something expresses or signifies.
+drive	=	=	To cause or strongly influence something.
+compute	=	계산하다 — 수학적 방법으로 값을 구하다.	To calculate a value.
+#REEX	compute	\b(compute|computed|computes|computing)\b
+monitor	=	=	To observe and check the progress of something over time.
+log	=	=	A record of system or user activity (log data).
+comprise	=	~로 구성되다 — 여러 부분으로 이루어지다.	=
+tendency	=	경향, 성향 — 특정한 방식으로 행동하거나 나타나는 경향.	An inclination toward a particular characteristic or behaviour.
+deviation	=	편차 — 기준값이나 평균에서 벗어난 정도 (standard deviation: 표준편차).	The amount by which a value differs from the mean (standard deviation).
+# <<batch4 end: 551-700>>
+try	=	시도하다, 애쓰다 — 무엇을 해 보려고 하다.	To attempt to do something.
+close	=	긴밀한, 가까운 — 관계나 거리가 가까운 (close attention: 세심한 주의).	Near; intimate; careful and attentive.
+licence	=	면허, 라이선스 — 무엇을 하도록 공식적으로 허가하는 문서.	=
+emphasis	=	강조 — 특별히 중요하게 다루는 것.	=
+movement	=	움직임; (사회) 운동 — 위치의 변화; 공동 목표를 위한 집단적 활동.	Physical motion; a group's organized effort toward a goal.
+strength	=	강점; 강도 — 뛰어난 점; 관계나 효과의 세기.	A good quality; the degree of intensity of something.
+though	conjunction	~이지만, 그렇지만 — 앞의 내용과 대조되는 사실을 덧붙일 때 쓰는 말.	Despite the fact that; however.
+motivational	=	동기의, 동기 부여의 — 동기와 관련된.	=
+rating	=	평정, 평가 점수 — 척도에 따라 매긴 점수나 등급.	A score or grade assigned on a scale.
+#REEX	percentage
+inclusive	=	포용적인, 포괄적인 — 모든 사람을 배제 없이 아우르는 (inclusive education).	Including all people, especially those often excluded.
+home	=	가정, 집 — 사람이 사는 곳; 가족이 생활하는 곳.	The place where one lives; household.
+#REEX	home	\bhomes?\b
+cognition	=	인지 — 생각하고 알고 이해하는 정신 과정.	=
+rubric	=	=	A scoring guide that describes criteria and performance levels for assessment.
+assistance	=	도움, 지원 — 다른 사람을 돕는 행위.	=
+alternative	noun	대안 — 다른 선택 가능한 방법.	Another possible choice or option.
+script	=	스크립트, 대본 — 미리 작성한 대사나 절차; (collaboration script) 협력 각본.	A written text of dialogue or procedures; a structured guide for activities.
+#REEX	script	\bscripts?\b
+communicate	=	의사소통하다, 전달하다 — 정보나 생각을 주고받다.	To share or exchange information or ideas.
+accurate	=	정확한 — 오류 없이 옳은.	Correct and free from error.
+predictor	=	예측 변인, 예측 요인 — 결과를 예측하는 데 쓰이는 변수.	A variable used to predict an outcome.
+health	=	건강, 보건 — 몸과 마음이 아프지 않은 상태; 보건.	The state of physical and mental well-being.
+transformation	=	변혁, 전환 — 형태나 성격이 크게 바뀌는 것.	A thorough or dramatic change.
+thematic	=	주제의, 주제별의 — 주제와 관련된 (thematic analysis: 주제 분석).	Relating to themes (thematic analysis).
+elementary	=	초등의; 기초적인 — 초등학교 단계의; 기본적인.	Relating to primary school; basic.
+mainly	=	=	Mostly; chiefly.
+cue	=	단서, 신호 — 행동이나 판단을 이끄는 실마리.	A signal or hint that prompts an action or response.
+encounter	=	=	To meet or experience (a problem or situation).
+#REEX	novel	\bnovel (approach|approaches|method|methods|technology|technologies|way|ways|tool|tools|framework|insights?|learning|application|applications|solutions?)\b
+keep	=	=	To continue doing or to maintain a state.
+yield	=	(결과를) 낳다, 산출하다 — 결과나 효과를 만들어 내다.	To produce or provide (a result).
+seem	=	~인 것 같다 — 그렇게 보이거나 느껴지다.	To appear to be.
+correspond	=	대응하다, 일치하다 — 서로 맞거나 상응하다.	To match or be equivalent to something.
+avoid	=	피하다, 방지하다 — 일어나지 않도록 하거나 멀리하다.	To keep away from or prevent something.
+combination	=	조합, 결합 — 여러 요소를 합친 것.	=
+please	=	제발, 부디 (요청); 기쁘게 하다 — 정중한 요청을 나타내는 말; 만족시키다.	Used to make a polite request; to make happy.
+critically	=	비판적으로; 결정적으로 — 분석하며 따져서; 매우 중요하게.	In a critical, analytical way; in a crucially important way.
+#REEX	critically
+mitigate	=	완화하다 — 나쁜 영향을 줄이다.	To make something less severe.
+estimate	=	=	To roughly calculate or judge a value.
+depth	=	깊이 — 내용이나 이해가 깊은 정도 (in-depth: 심층적인).	The degree of thoroughness or detail.
+iterative	=	=	Involving repeated cycles of refinement.
+sustain	=	=	To keep something going over time.
+accessible	=	접근 가능한, 이용하기 쉬운 — 쉽게 접근하거나 이용할 수 있는.	Easy to reach, use, or understand.
+exchange	=	교류, 교환 — 서로 주고받는 것.	The act of giving and receiving between people.
+#REEX	exchange
+notably	=	특히, 눈에 띄게 — 주목할 만하게.	Especially; remarkably.
+claim	=	주장 — 사실이라고 내세우는 말.	A statement asserting that something is true.
+track	=	=	To follow and record the progress of something.
+contact	noun	접촉, 연락 — 사람이나 사물이 서로 닿거나 연락하는 것.	Communication or meeting with someone; physical touching.
+#REEX	contact	\bcontact (with|between)\b
+validation	=	검증, 타당화 — 정확성이나 타당성을 확인하는 과정.	The process of checking accuracy or validity.
+thing	=	것, 일 — 사물이나 사실을 막연히 가리키는 말.	An object, fact, or matter.
+#REEX	thing
+distribute	=	분배하다, 배포하다; 분포하다 — 나누어 주다; (자료가) 퍼져 있다.	To give out; (of data) to be spread in a pattern.
+beneficial	=	유익한, 이로운 — 좋은 결과를 가져오는.	Producing good results; advantageous.
+index	=	지수, 지표; 색인 — 수치로 나타낸 척도; 찾아보기 목록.	A numerical measure; an alphabetical list of items.
+#REEX	index	\b(index|indices|indexes)\b
+conventional	=	=	Following accepted traditional practice.
+local	=	=	Relating to a particular area or place.
+#REEX	local	\blocal\b
+funding	=	자금 지원, 연구비 — 연구나 사업에 제공되는 돈.	Money provided for a particular purpose such as research.
+#REEX	funding	\bfunding (for|from|agencies|sources|support|was|is|and|to)\b
+submit	=	=	To hand in work for evaluation.
+fundamental	=	근본적인, 기본적인 — 가장 기초가 되는.	Forming a necessary base or core; basic.
+suitable	=	적합한 — 특정 목적이나 상황에 알맞은.	Right or appropriate for a purpose.
+initiative	=	(새로운) 계획, 사업 — 특정 목표를 위해 새로 추진하는 활동.	A new plan or program to achieve a goal.
+#REEX	adult
+cycle	=	주기, 순환 — 일정하게 반복되는 과정이나 단계.	A series of events that repeat in the same order.
+voice	=	목소리, 의견 — 말하는 소리; 표현된 견해 (student voice).	The sound of speaking; an expressed opinion.
+organization	=	조직, 기관; 구성 — 공동 목적을 가진 단체; 체계적으로 짜인 상태.	An organized group of people; the way something is arranged.
+mediate	=	=	To act as an intermediate factor linking two variables; to bring about.
+exam	=	시험 — 지식이나 능력을 평가하기 위한 시험.	A formal test of knowledge or ability.
+extract	=	=	To take out or obtain information or a part from something.
+old	=	오래된, 나이 든; (~살) — 나이가 많은; 나이를 나타내는 표현 (26-year-old).	Having lived or existed for a long time; of a specified age.
+#REEX	old	(?<!-)\bold(er)?\b(?!-)
+clarify	=	=	To make something clearer or easier to understand.
+constraint	=	제약, 제한 — 행동이나 범위를 제한하는 요인.	A limitation or restriction.
+#REEX	constraint
+past	=	=	Gone by in time; previous.
+slide	=	=	A single page of a presentation.
+#REEX	slide	\b(PowerPoint|presentation|lecture|the|each|content) slides?\b
+rule	=	규칙 — 지켜야 할 행동이나 절차의 기준.	A principle or regulation that governs conduct or procedure.
+citation	=	=	A reference to a published source.
+#REEX	citation
+ongoing	=	진행 중인, 지속적인 — 현재 계속되고 있는.	Continuing; still in progress.
+examination	=	검토, 조사; 시험 — 자세히 살펴보는 것; 지식을 평가하는 시험.	A detailed inspection; a formal test.
+feeling	=	=	An emotional state or reaction.
+room	=	방, 공간; 여지 — 둘러싸인 공간; 무언가를 할 여유.	A space; opportunity or scope (room for improvement).
+identity	=	=	The sense of who one is or the groups one belongs to.
+possibility	=	가능성 — 일어날 수 있는 일.	Something that may happen or be true.
+modality	=	=	A mode or channel of communication or sensing (e.g., visual, auditory).
+miss	=	놓치다, 빠뜨리다 — 참석하지 못하거나 포함하지 못하다 (missing values: 결측치).	To fail to attend, notice, or include.
+central	=	=	Of primary importance; principal.
+#REEX	preparation
+usability	=	사용성 — 사용자가 쉽고 효과적으로 쓸 수 있는 정도.	The degree to which something is easy and effective to use.
+summarize	=	=	To give a brief statement of the main points.
+#REEX	summarize	\b(summarize|summarized|summarizes|summarizing)\b
+reliable	=	신뢰할 수 있는 — 일관되고 믿을 만한.	Consistently good or accurate; trustworthy.
+fund	verb	자금을 대다; 기금 — 사업에 돈을 지원하다; 특정 목적의 자금.	To provide money for; (noun) a sum of money for a purpose.
+programme	=	프로그램, 과정 — 체계적으로 구성된 교육·활동 과정 (영국식 철자).	A structured set of activities or a course of study (British spelling).
+declare	=	밝히다, 선언하다 — 공식적으로 알리다.	To state officially or openly.
+rapid	=	=	Happening quickly.
+permit	=	허용하다, 가능하게 하다 — 무엇을 할 수 있도록 허락하다.	To allow or make possible.
+#REEX	permit	\b(permit|permits|permitted|permitting) (the|students|users|us|learners|a|an|them|researchers|for)\b
+accessibility	=	접근성 — 누구나 쉽게 이용하거나 접근할 수 있는 정도.	The ease with which something can be reached or used by everyone.
+collective	=	=	Shared or done by a group as a whole.
+amount	=	양 — 수량이나 정도.	A quantity of something.
+felt	=	=	Past tense of feel; experienced an emotion or sensation.
+sufficient	=	충분한 — 필요한 만큼의.	Enough for a purpose.
+enjoyment	=	즐거움 — 무엇을 하며 느끼는 기쁨.	The pleasure felt when doing something.
+dependent	=	종속적인, 의존하는 — 다른 것에 따라 달라지는 (dependent variable: 종속변수).	Relying on or determined by something else (dependent variable).
+clarity	=	명확성 — 분명하고 이해하기 쉬운 정도.	=
+#REEX	status
+readiness	=	준비도 — 무엇을 할 준비가 된 정도.	The state of being prepared for something.
+datasets	=	데이터셋(복수) — 분석에 쓰이는 데이터 묶음들.	Collections of data used for analysis.
+little	=	작은; 거의 없는 — 크기가 작은; (little + 명사) 적은.	Small in size; not much.
+#REEX	little	\blittle (is|research|attention|evidence|or no|effect|knowledge|time|difference|known|empirical|has)\b
+timely	=	시기적절한 — 알맞은 때에 이루어지는.	=
+label	verb	(이름을) 붙이다, 분류하다 — 대상에 표시나 범주를 지정하다.	To assign a name or category to something.
+sustainability	=	지속 가능성 — 오랫동안 유지될 수 있는 능력.	The ability to be maintained over time.
+helpful	=	도움이 되는 — 유용하게 돕는.	Giving help; useful.
+nuanced	=	=	Characterized by subtle distinctions.
+math	=	=	Mathematics.
+delivery	=	(교육 등의) 전달, 제공 — 내용이나 서비스를 전하는 방식.	The way content or services are provided.
+subsequent	=	후속의, 이후의 — 뒤이어 일어나는.	Coming after something in time.
+#REEX	subsequent
+flexibility	=	유연성 — 상황에 맞게 바꿀 수 있는 성질.	The ability to adapt or change easily.
+classify	=	분류하다 — 기준에 따라 종류별로 나누다.	=
+matter	=	문제, 사안; 중요하다 — 다루어야 할 일; (동사) 중요하다.	A subject or issue; (verb) to be important.
+categorize	=	분류하다, 범주화하다 — 범주에 따라 나누다.	=
+email	=	이메일 — 컴퓨터 네트워크로 주고받는 메시지.	Messages sent electronically over a network.
+reliance	=	의존 — 무엇에 기대거나 의지하는 것.	Dependence on someone or something.
+#REEX	workload
+special	=	=	Different from what is usual; (special needs) requiring particular support.
+monitoring	=	=	The ongoing observation and checking of progress.
+spend	=	=	To use time, money, or effort on something.
+# <<batch5 end: 701-850>>
+workshop	=	=	A short, intensive training session involving hands-on activities.
+listen	=	=	To give attention to sound or speech.
+similarity	=	유사성 — 서로 비슷한 정도.	The degree to which things are alike.
+equity	=	형평성, 공정성 — 모든 사람이 공정한 기회와 지원을 받는 상태.	Fairness, especially in access to opportunities and resources.
+fail	=	실패하다; (fail to) ~하지 못하다 — 목표를 이루지 못하다.	To be unsuccessful; (fail to) to not do something.
+remove	=	=	To take something away or out.
+society	=	사회 — 함께 살아가는 사람들의 집단 전체.	People living together as a community.
+epistemic	=	인식론적인, 지식의 — 지식과 앎에 관련된 (epistemic agency).	Relating to knowledge or knowing.
+graduate	adjective	대학원의 — 학사 이후 과정의 (graduate course: 대학원 과정).	Relating to postgraduate study.
+flexible	=	유연한 — 상황에 따라 쉽게 바꾸거나 적응할 수 있는.	Able to change or adapt easily.
+comparative	=	=	Involving comparison between two or more things.
+practitioner	=	실무자, 현장 전문가 — 특정 분야에서 실제로 일하는 사람 (교사 등).	A person actively working in a profession, such as a teacher.
+#REEX	practitioner
+previously	=	이전에 — 앞선 시기에.	At an earlier time; before.
+foreign	=	=	Belonging to another country; (foreign language) a language not native to a place.
+#REEX	foreign	\bforeign\b
+predictive	=	예측의, 예측적인 — 앞으로의 결과를 예측하는 (predictive model).	Able to predict future outcomes.
+tension	=	긴장, 갈등 — 서로 다른 요구나 힘 사이의 대립 상태.	A strained state caused by opposing forces or demands.
+#REEX	safety
+#REEX	overview	\b(an|a|the) overview\b
+informed	=	충분히 알고 있는, 정보에 근거한 — 정확한 정보를 바탕으로 한 (informed consent: 사전 동의).	Having or based on adequate information (informed consent; informed decisions).
+#REEX	informed	\binformed (consent|decisions?|choices?|understanding|practice)\b
+pathway	=	=	A route or course of action leading to a goal.
+transparency	=	투명성 — 과정이나 기준이 공개되어 분명히 드러나는 정도.	Openness and clarity about processes and decisions.
+middle	=	중간의, 중등의 — 가운데에 있는 (middle school: 중학교).	In the middle; (middle school) a school between primary and high school.
+#REEX	middle	\bmiddle (school|schools|grade|grades|level|years|ground|class|stage|phase)\b
+treatment	=	처치, 치료 — (실험) 집단에 가하는 조작; 환자를 치료하는 것.	The condition applied to a group in an experiment; medical care.
+#REEX	treatment	\btreatment (group|groups|condition|conditions)\b
+translate	=	=	To express in another language or form; to convert into practice.
+rich	=	=	Abundant; full of valuable detail.
+affordances	=	어포던스, 행위 유발성 — 도구나 환경이 사용자에게 제공하는 행위 가능성.	The possibilities for action that a tool or environment offers its users.
+visualization	=	시각화 — 정보나 개념을 그림·도표로 나타내는 것.	The representation of information in visual form.
+orientation	=	=	An attitude or tendency toward a particular goal or direction.
+seven	=	일곱, 7 — 6보다 하나 많은 수.	The number 7.
+center	=	센터, 기관; 중심 — 특정 활동을 위한 기관; 가운데.	An institution for a particular activity; the middle point.
+#REEX	center	\b(the|a) cent(er|re)\b
+credit	=	학점; 공로 — 이수 단위 점수; 인정·공로.	A unit of academic study; recognition or acknowledgement.
+trigger	=	=	To cause something to start or happen.
+emphasise	=	강조하다 — 어떤 점을 특별히 중요하게 드러내다 (영국식 철자).	To give special importance to something (British spelling).
+exploratory	=	탐색적인 — 새로운 것을 알아보기 위해 시험적으로 하는 (exploratory study: 탐색적 연구).	Done to investigate or discover something new.
+equation	=	방정식, (모형) 식 — 수학적 관계를 나타낸 식 (structural equation: 구조방정식).	A mathematical statement of equality; a model expression.
+#REEX	query
+count	=	수, 개수 — 세어서 나온 수 (citation count: 인용 수).	A total number obtained by counting.
+edge	=	가장자리; 최전선, 우위 — 끝 부분; (leading edge) 앞서가는 위치.	The outer limit of something; (leading edge) the forefront.
+kind	=	종류 — 공통 특성을 가진 무리 (kind of: 일종의).	A type or category.
+correlate	=	상관관계가 있다 — 둘 이상의 변수가 함께 변하다.	To have a mutual relationship in which one thing varies with another.
+top	=	최상위의, 상위의 — 가장 높거나 순위가 높은.	Highest in position, rank, or importance.
+analytical	=	분석적인 — 분석에 관한, 요소를 따져 보는.	Relating to or using analysis.
+graph	=	그래프 — 자료를 시각적으로 나타낸 도표; (네트워크) 노드와 연결로 이루어진 구조.	A diagram showing data; a network of nodes and links.
+ultimately	=	궁극적으로, 결국 — 마지막에 가서는.	In the end; finally.
+sustainable	=	지속 가능한 — 오랫동안 유지될 수 있는.	Able to be maintained over time without harm.
+#REEX	sustainable	\bsustainable\b
+holistic	=	총체적인, 전인적인 — 부분이 아니라 전체를 아우르는.	Considering the whole rather than separate parts.
+board	=	위원회; 판 — 의사 결정 기구; 평평한 판.	A committee that oversees an organization or decision; a flat piece of material.
+#REEX	board	\bboards?\b
+quiz	=	퀴즈, 간단한 시험 — 짧게 실시하는 지식 확인 시험.	A short test of knowledge.
+blend	=	=	To combine different elements together (blended learning).
+accordingly	=	그에 따라, 따라서 — 앞의 상황에 맞게; 그러므로.	In a way that is appropriate to the situation; therefore.
+gather	=	=	To collect information or things.
+prove	=	=	To demonstrate to be true; to turn out to be.
+productivity	=	생산성 — 투입한 노력에 비해 얻은 성과의 정도.	The rate at which work is efficiently produced.
+#REEX	productivity
+reader	=	독자 — 글을 읽는 사람.	A person who reads.
+modify	=	수정하다 — 일부를 바꾸다.	To make partial changes to something.
+speaking	=	말하기 — 말로 표현하는 언어 기능 (speaking skills).	The act or skill of expressing oneself in speech.
+#REEX	speaking	\bspeaking (skills?|practice|performance|anxiety|proficiency|tasks?|ability|test|activities)\b
+eight	=	여덟, 8 — 7보다 하나 많은 수.	The number 8.
+daily	=	일상의, 매일의 — 날마다 일어나는.	Happening every day; everyday.
+threshold	=	=	A level or point at which something starts to happen or is accepted.
+gamified	=	게임화된 — 게임 요소를 적용한.	Incorporating game elements.
+solving	=	해결 (problem solving: 문제 해결) — 문제의 답이나 해결책을 찾는 일.	The process of finding solutions (problem solving).
+optimize	=	=	To make something as effective as possible.
+relative	=	=	Considered in comparison with something else.
+efficient	=	=	Achieving maximum results with minimal waste.
+familiar	=	=	Well known from long or close association.
+equip	=	갖추게 하다 — 필요한 지식·기술·도구를 제공하다.	To provide with the necessary skills or tools.
+sometimes	=	=	On some occasions but not always.
+imply	=	의미하다, 시사하다 — 직접 말하지 않고 넌지시 나타내다.	To suggest something without stating it directly.
+respect	=	존중; (with respect to) ~에 관하여 — 높이 여기는 태도; 측면.	Regard or consideration; (with respect to) concerning; (in this respect) in this aspect.
+pilot	=	=	Done as a small-scale trial before a full study.
+compete	=	경쟁하다 — 다른 사람과 무엇을 두고 겨루다.	To try to win or gain something against others.
+smart	=	=	Intelligent; (of devices) connected and computerized.
+leave	=	남기다, 떠나다 — 그대로 두거나 자리를 뜨다.	To let something remain; to go away from.
+#REEX	leave
+detection	=	탐지, 감지 — 무언가를 찾아내거나 알아차리는 것.	=
+approve	=	승인하다 — 공식적으로 허가하다.	To officially agree to or accept.
+metaverse	=	메타버스 — 사람들이 아바타로 상호작용하는 가상 공간.	A shared virtual environment where people interact through avatars.
+equal	=	=	The same in amount, size, or value.
+art	=	예술, 미술 — 창작과 표현을 통한 활동 (state-of-the-art: 최첨단의).	Creative expression such as painting or music; (state of the art) the most advanced level.
+#REEX	art	(?<!-)\barts?\b(?!-)
+verbal	=	언어적인, 말의 — 말이나 언어로 표현되는.	Relating to or expressed in words.
+recall	verb	회상하다, 떠올리다 — 기억에서 다시 꺼내다.	To bring back to mind; to remember.
+cultivate	=	=	To develop (a skill, quality, or attitude).
+leadership	=	리더십, 지도력 — 다른 사람을 이끄는 능력이나 위치.	=
+enrich	=	풍부하게 하다 — 질이나 가치를 더하다.	To improve the quality of something by adding to it.
+#REEX	enrich
+willingness	=	의향, 자발성 — 기꺼이 하려는 마음.	=
+signal	=	신호 — 정보나 의미를 전달하는 표시.	A sign or indication that conveys information.
+basis	=	기초, 근거 — 판단이나 행동의 바탕 (on the basis of: ~에 근거하여).	The underlying support or foundation (on the basis of).
+square	=	제곱; 정사각형 — 같은 수를 두 번 곱한 값 (sum of squares: 제곱합).	The product of a number multiplied by itself; a four-sided shape.
+put	=	=	To place something in a position or state.
+norm	=	규범, 표준 — 일반적으로 기대되는 행동 기준이나 정상적인 수준.	An accepted standard or typical pattern.
+submission	=	제출(물) — 평가를 위해 내는 것.	Something handed in for evaluation.
+outside	preposition	~ 밖에서, ~ 외부의 — 어떤 범위의 바깥에서.	Beyond the limits of; not inside.
+promise	=	가능성, 전망; 약속 — 좋은 결과의 기대 (show promise); 약속.	Potential for future success; a commitment.
+overcome	=	=	To succeed in dealing with a difficulty.
+landscape	=	지형, 상황 — (비유) 특정 분야의 전반적 모습이나 판도.	The overall situation or state of a particular field.
+protocol	=	프로토콜, 절차 — 연구나 통신에서 따라야 할 정해진 절차나 규칙.	A set procedure or set of rules for conducting research or communication.
+sound	=	=	Vibrations heard by the ear; a noise.
+subsequently	=	그 후, 이어서 — 뒤에 이어.	Afterwards; later.
+foundational	=	기초적인, 기반이 되는 — 다른 것의 토대가 되는.	Forming the basis of something.
+forum	=	포럼, (온라인) 게시판 — 의견을 나누는 장.	A place or online platform for discussion.
+disagree	=	동의하지 않다 — 다른 의견을 가지다.	=
+enhancement	=	향상, 강화 — 질이나 수준을 높이는 것.	An improvement in quality or value.
+master	=	=	To gain complete knowledge or skill in something.
+mark	=	=	To indicate or label; to grade (an answer).
+#REEX	financial
+sector	=	부문, 분야 — 사회나 경제의 한 영역.	A distinct area or part of society or the economy.
+#REEX	approximately
+national	=	=	Relating to a nation as a whole.
+#REEX	national	\bnational (curriculum|level|policy|policies|standards?|education|context|survey|data|assessment|government)\b
+care	=	돌봄, 보살핌; 주의 — 다른 사람을 돌보는 것; 세심함.	The provision of what is needed for someone's well-being; attention.
+informal	=	비형식적인, 비공식적인 — 격식이나 정해진 틀이 없는.	Not formal or official; casual.
+stimulate	=	자극하다, 촉진하다 — 활동이나 관심이 일어나게 하다.	To encourage activity or interest in something.
+# <<batch6 end: 851-1000>>
+expectancy	=	기대 — 어떤 결과가 일어날 것이라는 기대 (performance expectancy: 성과 기대).	The belief that a certain outcome will occur (e.g., performance expectancy).
+region	=	지역 — 특정한 특성을 가진 넓은 땅의 일부.	A large area of a country or the world.
+operation	=	운영, 작동; 연산 — 일이나 기계를 움직여 실행하는 것.	The process of running or functioning; an activity carried out.
+debate	=	토론, 논쟁 — 서로 다른 의견을 주고받는 공식적 논의.	A formal discussion in which opposing views are argued.
+insufficient	=	불충분한 — 필요한 만큼 되지 않는.	=
+stand	=	서다; (stand out) 두드러지다 — 똑바로 서 있다; 눈에 띄다.	To be upright; (stand out) to be noticeable.
+consensus	=	합의, 의견 일치 — 구성원 대부분이 동의하는 상태.	General agreement among a group.
+speech	=	말, 음성; 연설 — 말로 소리 내는 언어 (speech recognition: 음성 인식).	Spoken language; the ability to speak.
+free	=	자유로운; 무료의 — 제약이 없는; 돈이 들지 않는 (free riding: 무임승차).	Not restricted; costing nothing.
+#REEX	free	\bfree (of|to|access|and|online|time|from)\b|\bfor free\b
+longitudinal	=	=	Involving repeated observations of the same subjects over a long period.
+mind	=	마음, 정신 — 생각하고 느끼는 능력 (theory of mind: 마음 이론).	The faculty of thinking and feeling.
+#REEX	mind	\b(in|to) mind\b|\bmind (maps?|wandering|set)\b
+immersion	=	몰입 — (가상 환경 등에) 깊이 빠져드는 상태.	The state of being deeply absorbed, especially in a virtual environment.
+private	=	=	Run by individuals or companies rather than the state.
+#REEX	private
+unlike	=	=	Different from; in contrast to.
+trace	=	흔적, 기록 — 어떤 활동이 남긴 자료나 표시.	A mark or record left behind (e.g., log traces).
+optimal	=	최적의 — 가장 좋거나 효과적인.	Best or most effective.
+supportive	=	지원하는, 도움이 되는 — 도움과 격려를 주는.	Providing help or encouragement.
+absence	=	부재, 없음 — 어떤 것이 없는 상태 (in the absence of: ~이 없을 때).	The state of being missing or not present.
+editing	=	=	The process of revising and correcting text or data.
+pay	=	지불하다; (pay attention) 기울이다 — 돈을 내다; 주의를 기울이다.	To give money for something; (pay attention) to give attention.
+#REEX	pay	\bpay(s|ing)? (more |close |less |particular |special )?attention\b
+fairness	=	공정성 — 편향 없이 공평한 정도.	=
+empower	=	역량을 강화하다, 힘을 실어 주다 — 스스로 할 수 있는 능력과 자신감을 주다.	To give someone the power or confidence to do something.
+run	=	실행하다, 운영하다 — 프로그램이나 활동을 수행하다 (run the risk: 위험을 무릅쓰다).	To operate or conduct something; to carry out.
+entire	=	전체의 — 빠짐없이 전부의.	Whole; complete.
+dialogic	=	대화적인 — 대화를 통해 의미를 함께 만들어 가는.	Relating to or characterized by dialogue.
+acceptable	=	수용 가능한, 허용 가능한 — 기준을 충족하여 받아들일 만한.	Meeting an adequate standard; satisfactory.
+node	=	노드, 마디 — 네트워크에서 연결의 접점이 되는 요소.	A point in a network at which connections meet.
+mediation	=	=	The process by which one factor transmits or links the effect of another (mediation analysis); facilitation.
+easily	=	=	Without difficulty.
+exposure	=	노출, 접함 — 어떤 것을 경험하거나 접하는 것.	The experience of coming into contact with something.
+acknowledgement	=	인정; 감사의 글 — 사실을 인정하는 것; 논문의 사사.	Recognition of something; a statement of thanks in a publication.
+#REEX	acknowledgement	\backnowledgements? (of|that)\b
+avatar	=	=	A digital figure representing a user or character in a virtual environment.
+carefully	=	=	With care and attention.
+notable	=	=	Worthy of attention; remarkable.
+late	=	늦은, 후기의 — 시간이나 과정의 뒷부분의.	Near the end of a period; later.
+picture	=	그림, 사진; 상황 — 시각적 이미지; (전체) 모습 (a picture of).	An image; an overall impression of a situation.
+flipped	=	거꾸로 하는, 플립드 — (flipped classroom) 수업 전 사전 학습, 수업 중 활동 방식의.	Relating to a model where content is studied before class and class time is used for activities.
+annotation	=	주석, 주해 — 텍스트나 자료에 덧붙인 설명이나 표시.	A note or label added to text or data.
+#REEX	annotation
+fourth	=	네 번째의 — 순서상 넷째인.	Coming after the third in order.
+conference	=	학술대회, 회의 — 연구자 등이 모여 발표하고 논의하는 모임.	A formal meeting for discussion, especially an academic one.
+metacognition	=	메타인지 — 자신의 사고 과정을 인식하고 조절하는 능력.	Awareness and regulation of one's own thinking processes.
+separate	=	=	Forming a distinct unit; not joined.
+complement	=	=	To add to something in a way that improves or completes it.
+#REEX	complement	\b(complement|complements|complemented|complementing) (the|each|existing|traditional|human|rather|one|their|other)\b
+operate	=	작동하다, 운영하다 — 기능하거나 작동시키다.	To function or work; to run (a system).
+#REEX	distinguish	\bdistinguish(es|ed)? (between|among|the|them|it)\b
+experiential	=	체험의, 경험적인 — 직접 해 보는 경험에 기반한 (experiential learning: 체험 학습).	=
+watch	=	=	To look at something attentively.
+fall	=	떨어지다; (fall into/within) 속하다 — 아래로 내려가다; 범주에 들다.	To drop down; (fall within) to belong to a category.
+preserve	=	=	To keep something in its original state.
+far	=	멀리; (so far) 지금까지; 훨씬 — 거리나 정도가 큰.	To a great distance or extent; (thus far) up to now.
+facilitator	=	촉진자, 진행자 — 학습이나 토론을 돕고 이끄는 사람.	A person who helps a group learn or discuss effectively.
+business	=	경영, 비즈니스; 사업 — 상업 활동; 기업.	Commercial activity; a company.
+#REEX	business	\bbusiness\b
+handle	=	=	To deal with or manage something.
+static	=	=	Not changing or moving.
+visit	=	방문 — 어떤 곳에 찾아가는 것.	An act of going to see a place or person.
+remote	=	=	Taking place at a distance; not in person (remote learning).
+#REEX	remote	\bremote (learning|teaching|education|instruction|work|settings?|classes|environments?)\b
+evolution	=	=	Gradual development over time.
+attend	=	참석하다; 주의를 기울이다 — 출석하다; (attend to) 신경 쓰다.	To be present at; (attend to) to pay attention to.
+explicit	=	명시적인 — 분명하게 드러내어 표현한.	Stated clearly and in detail.
+prefer	=	선호하다 — 다른 것보다 더 좋아하다.	To like one thing better than another.
+otherwise	=	그렇지 않으면; 달리 — 다른 경우에는; 다른 방식으로.	In other circumstances; differently.
+promising	=	유망한 — 좋은 결과가 기대되는.	Showing signs of future success.
+#REEX	promising	\bpromising (results?|approach|approaches|tool|tools|way|avenue|direction|directions|potential|solution|findings|strategy|strategies)\b
+utility	=	유용성, 효용 — 쓸모가 있는 정도.	Usefulness.
+#REEX	utility
+augment	=	=	To make something greater or better by adding to it.
+decide	=	결정하다 — 여러 가능성 중 하나를 정하다.	To make a choice or judgment.
+slightly	=	=	To a small degree.
+vital	=	=	Absolutely necessary; essential.
+regardless	=	(regardless of) ~에 관계없이 — 어떤 조건에 영향을 받지 않고.	(regardless of) Without being affected by.
+homogeneity	=	동질성, 등분산성 — 구성 요소들이 서로 같은 성질 (homogeneity of variance: 분산의 동질성).	The state of being uniform; (homogeneity of variance) equal variances across groups.
+grant	=	보조금, 연구비; 승인하다 — 연구 등을 위해 지급되는 자금; 허가하다.	A sum of money given for research or a project; (verb) to allow.
+sign	=	징후, 표시 — 어떤 것이 있음을 나타내는 흔적 (signs of ~).	An indication of something (signs of).
+#REEX	sign	\bsigns? of\b
+constructive	=	=	Helpful and intended to improve something.
+disparity	=	격차, 불균형 — 서로 같지 않은 차이.	A lack of equality; a gap.
+oral	=	=	Spoken rather than written.
+productive	=	생산적인 — 좋은 결과를 많이 만들어 내는.	Producing good or useful results.
+#REEX	simultaneously
+resolve	=	=	To find a solution to a problem or disagreement.
+corresponding	=	해당하는, 상응하는 — 다른 것과 짝을 이루어 대응하는.	Matching or related to something else.
+enough	=	충분히 — 필요한 정도만큼.	To the required degree; sufficiently.
+aware	=	인식하고 있는 — 어떤 사실을 알고 있는 (be aware of).	Having knowledge or perception of something.
+really	=	정말, 실제로 — 강조하거나 실제임을 나타내어.	Actually; very.
+arise	=	발생하다, 생기다 — 문제나 상황이 나타나다.	To come into being; to emerge.
+linear	=	선형의, 직선적인 — 한 방향으로 차례대로 이어지는 (linear regression: 선형 회귀).	Arranged in a straight line or sequence; (linear regression) modeling straight-line relationships.
+characterize	=	특징짓다 — 어떤 것의 특성을 나타내거나 묘사하다 (be characterized by).	To describe the distinctive features of; (be characterized by) to be marked by.
+scheme	=	계획, 제도; 체계 — 체계적인 계획이나 프로그램; 분류 체계 (coding scheme).	A systematic plan or program; a framework (coding scheme).
+title	=	제목 — 글이나 작품의 이름.	The name of a book, article, or other work.
+synthesis	=	종합 — 여러 자료나 생각을 하나로 엮어 정리한 것.	=
+administer	=	=	To give or conduct (a test or survey).
+replace	=	=	To take the place of something.
+disability	=	장애 — 신체적·정신적 기능의 제약.	A physical or mental condition that limits activities.
+concrete	=	=	Specific and real rather than abstract.
+synchronous	=	동기식의, 실시간의 — 같은 시간에 함께 이루어지는.	Occurring at the same time; real-time.
+iteration	=	반복, 회차 — 개선을 위해 되풀이하는 과정의 한 차례.	One round of a repeated process of refinement.
+generalizability	=	일반화 가능성 — 연구 결과를 다른 상황이나 집단에 적용할 수 있는 정도.	The extent to which findings apply to other settings or populations.
+serious	=	심각한, 진지한 — 정도가 크거나 중대한.	Significant or worrying; not joking.
+inherent	=	내재된, 고유한 — 본래부터 속해 있는.	Existing as a natural part of something.
+#REEX	side	(?<!-)\bsides?\b(?!-)
+tablet	=	=	A portable touchscreen computer.
+capable	=	~할 수 있는, 유능한 — 어떤 일을 해낼 능력이 있는 (be capable of).	Having the ability to do something.
+decade	=	10년 — 열 해의 기간.	A period of ten years.
+pace	=	속도, 진도 — 진행되는 빠르기 (at one's own pace: 자기 속도로).	The speed at which something happens or progresses.
+#REEX	pace	(?<!-)\bpace\b(?!-)
+repeat	=	=	To do or say something again.
+rank	=	=	To arrange or place in order of value or importance.
+segment	=	구간, 부분 — 전체를 나눈 한 부분.	One of the parts into which something is divided.
+# <<batch7 end: 1001-1150>>
+job	=	직업, 일 — 생계를 위해 하는 일; 업무.	A paid position of work; a task.
+situate	=	위치시키다; (situated) 상황에 놓인 — 특정 맥락 안에 두다 (situated learning: 상황 학습).	To place in a particular context; (situated learning) learning embedded in authentic contexts.
+#REEX	situate
+constructivist	adjective	구성주의의 — 학습자가 지식을 스스로 구성한다는 관점의.	Relating to constructivism, the view that learners build their own knowledge.
+largely	=	주로, 대체로 — 대부분의 경우에.	Mostly; to a great extent.
+standardized	=	표준화된 — 일정한 기준에 맞춰 통일된 (standardized test: 표준화 검사).	Made uniform according to a standard.
+boost	=	=	To increase or improve something.
+frame	=	=	To present or interpret something in a particular way.
+behind	preposition	~ 뒤에(있는), ~의 배후에 — 원인이나 근거가 되는 (the mechanisms behind).	Being the cause or basis of; at the back of.
+partial	=	부분적인 — 전체가 아닌 일부의 (partial η²: 부분 에타제곱).	Existing only in part; not complete.
+reasonable	=	합리적인, 적정한 — 이치에 맞고 받아들일 만한.	Fair and sensible; acceptable.
+procedural	=	=	Relating to procedures or step-by-step methods (procedural knowledge).
+solely	=	오로지, 단지 — 다른 것 없이 그것만으로.	Only; exclusively.
+logic	=	논리 — 올바른 추론의 원리나 체계.	A system of reasoning; the principles of valid inference.
+#REEX	invite	\binvit(e|ed|es|ing) (students|participants|them|learners|teachers|to|users|the)\b
+adequate	=	=	Sufficient or satisfactory for a purpose.
+modification	=	=	A change made to something.
+industry	=	=	Economic activity concerned with producing goods or services; business sectors.
+provision	=	제공, 공급 — 필요한 것을 마련해 주는 것.	The act of providing or supplying something.
+moderator	=	조절 변인; 사회자 — 두 변수 관계의 강도나 방향에 영향을 주는 변수; 토론 진행자.	A variable that affects the strength or direction of a relationship; a person who leads a discussion.
+later	=	나중에; 이후의 — 시간이 지난 뒤에; 뒤의.	At a subsequent time; occurring after.
+rise	=	=	An increase in amount or level; an emergence.
+lens	=	렌즈, 관점 — 빛을 모으는 유리; (비유) 어떤 대상을 바라보는 시각.	A piece of glass that focuses light; a perspective or framework.
+merely	=	=	Only; simply.
+file	=	파일 — 컴퓨터에 저장된 자료 단위 (log file).	A collection of data stored as a unit on a computer.
+poor	=	낮은, 부족한; 가난한 — 질이나 수준이 낮은; 돈이 없는.	Of low quality or standard; lacking money.
+whole	=	전체의; (as a whole) 전체로서 — 빠진 것 없이 모두의.	All of; entire; (as a whole) considered altogether.
+fill	=	채우다 — 빈 곳을 메우다 (fill gaps: 공백을 메우다).	To make full; to occupy (a gap).
+beginning	=	시작, 초기 — 어떤 일의 처음 부분.	The point at which something starts.
+familiarity	=	=	Close knowledge of or acquaintance with something.
+automatic	=	=	Working by itself without human control.
+apps	=	앱(복수) — 특히 모바일 기기용 응용 프로그램.	=
+advocate	=	=	To publicly support or recommend.
+pressure	=	압박, 부담 — 심리적·사회적으로 가해지는 압력.	Stress or demands placed on someone.
+round	=	=	One of a sequence of stages or sessions.
+discrepancy	=	불일치, 차이 — 서로 맞지 않는 점.	A lack of agreement between facts or results.
+copy	verb	복사하다, 베끼다 — 똑같이 옮겨 만들다.	To make an identical version of something.
+latent	=	=	Existing but not yet visible or developed; (latent variable) not directly observed.
+#REEX	latent	\blatent (variables?|class|classes|profile|profiles|factors?|constructs?|growth|structure)\b
+something	=	어떤 것, 무언가 — 특정하지 않은 사물이나 일.	An unspecified thing.
+#REEX	something
+today	=	오늘; 오늘날 — 지금 이날; 현재의 시대.	This present day; the present era.
+#REEX	today	\btoday['’]s\b
+meeting	=	회의, 모임 — 여러 사람이 모여 의논하는 자리.	An assembly of people for discussion.
+#REEX	meeting	\b(a|the|weekly|regular|online|team|group) meetings?\b
+half	=	절반 — 둘로 똑같이 나눈 것의 하나.	One of two equal parts.
+diagram	=	도표, 다이어그램 — 구조나 관계를 나타낸 그림.	=
+formulate	=	공식화하다, 수립하다 — 생각이나 계획을 체계적으로 표현하다.	To create or express (an idea or plan) clearly.
+interesting	=	=	Arousing curiosity or attention.
+plot	=	도표, 그래프; (그래프로) 나타내다 — 자료를 시각화한 그림 (scree plot).	A graph showing data; (verb) to mark data on a graph.
+patient	noun	환자 — 치료를 받는 사람.	A person receiving medical treatment.
+update	=	갱신하다, 업데이트하다 — 최신 상태로 바꾸다.	To make something more modern or up to date.
+mastery	=	숙달 — 지식이나 기술을 완전히 익힌 상태.	Complete knowledge or skill in something.
+#REEX	mastery
+vision	=	비전, 전망 — 미래에 대한 목표나 이상.	An idea or goal for the future.
+mapping	=	=	The process of representing relationships or correspondences between elements.
+testing	=	=	The process of checking quality or performance through tests.
+mentor	=	멘토, 조언자 — 경험이 많아 이끌어 주는 사람.	=
+integrated	=	=	Combining different parts into a unified whole.
+engaging	=	흥미로운, 몰입하게 하는 — 관심과 참여를 끌어내는.	Attracting interest and attention.
+#REEX	engaging	\b(more|highly|an|and|very|interactive|is|are|be|less) engaging\b
+automated	=	=	Operated automatically by machines or software.
+#REEX	live	\blive (streaming|sessions?|classes|lectures?|chat|feedback|online|demonstrations?|broadcasts?)\b
+interval	=	=	A period of time between events; a range (confidence interval).
+print	verb	인쇄하다; 인쇄물 — 종이 등에 찍어 내다.	To produce text or images on paper (or 3D objects).
+desire	=	욕구, 바람 — 무엇을 원하는 마음.	A strong wish or want.
+deal	=	다루다, 처리하다 — (deal with) 문제나 상황에 대처하다.	(deal with) To handle or cope with something.
+sentiment	=	정서, 감정, 의견 — 어떤 대상에 대한 느낌이나 태도 (sentiment analysis: 감성 분석).	A feeling or attitude toward something.
+modern	=	=	Relating to the present or recent times.
+regular	=	=	Happening at fixed intervals; usual.
+scholarship	=	=	Academic study or achievement; also a grant for a student.
+#REEX	scholarship
+synthesize	=	종합하다 — 여러 자료나 생각을 하나로 통합하다.	To combine different ideas or information into a coherent whole.
+recruit	=	=	To find and enlist people to take part.
+sequential	=	순차적인 — 순서에 따라 차례로 이어지는.	=
+#REEX	retain
+maximum	=	최대의 — 가장 큰 (maximum likelihood: 최대우도).	The greatest possible.
+historical	=	=	Relating to the past or history.
+loading	=	(요인) 부하량 — 요인분석에서 변수와 요인의 관계 크기.	In factor analysis, the correlation between a variable and a factor.
+distraction	=	주의 산만, 방해 요소 — 집중을 흐트러뜨리는 것.	Something that diverts attention.
+architecture	=	구조, 아키텍처; 건축 — 시스템의 설계 구조; 건축.	The structure and design of a system; the design of buildings.
+#REEX	architecture	\barchitectures?\b
+#REEX	stem	\bstem(s|med|ming)? from\b
+protect	=	보호하다 — 해나 위험으로부터 지키다.	To keep safe from harm.
+#REEX	protect	\bprotect(s|ed|ing)? (the|their|students|learners|privacy|data|children|users|personal|against)\b
+probability	=	확률, 가능성 — 어떤 일이 일어날 가능성의 정도.	The likelihood of something happening.
+elaborate	=	자세히 설명하다, 상술하다 — (elaborate on) 내용을 더 구체적으로 풀어 말하다.	=
+date	=	날짜; (up to date) 최신의 — 특정 시점의 일자.	A particular day; (up to date) current.
+#REEX	date	(?<!-)\bdates?\b(?!-)
+edit	=	=	To revise and correct text or other content.
+big	=	=	Large in size or extent (big data).
+interested	=	관심 있는 — 무엇에 흥미를 가진 (be interested in).	Showing curiosity or concern about something.
+random	=	=	Made or chosen without a pattern; by chance.
+native	=	모국어의, 원어민의; 토박이의 — 태어나면서 쓰는 (native speaker).	Relating to one's first language or place of birth.
+#REEX	native	\bnative (speakers?|language|English|languages)\b
+true	=	=	In accordance with fact; genuine.
+enter	=	=	To come or go into; to put information into a system.
+sum	=	합, 합계 — 더하여 얻은 값 (sum of squares: 제곱합; in sum: 요컨대).	The total obtained by adding; (in sum) in summary.
+comparable	=	=	Similar enough to be compared.
+posit	=	=	To put forward as a fact or basis for argument.
+player	=	참여자, 플레이어 — 게임이나 활동에 참여하는 사람.	A person taking part in a game or activity.
+#REEX	player
+pivotal	=	중추적인, 결정적인 — 매우 중요한 역할을 하는.	Of crucial importance.
+correction	=	수정, 교정 — 잘못을 바로잡는 것 (corrective feedback).	The act of fixing an error.
+#REEX	correction
+temporal	=	=	Relating to time or sequence in time.
+recognise	=	인정하다, 인식하다 — 알아보거나 그 가치·사실을 받아들이다 (영국식 철자).	To acknowledge or identify (British spelling).
+regulate	=	조절하다, 규제하다 — 스스로 통제하거나 규칙으로 관리하다 (self-regulate).	To control or adjust; (self-regulate) to manage one's own learning or behaviour.
+manuscript	=	원고 — 출판 전의 논문이나 글.	A version of a paper or book before publication.
+reproduction	=	재생산; 복제 — 사회 구조 등이 되풀이되어 유지되는 것; 복사.	The process by which social structures are maintained; copying.
+threat	=	위협 — 해를 끼칠 수 있는 요인.	Something likely to cause harm or danger.
+sharing	=	=	The act of giving part of something or information to others.
+brief	=	=	Lasting a short time; concise.
+worth	=	~할 가치가 있는 — (be worth -ing) 할 만한 가치가 있는.	Deserving of (worth noting, worth considering).
+sensitive	=	=	Requiring careful handling, especially private; easily affected.
+articulate	=	=	To express clearly in words.
+# <<batch8 end: 1151-1300>>
+intellectual	=	지적인 — 지성이나 사고에 관련된 (intellectual property: 지식재산).	Relating to the mind or intellect (intellectual property).
+modeling	=	=	The process of creating models to represent systems or relationships (e.g., structural equation modeling).
+weight	=	가중치; 무게 — 수치 계산에서 각 요소에 부여되는 상대적 중요도.	A value assigned to indicate relative importance in a calculation; heaviness.
+normal	=	=	Conforming to a standard; (normal distribution) bell-shaped distribution.
+#REEX	government
+underlying	=	=	Fundamental; lying beneath the surface.
+hard	=	=	Difficult to do or understand.
+#REEX	hard	\b(is|are|was|were|be|it|very|too) hard\b
+confident	=	=	Feeling sure about one's abilities or about something.
+loop	=	반복문, 루프; 고리 — (프로그래밍) 반복 구조; (feedback loop) 순환 과정.	In programming, a repeated sequence of instructions; a cycle (feedback loop).
+responsive	=	반응하는, 응답성 있는 — 요구나 상황에 빠르게 대응하는.	Reacting quickly and appropriately; (responsive design) adapting to devices.
+lie	=	(~에) 있다, 놓여 있다 — 어떤 위치나 상태에 있다 (lie in: ~에 있다).	To be located or found in a particular place or state.
+#REEX	lie	\b(lies|lie) (in|within|at)\b
+#REEX	economic	\beconomic\b
+editorial	=	편집의; 사설 — 편집과 관련된; 편집자의 논평 글.	Relating to editing; an article giving editors' opinions.
+block	=	블록 — (블록 기반 코딩의) 명령 조각; 덩어리.	A unit or piece; in coding, a visual command piece (block-based programming).
+recording	=	=	Audio or video that has been recorded.
+utilise	=	활용하다 — 이용하여 쓰다 (영국식 철자).	To make use of (British spelling).
+party	=	당사자, 측 — 관계나 활동에 참여하는 한쪽 (third-party: 제삼자의).	A person or group participating in an activity or agreement.
+legal	=	법적인 — 법과 관련된.	Relating to the law.
+parallel	=	병렬의, 평행한 — 동시에 나란히 진행되는; 유사한.	Occurring at the same time or alongside; similar.
+#REEX	parallel	\b(in|a) parallel\b|\bparallel (with|to|processing)\b
+timing	=	=	The choice or control of when something happens.
+facilitation	=	촉진, 지원 — 과정이 원활히 이루어지도록 돕는 것.	=
+constitute	=	구성하다; ~에 해당하다 — 전체를 이루다; ~로 간주되다.	To make up; to amount to (constitute misconduct).
+refinement	=	개선, 정교화 — 조금씩 다듬어 더 낫게 하는 것.	Improvement through small changes.
+transcript	=	전사본, 녹취록 — 말한 내용을 글로 옮긴 기록.	A written record of spoken words.
+hence	=	따라서, 그러므로 — 앞의 이유로.	As a consequence; therefore.
+speaker	=	화자, 말하는 사람 — 말을 하는 사람 (native speaker: 원어민).	=
+causal	=	=	Relating to cause and effect.
+reviewer	=	심사자, 검토자 — 논문 등을 평가하는 사람.	A person who evaluates submitted work.
+overload	=	과부하 — 처리할 수 있는 양을 넘어선 부담 (information overload).	=
+#REEX	overload	\boverload\b
+#REEX	send	\bsen(d|ds|ding) (a|an|the|messages?|feedback|emails?|them|students|data|reminders?)\b
+water	=	물 — 생명체에 필수적인 투명한 액체.	A clear liquid essential for life.
+#REEX	water	\bwater\b
+enhanced	=	향상된, 강화된 — 기능이나 질이 높아진 (technology-enhanced: 기술 기반의).	Improved or increased in quality.
+instant	=	=	Happening immediately.
+meanwhile	=	=	At the same time; on the other hand.
+copyright	=	저작권 — 창작물을 복제·배포할 수 있는 법적 권리.	The legal right to control the copying and distribution of a work.
+equally	=	똑같이, 동등하게 — 같은 정도로.	In the same way or to the same degree.
+passive	=	=	Accepting what happens without active response.
+embodied	=	체화된, 신체화된 — 몸의 움직임이나 감각과 결합된 (embodied learning).	Involving the body and physical experience (embodied cognition).
+#REEX	embodied	(?<!-)\bembodied (learning|cognition|interaction|agents?|experiences?|approach|conversational)\b
+click	=	클릭하다 — 마우스나 화면을 눌러 선택하다.	To press a button on a mouse or screen to select something.
+extraneous	=	외재적인, 불필요한 — 본질과 관계없이 덧붙은 (extraneous cognitive load: 외재적 인지 부하).	Irrelevant or unrelated to the subject (extraneous load).
+disciplinary	=	학문 분야의, 분과의 — 특정 학문 영역과 관련된.	Relating to an academic field of study.
+expose	=	노출시키다, 접하게 하다 — 무엇을 경험하게 하다; 드러내다.	To introduce someone to an experience; to reveal.
+comprehend	=	이해하다 — 의미를 파악하다.	To understand fully.
+preliminary	=	=	Coming before a main stage; initial.
+socially	=	사회적으로 — 사회와 관련하여, 사람들 간 상호작용 속에서.	In a social manner; through interaction with others.
+break	=	나누다, 분해하다; (break down) 세분하다 — 큰 것을 작은 부분으로 나누다.	To separate into parts; (break down) to divide into smaller steps.
+prominent	=	두드러진, 저명한 — 눈에 잘 띄거나 중요한.	Important or easily noticed.
+force	=	힘, 원동력 — 영향을 미치는 힘 (driving force: 원동력).	Power or influence that causes change (driving force).
+card	=	카드 — 정보나 그림이 담긴 작은 종이 조각.	A small piece of stiff paper with information or images.
+replicate	=	=	To repeat (a study) to see if results are the same.
+manual	=	=	Done by hand rather than automatically.
+#REEX	woman
+commitment	=	헌신, 전념; 약속 — 어떤 일에 힘을 쏟는 태도; 하겠다는 다짐.	Dedication to a task or cause; a promise.
+translation	=	번역; 전환 — 다른 언어로 옮기는 것; 이론을 실천으로 옮기는 것.	The process of translating text; the conversion of ideas into practice.
+european	=	유럽의 — 유럽이나 유럽 사람과 관련된.	Relating to Europe or its people.
+#REEX	european	\bEuropean (countries|universities|context|higher|students|Union|Commission|education)\b
+coherent	=	일관성 있는, 논리적인 — 내용이 잘 연결되어 이해하기 쉬운.	Logical and consistent; clearly connected.
+#REEX	respective
+laboratory	=	실험실 — 과학 연구나 실험을 하는 공간 (laboratory setting: 실험실 환경).	=
+realistic	=	현실적인, 사실적인 — 실제와 비슷한.	Representing things as they are in real life.
+#REEX	realistic
+unless	conjunction	~하지 않는 한 — 특정 조건을 제외하고.	Except if; if not.
+#RENAME	physic	physics	noun	물리학 — 물질과 에너지, 그 상호작용을 연구하는 학문.	The science of matter, energy, and their interactions.
+weakness	=	약점 — 부족하거나 취약한 점.	A flaw or area of limited ability.
+treat	=	다루다, 간주하다; 대하다 — 특정 방식으로 취급하다 (treat A as B).	To deal with or regard in a particular way.
+span	=	=	To extend across a range of time, space, or topics.
+diminish	=	줄이다, 약화시키다 — 크기나 중요성을 감소시키다.	To make or become less.
+likelihood	=	가능성, 우도 — 어떤 일이 일어날 확률 (maximum likelihood: 최대우도).	The probability of something happening; (statistics) likelihood function.
+embrace	=	=	To accept or adopt willingly.
+representative	=	=	Typical of a larger group.
+differentiate	=	구별하다, 차별화하다 — 차이를 구분하거나 다르게 하다 (differentiated instruction: 차별화 교수).	To recognize or make differences between things.
+developmental	=	=	Relating to growth or development.
+complementary	=	=	Combining to improve or complete each other.
+artifact	=	산출물, 인공물 — 사람이 만든 결과물 (학습 산출물 등).	An object or product created by people, such as a learning output.
+administrator	=	관리자, 행정가 — 기관의 운영을 담당하는 사람.	A person responsible for managing an organization.
+manipulation	=	조작 — 의도적으로 바꾸거나 다루는 것 (experimental manipulation: 실험 조작).	The act of handling or deliberately changing something.
+emergence	=	출현, 등장 — 새롭게 나타나는 것.	The process of coming into existence or becoming known.
+enhances	=	=	Third-person form of enhance; improves the quality or value of.
+template	=	템플릿, 서식 — 반복 사용을 위한 정해진 틀.	A preset format used as a starting point.
+century	=	세기 — 100년의 기간 (21st century skills: 21세기 역량).	A period of one hundred years.
+overlook	=	=	To fail to notice or consider.
+textual	=	텍스트의, 글의 — 텍스트와 관련된.	=
+parental	=	=	Relating to parents.
+supplementary	=	보충의, 추가적인 — 부족한 것을 채우기 위해 덧붙이는.	Added to complete or enhance something.
+#REEX	supplementary	\bsupplementary\b
+moral	=	=	Concerned with principles of right and wrong.
+forward	=	앞으로 — 앞쪽으로; 미래를 향해 (look forward to: 기대하다).	Toward the front or the future.
+#REEX	forward	\b(move|moving|moved|going|way|path|step|steps|looking|look|put) forward\b
+surface	=	표면; 피상적 — 겉면; (surface-level) 표면적인.	The outside or top layer; (surface level) superficial.
+healthcare	=	의료, 보건 — 질병 예방과 치료를 위한 서비스.	The services provided to maintain or restore health.
+uncover	=	=	To discover or reveal something hidden.
+simulated	=	모의의, 시뮬레이션된 — 실제를 본떠 만든.	Made to imitate a real situation.
+store	=	=	To keep or save data or information.
+#REEX	store	\bstor(e|ed|es|ing) (data|information|the|their|it|them|in)\b
+priority	=	우선순위, 우선 과제 — 먼저 다루어야 할 중요한 일.	Something regarded as more important than others.
+preservice	=	=	Relating to teachers in training before they begin teaching.
+weekly	=	=	Happening once a week.
+electronic	=	=	Using or relating to computers and digital technology.
+#REEX	electronic
+sampling	=	=	The process of selecting a sample from a population.
+tutorial	=	튜토리얼, 개별 지도 — 단계별로 안내하는 학습 자료나 수업.	A step-by-step lesson or guide.
+mobility	=	이동성 — 이동하거나 옮겨 다닐 수 있는 능력 (student mobility: 학생 이동).	The ability to move or be moved freely.
+nine	=	아홉, 9 — 8보다 하나 많은 수.	The number 9.
+blended	=	혼합형의, 블렌디드 — 온라인과 대면 수업을 결합한 (blended learning).	Combining online and face-to-face instruction.
+instruct	=	지시하다; 가르치다 — 무엇을 하도록 알려 주다.	To tell someone to do something; to teach.
+underlie	=	~의 기저를 이루다 — 원인이나 바탕이 되다.	To be the cause or basis of something.
+interpersonal	=	대인관계의 — 사람들 사이의.	=
+challenging	=	=	Difficult in a way that tests ability.
+semantic	=	=	Relating to meaning in language.
+raters	=	평정자, 채점자(복수) — 점수를 매기는 사람들.	People who assign ratings or scores.
+realize	=	실현하다; 깨닫다 — 현실로 만들다; 알아차리다.	To make something happen; to become aware of.
+typical	=	=	Having the usual qualities of a group.
+# <<batch9 end: 1301-1450>>
+authorship	=	저자 (자격), 저작 — 글을 쓴 사람이 누구인지 또는 저자로서의 지위.	The fact of being the author of a work; the identity of authors.
+#REEX	authorship
+neutral	=	=	Not supporting either side; neither positive nor negative.
+augmented	=	증강된 (augmented reality: 증강 현실) — 디지털 정보가 덧붙여진.	Enhanced by adding digital information (augmented reality).
+neural	=	신경의 (neural network: 신경망) — 신경계나 인공 신경망과 관련된.	Relating to nerves or artificial neural networks.
+inspire	=	영감을 주다, 고무하다 — 새로운 생각이나 의욕을 불러일으키다.	To stimulate ideas or motivation.
+initiate	=	=	To begin or start something.
+#REEX	initiate	(?<!-)\binitiat(e|ed|es|ing) (the|a|an|conversations?|interactions?|discussions?|contact|and)\b
+popular	=	=	Liked or used by many people.
+stay	=	=	To remain in a particular state or place.
+considerable	=	=	Large in size, amount, or degree.
+novelty	=	새로움, 신기함 (novelty effect: 신기성 효과) — 새로워서 생기는 관심.	The quality of being new; (novelty effect) temporary interest due to newness.
+#REEX	novelty
+necessitate	=	필요로 하다 — 어떤 것을 필요하게 만들다.	=
+unclear	=	불분명한 — 명확하지 않은.	=
+manipulate	=	조작하다, 다루다 — 손이나 도구로 움직이거나 변화시키다.	To handle or control something, often with the hands.
+administration	=	운영, 관리; 실시 — 기관의 행정; 검사 등을 시행하는 것.	The management of an organization; the act of giving a test.
+notice	=	알아차리다 — 보거나 느껴서 인식하다.	To become aware of something.
+balanced	=	균형 잡힌 — 여러 요소가 고르게 조화를 이룬.	Having different elements in correct proportions.
+persistent	=	지속적인, 끈질긴 — 오래 계속되는.	Continuing for a long time; persevering.
+warrant	=	=	To justify or necessitate (further research).
+equipment	=	장비 — 특정 목적에 필요한 도구나 기기.	The tools or devices needed for a purpose.
+taxonomy	=	분류 체계 — 대상을 체계적으로 분류한 틀 (Bloom's taxonomy).	A system of classification.
+scholarly	=	학술적인 — 학문 연구와 관련된.	Relating to academic study.
+coder	=	코더, 부호화 담당자 — 질적 자료에 코드를 붙이는 사람; 프로그래머.	A person who codes qualitative data; a programmer.
+entry	=	진입, 입학; 항목 — 들어가는 것; 사전 등의 표제 항목.	The act of entering; an item in a list or dictionary.
+proceeding	=	(proceedings) 논문집, 회의록; 진행 — 학술대회 발표 논문 모음; 계속 나아가는 것.	(proceedings) A published collection of conference papers; the act of continuing.
+letter	=	글자; 편지 — 문자; 상대에게 쓰는 글.	A character in an alphabet; a written message.
+delve	=	=	To research or examine something in depth.
+mining	=	=	The extraction of useful patterns from large data sets (data mining).
+synthetic	=	=	Artificially made; (synthetic data) generated rather than collected.
+#REEX	synthetic	\bsynthetic (data|media|avatars?|voices?|datasets?|samples?|content)\b
+tell	=	말하다, 알려 주다 — 정보를 전하다.	To communicate information to someone.
+functional	=	=	Relating to function or practical use.
+influential	=	=	Having great influence.
+overlap	=	중복, 겹침 — 서로 일부가 겹치는 부분.	=
+echo	=	되풀이하다, 반영하다 — 다른 의견이나 결과와 같은 내용을 반복하다.	To repeat or reflect (an idea or finding).
+#REEX	echo	\becho(es|ed|ing)? (the|this|findings|previous|earlier|prior|similar|what)\b
+grasp	=	파악하다, 이해하다 — 개념을 잡아 이해하다.	To understand something.
+almost	=	=	Very nearly.
+except	=	=	Not including; other than.
+precision	=	정밀도, 정확성 — 측정이나 예측이 얼마나 정확한지의 정도.	The quality of being exact; (in classification) the proportion of correct positive predictions.
+entity	=	개체, 실체 — 독립적으로 존재하는 대상.	=
+rural	=	=	Relating to the countryside.
+#REEX	rural
+channel	=	=	A means or route of communication.
+sustained	=	지속된, 꾸준한 — 오랫동안 이어지는.	Continuing for an extended period.
+trial	=	시험, 시행 — 효과를 확인하기 위한 실험 (trial and error: 시행착오).	A test of effectiveness; (trial and error) learning by attempts.
+ecosystem	=	생태계 — 서로 연결된 구성원과 환경의 체계 (비유적으로 산업·기술 생태계).	A system of interconnected elements and their environment.
+indirect	=	=	Not direct; acting through an intermediary.
+constrain	=	=	To limit or restrict.
+#REEX	constrain	\bconstrain(s|ed)? (the|their|by|students|learners)\b
+inconsistent	=	일관성 없는 — 서로 맞지 않거나 변덕스러운.	Not consistent; varying.
+tangible	=	실체적인, 만질 수 있는 — 손으로 만질 수 있는; 구체적인 (tangible programming).	Able to be touched; concrete.
+better	adjective	더 나은 — good/well의 비교급.	Comparative of good or well; of higher quality.
+precise	=	=	Exact and accurate.
+outcomes	=	결과, 성과(복수) — 활동이나 과정의 결과 (learning outcomes: 학습 성과).	=
+thank	=	=	To express gratitude to someone.
+subgroup	=	하위 집단 — 더 큰 집단 안의 일부 집단.	=
+scoring	=	=	The process of assigning scores.
+clinical	=	=	Relating to the treatment of patients or practical medical settings.
+market	=	시장 — 상품·서비스·노동이 거래되는 영역 (labour market: 노동 시장).	The system or area in which goods, services, or labour are traded.
+appreciate	=	고마워하다; 진가를 알다 — 감사하게 여기다; 가치를 인정하다.	To be grateful for; to recognize the value of.
+driver	=	동인, 원동력 — 어떤 일을 일으키거나 촉진하는 요인.	A factor that causes something to happen or develop.
+#REEX	driver	\bdrivers?\b
+centre	=	중심; 센터 — 가운데; 특정 활동을 위한 기관 (영국식 철자).	The middle point; an institution (British spelling).
+convey	=	전달하다 — 생각이나 정보를 전하다.	To communicate or express (ideas or feelings).
+thorough	=	=	Complete and careful in every detail.
+routine	adjective	일상적인, 반복적인 — 늘 하던 대로의.	Performed as part of regular procedure; repetitive.
+accordance	=	일치, 따름 — (in accordance with) ~에 따라.	(in accordance with) In conformity with.
+#REEX	accordance
+diagnostic	=	=	Used to identify problems or needs (diagnostic assessment).
+connectivity	=	연결성, 접속성 — 네트워크나 인터넷에 연결된 정도.	The state or quality of being connected, especially to networks.
+quite	=	=	Fairly; to a considerable degree.
+volume	=	=	An amount or quantity of something.
+accommodate	=	수용하다, 맞추다 — 필요나 차이를 고려하여 받아들이다.	To adapt to or provide for (needs or differences).
+normality	=	정규성 — (통계) 자료가 정규분포를 따르는 성질.	In statistics, the property of following a normal distribution.
+conception	=	개념, 인식 — 어떤 대상에 대해 가진 이해나 생각.	An idea or understanding of something.
+voluntary	=	=	Done of one's own free will.
+let	=	~하게 하다, 허락하다 — 어떤 일이 일어나도록 두다.	To allow or permit.
+site	=	=	A place where something is located or happens.
+everyday	=	일상의 — 날마다 흔히 있는.	Ordinary; used or seen daily.
+concentrate	=	=	To focus attention or effort on something.
+shed	=	(shed light on) 밝히다 — 이해를 돕는 정보를 제공하다.	(shed light on) To help explain or clarify.
+adhere	=	고수하다, 준수하다 — 규칙이나 원칙을 따르다 (adhere to).	(adhere to) To follow or comply with rules or principles.
+sophisticated	=	=	Highly developed and complex.
+tutoring	=	개별 지도, 튜터링 — 일대일·소그룹으로 가르치는 일 (intelligent tutoring system).	The act of teaching individuals or small groups.
+#REEX	tutoring
+minimum	=	=	The least possible or allowed.
+climate	=	기후; 분위기 — 장기적인 날씨 패턴; 집단의 전반적 분위기 (school climate).	Long-term weather patterns; the prevailing atmosphere of a group.
+#REEX	law	\blaws?\b
+#REEX	journey	\bjourney\b
+intent	=	의도 — 하고자 하는 목적.	=
+constant	=	=	Continuous; unchanging.
+debug	=	=	To find and remove errors in a program.
+proper	=	=	Appropriate or correct.
+multidimensional	=	=	Having several dimensions or aspects.
+distinction	=	구별, 차이 — 둘을 구분하는 차이점.	A difference between things.
+experienced	=	=	Having knowledge or skill gained over time.
+#REEX	experienced	\bexperienced (teachers?|users?|instructors?|educators?|learners?|participants|researchers?|programmers?)\b|\b(more|less|highly) experienced\b
+facial	=	얼굴의 — 얼굴과 관련된 (facial expression: 표정).	Relating to the face.
+matrix	=	행렬, 매트릭스 — 수나 항목을 행과 열로 배열한 표 (correlation matrix).	A rectangular array of numbers or items arranged in rows and columns.
+narrow	=	=	Limited in range or scope.
+instrumental	=	=	Serving as a means of achieving something; important in causing.
+grading	=	=	The process of assigning grades.
+unfamiliar	=	=	Not known or experienced before.
+convenience	=	편의 (convenience sampling: 편의 표집) — 이용하기 쉬움.	Ease of use; (convenience sampling) choosing easily available participants.
+graphical	=	그래픽의, 도표의 — 그림이나 도표로 나타낸.	Relating to visual images or graphs.
+heavily	=	크게, 많이 — 정도가 심하게 (rely heavily on).	To a great degree.
+ivr	=	=	Immersive virtual reality.
+administrative	=	행정의, 관리의 — 운영 및 행정과 관련된.	=
+transparent	=	=	Open and clear about processes or decisions; see-through.
+careful	=	신중한, 주의 깊은 — 조심스럽고 꼼꼼한.	Paying close attention to avoid errors.
+heterogeneity	=	이질성 — 구성원이나 결과가 서로 다른 정도.	The quality of being diverse or varied.
+retrieval	=	인출, 검색 — 기억이나 저장된 정보를 꺼내는 것 (retrieval practice: 인출 연습).	The act of recovering information from memory or storage.
+delay	=	=	To postpone or slow something.
+lose	=	잃다 — 가지고 있던 것을 더 이상 갖지 못하게 되다.	To stop having something.
+frontier	=	최전선, 개척 분야 — 새로운 탐구가 이루어지는 경계 영역.	The limit of knowledge or development in a field.
+#REEX	frontier	\bfrontiers?\b
+graphic	=	=	Relating to visual design or images.
+# <<batch10 end: 1451-1600>>
+geographical	=	=	Relating to geography or location.
+pursue	=	추구하다, 계속하다 — 목표를 이루려고 노력하다.	To follow or try to achieve (a goal or course of study).
+button	=	=	A clickable element on an interface that triggers an action.
+suit	=	적합하다, 맞다 — (be suited to/for) 목적이나 상황에 알맞다.	To be appropriate for; (well suited) well matched.
+#REEX	suit	\b(suit|suits) (the|their|different|individual|students|learners|all|diverse|specific|your)\b|\bsuited (to|for)\b
+schedule	=	=	A plan listing times for activities.
+agenda	=	의제, 과제 — 다루어야 할 문제나 계획 (research agenda: 연구 과제).	A list of issues or a plan to be addressed.
+scoping	adjective	범위 설정의 (scoping review: 범위 고찰) — 연구 범위를 개관하는.	Relating to mapping the extent of a research area (scoping review).
+#REEX	frustration
+bibliometric	=	계량서지학적인 — 출판물·인용 통계를 분석하는.	Relating to statistical analysis of publications and citations.
+argumentative	=	논증적인, 논쟁의 — 주장을 펴고 근거를 드는 (argumentative essay: 논설문).	Presenting a reasoned argument.
+fast	=	=	Moving or happening quickly.
+sensitivity	=	민감도, 민감성 — 작은 변화에도 반응하는 정도 (sensitivity analysis).	The degree of responsiveness to change; (sensitivity analysis) testing robustness of results.
+robustness	=	견고성, 강건성 — 조건이 바뀌어도 결과가 유지되는 성질.	The ability of results or systems to hold under varying conditions.
+anticipate	=	예상하다, 기대하다 — 앞으로 일어날 일을 미리 생각하다.	To expect or predict.
+extension	=	확장, 연장 — 범위를 넓히는 것 (by extension: 더 나아가).	An expansion or continuation; (by extension) more broadly.
+sure	=	확신하는; (make sure) 확실히 하다 — 틀림없다고 믿는.	Certain; (make sure) to ensure.
+latter	=	후자의 — 둘 중 뒤의 것.	=
+hypothesize	=	가설을 세우다 — 검증할 예측을 제시하다.	To propose as a hypothesis.
+justice	=	정의, 공정 — 공평하고 올바른 상태 (social justice).	Fairness; (social justice) equitable treatment in society.
+wrong	=	=	Not correct; mistaken.
+superior	=	=	Higher in quality or performance.
+identical	=	=	Exactly the same.
+residual	=	잔차 — 관측값과 예측값의 차이.	The difference between an observed and a predicted value.
+determinant	=	결정 요인 — 어떤 결과를 좌우하는 요소.	=
+box	=	상자; (black box) 블랙박스 — 물건을 담는 용기; 내부를 알 수 없는 것.	A container; (black box) a system whose workings are hidden.
+feasibility	=	실현 가능성 — 실제로 실행할 수 있는 정도 (feasibility study: 타당성 연구).	=
+joint	=	=	Shared or done together by two or more people.
+ideal	=	=	Perfect or most suitable.
+supplement	=	=	To add to something to make it complete or better.
+readability	=	가독성 — 글을 읽고 이해하기 쉬운 정도.	The ease with which text can be read and understood.
+operational	=	=	Relating to the running of an organization or system.
+pass	=	통과하다, 합격하다 — 시험이나 단계를 성공적으로 넘다.	To succeed in a test or stage.
+personalised	=	개인 맞춤형의 — 개인의 필요에 맞춘 (영국식 철자).	Tailored to an individual's needs (British spelling).
+aligns	=	=	Third-person form of align; is consistent with.
+judge	=	=	To form an opinion or evaluate.
+#REEX	judge	\bjudg(e|es|ed|ing) (the|whether|their|how|its|a)\b
+stable	=	=	Not likely to change; steady.
+willing	=	기꺼이 하는 — (be willing to) ~할 의향이 있는.	Ready or inclined to do something.
+allocate	=	할당하다, 배정하다 — 특정 목적에 나누어 주다.	To assign resources or time for a purpose.
+push	=	밀다, 밀어붙이다 — 더 나아가도록 강하게 이끌다.	To press or urge forward.
+composite	=	=	Made up of several parts (composite reliability).
+critique	=	비평, 비판 — 장단점을 따져 평가하는 것.	A detailed analysis and assessment.
+cooperative	=	=	Involving people working together toward a shared goal.
+intuitive	=	=	Easy to understand or use without explanation.
+deeper	=	=	More thorough or profound (comparative of deep).
+energy	=	에너지, 힘 — 활동에 쓰이는 힘이나 노력.	Effort or vitality used in activity; physical power.
+reveals	=	=	Third-person form of reveal; makes known.
+trusted	=	=	Considered reliable or worthy of trust.
+extrinsic	=	외재적인 — 외부에서 비롯된 (extrinsic motivation: 외재적 동기).	Coming from outside (extrinsic motivation).
+compose	=	구성하다; (be composed of) ~로 이루어지다 — 여러 부분으로 만들다; 글을 짓다.	To make up; (be composed of) to consist of; to write.
+personalise	=	개인화하다 — 개인의 필요에 맞게 조정하다 (영국식 철자).	To tailor to an individual (British spelling).
+formation	=	형성 — 무언가가 만들어지는 과정.	The process of forming or developing.
+sort	=	=	To arrange or separate into groups.
+#REEX	sort	\bsort(s|ed)? (the|them|their|these|items|cards|statements)\b
+allocation	=	할당, 배분 — 자원이나 역할을 나누어 주는 것.	=
+caution	=	주의, 신중 — 위험이나 오류를 피하려는 조심성.	Care taken to avoid danger or mistakes.
+retrieve	=	=	To find and bring back (information).
+separately	=	따로, 개별적으로 — 함께가 아니라 각각.	=
+cohort	=	=	A group of people sharing a characteristic or experience over a period (e.g., a student cohort).
+manifest	=	=	To show or display clearly; to appear.
+reform	=	개혁 — 제도나 방식을 더 낫게 바꾸는 것.	Change made to improve a system.
+#REEX	reform	\breforms?\b
+accomplish	=	성취하다, 완수하다 — 목표한 일을 이루다.	To achieve or complete successfully.
+curation	=	큐레이션 — 정보나 콘텐츠를 선별·정리하는 일.	The selection and organization of content.
+chart	=	=	A diagram showing data or a process.
+#REEX	chart
+safe	=	=	Free from danger or harm.
+specialized	=	=	Designed for a particular purpose or field.
+department	=	학과, 부서 — 조직이나 대학의 한 부문.	A division of an organization or university.
+#REEX	department	\bdepartments?\b
+elaboration	=	정교화, 상세화 — 내용을 자세히 풀어 발전시키는 것.	The process of developing an idea in more detail.
+fluency	=	유창성 — 말이나 읽기가 매끄럽고 막힘이 없는 정도.	The ability to speak or read smoothly and easily.
+#REEX	fluency	\bfluency\b
+ownership	=	주인 의식, 소유 — 자신의 것으로 여기고 책임지는 태도 (sense of ownership).	A sense of personal responsibility; possession.
+mirror	=	반영하다, 그대로 보여 주다 — 다른 것을 닮게 나타내다.	To reflect or closely resemble.
+offline	=	=	Not connected to the internet; in person.
+listening	=	=	The skill or act of understanding spoken language (listening skills).
+preschool	adjective	취학 전의, 유아의 — 초등학교 입학 전 단계의.	Relating to the period before primary school.
+perhaps	=	=	Possibly; maybe.
+generated	=	생성된 — 만들어진 (AI-generated: AI가 생성한).	Produced or created (e.g., AI-generated).
+configuration	=	구성, 설정 — 요소들의 배치나 짜임.	An arrangement of parts or settings.
+panel	=	패널, 위원단 — (토론·평가) 위원 집단; 화면이나 도표의 구획.	A group of experts; a section of a display or figure.
+#REEX	panel	\b(expert|a|the) panels?\b
+tree	=	=	A hierarchical structure, e.g., a decision tree; a woody plant.
+permitted	=	=	Allowed.
+combined	=	=	Joined together; taken together.
+paragraph	=	단락, 문단 — 글에서 하나의 주제를 다루는 덩어리.	=
+wider	adjective	더 넓은 — wide의 비교급.	Comparative of wide; broader.
+#REEX	drop	\bdrop(s|ped|ping)? (out|in|from|to|significantly|sharply)\b
+guarantee	=	=	To ensure that something will happen.
+understood	verb	이해했다 (understand의 과거·과거분사) — 의미를 파악했다.	Past tense and past participle of understand.
+doctoral	=	박사 (과정)의 — 박사 학위와 관련된.	=
+#REEX	doctoral	\bdoctoral (students?|candidates?|education|research|study|studies|programs?|programmes?|dissertation|level)\b
+hierarchical	=	위계적인, 계층적인 — 등급이나 단계로 나뉜 (hierarchical regression).	Arranged in levels or ranks.
+rationale	=	근거, 이유 — 어떤 결정이나 행동의 바탕이 되는 이유.	=
+mechanic	=	(mechanics) 메커니즘, 작동 방식 — 게임이나 시스템이 작동하는 규칙과 구조.	(mechanics) The rules and structure by which a system or game works.
+finish	=	=	To complete something.
+somewhat	=	다소, 약간 — 어느 정도.	To some extent; slightly.
+execute	=	=	To carry out (a plan or task).
+execution	=	실행, 수행 — 계획이나 활동을 실제로 해내는 것.	The carrying out of a plan or task.
+nearly	=	=	Almost; not quite.
+attract	=	끌어들이다, 유인하다 — 관심이나 참여를 끌다.	To draw interest or attention.
+filter	noun	필터, 여과 조건 — 자료를 걸러내는 기준이나 장치.	A criterion or device used to screen out unwanted items.
+mutual	=	=	Shared by two or more parties.
+proficient	=	=	Skilled and competent.
+#REEX	proficient	\b(more|less|highly|become|becoming|be|are|were) proficient\b|\bproficient (in|at|users?|learners?)\b
+harm	=	해, 피해; 해치다 — 손상을 주는 것; 해를 끼치다.	Damage or injury; (verb) to damage.
+customize	=	맞춤화하다 — 개인이나 목적에 맞게 바꾸다.	=
+nuance	=	뉘앙스, 미묘한 차이 — 섬세한 의미의 차이.	A subtle difference in meaning or expression.
+fidelity	=	충실도, 정확도 — 원래 것을 얼마나 정확히 재현하는지 (high-fidelity: 고충실도).	The degree of exactness in reproducing something (high fidelity).
+return	=	=	To go or come back.
+organisation	=	조직, 기관; 구성 — 단체; 체계적으로 정리하는 것 (영국식 철자).	An organized group; the act of arranging (British spelling).
+prototype	=	시제품, 프로토타입 — 정식 개발 전에 시험용으로 만든 초기 모형.	An early model built to test a design.
+#REEX	unable
+fair	=	=	Treating people equally; just.
+flip	=	뒤집다; (flipped) 거꾸로 하는 — 순서나 방향을 바꾸다.	To turn over; (flipped classroom) to reverse the usual order of instruction.
+tailored	=	=	Adapted to suit specific needs.
+dual	=	=	Consisting of two parts or aspects.
+progressive	=	=	Developing gradually in stages.
+# <<batch11 end: 1601-1750>>
+convergent	=	=	Coming together; (convergent validity) agreement between related measures.
+coverage	=	범위, 포괄성 — 다루는 내용의 넓이 (coverage of topics).	The extent to which something is dealt with or included.
+reduction	=	감소, 절감 — 양이나 정도를 줄이는 것.	A decrease in size, amount, or degree.
+internationalization	=	국제화 — 교육·연구 등을 국제적으로 확대하는 것.	The process of making something international, e.g., in higher education.
+deploy	=	=	To put a system or tool into use.
+visuals	=	시각 자료 — 그림·도표·영상 등 눈으로 보는 자료.	Images, charts, or videos used to communicate information.
+dominant	=	지배적인, 우세한 — 다른 것보다 강하거나 두드러진.	Most influential or prevalent.
+scalable	=	=	Able to be expanded or applied on a larger scale.
+greatly	=	크게, 대단히 — 정도가 매우 크게.	=
+#REEX	personality
+company	=	회사, 기업 — 사업을 하는 조직.	A business organization.
+favor	=	선호하다, 지지하다 — 어떤 쪽을 더 좋아하거나 찬성하다 (in favor of: ~에 찬성하여).	To prefer or support; (in favor of) supporting.
+delayed	=	지연된 — 나중에 이루어지는 (delayed post-test: 지연 사후검사).	Postponed; occurring after a time gap.
+surround	=	둘러싸다; (surrounding) ~을 둘러싼 — 주위를 감싸다; 관련된.	To be all around; (surrounding) related to.
+imperative	=	=	Of vital importance; essential.
+systemic	=	시스템 전반의, 구조적인 — 전체 체계에 걸친.	=
+enthusiasm	=	=	Intense enjoyment, interest, or eagerness.
+estimation	=	추정 — 값을 대략적으로 계산하는 것.	The process of estimating a value.
+secure	=	=	Protected against threats; safe.
+harness	=	=	To control and make use of (a resource or technology).
+hardware	=	하드웨어 — 컴퓨터나 기기의 물리적 장치.	The physical components of a computer or device.
+#REEX	committee	\bcommittees?\b
+tackle	=	=	To deal with a problem or task.
+uptake	=	=	The adoption or acceptance of something new.
+head	=	머리; 책임자 — 신체의 윗부분; 조직의 장.	The upper part of the body; the leader of a group.
+modelling	=	=	The process of creating models (British spelling of modeling).
+auditory	=	청각의 — 듣는 것과 관련된.	=
+occurrence	=	발생, 출현 — 일이 일어나는 것이나 그 횟수.	The fact or frequency of something happening.
+podcasts	=	팟캐스트(복수) — 인터넷으로 배포되는 오디오 프로그램.	Audio programs distributed online in episodes.
+download	=	=	To transfer files from the internet to a local device.
+belong	=	속하다 — 어떤 집단이나 범주의 일부이다 (sense of belonging: 소속감).	To be a member or part of something.
+#REEX	extraction
+adolescent	=	청소년 — 사춘기를 지났으나 아직 성인이 아닌 사람.	=
+#REEX	pool	\b(a|the|larger|wider) pool of\b|\bpool(ed)? (data|resources)\b
+desired	=	원하는, 바라는 — 얻고자 하는 (desired outcomes).	Wanted or hoped for.
+loss	=	손실, 상실 — 가지고 있던 것을 잃는 것.	The fact of losing something.
+#REEX	analytic	\banalytic (approach|framework|tools?|methods?|skills?|thinking|rubric|process|categories|lens|induction|memos?|strategy)\b
+#REEX	inherently
+individualized	=	=	Tailored to the needs of an individual.
+self	=	자기, 자아 — 자기 자신 (self-efficacy: 자기효능감).	One's own person; (in compounds) relating to oneself.
+pedagogically	=	교육적으로, 교수법적으로 — 교수·학습의 관점에서.	In terms of teaching methods.
+tertiary	=	고등 (교육)의 — 대학 수준의 (tertiary education).	Relating to higher education after secondary school.
+hoc	=	(ad hoc/post hoc) 임시의, 사후의 — 특정 목적을 위해 즉석에서; 사후에.	(ad hoc) for a particular purpose; (post hoc) after the fact.
+hear	=	=	To perceive sound through the ear.
+#REEX	hear	\bhear(s|d)? (the|about|from|their|what|how|students|it|them)\b
+integral	=	=	Essential to the whole; necessary.
+fix	=	고치다, 수정하다 — 오류나 문제를 바로잡다.	To repair or correct something.
+#REEX	fix	\bfix(es|ed|ing)? (the|errors?|bugs?|problems?|it|mistakes?|issues?)\b
+workflow	=	작업 흐름, 워크플로 — 일이 처리되는 순서와 절차.	The sequence of steps through which work is done.
+resolution	=	=	The detail level of an image or measurement; a decision; the solving of a problem.
+campus	=	캠퍼스, 교정 — 대학의 부지와 건물.	The grounds and buildings of a university.
+#REEX	campus	(?<!-)\bcampus\b(?!-)
+included	verb	포함했다; 포함된 — include의 과거·과거분사.	Past tense and past participle of include.
+package	=	패키지 — (소프트웨어) 기능 묶음; 포장된 것.	A bundle of software functions; a parcel.
+near	adjective	가까운; (nearest) 가장 가까운 — 거리나 시간이 가까운.	Close in distance, time, or degree.
+predefined	=	=	Defined in advance.
+regulatory	=	조절의; 규제의 — 조절과 관련된 (self-regulatory: 자기조절의); 규정에 관한.	Relating to regulation or control (self-regulatory).
+incorporation	=	통합, 도입 — 어떤 것을 일부로 포함시키는 것.	The inclusion of something as part of a whole.
+discriminant	=	판별의 (discriminant validity: 판별 타당도) — 서로 다른 개념을 구별하는.	Distinguishing between constructs (discriminant validity).
+confirmation	=	확인, 확증 — 사실임을 확인하는 것.	The act of confirming that something is true.
+composition	=	구성, 조성 — 전체를 이루는 요소의 구성 (gender composition: 성비 구성).	The way something is made up of parts.
+revisit	=	=	To consider or return to something again.
+procrastination	=	미루기, 지연 행동 — 할 일을 습관적으로 뒤로 미루는 것.	=
+#REEX	procrastination
+quote	=	인용문 — 다른 사람의 말이나 글을 그대로 옮긴 것.	A quotation.
+governance	=	거버넌스, 관리 체계 — 조직이나 제도를 운영·통제하는 방식.	The system by which an organization is directed and controlled.
+#REEX	governance	\bgovernance\b
+#REEX	standing	\b(academic|social|high|good|long) standing\b
+noteworthy	=	=	Deserving attention; notable.
+press	=	누르다; (pressing) 긴급한 — 압력을 가하다; 시급한.	To push on; (pressing) urgent.
+notification	=	알림, 통지 — 정보를 알려 주는 메시지.	A message informing someone of something.
+abstraction	=	추상화 — 핵심만 뽑아 일반적인 개념으로 나타내는 것 (컴퓨팅 사고 요소).	The process of focusing on essential features while ignoring details.
+automation	=	자동화 — 기계나 소프트웨어가 작업을 자동으로 수행하게 하는 것.	The use of machines or software to perform tasks automatically.
+circumstance	=	상황, 환경 — 어떤 일에 영향을 주는 조건이나 사정.	A condition or fact that affects a situation.
+earlier	=	이전의, 더 이른 — early의 비교급.	Comparative of early; previous.
+disposition	=	성향, 기질 — 어떤 방식으로 생각하거나 행동하려는 경향.	A person's inherent tendency or attitude.
+avenue	=	방법, 길 — (비유) 목표에 이르는 수단이나 경로.	A way of approaching or achieving something.
+commercial	=	상업적인 — 이익을 목적으로 하는.	Concerned with business or profit.
+intercultural	=	문화 간의 — 서로 다른 문화 사이의 (intercultural competence).	=
+#REEX	proposal	\b(research|project|design|lesson|policy) proposals?\b|\bproposals? (for|to|that)\b
+#REEX	verification	\bverification (of|process|step|steps|strategies|behaviors|behaviours)\b
+infer	=	추론하다 — 증거나 근거로부터 결론을 끌어내다.	=
+fifth	=	=	Coming after the fourth in order.
+relatedness	=	관계성 — 다른 사람과 연결되어 있다는 느낌 (자기결정이론의 기본 욕구).	The sense of connection to others (a basic psychological need).
+fixed	=	=	Not changing; set or established.
+upper	=	=	Higher in position or level.
+senior	=	=	Higher in rank or status; in the final year of study.
+american	=	미국의; 아메리카의 — 미국이나 아메리카 대륙과 관련된.	Relating to the United States or the Americas.
+# <<batch12 end: 1751-1875>>
+drawing	=	그림, 그리기 — 선으로 그린 그림이나 그리는 활동 (drawing on: ~을 바탕으로).	A picture made with lines; the act of drawing; (drawing on) using as a basis.
+confusion	=	혼란 — 이해가 분명하지 않아 헷갈리는 상태.	=
+green	=	녹색의; 친환경의 — 초록색의; 환경을 고려한.	Having the color green; environmentally friendly.
+nursing	=	간호(학) — 환자를 돌보는 일이나 그 학문.	The profession or practice of caring for the sick.
+vast	=	방대한, 막대한 — 크기나 양이 매우 큰.	Very great in extent or quantity.
+extended	=	확장된, 장기간의 — 범위나 기간을 늘린 (extended reality: 확장 현실).	Made longer or larger; (extended reality) combined VR/AR technologies.
+#REEX	extended	\bextended (reality|period|periods|time|version|use|practice|engagement|duration)\b
+subscales	=	하위 척도(복수) — 척도를 구성하는 세부 척도들.	Subdivisions of a measurement scale.
+longer	=	더 긴, 더 오래 — long의 비교급.	Comparative of long.
+differential	=	차별적인, 차이의 — 대상에 따라 다르게 나타나는.	Relating to or showing a difference.
+disagreement	=	의견 불일치 — 서로 의견이 다른 것.	A lack of agreement.
+japanese	=	일본의; 일본어 — 일본이나 일본어와 관련된.	Relating to Japan or the Japanese language.
+#REEX	japanese	\bJapanese (language|students|learners|university|universities|context|EFL|as)\b
+disaster	=	재해, 재난 — 큰 피해를 주는 사건.	A sudden event causing great damage or loss.
+political	=	=	Relating to government or public affairs.
+proceed	=	진행하다, 나아가다 — 다음 단계로 계속하다.	To continue or move on to the next step.
+contrary	=	반대되는 — 정반대의 (on the contrary: 오히려).	Opposite in nature or direction; (on the contrary) in fact the opposite.
+minor	=	=	Small or less important.
+solid	=	탄탄한, 견고한 — 근거가 튼튼하고 믿을 만한.	Firm and reliable; well-founded.
+terminology	=	전문 용어 — 특정 분야에서 사용되는 용어 체계.	The set of terms used in a particular field.
+gaming	=	게임 (활동) — 비디오 게임 등을 하는 것; 교육용 게임 활용.	Playing video or computer games.
+district	=	지역, 구역; 교육구 — 행정 구역; (school district) 학군.	An administrative area; (school district) a local education authority.
+#REEX	district	\b(school )?districts?\b
+impose	=	부과하다, 가하다 — 부담이나 제약을 지우다.	To force a burden or restriction on.
+away	=	떨어져, 멀리 — 다른 곳으로 (go away: 사라지다).	At a distance; to another place.
+everyone	pronoun	모든 사람 — 모두.	Every person.
+philosophy	=	철학; 신념 — 근본 원리를 탐구하는 학문; 일의 기본 원칙.	The study of fundamental ideas; a guiding set of beliefs.
+problematic	=	=	Causing difficulty; presenting a problem.
+intersection	=	교차점, 접점 — 둘 이상의 영역이 만나는 지점.	The point or area where two or more things meet or overlap.
+oppose	=	반대하다 — (as opposed to) ~와 대조적으로.	To be against; (as opposed to) in contrast with.
+favorable	=	호의적인, 유리한 — 좋게 보거나 도움이 되는.	Positive or advantageous.
+communicative	=	의사소통의 — 의사소통과 관련된 (communicative competence: 의사소통 능력).	Relating to communication.
+slow	=	=	Moving or happening at a low speed.
+summarization	=	요약 — 핵심 내용을 간추리는 것.	The process of creating a summary.
+discrimination	=	=	Unfair treatment of a person or group; the ability to distinguish.
+discovery	=	발견 — 새로운 것을 찾아내는 것 (discovery learning: 발견 학습).	The act of finding something new.
+spread	=	확산, 분포; 퍼뜨리다 — 넓게 퍼지는 것.	The extent or distribution of something; (verb) to extend over an area.
+reporting	=	=	The act of presenting or describing results or information.
+generalize	=	일반화하다 — 일부 결과를 더 넓은 범위에 적용하다.	To apply findings to a broader population or context.
+inductive	=	귀납적인 — 구체적 사례에서 일반 원리를 이끌어 내는.	=
+coordinate	=	=	To organize people or activities to work together effectively.
+organise	=	조직하다, 정리하다 — 체계적으로 짜거나 배열하다 (영국식 철자).	To arrange systematically (British spelling).
+#REEX	chapter
+reduced	=	=	Made smaller or less.
+originality	=	독창성 — 새롭고 창의적인 특성.	=
+division	=	구분, 분할 — 나누는 것 (division of labor: 분업).	The act of dividing; (division of labor) splitting tasks among people.
+immerse	=	몰입시키다 — 어떤 활동이나 환경에 깊이 빠져들게 하다 (immerse oneself in).	To involve deeply in an activity or environment.
+substantially	=	상당히, 크게 — 정도가 꽤 크게.	To a large degree; considerably.
+reject	=	=	To refuse to accept.
+enact	=	=	To put into practice; to make into law.
+internationalisation	=	국제화 — 교육·연구 등을 국제적으로 확대하는 것 (영국식 철자).	The process of making something international (British spelling).
+#REEX	internationalisation	\binternationalisation\b
+cater	=	=	(cater to) To provide what is needed or wanted.
+exacerbate	=	악화시키다 — 나쁜 상황을 더 나쁘게 만들다.	To make a problem worse.
+independence	=	독립(성) — 다른 것에 의존하지 않는 상태 (independence of residuals: 잔차의 독립성).	=
+reshape	=	재편하다, 새롭게 바꾸다 — 형태나 구조를 다시 만들다.	To change the form or structure of.
+someone	pronoun	누군가 — 특정하지 않은 어떤 사람.	Some person.
+observable	=	관찰 가능한 — 직접 보고 측정할 수 있는.	Able to be seen or measured.
+subset	=	부분 집합, 일부 — 전체 중 일부로 이루어진 집합.	A part of a larger set.
+demonstration	=	시연, 입증 — 직접 보여 주는 것; 증명.	The act of showing how something works; proof.
+clustering	=	=	The grouping of similar data points (cluster analysis).
+appearance	=	외모, 모습; 출현 — 겉으로 보이는 모양; 나타남.	The way someone or something looks; the act of appearing.
+appropriateness	=	적절성 — 상황이나 목적에 알맞은 정도.	=
+ecological	=	생태(학)적인 — 환경과 관련된 (ecological validity: 생태학적 타당도).	Relating to the environment; (ecological validity) applicability to real-world settings.
+aspiration	=	열망, 포부 — 이루고자 하는 강한 바람.	A strong hope or ambition.
+ever	=	언제나; 이제까지 (ever-increasing: 계속 늘어나는) — 시간이나 정도를 강조하는 말.	At any time; always (ever-increasing).
+#REEX	ever	\b(than|have|has|had|never|first) ever\b|\bever (since|before|been|more)\b
+quantify	=	정량화하다 — 수치로 나타내다.	To express or measure as a quantity.
+inadequate	=	=	Not sufficient or good enough.
+optimization	=	최적화 — 가장 효율적이거나 좋은 상태로 만드는 것.	=
+comfortable	=	=	Feeling at ease; free from stress.
+summative	=	총괄적인 — 학습이 끝난 뒤 성취를 종합 평가하는 (summative assessment: 총괄 평가).	Relating to assessment that evaluates learning at the end of instruction.
+absolute	=	절대적인 — 다른 것과 비교하지 않은 (absolute value: 절댓값).	Not relative or comparative; complete.
+bot	=	=	A software program that performs automated tasks; a chatbot.
+#REEX	bot	\b(the|a|AI|this|social|Telegram|educational) bots?\b
+principal	=	주요한, 주된; (명사) 교장 — 가장 중요한 (principal component: 주성분).	Main or most important; (noun) a school head.
+clarification	=	명확화, 해명 — 분명하게 설명해 주는 것.	An explanation that makes something clearer.
+praise	=	=	Expression of approval or admiration.
+standardize	=	표준화하다 — 일정한 기준에 맞춰 통일하다.	To make something conform to a standard.
+postgraduate	adjective	대학원의 — 학사 이후 과정의.	Relating to study after a first degree.
+inclusivity	=	포용성 — 다양한 사람을 배제 없이 포함하는 성질.	The practice of including people of all backgrounds.
+#REEX	dedicate	\bdedicat(e|es|ed|ing) (time|their|more|to|resources|efforts?)\b
+conducive	=	도움이 되는, 유리한 — (conducive to) ~에 이바지하는.	=
+underpin	=	=	To support or form the basis of something.
+stimulus	=	=	Something that causes a reaction or response.
+generalization	=	=	The extension of conclusions from specific cases to broader contexts.
+realm	=	=	A field or domain of activity or knowledge.
+#REEX	realm	\b(the|this|a) realm of\b
+prioritise	=	=	To treat as more important than other things (British spelling).
+redesign	=	=	To design something again in a different way.
+zone	=	영역, 구역 — 특정 특성으로 구분되는 범위 (zone of proximal development: 근접발달영역).	An area or range distinguished by particular characteristics.
+withdraw	=	=	To remove oneself from participation; to take back.
+# <<batch13 end: 1876-2000>>

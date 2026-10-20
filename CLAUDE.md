@@ -12,7 +12,11 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 빌드 후 항상 `cp web/index.html index.html` (git이 추적하는 건 root의 index.html).
 
 원본 논문 PDF 폴더: **`D:\논리전개연습`** (2026-10-20부터, 이전 `D:\논문`).
-영문 저널 6종 + 한국 학술지 4종(★ 폴더) 포함 — 재추출 시 ★ 폴더 포함 여부를 먼저 정할 것.
+영문 저널 6종 + 한국 학술지 4종(★ 폴더)이 있지만, **한국 학술지(최상위 ★ 폴더)는 단어장 대상에서 제외**한다
+(`pdf_extractor.py`의 `collect_pdfs()` — 대상 872개).
+
+저장소 구성: `scripts/`·`.claude/`·`.mcp.json`·`data/`(중간 산출물·검수표)는 git으로 백업한다.
+`raw_text/`(논문 본문, 저작권·용량)와 `web/`(빌드 산출물)는 `.gitignore`로 로컬 전용.
 
 ## 단어장 불변 규칙
 - 단어장은 **항상 정확히 2000개**를 유지한다. 노이즈를 삭제하면 같은 수만큼 학술 단어를 보충한다.
@@ -70,7 +74,7 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 ```bash
 python scripts/build_dashboard.py
 cp web/index.html index.html
-git add data/vocabulary.json index.html
+git add data/vocabulary.json index.html   # 스크립트·검수표를 고쳤다면 scripts/ data/ 도 함께
 git commit -m "..."   # 커밋 메시지 끝에 Co-Authored-By: Claude ...
 git push origin main
 ```

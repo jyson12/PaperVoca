@@ -1,0 +1,1802 @@
+[
+  {
+    "word": "likelihood",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "있을 수 있는 일 — 특정 결과의 확률 어떤 일이 일어날 가능성; 개연성; 가능성이 있는 상태나 정도.",
+    "en_def": "The probability of a specified outcome; the chance of something happening; probability; the state or degree of being probable.",
+    "ex1": "While the likelihood of another pandemic rivaling COVID-19 is miniscule, there have been numerous examples that highlight the growing risk of abrupt temporary school closures.",
+    "ex2": "CFA was conducted using the maximum likelihood estimation method to test the fit of the four-factor, 14- item model identified through EFA."
+  },
+  {
+    "word": "embrace",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "포옹하다 — 팔로 사람을 감싸고 가슴 가까이 끌어당기는 행위. 포옹.",
+    "en_def": "An act of putting arms around someone and bringing the person close to the chest; a hug.",
+    "ex1": "Wing's (2008) call to turn computational thinking into a matter for early education has today been embraced in curricula worldwide (Su & Yang, 2023a).",
+    "ex2": "Our collaboration for co-­design approach, however, embraces the necessity of adaptation and interpretation by local actors."
+  },
+  {
+    "word": "lecturer",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "강사 — 특히 직업으로서 강의를 하는 사람.",
+    "en_def": "A person who gives lectures, especially as a profession.",
+    "ex1": "All lecturers were based in Australia and hired directly by the Australian university.",
+    "ex2": "The lecturers were native Chinese speakers with Australian postgraduate degrees and at least 3 years of higher edu- cation teaching experience."
+  },
+  {
+    "word": "representative",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "대표 — 대리인.",
+    "en_def": "A delegate.",
+    "ex1": "Third, the participants were all from a single college in Saudi Arabia and might not be representative of all students in the Kingdom.",
+    "ex2": "It is important to acknowledge that the characteristics of our participants, such as their language proficiency levels, cultural backgrounds, and prior experiences with AI tools, may influence the outcomes observed in this study and may not be representative of all language learners."
+  },
+  {
+    "word": "differentiate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "구별 짓다 — 차별화되거나 계층화된 것.",
+    "en_def": "Something that has been differentiated or stratified.",
+    "ex1": "Emerging technologies, such as generative AI, can support differentiated scaffolding, enabling teachers to create adaptive learning pathways based on students' readiness and needs (Jauhiainen & Guerra, 2023; Kadaruddin, 2023; Kong & Yang, 2024).",
+    "ex2": "Once we had the Markov models (MMs) fitted on the different episodes defined by the sub-­codes, we conducted ANOVAs to differentiate the transition probabilities between the sub-­codes."
+  },
+  {
+    "word": "importantly",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "중요한 것은 — (문장 부사) 진술이 중요하다는 것을 표시하는 데 사용됩니다.",
+    "en_def": "(sentence adverb) Used to mark a statement as having importance.",
+    "ex1": "Importantly, there are significant ethical issues associated with the use of AI in education (see eg, Holmes, 2023).",
+    "ex2": "More importantly, a significant factor hindering the effective incorporation of technology in teaching is the insufficient understanding of relevant pedagogical strategies among educators (Ardiç, 2021; Diseko & Mashiteng, 2020; Graham et al., 2020; Masango et al., 2022; Minty & Moll, 2020; Ndlovu & Meyer, 2019; Taimalu & Luik, 2019; Zulu, 2020)."
+  },
+  {
+    "word": "gradually",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "서서히 — 점진적인 방식으로; 느린 진행; 느리게.",
+    "en_def": "In a gradual manner; making slow progress; slowly.",
+    "ex1": "Rather than directly generating programming answers, MASforLPS guides learners to gradually build their understanding through human-computer interaction, helping them arrive at effective solutions.",
+    "ex2": "Many interviewees felt that the teacher agent’s flexibility could not yet match that of a real teacher, who can gradually adjust explanatory perspectives based on a multidimensional understanding of student intent—a capability current teacher agents struggle to replicate."
+  },
+  {
+    "word": "developmental",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "발달상의 — 훈련생 비행 관제사.",
+    "en_def": "A trainee flight controller.",
+    "ex1": "In another example, Samuel and Warner (2021) explored the impact of combined mindfulness and positive psychology intervention embedded in a developmental statistics course, finding that it significantly reduced math anxiety and increased math self-­efficacy among community college stu- dents.",
+    "ex2": "Faculty need significant developmental resources to assist with redesigning their classes in remote and hybrid teaching environments—resources that go beyond simply reviewing training manuals."
+  },
+  {
+    "word": "complementary",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "보완적인 — 보색입니다.",
+    "en_def": "A complementary colour.",
+    "ex1": "When you’re ready to end your reading session, click “End” in the lower-right corner.” For the argument group, the specific instruction was: “Please pay attention to the claims proposed by the authors because conflicting or complementary stances exist among various texts.",
+    "ex2": "Theoretical foundations informing equity in CL E-PEARL builds on complementary theoretical perspectives that conceptualize equity as both a pedagogical principle and an operational design construct."
+  },
+  {
+    "word": "artifact",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "인공물 — 사람의 손이나 노동에 의해 만들어지거나 형태를 갖춘 물건.",
+    "en_def": "An object made or shaped by human hand or labor.",
+    "ex1": "Among their findings, the macrostructure of the lesson artifacts (i.e., the outline and network map) influenced students’ KS, reading with an outline supported the linear topic order of the text while reading with a network supported more expert-like relational structure.",
+    "ex2": "Students no longer had to ‘start from scratch’ each session, as in PC-­based labs (T10), supporting the ‘preservation of digital artifacts and greater engagement’ (L1)."
+  },
+  {
+    "word": "administrator",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "관리자 — 사무를 처리하는 사람 민사, 사법, 정치, 교회 문제 등을 지휘하고, 관리하고, 실행하거나 집행하는 사람입니다. 관리자",
+    "en_def": "One who administers affairs; one who directs, manages, executes, or dispenses, whether in civil, judicial, political, or ecclesiastical affairs; a manager",
+    "ex1": "The results showed that the training program effectively enhanced the knowledge and satisfaction of the partic- ipants, highlighting the importance of development programs for education administrators.",
+    "ex2": "Al‑Motrif et al. professional development, offering actionable insights for educators, administrators, and policymakers."
+  },
+  {
+    "word": "manipulation",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "시장 조작 — 조작하는 행위 또는 조작당하는 상태.",
+    "en_def": "The practice of manipulating or the state of being manipulated.",
+    "ex1": "The study did not include any experimental manipulation, clinical procedures, or collection of sensitive personal data.",
+    "ex2": "With higher congruency, physical manipulatives help increase engagement and motivation and assist students in connecting a hands-on activity to a to-be-learned concept through the haptic feedback and kinesthetic manipulation of physical equipment."
+  },
+  {
+    "word": "indeed",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "물론 — (모달) 정말로; 사실은; 실제로.",
+    "en_def": "(modal) Truly; in fact; actually.",
+    "ex1": "Indeed, students remarked on the complexity and “confusion” of managing several digital applications.",
+    "ex2": "Indeed, we need to go beyond post hoc analyses of educational technologies to design technologies that are ethical from the outset."
+  },
+  {
+    "word": "rigorous",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "엄밀한 — 엄격함을 보여주거나 유발하거나 선호하는 행위 꼼꼼하게 정확하거나 엄격하게; 철저한.",
+    "en_def": "Showing, causing, or favoring rigour; scrupulously accurate or strict; thorough.",
+    "ex1": "Methodology A systematic review follows a rigorous methodology, including predefined search cri- teria and systematic screening processes, to ensure the inclusion of relevant studies.",
+    "ex2": "Search filters were applied based on predefined inclusion and exclusion criteria, fol- lowed by a rigorous data extraction strategy as explained below."
+  },
+  {
+    "word": "resistance",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "저항 — 저항하는 행위, 또는 저항할 수 있는 능력.",
+    "en_def": "The act of resisting, or the capacity to resist.",
+    "ex1": "As AI-driven technologies become embedded in assessment processes, educational institutions would have to move prior resistance (Hargreaves, 2023), and embrace the benefits of personalized learning, adaptive testing, and advanced performance analytics (Rudolph et al., 2023; Lim et al., 2023a, 2023b; Lim et al., 2022).",
+    "ex2": "However, this variation was less pronounced compared to that observed among supervisors, and student resistance to GenAI was less entrenched."
+  },
+  {
+    "word": "emergence",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "출현 — 액체에서 솟아오르는 행위, 둘러싸거나 은폐된 곳에서 나오거나 눈에 들어오는 행위. 갑작스런 봉기 또는 출현.",
+    "en_def": "The act of rising out of a fluid, or coming forth from envelopment or concealment, or of rising into view; sudden uprising or appearance.",
+    "ex1": "The theoretical framework under discussion posits that the emergence of an eco-citizen consciousness is fuelled by intellectual commitment (i.e. understanding of the challenges of digital sobriety), concrete group action, and emotional and symbolic sharing around common values.",
+    "ex2": "The emergence of ‘machine’ and ‘trust’ in this context may imply the growing importance of transparent, accountable AI systems that educators and learners can rely on."
+  },
+  {
+    "word": "enhances",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "강화하다 — 들어 올리려면 들어 올리십시오.",
+    "en_def": "To lift, raise up.",
+    "ex1": "This enhances their ability to contribute to broader global knowledge exchange and innovation regardless of physical national boundaries.",
+    "ex2": "In ODL contexts, COIL thus enhances learning opportunities for students and staff who are in geographically distant locations."
+  },
+  {
+    "word": "template",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "주형 — 모양이 다른 물체를 만들기 위한 가이드로 사용되는 물리적 물체입니다.",
+    "en_def": "A physical object whose shape is used as a guide to make other objects.",
+    "ex1": "For example, P31, upon receiving a templated response from ChatGPT in phases3 and phases4, noted, ‘‘It seems to be applying a template, and I suspect it’s mak- ing things up’’.",
+    "ex2": "During conceptualisation, students explore scientific concepts and develop potential hypotheses (Bell et al., 2005), often supported by structured resources like task worksheets or hypothesis templates (Gijlers & de Jong, 2013; Kuang et al., 2022)."
+  },
+  {
+    "word": "gameplay",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "게임 플레이 — 게임 환경, 다른 플레이어와의 경쟁적 상호작용 등 게임 중 플레이어 경험의 총체성 종종 비디오 게임과 관련이 있습니다.",
+    "en_def": "The totality of player experiences during a game, such as the gaming environment and the competitive interaction with other players; often with reference to a video game.",
+    "ex1": "The random number generation appears to function correctly within the specified limits, which is crucial for the gameplay.",
+    "ex2": "This hybrid design accommodates different learning preferences and allows teachers to enrich gameplay with contextual information."
+  },
+  {
+    "word": "century",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "세기",
+    "en_def": "A period of 100 consecutive years; often specifically a numbered period with conventional start and end dates, e.g., the twentieth century, which stretches from (strictly) 1901 through 2000, or (informally) 1900 through 1999. The first century AD was from 1 to 100.",
+    "ex1": "Some studies also indicated that there is no compelling proof of the effect of flipped learning on establishing lifelong learning and other 21st century skills in undergraduate education such as collecting, analyzing, and interpreting data (O’Flaherty & Phillips, 2015).",
+    "ex2": "Then, aligning with generic digital competency frameworks, the DigCompEdu framework and P21’s framework for twenty- first century learning were adapted and revised to accommodate AI technologies."
+  },
+  {
+    "word": "moment",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "순간 — 짧고 불특정 시간입니다.",
+    "en_def": "A brief, unspecified amount of time.",
+    "ex1": "Finally, the video recordings (one video per group) were examined around pivotal moments trig- gered by the facilitator’s fieldnotes.",
+    "ex2": "They initiated discus- sions with the groups around these visualizations—so-called ‘teachable moments’—asking them to elaborate further on their ideas, questions, and concerns around their circuitries."
+  },
+  {
+    "word": "restrict",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "얽매다 — 경계 내에서 억제하려면; 제한하다; 제한하다",
+    "en_def": "To restrain within boundaries; to limit; to confine",
+    "ex1": "Measures to maintain anonymity and confidentiality were implemented, including data coding, secure storage, and access restriction to authorized personnel only.",
+    "ex2": "The small sample size may restrict the generalizability of the findings and limit the statistical power to detect significant effects (Gravetter et al., 2009, p. 656)."
+  },
+  {
+    "word": "speed",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "속도 — 빠르게 움직일 수 있는 상태 또는 빠른 동작을 할 수 있는 능력 급속.",
+    "en_def": "The state of moving quickly or the capacity for rapid motion; rapidity.",
+    "ex1": "While GenAI offers unprecedented speed in knowledge processing, it raises concerns that efficiency-driven motivations may erode the cognitive struggle essential for intellectual growth.",
+    "ex2": "Moderating role of efficiency orientation Efficiency orientation weakens the positive relationship between pedagogical part­ nership and cognitive vigilance by prioritizing speed over scrutiny in AI interactions."
+  },
+  {
+    "word": "uncertainty",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "불확실성 — 의심; 불확실하거나 확신이 없는 상태.",
+    "en_def": "Doubt; the condition of being uncertain or without conviction.",
+    "ex1": "As a result, many find themselves navigating a complex and sometimes contradictory terrain, where the desire to explore GenAI’s potential in learning and teaching is constrained by uncertainty, risk aversion, or unclear expectations (Atif, Lim et al., 2025).",
+    "ex2": "This uncertainty was echoed in student reflections, particularly among those new to academic study in Australia."
+  },
+  {
+    "word": "overlook",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "간과하다 — 아름다운 전망을 제공하는 전망이나 지점.",
+    "en_def": "A vista or point that gives a beautiful view.",
+    "ex1": "The teacher consultants corroborated this finding, noting that distracted behaviour is not only the most common form of classroom misconduct but also frequently overlooked by novice teachers.",
+    "ex2": "Follow-up interviews revealed that these two teachers had limited visual focus due to their habitual positioning or tendency to overlook certain areas of the classroom, explain- ing their oversight."
+  },
+  {
+    "word": "textual",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "텍스트 — 텍스트의 또는 관련.",
+    "en_def": "Of, or pertaining to text.",
+    "ex1": "They relied on ChatGPT in two parts; the first is the textual analysis of the content by asking some direct questions, and the second is using it as a guide to suggest action steps and then an axes and rater in the exercise, see Figure 1.",
+    "ex2": "After using ChatGPT to practice textual communication, the communication group acknowledged in the final discussion that they had improved somewhat."
+  },
+  {
+    "word": "parental",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "부모의 — 부모의 역할을 수행하는 사람.",
+    "en_def": "A person fulfilling a parental role.",
+    "ex1": "This study designed and validated a conceptual model for chil- dren's continuance intention to use video apps based on privacy calculus theory and Teen Online Safety Strategies (TOSS) parental mediation framework.",
+    "ex2": "Trust also contrib- uted to children's continuance intention to use video apps, slightly positively moderated by restrictive parental mediation."
+  },
+  {
+    "word": "supplementary",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "보충 — 추가적인 것; 추가.",
+    "en_def": "Something additional; an extra.",
+    "ex1": "Initial coding was conducted in MaxQDA, and then, the codebook was expanded and iterated on (see Supplementary Material) as fur- ther codes emerged (Hennink et al., 2017).",
+    "ex2": "To effectively integrate AI-­generated instructional videos into their teaching practices, we recommend that educators begin by using AI-­generated videos as supplementary materials to illustrate key concepts taught in traditional classrooms."
+  },
+  {
+    "word": "moral",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "도의적인 — (서사의) 윤리적 중요성이나 실천적 교훈.",
+    "en_def": "(of a narrative) The ethical significance or practical lesson.",
+    "ex1": "Bridging this gap is both a moral imperative and a practical necessity for digital inclusion.",
+    "ex2": "The consequentialist approach is an ethical framework that evaluates the morality of actions based on their out- comes or consequences."
+  },
+  {
+    "word": "coherence",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "통일 — 일관성 또는 일관성의 품질; 내부 일관성.",
+    "en_def": "The quality of cohering, or being coherent; internal consistency.",
+    "ex1": "Despite its advantages, Socratic Mind has several limitations, such as inconsistencies in dialogue coherence, a time-consuming and error-prone manual grading process, and the need for more accurate and reliable AI-generated responses.",
+    "ex2": "The biggest component that is connected covers approximately 28% of all authors in the dataset which signifies a measure of coherence in the research community, yet there are significant numbers of researchers operating in remote or small groups that are not within the large network connected."
+  },
+  {
+    "word": "calculation",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "계산 — 계산하는 행위 또는 과정.",
+    "en_def": "The act or process of calculating.",
+    "ex1": "A typical lesson included activities such as discussing homework, introducing the day’s topic as well as key concepts, experiments, and calculation tasks (Viiri & Helaakoski, 2014).",
+    "ex2": "The question examples were selected to demonstrate different types from checking and calculations (“How much do you get from that?”, “Can you measure power for electric devices?, “How is resistance calculated?”) to more challenging and open-ended ones (“How does the voltages change when batteries are connected to series?”, “Okay, what does it mean then?”)."
+  },
+  {
+    "word": "forward",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "앞으로",
+    "en_def": "One of the eight players (comprising two props, one hooker, two locks, two flankers and one number eight, collectively known as the pack) whose primary task is to gain and maintain possession of the ball (compare back).",
+    "ex1": "To facilitate active engagement, participants were given flexibility in their viewing process, allowing them to watch the videos at their own pace, with the option to rewatch, rewind, and fast-forward as needed.",
+    "ex2": "The research is conducted to look forward to the students’ feedback and reviews on the importance and role of CALL-based multimodal pedagogical resources teachers use to motivate learners and make them more willing to communicate."
+  },
+  {
+    "word": "surface",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "표면 — 테이블과 같은 평평한 물체나 액체의 윗면 또는 윗면.",
+    "en_def": "The overside or up-side of a flat object such as a table, or of a liquid.",
+    "ex1": "The theoretical significance of this principle extends beyond surface-level theming to demonstrate how carefully constructed game fiction can address fundamental engagement challenges in graduate education.",
+    "ex2": "Stronger associations in the Exploration-Resolution and Integration- Resolution in SG reflected a linear, task-focused approach, where the pre-service teach- ers relied on surface-level connections to move quickly from identifying problems to solutions."
+  },
+  {
+    "word": "immediately",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "즉시 — 즉시; 즉시 또는 지체 없이.",
+    "en_def": "In an immediate manner; instantly or without delay.",
+    "ex1": "During the formulation process, if a user correctly answered a question on the Pythago- rean Theorem or provided a clear explanation, the student agent would immediately pro- vide positive feedback, followed by another positive comment and a summary from the tutor.",
+    "ex2": "To understand learners’ thoughts and feelings about CCITS, a satisfaction question- naire, including seven questions, was administered immediately after students used the sys- tem, and was collected anonymously."
+  },
+  {
+    "word": "healthcare",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "건강 관리 — 의료, 간호 및 관련 보건 전문가가 제공하는 서비스를 통해 질병을 예방, 치료 및 관리하거나 정신적, 육체적 안녕을 유지하는 것입니다.",
+    "en_def": "The prevention, treatment, and management of illness or the preservation of mental and physical well-being through the services offered by the medical, nursing, and allied health professions.",
+    "ex1": "This technology has made considerable advances and is now used in various fields, including customer service, education, and healthcare.",
+    "ex2": "Disciplines The majority of the studies examined in this scoping review came from medical and healthcare related fields."
+  },
+  {
+    "word": "uncover",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "폭로하다 — 덮개를 제거하려면.",
+    "en_def": "To remove a cover from.",
+    "ex1": "Furthermore, AI allows lec- turers to enhance their research efficiency by automating data analysis procedures, ena- bling them to process larger datasets and uncover insights more quickly (Manser et al., 2021).",
+    "ex2": "These technologies enable researchers to process large datasets more efficiently, uncover- ing patterns and insights that were previously difficult to detect."
+  },
+  {
+    "word": "rarely",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "드물게 — 일정한 간격으로 발생하지 않습니다. 드물게; 자주는 아닙니다.",
+    "en_def": "Not occurring at a regular interval; seldom; not often.",
+    "ex1": "However, the social and symbolic capital of teachers and their ability to invite guest lecturers to deliver online lectures have rarely been mentioned in pre- vious studies of hybrid learning (Abuhassna et al., 2022).",
+    "ex2": "While these models achieve varying degrees of predictive accuracy, they often treat engagement as a unidimensional outcome and rarely integrate multiple data types."
+  },
+  {
+    "word": "simulated",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "시뮬레이션 — 행동, 모양 또는 속성을 모델링, 복제, 복제합니다.",
+    "en_def": "To model, replicate, duplicate the behavior, appearance or properties of.",
+    "ex1": "The test was conducted online in a simulated environment, lasting 90 minutes, with an additional 30 minutes being allocated for usability surveys and interviews.",
+    "ex2": "Data storage This study utilized the xAPI specification to record students’ operational data, generat- ing a dataset of simulated task responses. xAPI is an interface specification based on SCORM standard, and it allows systems to collect and share data according to a unified specification (Bakharia et al., 2016)."
+  },
+  {
+    "word": "store",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "가게 — 물건을 쌓아두거나 일상적으로 보관하는 장소.",
+    "en_def": "A place where items may be accumulated or routinely kept.",
+    "ex1": "Following minor refinements based on user feedback, the application was launched and made available for free download on app stores. 4.",
+    "ex2": "The student model stores learner characteristics and tracks the learner’s evolving level of understanding (Greer & McCalla, 1991)."
+  },
+  {
+    "word": "priority",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "우선 사항 — 항목의 상대적 중요성입니다.",
+    "en_def": "An item's relative importance.",
+    "ex1": "In the United Arab Emirates (UAE), AI adoption represents a strategic priority.",
+    "ex2": "In response to this situation, educating people about digital sobriety has become an urgent priority (Descamps et al., 2022a)."
+  },
+  {
+    "word": "preservice",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "사전 서비스 — 서비스 제공 이전에 발생합니다.",
+    "en_def": "Occurring prior to the provision of a service.",
+    "ex1": "He teaches courses in instructional design, academic writing, qualitative research methods, program/ product evaluation, psychology, creativ- ity and innovation, technology integra- tion skills for preservice teachers, and the foundations of the field of learning and instructional design technology.",
+    "ex2": "Attitudes towards computer and computer self-­efficacy as predictors of preservice mathematics teachers' computer anxiety."
+  },
+  {
+    "word": "weekly",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "주간 — 일주일에 한 번 발행되는 간행물입니다.",
+    "en_def": "A publication that is published once a week.",
+    "ex1": "Other applications include short, single-­concept lectures (Palenque, 2016); weekly summaries to support upcoming work (Taylor et al., 2012); audio recordings of tutori- als (which play a similar role to lecture capture applications; Middleton, 2016); and various other revision and review materials created by lecturers, tutors, or are available publicly (eg, Gachago et al., 2016).",
+    "ex2": "Weekly sessions were set for each group so that the application is applied to each student in an individual independent session. 5."
+  },
+  {
+    "word": "electronic",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "전자 — : 전자 또는 전자에 관한 것입니다.",
+    "en_def": ": Of or pertaining to an electron or electrons.",
+    "ex1": "Similarly, the usefulness of electronic feedback is medi- Trust also influences broader perceptions of the usefulness of digital algorithms and their actual use (Shin et al., 2020).",
+    "ex2": "Designing electronic feedback—Analyzing the effects of social presence on perceived feedback usefulness."
+  },
+  {
+    "word": "protection",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "보호 — (무엇이나 사람을) 안전하게 지키는 과정.",
+    "en_def": "The process of keeping (something or someone) safe.",
+    "ex1": "All entries were fully anonymized prior to analysis, with identifying information—such as student names, instructor references, and course codes— systematically removed to ensure compliance with institutional data protection policies and ethical research standards.",
+    "ex2": "As described above, a dynamic and real-time detection mechanism is urgently needed to shorten the delay in reporting the adverse effects of VR use and to strengthen the protection of users during the immersion process. 6.3."
+  },
+  {
+    "word": "sampling",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "견본 추출 — 샘플 또는 샘플을 채취하거나 테스트합니다.",
+    "en_def": "To take or to test a sample or samples of.",
+    "ex1": "This method of sampling is very strong in quality assurance since the data to be generated will be from reliable sources” (Nyimbili & Nyimbili, 2024).",
+    "ex2": "Another rea- son for this demographic focus can also be convenience sampling, as researchers in HE typically has a much larger and accessible undergraduate population than graduates."
+  },
+  {
+    "word": "tutorial",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "지도 시간 — 자기 주도 학습 연습; 학생이 자신의 속도에 맞춰 편리하게 학습할 수 있도록 준비된 수업입니다.",
+    "en_def": "A self-paced learning exercise; a lesson prepared so that a student can learn at their own speed, at their convenience.",
+    "ex1": "Countering the novelty effect: A tutorial for immersive virtual reality learning environments.",
+    "ex2": "Hume et al. (1996) indicated that a tutorial dialogue system could prompt students in a step-by-step manner (directed line of reasoning) to find answers to questions."
+  },
+  {
+    "word": "mobility",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "유동성 — 이동 능력; 이동 능력.",
+    "en_def": "The ability to move; capacity for movement.",
+    "ex1": "Impact of COVID-­19 pandemic on international higher education and student mobility: Student perspectives from mainland China and Hong Kong.",
+    "ex2": "An integration of both approaches would increase the feasi- bility of the exercise and facilitate significant improvements in skill transfer thus fostering validity and ease of skill mobility to new settings (Clarke & Braun, 2017)."
+  },
+  {
+    "word": "nine",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "아홉 — 숫자 또는 숫자 9.",
+    "en_def": "The digit or figure 9.",
+    "ex1": "We selected a group of nine participants who consist- ently engaged with one another’s voluntary forum contributions, as their sustained interac- tion provided a rich and reliable foundation for analysing how the VAS approach supported critical engagement and reflective practice.",
+    "ex2": "At some point, I was on the verge of despair, and I started saying to myself OK, ten more … you can do it, just nine more, you can do it."
+  },
+  {
+    "word": "blended",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "블렌딩 식 — 어울리다; 섞다; 친밀하게 연합하다; 서로 눈에 띄지 않게 지나가거나 그늘을 드리우다.",
+    "en_def": "To mingle; to mix; to unite intimately; to pass or shade insensibly into each other.",
+    "ex1": "This sequence links purpose, practice, and reflection, and the blended approach strengthens conceptual development while supporting creative expression.",
+    "ex2": "The role of instructional design- ers in the integration of generative artificial intelligence in online and blended learning in higher education."
+  },
+  {
+    "word": "instruct",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "지시하다 — 지침.",
+    "en_def": "Instruction.",
+    "ex1": "Studies conducted in various settings have repeatedly demonstrated that CLIL instructors frequently regard themselves as subject teachers rather than language teachers.",
+    "ex2": "Therefore, it is necessary to provide new technology or effective tools to assist instructors and students in hands-on science activities with visual, auditory, tactile, and kinesthetic experiences through the CLIL approach."
+  },
+  {
+    "word": "underlie",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "기초가 되는 — 바로 아래에 있는 자세로 눕습니다.",
+    "en_def": "To lie in a position directly beneath.",
+    "ex1": "Social cognition refers to the cognitive processes that underlie perceiving, understanding and influencing the social environment, such as form- ing impressions of others, attributing intent or forming interpersonal goals (Fiske, 1992).",
+    "ex2": "In technologi- cal terms, this is captured by Kaptelinin and Nardi (2006, p. 11) in “the ability to grow and change with technology,” and the framework of CHAT shows the often complex process that underlies such change."
+  },
+  {
+    "word": "interpersonal",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "대인관계 — 두 명 이상의 사람 사이.",
+    "en_def": "Between two or more people.",
+    "ex1": "There is a meaningful correlation between the number of unique words in student diaries and researchers’ image scores Li et al. (2024) This study investigated the inclusive col- laborative learning framework for enhancing STEM teaching among student teachers, focusing on interpersonal and human– machine (GenAI) collaboration Student teacher (1).",
+    "ex2": "Additionally, while GenAI agents can provide personalized learning support, it still cannot compare to human teachers in terms of emotional understanding and interpersonal interaction, which may lead learners to feel a lack of emotional connection (Beege & Schneider, 2023; Vistorte et al., 2024)."
+  },
+  {
+    "word": "besides",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "게다가 — 또한; 게다가.",
+    "en_def": "Also; in addition.",
+    "ex1": "Besides the complexity of the content, the scattered designs can make learning from videos harder because inappropriately organized elements can increase extraneous cognitive load.",
+    "ex2": "Besides, based on the behavioral analysis results, the POED-based VR approach could help students better understand their own misconceptions in learning, and then have more learning behaviors of reading supplementary materials, which was conducive to constructing accurate knowl- edge and improving learning performance."
+  },
+  {
+    "word": "challenging",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "도전적인 — (누군가를) 대회에 초대하다.",
+    "en_def": "To invite (someone) to take part in a competition.",
+    "ex1": "Further, previous research suggested that performing two tasks simultaneously (i.e., performing search tasks and simultaneously listening to learning materials) can be particu- larly challenging for learners (Bender et al., 2017; Hornof et al., 2010; Meyer & Kieras, 1997; Pashler, 1994).",
+    "ex2": "This observation might indicate that immersive VR is more challenging, possibly because phys- ically moving around with the whole body to perceive the environment might consume more resources compared to steering a desktop-VR using mouse and keyboard."
+  },
+  {
+    "word": "semantic",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "의미론적 — 중국어 쓰기 시스템과 같은 쓰기 시스템에서 의미를 나타내는 음성 의미 문자의 일부입니다. 발음과 대조됩니다.",
+    "en_def": "In such writing systems as the Chinese writing system, the portion of a phono-semantic character that provides an indication of its meaning; contrasted with phonetic.",
+    "ex1": "LDA implementation Topic modeling, working with probabilistic approaches and statistical algorithms, is used to discover the latent semantic meanings of topics through machine learning (Blei, 2012).",
+    "ex2": "This iterative analysis with varying numbers of topics provides a better way of determining the optimal number of topics and their semantic consistency (Gürcan & Çağıltay, 2022)."
+  },
+  {
+    "word": "inequality",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "불평등 — 불평등하고 평등하지 않은 상태.",
+    "en_def": "An unfair, not equal, state.",
+    "ex1": "Further, as some developing countries cannot afford basic ICTs, they may be unlikely to adopt newly developed AI-based technologies possibly leading to a more expansive digital divide and contributing to educational inequality (Luan et al., 2020).",
+    "ex2": "The media inequality: Comparing the initial human-­human and human-­AI social interac- tions."
+  },
+  {
+    "word": "humanity",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "인류 — 인류; 집단으로서의 인간.",
+    "en_def": "Mankind; human beings as a group.",
+    "ex1": "This conceptual paper argues that, in order to integrate AI into education in a way that can meet the major challenges facing humanity, ranging from eco- logical crisis to the future of democratic societies, we must reframe education.",
+    "ex2": "As humanity approaches a population of 10 billion and becomes more complexly integrated through a shared digital and cultural infrastructure, digital convergence occurs in parallel to cumulative impacts such as climate change, biodiversity loss and resource depletion."
+  },
+  {
+    "word": "raters",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "평가자",
+    "en_def": "",
+    "ex1": "Data analyses Despite its common use, rater agreement (i.e., a kappa statistic), which is used to quantify the quality of raters or rater training effectiveness, is not sufficient for informing an instru- ment’s reliability (Hill et al., 2012; Wind & Jones, 2019).",
+    "ex2": "There are multiple sources of variance in the observa- tional rating score due to sampling of lessons, raters, and the instrument itself (Hill et al., instructors, items, and raters) in observational scores and the interaction among them, mak- ing it a good fit for subjectively rated performance evaluation (Eckes, 2015; Mulqueen et al., 2000)."
+  },
+  {
+    "word": "realize",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "깨닫다 — 현실로 만들려면; 상상이나 허구를 현실로 바꾸는 것; 실제 존재로 가져오다",
+    "en_def": "To make real; to convert from the imaginary or fictitious into reality; to bring into real existence",
+    "ex1": "This dimension empha- sizes how significant or detrimental the consequences could be if the threat were realized.",
+    "ex2": "Finally, expanding the scope of research to include affective outcomes, such as student engagement and motivation, could provide a more holistic understanding of the MyOT_G+ kit’s impact, while the MyOT_G+ kit demonstrates significant potential for improving mathematical reasoning, a more nuanced understanding of contextual and individual variables is necessary to fully realize its benefits."
+  },
+  {
+    "word": "enjoy",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "즐기다 — 어떤 것에서 즐거움이나 만족을 얻다",
+    "en_def": "To receive pleasure or satisfaction from something",
+    "ex1": "Additionally, the MyOT_G+ kit offers a user-friendly experience, making it easily accessible and enjoyable for students.",
+    "ex2": "The user-friendly interface and interactive features of GeoGebra contribute to a more engaging and enjoyable learning experience for students."
+  },
+  {
+    "word": "typical",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "전형적인 — 전형적인 것, 정상적인 것, 표준적인 것 모두.",
+    "en_def": "Anything that is typical, normal, or standard.",
+    "ex1": "However, mathematical gaps are not always related to the same concepts: some stu­ dents struggle with basic operations, which are typically covered during compulsory Secondary Education; others with mathematical analysis, including functions and deriv­ atives; and others with algebraic concepts.",
+    "ex2": "The Pretest results confirm predictions from the academic literature, showing that students entering these programs typically have a low level of QS (Asian Chaves et al., 2022; Buckley et al., 2015; Opstad, 2018), a limitation that can negatively impact their academic university performance."
+  },
+  {
+    "word": "secondly",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "둘째로 — 두 번째로.",
+    "en_def": "In the second place.",
+    "ex1": "Secondly, it is vital that the implications of policy decisions that impact future needs are understood in relation to specific regions, for example by discussing preparedness for future pandemics, or considering the effects of extracting natural resources in environmentally fragile areas.",
+    "ex2": "Secondly, computer games specifically designed to foster sustainable development edu- cation can simulate the variety and complexity of possible future environmental scenarios."
+  },
+  {
+    "word": "authorship",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "원작자 — 작가로서의 자질이나 상태. 저자의 기능이나 존엄성.",
+    "en_def": "The quality or state of being an author; the function or dignity of an author.",
+    "ex1": "Authorship Patterns and Collaborations The findings of this study depict a broad area of research with a rich variety of publications from scholars.",
+    "ex2": "In this regard, the papers’ authorship diversities and collaborations not only enhance 6 / 17 Contemporary Educational Technology, 17(3), ep589 scholarly conversations enriching the extant literature but also enhances the development of a solid foundation (Figure 3)."
+  },
+  {
+    "word": "neutral",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "중립적 — 비동맹 국가 또는 그러한 국가의 구성원입니다.",
+    "en_def": "A nonaligned state, or a member of such a state.",
+    "ex1": "Adapted from previous research (eg, Dyer & Sherin, 2016; Pierson, 2008), we classified different types of responsiveness in teacher talk into three categories: productive, neutral and unproductive responsiveness.",
+    "ex2": "Neutral productiveness refers to pragmatic talk moves that move teaching forward, including class management and functional discourse (eg, the ob- jectives of the activity are …)."
+  },
+  {
+    "word": "augmented",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "증강된 — 증가시키다; 더 크게 만들거나 보충하다.",
+    "en_def": "To increase; to make larger or supplement.",
+    "ex1": "Virtual, mixed and augmented reality tech- nologies enable interaction with various degrees of virtual content in cyber- and metaverses seamlessly integrating human senses with multiple concurrent realities, whereas SSRL augmentation can enhance the collaboration with virtual assistants and provide capabilities that go beyond normal interactions.",
+    "ex2": "To enhance accessibility and update efficiency, it is typically stored in external vector databases and combined with Retrieval-Augmented Generation (RAG) for effective information retrieval and integration."
+  },
+  {
+    "word": "neural",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "신경 — 신경, 뉴런 또는 신경계의 또는 이와 관련된 것입니다.",
+    "en_def": "Of, or relating to the nerves, neurons or the nervous system.",
+    "ex1": "LLMs use deep learning algorithms and neural networks that can enable a conversational agent to perform a range of NPL tasks such as allow agents to converse and deliver information, generate text, and conceptualise data in real- time, drawing on the world wide web as it’s data source.",
+    "ex2": "Neural networks, such as bidirectional long short-­term memory networks with a conditional random fields output layer, have been used to analyse responses and adaptively combine predefined feedback paragraphs (Bauer et al., 2025; Sailer et al., 2023)."
+  },
+  {
+    "word": "inspire",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "고무하다 — 마음에 주입하다; 영과 소통하기 위해; 신적이거나 초자연적인 영향력에 의해 전달하다; 초자연적으로 공개하다; 영감을 받아 생산하는 것.",
+    "en_def": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
+    "ex1": "In addition, the expansion of the educational technology market and the growing demand for personalised and intelligent teaching and learning tools have inspired the exploration of generative AI technologies in educational practices (Ooi et al., 2023).",
+    "ex2": "Inspired by Følstad and Taylor (2021), who emphasised the importance of analysing data from chatbot conversations to gain insights into the user experience, future research could uncover students’ motivation based on the conversation recordings."
+  },
+  {
+    "word": "differently",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "다르게 — (방식) 다른 방식으로요.",
+    "en_def": "(manner) In a different way.",
+    "ex1": "Moreover, cultural factors, such as high regard for tech- nology in China and the societal emphasis on academic excellence (Huang et al., 2019; Li, 2012), may shape learners’ attitudes towards AI adoption differently from their counterparts in other regions.",
+    "ex2": "The strong influence of habit on both behavioural intention and use behaviour may manifest differently across cultures with varying degrees of technology integration in education."
+  },
+  {
+    "word": "adaptable",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "적응할 수 있는 — 적응할 수 있거나 적응할 수 있습니다.",
+    "en_def": "Capable of adapting or of being adapted.",
+    "ex1": "Becker (2000) further suggested that for technological innovations to have actual benefits in supporting pedagogical practices, these innovations should be convenient to access, support constructivist pedagogical beliefs, be adaptable to changes in the curriculum, and be compatible to teachers' level of knowledge and skills.",
+    "ex2": "They concluded that there is still much to be done for chatbots to achieve their full potential, such as making them more adaptable to different educational contexts."
+  },
+  {
+    "word": "initiate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "시작하다 — 조직의 새로운 구성원입니다.",
+    "en_def": "A new member of an organization.",
+    "ex1": "SDT indicates that all people possess three basic psychological needs, namely autonomy, competence, and relatedness, which motivate self-initiated behavior and engagement (Ryan & Deci, 2017).",
+    "ex2": "Therefore, the present study operationalized behavioral engagement as (1) student feedback uptake, which was reflected in student revision operations, and (2) revisions prompted by the teacher’s CMF or self-initiated revisions."
+  },
+  {
+    "word": "popular",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "인기 있는 — 특히 학교에서 인기가 많은 사람.",
+    "en_def": "A person who is popular, especially at a school.",
+    "ex1": "Some of the most popular AI-based tools /chatbots used in education are: • Bard, introduced in 2022, is a large language model chatbot created by Google AI.",
+    "ex2": "Most current popular GAI tools, such as Stable Diffusion, DALL-E, and Midjourney, use the DM and CLIP technologies."
+  },
+  {
+    "word": "stay",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "머무르다 — 지속 또는 한 장소에서 보낸 시간; 무기한으로 거주하다; 체류.",
+    "en_def": "Continuance or a period of time spent in a place; abode for an indefinite time; sojourn.",
+    "ex1": "Participants agreed that limiting VR sessions to brief introductory or complex concept demonstrations helps ensure that students stay focused and benefit from the technology without overwhelming other learning approaches.",
+    "ex2": "In response to the statement that these resources make learners stay focused, 48.5% of respondents agree, and 25.5% strongly agree; it elucidates that these source materials and CALL help learners stay focused."
+  },
+  {
+    "word": "conceptualize",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "개념화하다 — 개념을 형성하여 현상을 해석합니다.",
+    "en_def": "To interpret a phenomenon by forming a concept.",
+    "ex1": "In this study, this new form of presence in the online community of inquiry is conceptualized as learning presence.",
+    "ex2": "To account for the above theoretical research, a new construction model of online presence (see Fig. 1) which adds to the linking of “emotion” and “learning” nature of the constructs was conceived and conceptualized into teaching presence, cognitive pres- ence, social presence, emotional presence and learning presence."
+  },
+  {
+    "word": "considerable",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "많은 — 고려해야 할 것, 고려 사항.",
+    "en_def": "A thing to be considered, consideration.",
+    "ex1": "While LMSs are now very much integrated ‘business as usual’ across tertiary education, there has more recently been considerable debate about their ongoing purpose and value (Willems et al., 2023).",
+    "ex2": "The urgency around the need for professional learning and development rides the waves of different types of educational technology, and in recent years, it has gained considerable urgency again with the widespread availability of generative AI (e.g., Jha & Atif, 2025, in this AJET issue, and Lodge et al., 2023)."
+  },
+  {
+    "word": "holder",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "보유자 — 유지되는 것.",
+    "en_def": "A thing that holds.",
+    "ex1": "A particular challenge in DBIR4DEER—as opposed to smaller-­scale DBIR—is the mag- nitude of the intervention, including its diverse governmental and non-­governmental stake- holders, (technological) implementation components and their interdependencies.",
+    "ex2": "DBIR4DEER can provide evidence on persistent problems of practice, which can then be prioritised during co-­design sessions, identifying which stake- holders are best placed to address the issue (CIMO7)."
+  },
+  {
+    "word": "novelty",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "진기함 — 새롭거나 참신한 상태. 새로움.",
+    "en_def": "The state of being new or novel; newness.",
+    "ex1": "Furthermore, learners' identities moderated associations between the type of VR media and their sense of agency, and agency did not change over time as the novelty of VR waned.",
+    "ex2": "Novelty effect in educational VR Most research on learning with VR has been conducted in lab-­based experiments measur- ing its impact in response to a brief experience, raising questions about whether its effects are due to technology's novelty (Hamilton et al., 2021; Wu et al., 2020)."
+  },
+  {
+    "word": "necessitate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "필요하다 — 필요하게 하다; (어떤 일이) 일어나도록 요구하다.",
+    "en_def": "To make necessary; to require (something) to be brought about.",
+    "ex1": "This necessitates developing gender-­sensitive policies and practices that acknowledge and mitigate the domestic pressures faced by students, offering alternatives such as asynchronous learning, flexible assessment options, and institutional support for balancing study with caregiving or other household responsibilities.",
+    "ex2": "Keywords Flipped learning · Self-regulated learning · Differentiated instruction Introduction A large percentage of the worldwide population and research interest in English as a for- eign language (EFL) has necessitated learning opportunities that promote students’ com- petencies, and that motivate them to learn English (Fu et al., 2019; Vonkova et al., 2021)."
+  },
+  {
+    "word": "unclear",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "불분명하다 — 모호한; 둘 이상의 해석이 가능합니다.",
+    "en_def": "Ambiguous; liable to more than one interpretation.",
+    "ex1": "We claim that AI is different from other technologies because it is an entirely new con- cept for education, and the research on its effectiveness and impact on students’ learning is still unclear and limited.",
+    "ex2": "Based on the panel members' comments and reviews, 28 item statements were dis- carded because they were similar in meaning, irrelevant, redundant, unclear or ambiguous."
+  },
+  {
+    "word": "multifaceted",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "다면적인 — 여러 측면을 가지고 있습니다.",
+    "en_def": "Having multiple facets.",
+    "ex1": "To address this gap, this study proposed an educational framework combining Experiential Learning (EL) method with VR technologies to cultivate multifaceted SR skills, including Mental Rotation (MR), Spatial Orientation (SO), and Spatial Visualization (SV).",
+    "ex2": "The importance of SR skills in school-based curricula SR is a multifaceted cognitive skill that involves understanding and manipulating spatial relationships."
+  },
+  {
+    "word": "manipulate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "조종하다 — 손을 사용하여 물건을 옮기거나 배열하거나 조작하다",
+    "en_def": "To move, arrange or operate something using the hands",
+    "ex1": "Students engaged with custom interface controls to manipulate and investigate ecological components, making their experience of environmental change both immersive and participatory.",
+    "ex2": "By allowing students to physically manipulate and engage with projected content through gestures and move- ments detected by LiDAR sensors and processed by dedicated software (Slamtec, 2024), this technology can bridge the gap between abstract concepts and tangible understanding."
+  },
+  {
+    "word": "administration",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "관리 — 2. 관리하는 행위 공무 정부; 업무 수행에 있어서 제공되는 서비스 또는 맡은 의무; 사무실이나 고용의 수행; 방향.",
+    "en_def": "The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction.",
+    "ex1": "Methods Context of the study In the spring of 2017, the senior administration of a large northeastern university in the U.S. convened a task force charged with improving the teaching evaluation process.",
+    "ex2": "Smaller values of SE indicate more precise estimates, such that the logit-scale locations would be expected to remain stable across repeated administrations of an assessment."
+  },
+  {
+    "word": "locate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "위치하고 있다 — 배치하다; 특정 지점이나 위치에 설정합니다.",
+    "en_def": "To place; to set in a particular spot or position.",
+    "ex1": "Additionally, there is a page for classwork where students can locate and submit tasks.",
+    "ex2": "The “team’s” page is where students may locate assignments, have different groups for each class, and participate in virtual classes."
+  },
+  {
+    "word": "notice",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "알아채다 — 관찰하는 행위 지각.",
+    "en_def": "The act of observing; perception.",
+    "ex1": "Consequently, there is a noticeable lack of familiarity and training on how to effectively employ AI in assessment processes.",
+    "ex2": "Accordingly, academics primarily engage with the substitution and augmentation levels of assessments when utilising AI, with a noticeable lack of adoption at the modification and redefinition levels (Table 5)."
+  },
+  {
+    "word": "maximize",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "최대화하다 — 최대한 크게 만들려면",
+    "en_def": "To make as large as possible",
+    "ex1": "They maximize academic learning time through immersive story-driven activities that encourage deep exploration of course materials.",
+    "ex2": "Therefore, taking learner factors into consideration and adapting DST activities to accommodate them is crucial to maximize educational effectiveness of DST."
+  },
+  {
+    "word": "balanced",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "균형 잡힌 — (항목)을 무게를 조정하여 저울의 저울처럼 평형 상태로 가져오다.",
+    "en_def": "To bring (items) to an equipoise, as the scales of a balance by adjusting the weights.",
+    "ex1": "The age of respondents ranged from 18 to over 65, with an approximately balanced gender distribution (54% female, 46% male).",
+    "ex2": "This combination of den­ drogram and silhouette-based evidence supports k = 4 as a balanced and theoretically justifiable solution."
+  },
+  {
+    "word": "persistent",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "지속성 있는 — 포기하거나 놓아주기를 고집스럽게 거부합니다.",
+    "en_def": "Obstinately refusing to give up or let go.",
+    "ex1": "Assessing essay writing poses a persistent challenge, despite the perceived significance and reliability of human assessment methods within the EFL essay scoring context.",
+    "ex2": "We utilized Object-Relational Mapper (ORM) technology to execute operations on persistently stored (CHDb) and the Goal setting and Planning Database (GPDb)."
+  },
+  {
+    "word": "warrant",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "보증 — 승인 또는 인증 상사가 내린 제재.",
+    "en_def": "Authorization or certification; a sanction, as given by a superior.",
+    "ex1": "How teachers utilize the bridg- ing potential of technology warrants further research.",
+    "ex2": "These findings underscore the nuanced and intricate relationships between engagement, self-­efficacy, in­ teractions and performance in a ChatGPT-­facilitated learning environment, warranting fur­ ther exploration (Liang et al., 2023; Shahzad et al., 2024)."
+  },
+  {
+    "word": "equipment",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "장비 — 항해나 탐험에 있어서 장비를 갖추는 행위 또는 장비를 갖추고 있는 상태.",
+    "en_def": "The act of equipping, or the state of being equipped, as for a voyage or expedition.",
+    "ex1": "Was thinking like VR equipment is only for gaming and any other traveling.",
+    "ex2": "Despite high costs and bulky equipment in the early 1990s, by 1994 digital video, VR, and 3D systems gained business interest, with the commercialization of the Internet in 1995 further driving growth."
+  },
+  {
+    "word": "taxonomy",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "분류학 — 분류를 만드는 데 사용되는 과학 또는 기술입니다.",
+    "en_def": "The science or the technique used to make a classification.",
+    "ex1": "An author must be able to agree to and be accountable for the aspects of their authorship under the CRediT taxonomy, which an AI cannot do. - Authors need to acknowledge the contribution made by generative AI tools to any aspects of the research published.",
+    "ex2": "This conceptualisation seeks to cap- ture the many types of pedagogical work for which podcasts are used in contemporary HE, which are explored in an adapted taxonomy based on the scop- ing review."
+  },
+  {
+    "word": "scholarly",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "학술적인 — 학자의 특징.",
+    "en_def": "Characteristic of a scholar.",
+    "ex1": "Their research encompassed an analysis of 331 scholarly publications, revealing that demographics such as older adults, individuals with disabilities, and low-income groups are significantly affected by digital exclusion.",
+    "ex2": "Approximately 29% of the articles were empirical, appearing in “Original,” “Research,” “Education,” and “Scholarly Perspectives” sections."
+  },
+  {
+    "word": "coder",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "코더 — 일련의 펄스로 코드를 생성하는 장치입니다.",
+    "en_def": "A device that generates a code, often as a series of pulses.",
+    "ex1": "They then met to discuss and recon- cile any differences, ensuring consistency and enhancing inter-­coder reliability, with the third two researchers coded the remaining faculty and student interviews separately, holding an- other meeting to discuss emerging codes and initial theme development, again with the third researcher facilitating.",
+    "ex2": "Trans- lating the data prior to coding enabled a shared analytic language and reduced interpretive drift across coders, supporting consistency and transparency in collaborative analysis while helping preserve nuanced meanings through team-based checking (Regmi et al., 2010)."
+  },
+  {
+    "word": "entry",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "기입 — 들어가는 행위입니다.",
+    "en_def": "The act of entering.",
+    "ex1": "Neither the repeater status, nor the entry pathway (VET or Baccalaureate in Science and Technology), nor the pre−university Mathematics grade reached consistent statistical significance.",
+    "ex2": "Evi­ dence for this comes from dictionary entry in Cambridge Dictionary, which defines “deepfake” as “a video or sound recording that replaces someone’s face or voice with that of someone else, in a way that appears real” (Cambridge Dictionary, 2025, p1)."
+  },
+  {
+    "word": "proceeding",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "진행 — 이동하거나, 지나가거나, 앞으로 또는 앞으로 이동합니다. 전진하다; 계속하다",
+    "en_def": "To move, pass, or go forward or onward; to advance; to carry on",
+    "ex1": "In Proceedings of the 22nd International Conference on Evaluation and Assessment in Software Engineering 2018, EASE 18.",
+    "ex2": "In Proceedings of the International Conference of the Learning Sciences (pp. 234–243)."
+  },
+  {
+    "word": "explanatory",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "설명적인 — 설명의 역할을 하기 위한 것입니다.",
+    "en_def": "Intended to serve as an explanation.",
+    "ex1": "Some of these preexisting opinions might have some explanatory power for constructing scientific explanations, but others are often at variance with sci- entifically accepted norms, possibly acting as misunderstandings and leading to potential risks (Bell & Trundle, 2008; Markus et al., 2024).",
+    "ex2": "This diversity signals interdisciplinary momentum yet also the absence of a shared explanatory backbone."
+  },
+  {
+    "word": "habit",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "습관 — 정기적으로 수행되는 작업입니다.",
+    "en_def": "An action performed on a regular basis.",
+    "ex1": "Future research could benefit from including self-reported measures of general reading habits, literary interest, standard- ized trait empathy scales, or textual analysis skills to better account for baseline vari- ability.",
+    "ex2": "Now I feel more aware of my habits, and I know what I should change next time."
+  },
+  {
+    "word": "letter",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "편지 — 알파벳의 상징입니다.",
+    "en_def": "A symbol in an alphabet.",
+    "ex1": "Editorial articles constituted about 28% and were in “Editorial,” “Letter to the Editor,” “Viewpoint,” “Reflections,” “Correspondence,” “Com­ mentary,” and “Opinion” sections.",
+    "ex2": "The horizontal axis is the estimated item difficulty on the Rasch scale; the left hand vertical axis is the correlation coef- ficient between item scores and another potential construct after the primary construct (i.e., teaching proficiency) is controlled; and letters in the box represent items."
+  },
+  {
+    "word": "median",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "중앙값 — 중심 정맥 또는 신경, 특히 팔뚝과 팔을 통과하는 정중 정맥 또는 정중 신경.",
+    "en_def": "A central vein or nerve, especially the median vein or median nerve running through the forearm and arm.",
+    "ex1": "The attention immersion levels of the remaining three groups are moderate, reflected by a median area size on the graph, suggesting that these three group learners maintain a reasonable degree of interest and focus on various learning resources.",
+    "ex2": "This resulted in an average of 7.31 citations per publication with a median citation year of 2008."
+  },
+  {
+    "word": "embody",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "구현하다 — 물리적 또는 구체적인 형태로 표현합니다. 화신하거나 의인화하는 것.",
+    "en_def": "To represent in a physical or concrete form; to incarnate or personify.",
+    "ex1": "Scholarly investigations have affirmed that Data-Driven Learning (DDL)—an approach whereby learners embody the role of “linguistic researchers” (Johns, 2002, p. 108) to discern linguistic patterns through concordance analysis—yields substantial learning benefits (Boulton & Cobb, 2017; Pérez-Paredes, 2022).",
+    "ex2": "Compared with the human expert, ChatGPT as a facilitator presented features of tirelessness, friendliness and support for independ- ent decision-­making in embodying the value of social comfort and autonomy."
+  },
+  {
+    "word": "visible",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "보이는 — 볼 수 있습니다.",
+    "en_def": "Able to be seen.",
+    "ex1": "A smaller group (5%) edited existing articles directly in the visible Wikipedia space.",
+    "ex2": "The teams are publicly visible, so that students are grouped not only based on the broad topics they need to work on, but also based on the schoolmates they want to collaborate with."
+  },
+  {
+    "word": "delve",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "동굴 — 특히 삽으로 땅을 파다.",
+    "en_def": "To dig the ground, especially with a shovel.",
+    "ex1": "Third, although this study confirmed the positive impact of AI dash- boards on reflection, it did not delve deeply into the mechanisms through which the dash- boards support improvement.",
+    "ex2": "Therefore, our findings provide additional insight into the existing literature and delve deeper into whether the nature of course-related comments, specifically whether they are positive or negative, affects learning outcomes."
+  },
+  {
+    "word": "mining",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "채광 — 땅에서 (광석)을 제거하다.",
+    "en_def": "To remove (ore) from the ground.",
+    "ex1": "Keywords: Artificial intelligence in education, Natural language processing, data science applications in education, Educational data mining 1.",
+    "ex2": "In Proceedings of the 17th International Conference on Educational Data Mining (pp. 511–517)."
+  },
+  {
+    "word": "synthetic",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "인조 — 합성 화합물.",
+    "en_def": "A synthetic compound.",
+    "ex1": "If the binder is not in liquid form, a solvent is required, which must be colorless, must not negatively affect the binder, and should evaporate without residue In what forms can paint be found? .37 What is the essential component of paint? .05 Brush Brushes use three types of bristles: natural, synthetic, or mixed.",
+    "ex2": "CONCEPTUAL MODEL Related work A digital form of SBT, DSBT is a ‘synthetic practice environment that is created in order to impart competencies (ie, attitudes, concepts, knowledge, rules or skills) that will improve a trainee's performance’ (Salas et al., 2009, p. 560)."
+  },
+  {
+    "word": "tell",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "말하다",
+    "en_def": "A reflexive, often habitual behavior, especially one occurring in a context that often features attempts at deception by persons under psychological stress (such as a poker game or police interrogation), that reveals information that the person exhibiting the behavior is attempting to withhold.",
+    "ex1": "What can science fiction tell us about the future of artificial intelligence policy?",
+    "ex2": "Student U said, “This question was hard for me to give an affirmative answer on due to the fact that chat GPT and AI like it are so new there is no telling what could happen” (Student U, personal communication, August 2023)."
+  },
+  {
+    "word": "misconception",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "오인 — 잘못된 믿음, 잘못된 생각",
+    "en_def": "A mistaken belief, a wrong idea",
+    "ex1": "Previous studies also reported similar findings that the pub- lic has a usual misconception that AI is a cure-­all solution (Kim et al., 2023).",
+    "ex2": "Considering that learners often lack the expertise to discern between factual knowledge and misleading content, such biased outputs may hinder the construction of knowledge and reinforce misconceptions (Dwivedi et al., 2023; Firat, 2023)."
+  },
+  {
+    "word": "functional",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "기능성",
+    "en_def": "A function that takes a function as its argument; More precisely: A function y=f(x) whose argument x varies in a space of (real valued, complex valued) functions and whose value belongs to a monodimensional space. An example: the definite integration of integrable real functions in a real interval.",
+    "ex1": "L-readers fixated far more often on functional words (41.5%) as compared with the highly skilled readers (29.6%).",
+    "ex2": "Functional words include adjectives, prepositions, pronouns, determiners, conjunctions, auxiliary verbs, and particles that have certain grammatical functions."
+  },
+  {
+    "word": "influential",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "힘 있는 — 영향력을 행사하는 사람",
+    "en_def": "A person who has influence",
+    "ex1": "One of the earliest and most influential models in this area is Vincent Tinto’s (1975) interaction model, which explains student retention and drop­ out based on social and academic integration.",
+    "ex2": "Finally, as we can see in Figure B (which corresponds to the lower right sector of Fig. 3), digital competencies in higher education and the study of gender as an influential variable are topics that have acquired significant relevance in the period analyzed, but which are transversal to all the research carried out."
+  },
+  {
+    "word": "overlap",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "겹치다 — 겹치거나 겹치는 것",
+    "en_def": "Something that overlaps or is overlapped",
+    "ex1": "These inaccurate conversation paths were caused by overlaps between a student’s response and the expected responses for another item, resulting in misclassifications.",
+    "ex2": "How­ ever, factors such as the cost —usually borne by students— and tight scheduling, often overlapping with summer vacations, have resulted in low attendance rates."
+  },
+  {
+    "word": "echo",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "에코 — 처음 관찰자에게 다시 들리는 반사음입니다.",
+    "en_def": "A reflected sound that is heard again by its initial observer.",
+    "ex1": "For in- stance, more than 30 years ago, Kozma (1991) argued that media, as a type of technology in the classroom, enhanced student learning by providing opportunities for interaction and increased engagement; our findings here—specifically in terms of the distinct benefits of marker-­based and markerless AR—echo this point.",
+    "ex2": "This study proposes a method called Cognitive Echo, which leverages large language models (LLMs) trained with simulated student experi- ences to enhance the completeness and authenticity of think-­aloud verbalizations."
+  },
+  {
+    "word": "utilized",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "활용 — 활용하다; 사용합니다.",
+    "en_def": "To make use of; to use.",
+    "ex1": "In particular, enhancing this outcome is key to developing a generation of young females who engage with science and seek out experiences, education, and occupations that utilized this skill.",
+    "ex2": "Prompts for different reading purposes Prompts in the form of focus questions have been utilized for different reading purposes (Lehmann et al., 2019; McCrudden & Schraw, 2006)."
+  },
+  {
+    "word": "grasp",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "파악 — (때때로 비유적으로) 그립.",
+    "en_def": "(sometimes figurative) Grip.",
+    "ex1": "The exception was an asynchronous CREW discussion with participants struggling to grasp the interface and assignment (Figure 20): Shannon's effort to foster deliberation (‘you all can approve it or edit what you think we should submit.",
+    "ex2": "Peer interactions aided in learning Participants expressed that interacting in the forums helped their understanding: Devin: \u0007I could go and be like and ask my question and see if I understood how someone else worded it better than the lesson and make me like grasp the concept more."
+  },
+  {
+    "word": "partially",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "부분적으로 — 어느 정도, 부분적으로, 불완전하게.",
+    "en_def": "To a partial degree or extent, incompletely.",
+    "ex1": "Moreover, the link between e-learning engagement (again, in all three dimensions of behavioral engagement, emotional engagement, and cognitive engagement) and well-being was also partially mediated by flow experience; therefore, H7a-H7c are supported.",
+    "ex2": "Moreover, flow experience was found to partially mediates the relationship between e-learning engagement and well-being among the elderly."
+  },
+  {
+    "word": "almost",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "거의 — 성공하지 못하는 것 또는 사람.",
+    "en_def": "Something or someone that doesn't quite make it.",
+    "ex1": "Motivation is crucial to almost every aspect of student learning, yet how chatbots support student motivation remains largely unexplored.",
+    "ex2": "Almost 75% of the research participants underscore the potential benefits of using AI as providing meaningful feedback, flexible learning, and unbiased assessment."
+  },
+  {
+    "word": "except",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "제외하고 — 제외하다; 예외로 지정합니다.",
+    "en_def": "To exclude; to specify as being an exception.",
+    "ex1": "In lower education (Keller et al., 2016), teacher enthusiasm and teachers’ NV expressive behavior are considered legitimate and desir­ able—except, perhaps, for cases such as the “Teacher’s Pet Phenomenon,” where teach­ ers demonstrate preferential emotional treatment of their favorite students, or other instances of differential teacher behavior (see Babad, 2009).",
+    "ex2": "All computed differences between the mean achievement scores of the groups in the two conditions in the various samples (except one, see later discus­ sion) were statistically significant with substantial effect magnitudes, and the meta-anal­ yses confirmed the powerful effects."
+  },
+  {
+    "word": "precision",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "정도 — 정확하거나 정확한 상태. 정확성.",
+    "en_def": "The state of being precise or exact; exactness.",
+    "ex1": "We argue that authenticity is a central requirement for high-quality approximations of practice activities and that improved precision and control over the contexts used and challenges presented to TCs would allow for both greater authenticity and improved learning.",
+    "ex2": "Multilevel modeling improves estimate precision even with modest group sizes (Clarke, 2008; Huang, 2018), and was thus applied throughout."
+  },
+  {
+    "word": "entity",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "실재 — 개별 단위로서 뚜렷한 존재감을 갖는 것. 물리적 형태가 없는 조직에 자주 사용됩니다.",
+    "en_def": "That which has a distinct existence as an individual unit. Often used for organisations which have no physical form.",
+    "ex1": "Students are asked to note, document, and describe every aspect of the given simulation that they discover, such as entity behaviors and dependencies among the behaviors of different characters.",
+    "ex2": "A vertex (user) can be a person or a larger entity such as an organization or corporation."
+  },
+  {
+    "word": "rural",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "시골의 — 시골에서 온 사람; 소박한.",
+    "en_def": "A person from the countryside; a rustic.",
+    "ex1": "Gegeo, D., & Watson-­Gegeo, K. (2001). “How we know”: Kwara'ae rural villagers doing indigenous epistemology.",
+    "ex2": "Further research can explore the impact of family support in underdeveloped areas and rural schools. 6."
+  },
+  {
+    "word": "channel",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "채널 — 하천과 제방으로 구성된 강이나 허물의 ​​물리적 경계입니다.",
+    "en_def": "The physical confine of a river or slough, consisting of a bed and banks.",
+    "ex1": "Calls for Special Sections are advertised on our website and via our social media channels.",
+    "ex2": "Introduction Over the past few decades, online learning has emerged as a popular and promising channel for education, transforming the way learners acquire knowledge and skills."
+  },
+  {
+    "word": "sustained",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "지속적인 — 유지하다, 존재를 유지하다.",
+    "en_def": "To maintain, or keep in existence.",
+    "ex1": "This is because gamified simulations often prioritize immediate feedback mechanisms over sustained cognitive engagement, thereby discouraging thorough deliberation.",
+    "ex2": "Through such structured implementation, the standards become a living framework that supports measurable, sustained professional develop­ ment rather than a static set of expectations."
+  },
+  {
+    "word": "trial",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "재판 — 무언가를 테스트해 볼 수 있는 기회입니다. 테스트.",
+    "en_def": "An opportunity to test something out; a test.",
+    "ex1": "METHOD The execution of the study was carried out in experimental design through a controlled trial.",
+    "ex2": "Usually, this type of behavior is neglected in classrooms that rely on trial and error, conditioning the effectiveness of learning under autonomous learning."
+  },
+  {
+    "word": "organizational",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "조직적인 — 조직의, 관련 또는 조직에 의해 생산됩니다.",
+    "en_def": "Of, relating to, or produced by an organization.",
+    "ex1": "Virtual reality enhances safety training in the maritime industry: An organizational training experiment with a non-­WEIRD sample.",
+    "ex2": "In this paper, we view context as a set of agreements and norms related to any educational institution’s organizational culture."
+  },
+  {
+    "word": "ecosystem",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "생태계 — 하나의 단위로 기능하는 생태 공동체와 그 환경에 의해 형성된 시스템입니다.",
+    "en_def": "A system formed by an ecological community and its environment that functions as a unit.",
+    "ex1": "Personalizing learning experiences and improving collaborative environments, AI empowers students to engage in creative problem-solving, contributing to the overall innovation ecosystem in academia.",
+    "ex2": "Giustina et al. (2024) introduced the concept of the \"AI innovation ecosystem,\" which highlights how AI platforms enable collaboration among diverse stakeholders, including academia, industry, and government."
+  },
+  {
+    "word": "indirect",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "간접적인 — 간접 비용.",
+    "en_def": "An indirect cost.",
+    "ex1": "Particularly challenging is the as- sessment of students' ‘invisible’ or ‘hidden’ learning behaviours, which directly or indirectly affect their learning outcomes in these different contexts (Tissenbaum, 2020).",
+    "ex2": "The indirect effect of total engagement on overall learning outcomes through interaction was significantly different from zero using the bootstrapped estimate (indirect effect = .1141, SE = .02, 95% confidence interval (CI) based on 10000 resamples: .0831, .1615) (see Table 6 for a summary of indirect effects)."
+  },
+  {
+    "word": "societal",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "사회적 — 사회나 사회 집단, 그들의 활동, 관습 등에 관한 것.",
+    "en_def": "Of or pertaining to society or social groups, or to their activities, customs, etc.",
+    "ex1": "Designing these advanced technologies to support ethical principles, as well as societal and educational values, is a complex challenge requiring conceptual, technical and empirical research (Friedman et al., 2002; Shen et al., 2025; Viberg et al., 2023).",
+    "ex2": "Finally, the use of Schwartz's theory of basic values in a value-­sensitive design study al- lowed us to systematically analyse student experiences and to better differentiate between reported tensions with individualistic and societal focus."
+  },
+  {
+    "word": "satisfy",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "풀다 — 충분히 하기 위해; 다음의 요구를 충족시키기 위해; ~의 바람이나 요구 사항을 충족시키다.",
+    "en_def": "To do enough for; to meet the needs of; to fulfill the wishes or requirements of.",
+    "ex1": "This ensured that students’ scores were not influenced by their peers, thus satisfying the assumption of independence.",
+    "ex2": "Built on the belief that all individuals have inherent inclinations to develop an increasingly complex and unified sense of self, SDT posits that satisfying three basic psychological needs, namely autonomy, competence, and relatedness, is necessary for the growth and overall wellness of human beings (Deci & Ryan, 2004)."
+  },
+  {
+    "word": "constrain",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "억누르다 — 강한 설득이나 압력으로 신체적으로 강요하다. 강요하다; 의무를 다하다.",
+    "en_def": "To force physically, by strong persuasion or pressuring; to compel; to oblige.",
+    "ex1": "However, the capacity of human intelligence to comprehend and intervene in learners' cognitive processes is often constrained by the subjective nature of human evaluation and the challenges of maintaining consistency and scalability.",
+    "ex2": "The integration of digital tools, online platforms, and virtual classrooms has enabled continued access to education despite physical constraints, significantly influencing teaching and learning processes (Dhawan, 2020)."
+  },
+  {
+    "word": "phrase",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "구절 — 짧은 서면 또는 음성 표현입니다.",
+    "en_def": "A short written or spoken expression.",
+    "ex1": "She then gath- ered ideas for phrases or sentences that could be incorporated into the poster to raise awareness about global warming: What phrases should be included in a poster on global warming?",
+    "ex2": "The phrase ‘algorithm aversion’ first appeared in the work by Dietvorst et al. (2015), in which they conducted a series of experiments to show that individuals tended to prefer decisions made by humans over algorithms, even though they were aware that algorithms outperformed human decision makers in the experiment tasks."
+  },
+  {
+    "word": "trait",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "특성 — 식별 가능한 특성, 습관 또는 추세입니다.",
+    "en_def": "An identifying characteristic, habit or trend.",
+    "ex1": "This framework allows LLMs framework reproduces specific personality traits, experiences and emotional states, making it a robust tool for role-­playing simulations.",
+    "ex2": "It employs LLMs trained with simulated students characterized by specific learner traits and experiences, thus aiding observers in comprehensively reviewing cognitive processes and perceptions of knowledge acquisition."
+  },
+  {
+    "word": "inconsistent",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "일관성 없는 — 일관성이 없음:",
+    "en_def": "Not consistent:",
+    "ex1": "These discrepancies may stem from learners’ inconsistent application of SRL strategies, suggesting a need for targeted guidance and explicit instruction (Kistner et al., 2010).",
+    "ex2": "Without institutional support or training, AI adoption stalls or orig­ inates inconsistent results."
+  },
+  {
+    "word": "tangible",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "명백한 — 물리적인 물체, 만질 수 있는 것.",
+    "en_def": "A physical object, something that can be touched.",
+    "ex1": "This study designed and evaluated three programming tools: the tangible programming tool (TPG), which uses real touchable objects; the block programming tool (BPG), which employs virtual pro- gramming blocks and 3D game scenarios; and the paper-­and-­pencil programming tool (PPG), which uses paper and pen to draw.",
+    "ex2": "The results indi- cated that the tangible programming tool led to lower cognitive load, significant improvement in spatial reasoning skills and better abstraction and problem decomposition skills."
+  },
+  {
+    "word": "better",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "더 나은 — 일반적으로 살아 있는 독립체로서 다른 개체보다 우월하다고 간주됩니다. 우선권을 주장하는 사람; 상사.",
+    "en_def": "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior.",
+    "ex1": "The HCD methodology effectively addresses these review, this inclusive approach leads to better alignment with authentic educational challenges, ultimately yielding more reliable and contextually appropriate solutions.",
+    "ex2": "Many participants emphasized the need for more diverse and customizable training sce- narios that could better reflect the complexity of actual team environments."
+  },
+  {
+    "word": "precise",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "정밀한 — (NNES 또는 유럽 연합 문서) 정확하게 만들거나 렌더링하기 위해, 지정합니다.",
+    "en_def": "(NNES or European Union documents) To make or render precise; to specify.",
+    "ex1": "More precisely, concerning the UTAUT model, Venkatesh et al. (2012) stated that HB is the level to which individuals tend to accomplish certain behaviors automatically because of their previous learning and experiences with a certain technology, such as ChatGPT, for their instruction.",
+    "ex2": "Such an approach enables a more precise and nuanced assessment of their learning conditions and progress."
+  },
+  {
+    "word": "judgement",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "심판 — 판단하는 행위.",
+    "en_def": "The act of judging.",
+    "ex1": "The AI competency framework shows that effective AI utilization necessitates general competencies, such as critical thinking, effective commu­ nication, collaboration with people and AI tools, ethical judgement and affective compe­ tency such as self-­efficacy in the use of AI.",
+    "ex2": "Development of assessment rubrics To reduce “hallucination” and standardize the judgements of LLMs, we first developed an assessment rubric for teaching behaviors (TBAR), adapted from VATBAS."
+  },
+  {
+    "word": "outcomes",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "결과 — 어떤 사건이나 과정의 결과로 생산되거나 발생하는 것.",
+    "en_def": "That which is produced or occurs as a result of an event or process.",
+    "ex1": "Because outcomes were cross-sectional and self-reported, these estimates represent associations that should not be viewed as causal effects.",
+    "ex2": "These outcomes are conceptually related to, but distinct from, concerns about whether such benefits endure over time."
+  },
+  {
+    "word": "activate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "활성화하다 — 발달을 장려하거나 활동 증가를 유도하기 위해 자극하다.",
+    "en_def": "To encourage development or induce increased activity; to stimulate.",
+    "ex1": "These cognitive processes required their awareness (of communicative tasks), attention (to the context and NPCs), intention (about the goals of the tasks), and effort (to complete the tasks), which are four essential elements of consciousness to activate SR learning (Schmidt, 2010).",
+    "ex2": "In the sociocultural-interactive domain, the use of anthropomorphic NPCs in realistic, communicative tasks may have activated the students’ SR strategies and positively affected speaking performance."
+  },
+  {
+    "word": "thank",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "감사하다 — 감사의 표현 생각.",
+    "en_def": "An expression of appreciation; a thought.",
+    "ex1": "Acknowledgment We thank the National Science and Technology Council, Taiwan, ROC, under grant numbers MOST 111-2410- H-003-006-MY3 and NSTC 114-2410-H-003-035-MY2 for financial support of this research.",
+    "ex2": "Thanks to these features, Web 2 tools facilitate the process of learning or teaching a language by making it fun, interactive and interesting."
+  },
+  {
+    "word": "audience",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "청중 — 청력 내에 있는 사람들의 그룹입니다. 구체적으로, 공연, 연설 등을 듣거나 보는 사람들의 대규모 모임.",
+    "en_def": "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc.",
+    "ex1": "The study makes theoretical and practical contributions, for it provides a theoretically sound research model that connects key aspects of DSBT to learning outcomes; it offers ed- ucators and practitioners valuable guidance on designing DSBT tools for remote audiences.",
+    "ex2": "Especially, large-­scale HyFlex course serves as a useful approach for making the course more available to a wider student audience (Zemeckis, 2020)."
+  },
+  {
+    "word": "subgroup",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "하급 집단 — 더 큰 그룹 내의 그룹입니다. 더 큰 그룹의 구성원 중 일부가 아닌 일부로 구성된 그룹입니다.",
+    "en_def": "A group within a larger group; a group whose members are some, but not all, of the members of a larger group.",
+    "ex1": "These headings were also used for subgroup analyses, and whether they caused significant differences in learning performance was examined.",
+    "ex2": "Therefore, van Alten et al. (2021) proposed investigating SRL using a person-centered approach that assumes heterogeneity in the population to identify patterns or profiles based on shared similar characteristics of a subgroup of students."
+  },
+  {
+    "word": "accompany",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "따르게 하다 — 동반자 또는 협력자로 함께 가거나 참석하다. 친구를 사귀다; 함께 갈.",
+    "en_def": "To go with or attend as a companion or associate; to keep company with; to go along with.",
+    "ex1": "G2’s Interaction with the audience Moreover, they adopted soft BGM to accompany the main content with the same intention as G1’s.",
+    "ex2": "This situation has prompted us to adopt a ‘glocal’ approach to integrating ICT (Barker et al., 2013), where the multiple factors accompanying ICT integration are highlighted."
+  },
+  {
+    "word": "scoring",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "득점 — 표면에 노치나 홈을 자르는 것입니다.",
+    "en_def": "To cut a notch or a groove in a surface.",
+    "ex1": "Kappa coefficients then were computed to assess the two coders’ consistency in scoring the open-response items.",
+    "ex2": "Scoring rubric for the CBCA test units The item scoring method was dependent on the type of item."
+  },
+  {
+    "word": "personalization",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "개인화 — 무언가를 개인화하거나 누군가의 필요나 취향에 맞게 조정하는 행위입니다.",
+    "en_def": "The act of personalizing something, or adapting it for somebody's needs or tastes.",
+    "ex1": "The personalization mechanisms in AI systems that rely heavily on learning data also pose a threat to privacy and data security, thus call- ing for robust and transparent data security and management mechanisms to prevent bias in AI algorithms and ensure fairness and security in personalized learning experiences.",
+    "ex2": "The data in Table 5 illustrates that effective exam redesign in the AI era involves concentrating on personalization, process-oriented assessments, and fostering creativity."
+  },
+  {
+    "word": "notion",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "개념 — 알고 있거나 생각하거나 상상할 수 있는 모든 것에 대한 정신적 불안; 아이디어, 컨셉.",
+    "en_def": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
+    "ex1": "A few student comments indicated a preference to overlay the signing with the visuals; these comments touch on the notion of contiguity which is invoked in CTML by both spatial and temporal considerations.",
+    "ex2": "A few student comments from the current study expressed a desire to see more of this feature in future tutorials so this sup- ports the notion that the signaling design principle is valued by DHH students too."
+  },
+  {
+    "word": "clinical",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "객관적인 — 실제 간호 환경에서 보낸 의과대학생의 세션입니다.",
+    "en_def": "A medical student's session spent in a real-world nursing environment.",
+    "ex1": "Situated learning has been shown to support development of professional competencies and dispositions, technical skills, self- confidence, and critical thinking and to reduce learner anxiety as learners begin work in clinical environments (El Naggar & Almaeen, 2020; Lin et al., 2023).",
+    "ex2": "They have great potential for collecting patients’ self-care behavior data and can interact with patients personally to educate and improve clinical effects and enhance patients’ self-care ability (Abd-Alrazaq et al., 2020; Roque et al., 2021)."
+  },
+  {
+    "word": "market",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "시장 — 정해진 시간에, 종종 정기적으로 상품을 구매하고 판매하기 위해 사람들이 모이는 것입니다.",
+    "en_def": "A gathering of people for the purchase and sale of merchandise at a set time, often periodic.",
+    "ex1": "AI can automate many processes, significantly impacting the workforce and labour markets (Rane, 2023).",
+    "ex2": "Like other fields (i.e., healthcare, banking, programming, sales and marketing), ChatGPT is predicted to 52 seconds (Rudolph et al., 2023)."
+  },
+  {
+    "word": "appreciate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "고마워하다 — 감사하다 또는 감사하다.",
+    "en_def": "To be grateful or thankful for.",
+    "ex1": "Beginners, in particular, appreciated its ability to help them understand the course material. 5.6.2.",
+    "ex2": "Additionally, students appreciated the system for facilitating task completion and discussions, enhancing their motivation, and encouraging precise questioning."
+  },
+  {
+    "word": "driver",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "운전사 — 운전하다라는 동사의 어떤 의미에서든 무언가를 운전하는 사람.",
+    "en_def": "One who drives something, in any sense of the verb to drive.",
+    "ex1": "This technology enables the dynamic presentation of virtual scenarios while deliver- ing rich sensory inputs such as visuals, sounds, and spatial perspectives, which contribute to more authentic and engaging learning experiences (Walshe & Driver, 2019).",
+    "ex2": "The applicability of 3D MUVEs, particularly in higher education, depends on the intention of the user, but the drivers and inhibitors that contribute to this intention remain unclear."
+  },
+  {
+    "word": "centre",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "센터 — 원주의 모든 점으로부터 등거리에 있는 원 내부의 점.",
+    "en_def": "The point in the interior of a circle that is equidistant from all points on the circumference.",
+    "ex1": "In contemporary higher education classrooms, professors play an important role but are not the centre of the learning process.",
+    "ex2": "Instead, this process should focus on establishing a student-centred learning environment (Martínez-Jiménez & Ruiz- Jiménez, 2020)."
+  },
+  {
+    "word": "convey",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "전달하다 — (무엇)을 한 곳에서 다른 곳으로 옮기다.",
+    "en_def": "To move (something) from one place to another.",
+    "ex1": "Previous research has also shown that the visual attributes of an avatar, such as facial expression and body language, play a role in conveying warmth and competence in service environments.",
+    "ex2": "Traditional safety education, which relies on textbook knowledge or in-situ simulations, is often insufficiently realistic and universally applicable, making it difficult to convey practical experience and engage students effectively (Han et al., 2022; Swuste et al., 2021; Tsai et al., 2020)."
+  },
+  {
+    "word": "thorough",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "철저한 — 두 능선 사이에 고랑을 내어 표면의 물을 배수합니다.",
+    "en_def": "A furrow between two ridges, to drain off the surface water.",
+    "ex1": "In Heston and Kuhn’s (2023) discus- sion on prompt engineering in medical education they observe a chatbot can investigate a topic notably faster and potentially more thoroughly than a student can using search engines, online reference databases, or textbooks.",
+    "ex2": "It is important to incorporate thorough prompt engineering and hands-on experiences with AI tools in an active learning curriculum (Hutson & Roberston, 2023)."
+  },
+  {
+    "word": "simplify",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "단순화하다 — 복잡성을 줄이거나 구성 요소 부분을 줄이거나 이해하기 쉽게 만들어 더 단순하게 만드는 것입니다.",
+    "en_def": "To make simpler, either by reducing in complexity, reducing to component parts, or making easier to understand.",
+    "ex1": "The transition to flowcharts was used ‘to simplify the rest’ (second purple rectangle on the right).",
+    "ex2": "AI summarising tools can be used to assist when study becomes difficult by simplifying reading material or identifying key points, and AI task managers may help to redirect when the mind begins to wander."
+  },
+  {
+    "word": "routine",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "루틴 — 정기적으로 따라야 할 조치 과정입니다. 표준 절차.",
+    "en_def": "A course of action to be followed regularly; a standard procedure.",
+    "ex1": "Although in-­depth domain knowledge may not always be immediately accessible to learners—a factor crucial in making well-­informed evaluations—developing their habit of routinely questioning GenAI outputs, seeking alternative perspectives and con­ sulting credible external sources becomes paramount.",
+    "ex2": "Therefore, each team member was routinely expected to pre- pare for their presentations or reflections using materials such as planning documents, student work, teaching practice videos, in-depth interviews, and students verbal feed- back across the half academic year (see Table 1)."
+  },
+  {
+    "word": "accordance",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "일치 — 합의; 조화; 적합성; 규정 준수.",
+    "en_def": "Agreement; harmony; conformity; compliance.",
+    "ex1": "In a differentiated classroom, the teacher sets up the learning content and process in accordance with individual students’ requirements (Smit & Humpert, 2012).",
+    "ex2": "Declarations Ethical approval All procedures performed in studies involving human participants were in accordance with Informed consent Informed consent was obtained from all individual participants included in the study."
+  },
+  {
+    "word": "diagnostic",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "특수 증상 — 의료 진단에 사용되는 모든 기술.",
+    "en_def": "Any technique used in medical diagnosis.",
+    "ex1": "The prevalence of anthropomorphic and simplified understandings calls for the creation of diagnostic assess- ments that can identify specific misconceptions in students' mental models of AI and ML.",
+    "ex2": "Cloze tests are diagnostic and versatile tools for evaluating reading proficiency or comprehension, both at the level of vocabulary and grammatical structures and at macro-structural levels in understanding inter-sentential relationships and drawing inferences (Abreu et al., 2017; Kleijn et al, 2019)."
+  },
+  {
+    "word": "connectivity",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "연결성 — 연결되어 있는 상태",
+    "en_def": "The state of being connected",
+    "ex1": "Lastly, internet connectivity issues led to dropouts, necessitating instructors to monitor groups closely for technical problems.",
+    "ex2": "The Global Findex Database 2025: Connectivity and finan- cial inclusion in the digital economy."
+  },
+  {
+    "word": "quite",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "상당히 — (제목) 최대 범위 또는 정도; 완전히, 완전히.",
+    "en_def": "(heading) To the greatest extent or degree; completely, entirely.",
+    "ex1": "The rate of adoption of an idea incompatible with the basic behaviors and rules in the social system is quite low.",
+    "ex2": "I think this approach is quite similar to how humans solve complex problems, and it feels like it could be very useful."
+  },
+  {
+    "word": "volume",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "용량 — 길이, 너비, 높이로 구성된 3차원 공간 측정입니다. 영국식 측정에서는 미터법, 입방인치 또는 입방피트 단위로 입방센티미터 단위로 측정됩니다.",
+    "en_def": "A three-dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement.",
+    "ex1": "In Proceedings of the 2022 ACM Conference on International Computing Education Research-­Volume 1 (pp. 27–­43).",
+    "ex2": "There is a growing volume of data available about learners and learning, with every page visited, interaction with learning mate- rial, and click being recorded and stored (Du et al., 2023)."
+  },
+  {
+    "word": "properly",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "제대로 — 적절하게, 적절하게, 적절하게; 올바르게, 정당하게",
+    "en_def": "In a proper manner, appropriately, suitably; correctly, justifiably",
+    "ex1": "Therefore, further research is necessary to ascertain the potential benefits of these emerging technologies for education and how they can be properly and effectively utilized (Chiu, 2023b; Hwang & Chang, 2021) for the purpose of differentiating text- and idea-generation (Halaweh, 2023).",
+    "ex2": "Although digital technology enabled by AI is also extensively utilized in scientific classrooms to inspire students, individualize learning and enable assessments, it presents difficulties in aiding low-achieving students and properly implementing inquiry-based teaching (Walan, 2020)."
+  },
+  {
+    "word": "obstacle",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "장애 — 진행을 방해하거나 방해하거나 방해하는 것",
+    "en_def": "Something that impedes, stands in the way of, or holds up progress",
+    "ex1": "However, Kitishat et al. (2020) described several obstacles that teachers encountered when attempting to design online learning during the pandemic, such as the amount of time it took to prepare lectures and evaluate essay assignments, as compared to using tradi- tional methods.",
+    "ex2": "Also, teachers could closely monitor students’ learning difficulties and obstacles in real time according to the results of self-examination and self- evaluation of students’ performance assessment rubric which helped students overcome difficulties. 5."
+  },
+  {
+    "word": "accommodate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "수용하다 — 적합하거나 적합하거나 특파원을 제공하기 위해; 적응하기 위해.",
+    "en_def": "To render fit, suitable, or correspondent; to adapt.",
+    "ex1": "GENDERING INTERNATIONALISATION AT A DISTANCE IaD introduces a more flexible, inclusive model that accommodates students who may face constraints in accessing physical mobility.",
+    "ex2": "By tailoring feedback to align with students’ specific questions, ChatGPT accommodates diverse learning preferences and needs."
+  },
+  {
+    "word": "normality",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "정상성 — 정상적이거나 평소와 같은 상태. 정상.",
+    "en_def": "The state of being normal or usual; normalcy.",
+    "ex1": "Second, the Shapiro–Wilk test indicated violations of normality assumption in these analyses.",
+    "ex2": "However, considering sample sizes greater than 50 in groups, the robustness of the F test to the violation of normality was expected (Tabachnick & Fidell, 2013)."
+  },
+  {
+    "word": "save",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "구하다 — 각종 스포츠에서 상대의 득점을 막는 블록.",
+    "en_def": "In various sports, a block that prevents an opponent from scoring.",
+    "ex1": "Chen et al. of publication, author affiliations, and publication year, for all 3,801 articles were gathered and saved in an Excel spreadsheet for further analysis.",
+    "ex2": "Multimedia glosses incorporated with textual, visual, aural or pictorial aids are useful and effective for promoting EFL students’ vocabulary acquisition and reading comprehension and save students’ time and effort while reading L2 texts (Alqahtani, 2024; Ouyang et al., 2020; S."
+  },
+  {
+    "word": "conception",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "임신 — 임신 행위.",
+    "en_def": "The act of conceiving.",
+    "ex1": "As González-­Sanmamed et al. (2019) argued, learning ecologies include various intrinsic and experiential components, highlighting students are impacted by their internal characters (eg, conceptions, motivations and expectations) and those part of their learning processes (e.g., context, actions, resources and interpersonal re- lationships).",
+    "ex2": "Conceptual change As misconceptions about AI concepts are widespread among secondary learners, it is essential for educators to support students in refining these misunderstandings and aligning Conceptual change theory provides a valuable framework for this process, focusing on transforming students' misconceptions into scientifically accurate conceptions (Duit & Treagust, 2003)."
+  },
+  {
+    "word": "voluntary",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "자발적인 — 종종 즉흥 연주가 포함된 짧은 음악이 독주 악기로 연주됩니다.",
+    "en_def": "A short piece of music, often having improvisation, played on a solo instrument.",
+    "ex1": "Students were informed that their participation was entirely voluntary and that they could withdraw from the study without any consequences.",
+    "ex2": "Prior to participation, all individuals were informed about the study’s purpose, scope, the voluntary nature of their involvement, data usage, and their right to withdraw at any time without penalty."
+  },
+  {
+    "word": "let",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "허락하다 — 임대의 대가로 부동산 등의 점유를 허용하는 것.",
+    "en_def": "The allowing of possession of a property etc. in exchange for rent.",
+    "ex1": "So, I think Storyline media projects work well, but I also let the instructor know: “Hey, you have a lot of information.",
+    "ex2": "I don't mind keeping it, but let's do a learn more button.” That's what I do when I create these Storyline projects."
+  },
+  {
+    "word": "site",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "대지 — 슬픔, 슬픔.",
+    "en_def": "Sorrow, grief.",
+    "ex1": "Some institutions have physical test- ing sites where students can schedule and complete their supervised exams in-person.",
+    "ex2": "While the onset of COVID-19 led to the tempo- rary closure of many of these in-person proctoring sites, it also served as a catalyst for a surge in virtual proctoring platforms (Flaherty, 2020a, 2020b)."
+  },
+  {
+    "word": "everyday",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "매일 — (드물게) 평범하거나 일상적인 날이나 행사",
+    "en_def": "(rare) the ordinary or routine day or occasion",
+    "ex1": "The subjects of the talks are varied between education, lifestyle, cultural aspects, and everyday life.",
+    "ex2": "However, although VR-based training systems have demonstrated positive effects, research also suggests that the lack of interaction with real-world environments in VR may hinder students’ ability to generalize learned skills to everyday contexts (Lo et al., 2024)."
+  },
+  {
+    "word": "eliminate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "제거하다 — 완전히 제거하려면 제거하고 끝내십시오.",
+    "en_def": "To completely remove, get rid of, put an end to.",
+    "ex1": "The process of repeatedly listening to audio files and receiving pronunciation grades eliminates the fear of being laughed at or encountering an impatient instructor.",
+    "ex2": "Experiment stage Description Data Data analysing Research questions and goal Pre-­survey Randomization was tested to eliminate biases and ensure data comparability."
+  },
+  {
+    "word": "collaboratively",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "협력하여 — 공동 작업을 통해 특성화되거나 수행됩니다.",
+    "en_def": "Characterized or done by collaboration.",
+    "ex1": "It should be noted that, in both modes, students in each learning team needed to complete several missions collaboratively using a chatroom before starting the problem-posing tasks.",
+    "ex2": "Hwang et al. (2) Entering the chatroom and completing missions collaboratively When students successfully entered the system, they were guided to enter the chat- room for their team to complete a series of missions."
+  },
+  {
+    "word": "accountability",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "책임 — 책임을 지는 상태; 계산서를 제출해야 하는 책임; 책임감; 책임이 있다; 에 대해 책임을 집니다.",
+    "en_def": "The state of being accountable; liability to be called on to render an account; accountableness; responsible for; answerable for.",
+    "ex1": "Three conditions were then compared by Patchan et al. (2017): only rating accountabil- ity, only feedback accountability, or both rating and feedback accountability.",
+    "ex2": "We take our role as a corporate citizen seriously and are guided by transparency, accountability, and industry best practices."
+  },
+  {
+    "word": "concentrate",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "집중하다 — 응축된 형태로 존재하는 물질.",
+    "en_def": "A substance that is in a condensed form.",
+    "ex1": "While time-­series clustering is extensively applied in educational settings, the majority of these applications concentrate on feature-­based methods.",
+    "ex2": "Among the reviewed studies, some focused on the impact of AI on only one aspect the metacognitive aspect, and Bouchet et al. (2018) concentrated on the motiva- tional aspect."
+  },
+  {
+    "word": "shed",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "창고 — 헤어지다, 분리하다, 나누다.",
+    "en_def": "To part, separate or divide.",
+    "ex1": "They also shed light on the uncanny valley’s mitigating elements, which have theoretical and practical ramifications (Doll et al., 1998).",
+    "ex2": "Theoretical Implications By examining the adoption and usage intentions of AVP among students, this research sheds light on the immediate benefits of the technology and predicts some theoretical implications (Al-Maroof & Salloum, 2020)."
+  },
+  {
+    "word": "adhere",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "고수하다 — 끈적끈적한 물질처럼 빨리 달라붙거나 갈라지다. 합류하거나 연합하게 되다.",
+    "en_def": "To stick fast or cleave, as a glutinous substance does; to become joined or united.",
+    "ex1": "Data Collection Procedure This study received authorization from the Institutional Review Board (IRB), confirming that it adheres to necessary measures for safeguarding the rights of individuals participating in research.",
+    "ex2": "According to Mayer et al. (1995), interpersonal trust typically involves evaluations of other individuals’ abilities, benevolence (i.e., the extent to which the individual is believed to have positive intentions toward the trustor), and integrity (i.e., the extent to which the individual adheres to principles acceptable by the trustor)."
+  },
+  {
+    "word": "sophisticated",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "정교한 — 덜 자연스럽거나 순진하지 않게 만들다.",
+    "en_def": "To make less natural or innocent.",
+    "ex1": "Identifying these patterns allows for a more sophisticated approach to student sup- port, moving beyond one-size-fits-all interventions to more personalised and timely assistance.",
+    "ex2": "Simple tools are crucial for inclusiveness, but they should be combined with well-­planned, sophisticated activities across multiple digital spaces, considering negotiated meanings, relationships and interactions for intercultural en- gagement (Hoelscher & Harris-­Huemmert, 2019)."
+  },
+  {
+    "word": "corpus",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "신체 — 특정 주제, 특정 장르, 특정 인구통계 또는 특정 작가 등이 쓴 글 모음입니다.",
+    "en_def": "A collection of writings, often on a specific topic, of a specific genre, from a specific demographic or a particular author, etc.",
+    "ex1": "Truth-­telling: Critical inquiries on LLMs and the corpus texts that train them.",
+    "ex2": "In the study, 32 participants in the experimental group and 22 in the control group were involved in two distinct educational approaches: Data- Driven Learning (DDL) guided by constructivism, facilitated by the Corpus of Contemporary American English (COCA), and conventional rule-based instruction, respectively."
+  },
+  {
+    "word": "tutoring",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "과외 — 특히 개인이나 소그룹을 가르치거나 가르치다.",
+    "en_def": "To instruct or teach, especially an individual or small group.",
+    "ex1": "This contributes to the growing body of knowledge on how machine learning techniques can be leveraged for educational prediction tasks, especially in the context of increasingly available digital learning data (Zheng et al., 2023). tutoring throughout the teaching and learning process.",
+    "ex2": "It preliminarily investigated the effectiveness of Large Language Model-powered Socratic Tutoring (LLM-ST) in learning gains and user experience."
+  },
+  {
+    "word": "minimum",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "최저한의 — 최저 한도.",
+    "en_def": "The lowest limit.",
+    "ex1": "It involved two undergraduate students engaging with the platform for a minimum of 60 minutes weekly over 10 weeks.",
+    "ex2": "Lawshe (1975) suggested testing the hypothesis that such an agreement might have been observed by chance (i.e. even if the experts provided random judgments), and provided a table of minimum values of CVR for which such hypothesis can be rejected at the one-tail level of significance α = 0.05 ."
+  },
+  {
+    "word": "climate",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "기후 — 두 개의 위도 평행선 사이의 지구 표면 영역.",
+    "en_def": "An area of the earth's surface between two parallels of latitude.",
+    "ex1": "These are only a few of the many natural hazards that have been exacerbated by a changing climate; hurricanes, floods, and droughts have also become more severe (Alifu et al., 2022; Garner, 2023; Hoell et al., 2022).",
+    "ex2": "Finally, in the fifth activity, students are asked to synthesize their knowledge of complex factors such as the effect of climate change on wildfire spread as well as past wildfire suppression efforts, and to apply their knowledge to more complex simulation-based tasks."
+  },
+  {
+    "word": "individually",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "개별적으로 — 개인으로서, 개별적으로, 독립적으로",
+    "en_def": "As individuals, separately, independently",
+    "ex1": "Student-Student Interaction Student-student interaction refers to the engagement between a student and other students, whether individually or in groups, in a classroom setting, with or without the presence of a teacher (Moore, 1989).",
+    "ex2": "To make it diverse and complex enough, the Capybara dataset includes a variety of mechanisms like: • Concept combination: Combining various concepts and entities within the same conversation to create more intricate reasoning scenarios than they would be individually."
+  },
+  {
+    "word": "law",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "법 — 입법 및 사법 당국이 지역 사회에 확립한 구속력 있는 규칙과 규정, 관습 및 표준의 집합체입니다.",
+    "en_def": "The body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities.",
+    "ex1": "In business and law, project-based learning could feature simulations or case studies where students examine real-world business challenges or argue legal cases.",
+    "ex2": "To address this challenge, research has underscored the value of scaffolding strategies, such as question prompts, in assisting students to refine their understanding of complex problems (Cai et al., 2022; Law & Chen, 2016)."
+  },
+  {
+    "word": "journey",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "여정 — (비유적으로) 학습이나 성장의 과정; 경험의 흐름.",
+    "en_def": "A process of development or progress, especially in learning.",
+    "ex1": "Its name, Wukong, is adapted from Wukong Sun, also known as the Monkey King, the most well-­known mythological figure in the classic Chinese novel ‘Journey to the West’ (Wang & Li, 2020).",
+    "ex2": "APPENDIX B EXAMPLE FROM A PRESERVICE TEACHER'S REFLECTIVE DIARY As I reflect on today's lesson, where I guided my students through the intricate world of digital-­game production, I find myself marvelling at their journey of dis­ covery and creation."
+  },
+  {
+    "word": "intent",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "의지 — 목적; 의도한 것.",
+    "en_def": "A purpose; something that is intended.",
+    "ex1": "The goal of this research was to determine the current use of technology in foreign language classrooms and investigate the factors influencing teachers’ intention and belief toward its usage.",
+    "ex2": "Reflection is an active, purposeful, and intentional process to understand and enhance one’s understanding, and the process promotes social interaction (Linet al., 1999)."
+  },
+  {
+    "word": "fear",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "두려움 — 실제적이거나 인지된 위험이나 위협으로 인해 발생하는 강력하고 통제할 수 없는 불쾌한 감정이나 느낌입니다.",
+    "en_def": "A strong, uncontrollable, unpleasant emotion or feeling caused by actual or perceived danger or threat.",
+    "ex1": "Second, students’ fear of disappointing the robot during tests may create anxiety, further dampening their learning attitude (Brown & Howard, 2014).",
+    "ex2": "With GAI having academic performances that surpass those of most humans, many people fear that they will be replaced by intelligent machines (Wang & Wang, 2022)."
+  },
+  {
+    "word": "constant",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "끊임없는 — 영구적이거나 변하지 않는 것.",
+    "en_def": "That which is permanent or invariable.",
+    "ex1": "These skills in identifying flaws are also applicable in daily life, as individuals are constantly encountering complex information, and the ability to differentiate useful evidence from flaws is vital to making informed decisions.",
+    "ex2": "AI has the potential to combat these typical school practices by providing constant feedback to prompt student thinking."
+  },
+  {
+    "word": "proactive",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "사전 예방적인 — 예상되는 변화나 어려움에 대처하기 위해 사전에 조치를 취합니다.",
+    "en_def": "Acting in advance to deal with an expected change or difficulty",
+    "ex1": "Advanced scheduling systems utilizing machine learn- Data-driven decision support systems within this domain have evolved to incorpo- rate predictive analytics, enabling proactive management of institutional resources.",
+    "ex2": "This may require a proactive approach to AI adop- tion that prioritizes equity and inclusion from the outset (Meng & Sermsri, 2024)."
+  },
+  {
+    "word": "debug",
+    "pos": "verb",
+    "pos_ko": "동사",
+    "meaning_ko": "디버그 — 오류를 찾아 제거하기 위해 소스 코드를 검토하는 작업 또는 세션입니다.",
+    "en_def": "The action, or a session, of reviewing source code to find and eliminate errors.",
+    "ex1": "Programming courses involve frequent hands-­on code-­writing activities, and students may struggle with writing correct code, debugging and problem-­solving in programming tasks, which may lead to frustration and decreased motivation (McCracken et al., 2001).",
+    "ex2": "Learning programming is considered to be a tedious and challenging task for novice programmers as they need to understand abstract concepts like functions and master various skills, such as problem-­solving, program design, and debugging, at the same time (Garcia, 2021)."
+  },
+  {
+    "word": "proper",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "적절한 — 특별한 용도를 위해 구별된 것.",
+    "en_def": "Something set apart for a special use.",
+    "ex1": "Meanwhile, automatic writing evaluation needs to be perfected as it cannot provide proper evaluation of the text structure, content logic, and coherence (e.g., Lu, 2019).",
+    "ex2": "Therefore, students need to possess high SRL abilities to properly handle content gener- ated by AI (Kong & Yang, 2024) rather than constraining the development of their abilities (Chiu, 2024)."
+  },
+  {
+    "word": "multidimensional",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "다차원 — (뉴에이지 종교) 하나 이상의 차원에 존재하는 존재",
+    "en_def": "(New Age religion) a being that exists in more than one dimension",
+    "ex1": "We recognise that technology-dependent learning, including tools such as videoconferencing, disproportionally impacts populations facing multidimensional barriers, such as individuals with limited digital proficiencies or those who reside in rural or lower-income households (Lythreatis et al., 2022).",
+    "ex2": "This suggests that the Teacher values visual tools not only for tracking students' progress and understanding their difficulties, but also their potential to offer comprehensive, multidimensional views of students' domain knowledge."
+  },
+  {
+    "word": "distinction",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "구별 — 구별되는 것; 결정적인 요소나 특징의 단일 발생, 분할 사실; 분리, 차별.",
+    "en_def": "That which distinguishes; a single occurrence of a determining factor or feature, the fact of being divided; separation, discrimination.",
+    "ex1": "The reported results are closely aligned with our RQs, highlighting notable outcomes while maintaining a clear distinction between the presentation of results and their interpretation, which is reserved for the forthcoming discussion section.",
+    "ex2": "The making of transnational distinction: An embodied cultural capital perspective on Chinese women students' mobility."
+  },
+  {
+    "word": "experienced",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "경험이 풍부한 — 특정 사건을 관찰하기 위해; 어떤 느낌이나 과정을 겪다; 또는 자신을 변화시키거나 자신의 지식, 의견 또는 기술에 기여할 수 있는 특정 행동을 수행합니다.",
+    "en_def": "To observe certain events; undergo a certain feeling or process; or perform certain actions that may alter one or contribute to one's knowledge, opinions, or skills.",
+    "ex1": "This illustrated not only the perceived ben­ efits of prompt scaffolding-guided GenAI interactions in fostering a richer understand­ ing of argumentation diversity, but also the emotional challenges students experienced when confronted with feedback that lacked actionable detail.",
+    "ex2": "For instance, after the experimental group, stu- dents experienced AR-based resources under the teacher’s guidance and discussed with their learning community."
+  },
+  {
+    "word": "facial",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "얼굴 마사지 — 인간의 얼굴을 클렌징하고 보습하는 것을 포함하는 퍼스널 케어 뷰티 트리트먼트입니다.",
+    "en_def": "A personal care beauty treatment which involves cleansing and moisturizing of the human face.",
+    "ex1": "The current study conducted three eye-­tracking experiments to examine the cir- cumstances under which a teacher's happy facial expressions are beneficial in instructional videos, with or without pointing gestures and mouse pointing.",
+    "ex2": "Experiments 1 and 2 demonstrated that the combina- tion of happy facial expressions and pointing gestures attracted learners' attention to the teacher and hin- dered students' learning performance, regardless of the complexity of slides."
+  },
+  {
+    "word": "competition",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "경쟁 — 경쟁하는 행위.",
+    "en_def": "The action of competing.",
+    "ex1": "GPL highlights the use of game mecha- nisms (eg, competitions and rewards) that represent intrinsic motivation, as well as game elements (eg, points and feedback) that represent extrinsic motivation, aiming to enhance the thinking skills and learning experience of novice programmers (Lindberg et al., 2018; Rojas-­López et al., 2019).",
+    "ex2": "Werbach and Hunter (2012) indicated that rewards or competition as extrinsic motivation increase momentary positive actions, and intrinsic motivation sustains students' long-­term enjoyment."
+  },
+  {
+    "word": "matrix",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "행렬 — 자궁.",
+    "en_def": "The womb.",
+    "ex1": "These distance measures evaluate the discrepancy between the empirical correlation matrix and the model-implied correlation matrix, with lower values indicating better model fit.",
+    "ex2": "It uses a sliding window mechanism to calculate co-occur- rences within specific segments, then transforms the data into an adjacency matrix, which is processed through normalization, dimension reduction, and singular value decomposition to visualize relationships between cognitive elements in a two-dimen- sional space (Swiecki et al., 2020)."
+  },
+  {
+    "word": "narrow",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "좁은 — (주로 복수형) 좁은 통로, 특히 하천이나 호수, 바다의 수축된 부분. 두 개의 수역을 연결하는 해협.",
+    "en_def": "(chiefly in the plural) A narrow passage, especially a contracted part of a stream, lake, or sea; a strait connecting two bodies of water.",
+    "ex1": "Their functional complementarity facilitates the synthesis of action- able solutions, distinguishing innovative thinking from more narrowly defined constructs of higher order thinking (HOT) by integrating evaluative and analytical rigour.",
+    "ex2": "Background: Although previous reviews have underscored the advantages of BL for EFL learners, many have been limited in scope, focused on narrow outcome measures, or insufficient methodological clarity."
+  },
+  {
+    "word": "instrumental",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "조격 — (문법) 도구적인 경우.",
+    "en_def": "(grammar) The instrumental case.",
+    "ex1": "Additionally, using the reading pen technology proved to be instrumental in overcoming the visual challenges experienced by the participants.",
+    "ex2": "During the administration of assessments using AI systems stage, AI is instrumental in upholding the integrity of assessments."
+  },
+  {
+    "word": "grading",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "등급 — 학업 시험의 구성 요소에 점수를 할당합니다.",
+    "en_def": "To assign scores to the components of an academic test.",
+    "ex1": "Acknowledging possible individual differences in teaching assistants' grading practices for Week 7 assess- ments between 2021 (when course materials were only available as text-­based) and Fall 2023 is essential.",
+    "ex2": "This indicated that the grading of the two experts was significantly correlated."
+  },
+  {
+    "word": "unfamiliar",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "생소한 — 낯선 사람; 낯선 사람.",
+    "en_def": "An unfamiliar person; a stranger.",
+    "ex1": "The analysis revealed two themes: the students were unfamiliar with each other and so they requested to receive the task individually, and there was no online collaboration.",
+    "ex2": "Adaptive Transfer’s high reliability (α = 0.846), unusual for metacognitive constructs, may derive from its operational focus on concrete AI adaptation strategies (e.g., AT3: “Calibrate AI tools for unfamiliar contexts”), which reduce abstraction biases common in self-reported metacognition."
+  },
+  {
+    "word": "convenience",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "편의 — 편리함의 질.",
+    "en_def": "The quality of being convenient.",
+    "ex1": "The research was designed to a quasi- experiment which included 96 participants (48 in an experimental group and 48 in a control group) who were sampled based on convenience to the Spring 2024 semester in one university in southern Taiwan.",
+    "ex2": "A convenience sampling strategy was used to select schools and classes based on their accessibility and willingness to participate."
+  },
+  {
+    "word": "graphical",
+    "pos": "adjective",
+    "pos_ko": "형용사",
+    "meaning_ko": "그래픽 — 그래프에 관련되거나 표시됩니다.",
+    "en_def": "Of, related to, or shown on a graph.",
+    "ex1": "The book refers to the riddle’s text, while the gray circle refers to an additional activity (a game or a puzzle) that helps The box marked with the location symbol is an interactive image containing the geo- graphical and historical details of the riddles listed above (Fig. 1).",
+    "ex2": "The results indicated that students’ ability to use evidence improved over time, with attention shifting from textual to graphical information following exposure to supporting information provided by the learning app."
+  },
+  {
+    "word": "friend",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "친구 — 가족이나 배우자, 연인이 아닌 사람과 함께 즐겁고 애정을 느끼는 사람.",
+    "en_def": "A person other than a family member, spouse or lover whose company one enjoys and towards whom one feels affection.",
+    "ex1": "The participants were actively involved during these sessions, getting 20 min to interact with the app, take pictures of the nouns, and share them with friends.",
+    "ex2": "Child-­friendly versions of video apps that incorporate more transparent and clear visualizations of the datafication process and privacy policies are future directions for designers."
+  },
+  {
+    "word": "biology",
+    "pos": "noun",
+    "pos_ko": "명사",
+    "meaning_ko": "생물학 — 모든 생명이나 살아있는 물질에 대한 연구.",
+    "en_def": "The study of all life or living matter.",
+    "ex1": "In our Step 1, we identify these cumulatively relevant abstract concepts, for which a DFA is of particu- lar importance (e.g., for computer science education: Grover, 2021; for biology education: Carter & Prevost, 2023).",
+    "ex2": "Specifically, the science and engineering group included students from departments such as mechanical engineering, electrical engineer- ing, computer science, mathematics, and biology, while the social science and humani- ties group consisted of students majoring in disciplines such as education, psychology, literature, and political science."
+  },
+  {
+    "word": "heavily",
+    "pos": "adverb",
+    "pos_ko": "부사",
+    "meaning_ko": "무겁게 — 무거운 방식으로.",
+    "en_def": "In a heavy manner.",
+    "ex1": "The goal of broadening access depends heavily on reliable infrastructure and basic digital literacy (DiMaggio et al., 2004), which are often lacking in the communities that stand to benefit the most.",
+    "ex2": "Much of the existing literature focuses on secondary or higher education learners (e.g., Yang et al., 2024; Zheng et al., 2023), whereas this study showed that pri- mary students rely more heavily on feedback and face greater demands in filtering informa- tion."
+  }
+]

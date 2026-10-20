@@ -6,6 +6,33 @@
 
 ---
 
+## 2026-10-20 작업 내역 — 한국 학술지 제외 · `D:\논문` 삭제 영향 검토 · 소스 백업
+
+### 1. 한국 학술지 제외 (사용자 결정)
+- `scripts/pdf_extractor.py`에 `collect_pdfs()` 추가: 최상위 폴더명이 `★`로 시작하면 제외.
+  확인 결과 수집 대상 **872개 = 기존 `D:\논문`과 동일한 영문 저널 6종** (★ 포함 0개).
+- `.claude/agents/pdf-extractor.md`, `CLAUDE.md`에도 제외 규칙 명시. 현재 단어장은 재추출하지 않음(변화 없음).
+
+### 2. `D:\논문` 삭제 시 프로젝트 영향 검토 → **지장 없음**
+- 원본 PDF를 직접 읽는 코드는 `pdf_extractor.py` 하나뿐이며 이미 `D:\논리전개연습`을 가리킴.
+- 공통 PDF 872개 **전체 MD5 일치** (불일치 0) — `D:\논리전개연습`이 완전한 사본.
+- 나머지 스크립트는 프로젝트 안의 `raw_text/`(이미 추출된 텍스트)와 `metadata.json`의 **파일명**만 사용.
+  `metadata.json`의 원본 경로 734개는 새 폴더로 갱신했고 실재 734/734 확인.
+- 대시보드·`vocabulary.json`은 파일명 문자열만 담고 원본 파일을 열지 않음.
+- `.mcp.json`은 새 폴더를 가리키고, 사용자 Claude 설정(`~/.claude/settings.json`, `~/.claude.json`)에는 `D:\논문` 참조 없음.
+- `D:\논문` 문자열이 남은 곳은 `CLAUDE.md`·`log.md`의 "이전 경로" 기록뿐.
+- 검토 범위 밖: 이 프로젝트 외의 프로그램(참고문헌 관리 도구 등)이 `D:\논문`을 쓰는지는 확인하지 않음.
+
+### 3. 소스 백업 (07-03부터의 미결 사항 → 권장안 ① 적용)
+- `.gitignore` 신설: `raw_text/`(논문 본문, 저작권·용량), `web/`(빌드 산출물), `__pycache__/`,
+  `data/vocabulary_checkpoint.json`, `.claude/settings.local.json` 제외.
+- 저장소에 추가: `scripts/` 17개, `.claude/`(에이전트 6·스킬 1), `.mcp.json`, 기획서,
+  `data/` 중간 산출물·검수 파일(`selected_words.json`, `extra_candidates.json`, `review_batches/`,
+  `review_results/`, `review_report.txt`, `review3_fixes.tsv`, `ipa_fixes.json`, 재추출 보고서 2개).
+- 올리기 전 비밀정보(API 키·토큰·비밀번호·이메일) 패턴 검사: 해당 없음.
+
+---
+
 ## 2026-10-20 작업 내역 — 원본 논문 폴더 경로 변경 (`D:\논문` → `D:\논리전개연습`)
 
 - `D:\논리전개연습`은 이미 존재하던 폴더로, `D:\논문`의 PDF 872개를 같은 상대 경로로 모두 포함
@@ -16,7 +43,7 @@
   `data/vocabulary.json`(meta.source_dir), `raw_text/metadata.json`(original_path 734개 — 새 경로 실재 734/734 확인),
   `논문단어집_대시보드_기획서.md`.
 - `D:\논문` 폴더 자체는 손대지 않음(삭제 여부는 사용자 결정).
-- ⚠️ 주의: 이후 `pdf_extractor.py`를 다시 돌리면 한국 학술지 1,213편도 추출 대상에 포함된다
+- ~~⚠️ 주의~~ → 같은 날 **한국 학술지 제외로 결정·반영** (위 항목 1). 당시 메모: `pdf_extractor.py`를 다시 돌리면 한국 학술지 1,213편도 추출 대상에 포함된다
   (대부분 국문 본문 + 영문 초록). 포함할지/★ 폴더를 제외할지 재추출 전에 결정 필요.
 
 ---
@@ -60,9 +87,8 @@ log의 "추가 품질 점검(선택)" 항목을 진행하다가, 2차 검토 이
 - 한계: 문장 중간이 PDF에서 섞인 경우("…documentsa difference…")처럼 규칙으로 못 잡는 잔여 오류가
   소수 남아 있을 수 있음.
 
-### 미결 (사용자 선택 대기 — 07-03부터 이어짐)
-- `scripts/`·`.claude/` 저장소 백업 여부. 이번에 추가된 `reextract_examples.py`, `full_review_fix3.py`,
-  `fix_duplicate_ids.py`, `data/review3_fixes.tsv`, `data/ipa_fixes.json`도 아직 로컬 전용.
+### ~~미결~~ → 해결
+- `scripts/`·`.claude/` 저장소 백업 — 같은 날 백업 완료 (맨 위 항목 3).
 
 ---
 
@@ -90,7 +116,7 @@ D:\논리전개연습 폴더(2026-10-20 이전 `D:\논문`)의 PDF 논문(770개
   `raw_text/`(734개 논문 텍스트, ~41MB), `data/selected_words.json`·`extra_candidates.json`·
   `review_batches/`·`review_results/`, `.mcp.json`.
 - 즉, 완성물만 배포되고 **그걸 만드는 스크립트/원문은 백업 안 됨** → 로컬 유실 시 재현 어려움.
-- 대응(미결정, 사용자 선택 대기): ① `scripts/`·`.claude/`를 저장소에 추가(권장, `raw_text/`는
+- 대응(→ 2026-10-20 ① 적용 완료): ① `scripts/`·`.claude/`를 저장소에 추가(권장, `raw_text/`는
   용량·저작권상 `.gitignore` 제외) ② `.gitignore`만 정리 ③ 그대로 두기.
 
 ---
@@ -349,7 +375,7 @@ git add index.html && git push origin main
 - **엑셀/CSV 내보내기** — `data/vocabulary.json` → xlsx 변환
 - **검색·필터 기능 강화** — 즐겨찾기, 학습 완료 체크
 - ~~추가 품질 점검~~ → 2026-10-20 3차 전수 검토로 완료.
-- **소스 백업 결정** — `scripts/`·`.claude/`를 저장소에 추가할지 (위 07-03·10-20 항목 참고).
+- ~~소스 백업 결정~~ → 2026-10-20 백업 완료.
 
 ---
 
@@ -364,7 +390,7 @@ git add index.html && git push origin main
 | ~~단어 수 부족~~ (해결됨) | selected_words 상위 2000개에 노이즈 토큰 다수 포함 | 노이즈 삭제분만큼 학술 단어 보충 → **2000개 유지 완료** |
 | 예문 추출 시 접두/하이픈 오매칭 | `\bword\w*` 패턴이 다른 단어의 접두·하이픈 분절을 잡음 | 하이픈 합친 뒤 독립 토큰+접미사 화이트리스트로 검증 (CLAUDE.md 참조) |
 | Free Dictionary API 오역 sense | 학술과 다른 1번 정의(고어·종교·군사 등) 반환 | 예문 기준 뜻 검증 후 수동 교정 (CLAUDE.md 참조) |
-| **소스 미백업** (scripts/·raw_text/·.claude/ 로컬 전용) | 저장소가 완성물 4개 파일만 추적 | (미결정) scripts/·.claude/ 저장소 추가 권장, raw_text/는 .gitignore 제외 |
+| ~~소스 미백업~~ (해결됨) | 저장소가 완성물 4개 파일만 추적 | 10-20: scripts/·.claude/·data 백업, raw_text/·web/는 .gitignore |
 
 ---
 
