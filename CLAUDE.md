@@ -11,7 +11,7 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 ```
 빌드 후 항상 `cp web/index.html index.html` (git이 추적하는 건 root의 index.html).
 
-원본 논문 PDF 폴더: **`D:\논리전개연습`** (2026-10-20부터, 이전 `D:\논문`).
+원본 논문 PDF 폴더: **`D:\논문집`** (2026-10-21 폴더 이름 변경 — 이전 이름 `D:\논리전개연습`(10/20~), 그 전 `D:\논문`).
 영문 저널 6종 + 한국 학술지 4종(★ 폴더)이 있지만, **한국 학술지(최상위 ★ 폴더)는 단어장 대상에서 제외**한다
 (`pdf_extractor.py`의 `collect_pdfs()` — 대상 872개).
 

@@ -1,5 +1,5 @@
 """
-pdf-extractor: D:\논리전개연습 의 PDF → raw_text/*.txt + metadata.json
+pdf-extractor: D:\논문집 의 PDF → raw_text/*.txt + metadata.json
 """
 import fitz  # pymupdf
 import json
@@ -16,7 +16,7 @@ def safe_print(*args, **kwargs):
     except UnicodeEncodeError:
         print(text.encode("ascii", errors="replace").decode("ascii"), **kwargs)
 
-SOURCE_DIR = Path("D:/논리전개연습")
+SOURCE_DIR = Path("D:/논문집")
 OUTPUT_DIR = Path("raw_text")
 OUTPUT_DIR.mkdir(exist_ok=True)
 

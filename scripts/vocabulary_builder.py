@@ -168,7 +168,7 @@ def save_output(result_words: list, txt_files: list, path: Path):
     output = {
         "meta": {
             "generated_at": str(date.today()),
-            "source_dir": "D:/논리전개연습",
+            "source_dir": "D:/논문집",
             "paper_count": len(txt_files),
             "word_count": len(result_words)
         },

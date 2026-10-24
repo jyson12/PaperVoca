@@ -2,7 +2,7 @@
   "mcpServers": {
     "filesystem": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-filesystem@1.0.0", "D:\\논리전개연습", "."]
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@1.0.0", "D:\\논문집", "."]
     }
   }
 }

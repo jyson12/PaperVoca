@@ -1,4 +1,4 @@
-# 원본 논문 본문 텍스트 — 저작권·용량 문제로 로컬 전용 (원본 PDF: D:\논리전개연습)
+# 원본 논문 본문 텍스트 — 저작권·용량 문제로 로컬 전용 (원본 PDF: D:\논문집)
 raw_text/
 
 # 빌드 산출물 — 배포본은 루트 index.html (build_dashboard.py → web/index.html → cp)
