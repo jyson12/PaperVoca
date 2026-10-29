@@ -1,13 +1,13 @@
 # PaperVoca 프로젝트 작업 로그
 
-> 마지막 업데이트: 2026-10-24
+> 마지막 업데이트: 2026-10-29
 > 작업 디렉토리: `d:\test\논문단어집\`
 > 현재 배포 상태: **2000개 단어, 3차 전수 검토 + 4차 품질 점검(IPA 사전 대조·잔여 깨진 예문) 반영, 소스 백업·보안 정리 완료** (최신 커밋은 `git log -1`)
 > ▶ **새 창·새 세션에서는 바로 아래 "인수인계" 섹션부터 읽을 것.**
 
 ---
 
-## ▶ 새 세션 인수인계 (2026-10-24 기준)
+## ▶ 새 세션 인수인계 (2026-10-29 기준)
 
 ### 한눈에 보는 현재 상태
 - **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 + 4차 품질 점검 완료.
@@ -60,14 +60,26 @@
    (Claude의 다른 프로젝트 세션에서도 지키도록 "GitHub 메일 비공개" 선호를 Claude 메모리에 저장함.)
 5. 이 인수인계 섹션 갱신 (창을 바꿔도 이어갈 수 있게).
 
+### 2026-10-29에 한 일 (자세한 내용은 아래 "2026-10-29 작업 내역")
+1. 세션 시작 점검: 원격과 동기화·작업 트리 깨끗·작성자 noreply(전역·저장소)·사이트 HTTP 200.
+   **Python 3.15가 새로 설치돼 `python`을 차지 → nltk 없음**을 발견. `py -3.14`로 예문 0개·IPA 표기 문제 0개 확인.
+   PATH·패키지는 PC 전역 설정이라 손대지 않고, CLAUDE.md·log.md에 `py -3.14`로 실행하라고 적음.
+2. 대시보드에 **즐겨찾기(☆)·외움 표시·학습 기록 필터·진행 현황·CSV 내보내기** 추가 (`build_dashboard.py` v3).
+   단어장 데이터(`vocabulary.json`)는 바꾸지 않음. 학습 기록은 보는 사람의 브라우저에만 저장(서버 전송 없음).
+3. `scripts/test_dashboard.mjs` 추가: headless Chrome으로 25개 항목 자동 시험 (8회 반복 25/25 통과).
+4. CLAUDE.md(파이썬 버전·대시보드 학습 기능)·log.md 갱신 → 빌드 → 커밋·푸시 → 배포 확인.
+
 ### 새 세션 시작 시 점검 순서 (권장)
 ```bash
 cd d:\test\논문단어집
 git status -sb && git log -1 --oneline          # 원격과 동기화·작업 트리 깨끗한지
 git config user.email                           # …@users.noreply.github.com 이어야 함
-python scripts/reextract_examples.py --dry-run  # "재추출 대상 단어: 0개"여야 정상 (약 1~2분)
-python scripts/check_ipa.py                     # "표기 문제 0" 이어야 정상 (CMU 불일치 81은 영·미 차이로 정상)
+py -3.14 scripts/reextract_examples.py --dry-run  # "재추출 대상 단어: 0개"여야 정상 (약 1~2분)
+py -3.14 scripts/check_ipa.py                     # "표기 문제 0" 이어야 정상 (CMU 불일치 81은 영·미 차이로 정상)
 ```
+- ⚠ **파이썬은 `py -3.14`로 실행** (10-29 확인): 10-25에 설치된 Python 3.15가 `python` 명령을 차지했고,
+  거기엔 nltk·pymupdf가 없다. 사용자 PC 전역 설정(PATH·패키지)이라 건드리지 않았다.
+  이 문서의 다른 곳에 적힌 `python scripts/…`도 모두 `py -3.14 scripts/…`로 읽을 것.
 - **환경 준비 (다른 PC·새 환경일 때만)**: `check_ipa.py`는 NLTK CMU 발음사전이 필요하다 →
   `python -c "import nltk; nltk.download('cmudict')"` (이 PC에는 10-21에 설치함).
   `reextract_examples.py`는 NLTK 불용어(stopwords)를 쓰고, 첫 실행 때 `raw_text/token_counts.json`(코퍼스 빈도 캐시)을
@@ -102,11 +114,42 @@ python scripts/check_ipa.py                     # "표기 문제 0" 이어야 �
 - 재작성 전 로컬 백업 → 사이트 정상 확인 후 삭제.
 
 ### 이어서 할 수 있는 작업 (선택)
-- 음성 파일 사전 생성(edge-tts), 엑셀/CSV 내보내기, 즐겨찾기·학습 완료 체크 기능.
+- ~~엑셀/CSV 내보내기~~, ~~즐겨찾기·학습 완료 체크~~ → 10-29 완료 (아래 "2026-10-29 작업 내역").
+- 음성 파일 사전 생성(edge-tts) — 단어·예문 mp3 약 6,000개가 공개 저장소에 올라가고 외부 TTS 서비스를 거친다.
+  지금은 브라우저 내장 음성(Web Speech)으로 충분히 동작하므로 사용자가 원할 때만 진행.
+- 학습 기록 백업·다른 기기로 옮기기(기록 파일 내보내기/불러오기) — 학습 기록이 브라우저에만 있어서 필요해질 수 있음.
 - ~~잔여 깨진 예문 수작업 점검~~, ~~수기 IPA 사전 대조~~ → 10-21 완료 (아래 "4차 품질 점검").
 - 참고 — 다시 점검할 필요 없는 항목: 넓은 감사(문장 중간 대문자·병합어 휴리스틱)에서 남는 약 98건은
   고유명사구("Large Language Models")·정상 복합어("interlanguage", "datatype")로 판정한 **오탐**이고,
   `check_ipa.py`의 CMU 불일치 81건은 영·미 발음 차이로 판정한 **정상**이다.
+
+---
+
+## 2026-10-29 작업 내역 — 대시보드 학습 기능 (즐겨찾기·외움·CSV)
+
+### 무엇을 추가했나 (`scripts/build_dashboard.py` v3)
+- 카드 오른쪽 위 **☆/★ 즐겨찾기**, 카드 아래 **☐ 외움/✅ 외움** 버튼. 외운 카드는 살짝 흐리게(마우스를 올리면 원래대로).
+- 검색줄에 **학습 기록 필터**(모든 단어 / ⭐ 즐겨찾기 / ✅ 외운 단어 / 📖 아직 안 외운 단어)와
+  **진행 현황**("✅ 외움 N / 2000 · ⭐ M") 표시. 버튼을 눌러도 지금 보던 화면은 그대로 두고, 필터는 다음 화면 갱신 때 반영.
+- **⬇ CSV**: 지금 보이는 목록 전체(검색·품사·학습 기록 필터·정렬 결과, 페이지 무관)를 저장.
+  열: 단어·품사·발음·뜻·영어 정의·빈도·논문 수·예문 1·출처 1·예문 2·출처 2·즐겨찾기·외움.
+  UTF-8 BOM을 붙여 엑셀에서 한글이 깨지지 않음. `= + - @`로 시작하는 칸은 `'`를 붙여 엑셀 수식 실행을 막음.
+  파일 이름 `PaperVoca_YYYY-MM-DD.csv`.
+
+### 저장 방식과 한계
+- 브라우저 localStorage 키 `pv-marks` = `{"표제어": {"s":1, "l":1}}` — **표제어 기준**이라 단어장을 다시 빌드해도 유지.
+  `Object.create(null)`로 읽어 `constructor` 같은 표제어도 안전. 단어장에 없는 표제어 기록은 집계에서 빠짐.
+- 서버나 저장소로 아무것도 보내지 않음 → 개인정보 문제 없음. 대신 **기기·브라우저마다 따로** 저장되고,
+  브라우저 기록을 지우면 사라진다. (백업·이동 기능은 "이어서 할 수 있는 작업"에 후보로 적어 둠.)
+- 사생활 보호 모드 등에서 저장소가 막혀도 오류 없이 동작(표시만 되고 저장은 안 됨). 테마 저장도 같은 방식으로 감쌈.
+
+### 시험 (`node scripts/test_dashboard.mjs [web/index.html]`)
+- Node 22+ 내장 WebSocket으로 headless Chrome(없으면 Edge)을 원격 제어 — 추가 설치 없음. 임시 프로필은 끝나면 삭제.
+- 25개 항목: 스크립트 오류 없음, 카드·버튼 표시, ☆→★·외움 흐림, 진행 현황, 저장소 내용(표제어 기준),
+  음성 버튼과 충돌 없음, 필터 3종 개수, CSV(BOM 바이트·행 수·파일 이름·머리글·**다시 읽어 원본과 1999행×11칸 일치**,
+  큰따옴표 든 칸 16개 포함), 새로고침 후 유지, 빈 결과 안내, 외움 해제, 저장소 차단 환경.
+- 처음엔 간헐 실패가 있었는데 원인은 시험 쪽 고정 대기(검색창 0.2초 지연 + 화면 없는 Chrome의 타이머 지연)였다
+  → 조건이 맞을 때까지 기다리도록 고친 뒤 8회 연속 25/25 통과. 데스크톱·휴대폰 폭·다크 모드 캡처로 가로 넘침 없음도 확인.
 
 ---
 
@@ -480,6 +523,7 @@ D:\논문집 폴더(2026-10-21 이름 변경 — 이전 `D:\논리전개연습`,
 | 소스 백업 (10-20) | **완료** — scripts/·.claude/·data 추적, raw_text/·web/ 로컬 전용 |
 | 개인정보·보안 점검 (10-20) | **완료** — 직접 유출 없음 확인 |
 | 보안 정리 (10-20) | **완료** — 계정 관련 서술 삭제, MCP 1.0.0 고정, 작성자 noreply, 이력 재작성 + 저장소 재생성, 로컬 옛 객체 정리 |
+| 즐겨찾기·외움 표시·CSV 내보내기 (10-29) | **완료** — build_dashboard.py v3, headless Chrome 시험 25/25 통과 |
 | 음성 파일 사전 생성(edge-tts) | 미완료 (선택 사항) |
 
 ---
@@ -508,7 +552,8 @@ d:\test\논문단어집\
 │   ├── pdf_extractor.py            ← PDF → raw_text/*.txt
 │   ├── vocab_analyzer.py           ← raw_text/ → data/selected_words.json
 │   ├── vocabulary_builder.py       ← selected_words.json → data/vocabulary.json
-│   ├── build_dashboard.py          ← vocabulary.json → web/index.html
+│   ├── build_dashboard.py          ← vocabulary.json → web/index.html (v3, 10-29: 즐겨찾기·외움·CSV)
+│   ├── test_dashboard.mjs          ← (10-29) 대시보드 UI 자동 시험 (headless Chrome, `node scripts/test_dashboard.mjs`)
 │   ├── review_vocabulary.py        ← ⛔ (참고용) NLTK POS 검토 — prefix-match 오류, 재실행 금지
 │   ├── fix_vocabulary.py           ← (06-24) POS 복원 + 뜻 교정 + 노이즈 제거
 │   ├── fix_meanings.py             ← (06-24) API 도메인 오류 뜻 교체
@@ -553,22 +598,23 @@ d:\test\논문단어집\
 
 # 단어 검토·수정 후 재빌드 및 배포 (표준 절차)
 cd d:\test\논문단어집
-python scripts/reextract_examples.py --dry-run   # 예문 검증 — "재추출 대상 0개"면 정상 (아니면 --dry-run 빼고 실행)
-python scripts/check_ipa.py           # IPA 점검 (표기 문제 0개 유지) — 교정은 ipa_fixes.json + apply_ipa_fixes.py
-python scripts/build_dashboard.py     # vocabulary.json → web/index.html
+py -3.14 scripts/reextract_examples.py --dry-run   # 예문 검증 — "재추출 대상 0개"면 정상 (아니면 --dry-run 빼고 실행)
+py -3.14 scripts/check_ipa.py           # IPA 점검 (표기 문제 0개 유지) — 교정은 ipa_fixes.json + apply_ipa_fixes.py
+py -3.14 scripts/build_dashboard.py     # vocabulary.json → web/index.html
+node scripts/test_dashboard.mjs       # (UI를 고쳤다면) 대시보드 자동 시험 — 25/25 통과여야 정상
 cp web/index.html index.html          # ★ git이 추적하는 root index.html로 복사 (필수)
 git add data/vocabulary.json index.html   # 스크립트·검수표를 고쳤다면 scripts/ data/ 도
 git commit -m "메시지"                 # 끝에 Co-Authored-By: Claude ...
 git push origin main
 
 # 새 단어 후보 뽑기 (2001위↓)
-python scripts/find_extra_words.py    # 약 5~15분 → data/extra_candidates.json
+py -3.14 scripts/find_extra_words.py    # 약 5~15분 → data/extra_candidates.json
 
 # 전체 파이프라인 (처음부터)
-python scripts/pdf_extractor.py       # D:\논문집 PDF(★ 한국 학술지 제외 872편) → raw_text/
-python scripts/vocab_analyzer.py      # raw_text/ → selected_words.json (TOP_N=2000)
-python scripts/vocabulary_builder.py  # selected_words.json → vocabulary.json
-python scripts/build_dashboard.py     # vocabulary.json → web/index.html
+py -3.14 scripts/pdf_extractor.py       # D:\논문집 PDF(★ 한국 학술지 제외 872편) → raw_text/
+py -3.14 scripts/vocab_analyzer.py      # raw_text/ → selected_words.json (TOP_N=2000)
+py -3.14 scripts/vocabulary_builder.py  # selected_words.json → vocabulary.json
+py -3.14 scripts/build_dashboard.py     # vocabulary.json → web/index.html
 cp web/index.html index.html
 git add index.html && git push origin main
 ```
@@ -585,8 +631,8 @@ git add index.html && git push origin main
 
 ### 선택 사항
 - **음성 파일 사전 생성** — `audio-generator` 에이전트, edge-tts 설치 필요 (`pip install edge-tts`)
-- **엑셀/CSV 내보내기** — `data/vocabulary.json` → xlsx 변환
-- **검색·필터 기능 강화** — 즐겨찾기, 학습 완료 체크
+- ~~엑셀/CSV 내보내기~~, ~~즐겨찾기·학습 완료 체크~~ → 2026-10-29 대시보드에 추가.
+- **학습 기록 백업·이동** — 기록 파일 내보내기/불러오기 (기록이 브라우저에만 저장되므로)
 - ~~추가 품질 점검~~ → 2026-10-20 3차 전수 검토로 완료.
 - ~~소스 백업 결정~~ → 2026-10-20 백업 완료.
 

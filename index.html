@@ -56,6 +56,15 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 .btn-t:hover{background:var(--primary-light);border-color:var(--primary);color:var(--primary)}
 .btn-t:active{transform:scale(.95)}
 .btn-t.pl{background:var(--primary);border-color:var(--primary);color:#fff}
+.cf{flex-wrap:wrap;gap:6px}
+.btn-m.on-s{background:#fffbeb;border-color:#f59e0b;color:#d97706}
+.btn-m.on-l{background:#ecfdf5;border-color:#10b981;color:#059669}
+[data-theme=dark] .btn-m.on-s{background:#451a03;border-color:#f59e0b;color:#fbbf24}
+[data-theme=dark] .btn-m.on-l{background:#022c22;border-color:#10b981;color:#34d399}
+.btn-star{font-size:.95rem;padding:3px 7px;line-height:1}
+.card.learned{opacity:.7}
+.card.learned:hover{opacity:1}
+.pr{font-size:.8rem;color:var(--muted);white-space:nowrap}
 .empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted)}
 .empty h3{font-size:1.1rem;margin-bottom:8px}
 #st{position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--primary);color:#fff;border:none;cursor:pointer;font-size:1rem;box-shadow:var(--shadow-lg);display:none;align-items:center;justify-content:center;z-index:200}
@@ -85,9 +94,12 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 <option value="preposition">전치사</option>
 <option value="pronoun">대명사</option>
 <option value="verb">동사</option></select>
+  <select id='mf' title='학습 기록으로 거르기'><option value='all'>모든 단어</option><option value='s'>⭐ 즐겨찾기</option><option value='l'>✅ 외운 단어</option><option value='u'>📖 아직 안 외운 단어</option></select>
   <select id='sf'><option value='freq'>빈도 높은 순</option><option value='alpha'>알파벳 순</option><option value='spread'>논문 분산도 순</option></select>
   <div class='vt'><button id='bg' class='bv on' title='카드뷰'>⊞</button><button id='bl' class='bv' title='리스트뷰'>☰</button></div>
+  <button id='csvBtn' class='bv' title='지금 보이는 목록 전체(검색·필터 결과)를 CSV로 저장 — 엑셀에서 바로 열림'>⬇ CSV</button>
   <span class='sc' id='sc'>2000개</span>
+  <span class='pr' id='pr' title='학습 기록은 이 브라우저에만 저장됩니다'></span>
 </div>
 <main><div id='grid'></div><div id='pag'></div></main>
 <button id='st' title='맨 위로'>▲</button>
@@ -97,7 +109,18 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 'use strict';
 var words = VOCAB.words;
 var PAGE_SIZE = 20;
-var state = {q:'',pos:'all',sort:'freq',view:'grid',theme:localStorage.getItem('pv-theme')||'light',page:0};
+// 브라우저 저장소 (사생활 보호 모드 등에서 막혀도 페이지는 동작)
+function load(k){try{return localStorage.getItem(k);}catch(e){return null;}}
+function save(k,v){try{localStorage.setItem(k,v);}catch(e){}}
+
+// 학습 기록: 표제어 → {s:즐겨찾기, l:외움} — 이 브라우저에만 저장됨
+var MARK_KEY = 'pv-marks';
+var marks = Object.create(null);
+try{var saved=JSON.parse(load(MARK_KEY)||'{}');Object.keys(saved).forEach(function(k){marks[k]=saved[k];});}catch(e){}
+function getMark(w){return marks[w]||{};}
+function saveMarks(){save(MARK_KEY,JSON.stringify(marks));}
+
+var state = {q:'',pos:'all',mark:'all',sort:'freq',view:'grid',theme:load('pv-theme')||'light',page:0};
 
 // DOM
 var grid = document.getElementById('grid');
@@ -109,12 +132,15 @@ var bg   = document.getElementById('bg');
 var bl   = document.getElementById('bl');
 var tb   = document.getElementById('themeBtn');
 var sbt  = document.getElementById('st');
+var msel = document.getElementById('mf');
+var prog = document.getElementById('pr');
+var csvb = document.getElementById('csvBtn');
 
 // 테마
 function applyTheme(t){
   document.documentElement.setAttribute('data-theme',t);
   tb.textContent = t==='dark'?'☀️':'🌙';
-  localStorage.setItem('pv-theme',t);
+  save('pv-theme',t);
 }
 applyTheme(state.theme);
 tb.onclick = function(){state.theme=state.theme==='dark'?'light':'dark';applyTheme(state.theme);};
@@ -147,13 +173,21 @@ function hiEx(sent,word,q){
 function fl(f){if(f>=10000)return '🔥 '+f.toLocaleString();if(f>=3000)return '⭐ '+f.toLocaleString();return f.toLocaleString();}
 
 // 카드 생성
+function markBtn(w,k,on){
+  var cls='btn-t btn-m'+(k==='s'?' btn-star':'')+(on?' on-'+k:'');
+  var label=k==='s'?(on?'★':'☆'):(on?'✅ 외움':'☐ 외움');
+  var title=k==='s'?(on?'즐겨찾기 해제':'즐겨찾기'):(on?'외움 표시 해제':'외운 단어로 표시');
+  return '<button class="'+cls+'" data-word="'+esc(w)+'" data-mark="'+k+'" aria-pressed="'+(on?'true':'false')+'" title="'+title+'">'+label+'</button>';
+}
+
 function mkCard(w){
   var ex=w.examples&&w.examples[0];
+  var m=getMark(w.word);
   var div=document.createElement('div');
-  div.className='card';
+  div.className='card'+(m.l?' learned':'');
 
   var hdr='<div class="ch"><div class="wm"><span class="wt">'+hi(w.word,state.q)+'</span>'+(w.ipa?'<span class="wi">'+esc(w.ipa)+'</span>':'')+'</div>'
-    +'<div class="badges"><span class="b bp">'+esc(w.pos_ko||w.pos)+'</span><span class="b bf">'+fl(w.frequency)+'회</span></div></div>';
+    +'<div class="badges"><span class="b bp">'+esc(w.pos_ko||w.pos)+'</span><span class="b bf">'+fl(w.frequency)+'회</span>'+markBtn(w.word,'s',m.s)+'</div></div>';
 
   var meaning='<div><div class="mk">'+hi(w.meaning_ko,state.q)+'</div>'+(w.en_def?'<div class="me">'+esc((w.en_def||'').slice(0,100))+'</div>':'')+'</div>';
 
@@ -164,6 +198,7 @@ function mkCard(w){
 
   var footer='<div class="cf"><span class="fi">📊 '+w.frequency.toLocaleString()+'회 · '+w.doc_spread+'편</span>'
     +'<div class="tb">'
+    +markBtn(w.word,'l',m.l)
     +'<button class="btn-t" data-word="'+esc(w.word)+'" data-type="word">🔊 단어</button>'
     +(ex?'<button class="btn-t" data-sentence="'+esc(ex.sentence)+'" data-type="example">🔊 예문</button>':'')
     +'</div></div>';
@@ -177,6 +212,9 @@ function fs(){
   var r=words.slice();
   if(state.q){var q=state.q.toLowerCase();r=r.filter(function(w){return w.word.toLowerCase().indexOf(q)>=0||w.meaning_ko.toLowerCase().indexOf(q)>=0||((w.en_def||'').toLowerCase().indexOf(q)>=0);});}
   if(state.pos!=='all'){r=r.filter(function(w){return w.pos===state.pos;});}
+  if(state.mark==='s'){r=r.filter(function(w){return getMark(w.word).s;});}
+  else if(state.mark==='l'){r=r.filter(function(w){return getMark(w.word).l;});}
+  else if(state.mark==='u'){r=r.filter(function(w){return !getMark(w.word).l;});}
   if(state.sort==='freq'){r.sort(function(a,b){return b.frequency-a.frequency;});}
   else if(state.sort==='alpha'){r.sort(function(a,b){return a.word.localeCompare(b.word);});}
   else if(state.sort==='spread'){r.sort(function(a,b){return b.doc_spread-a.doc_spread;});}
@@ -238,7 +276,8 @@ function render(){
   if(filtered.length===0){
     var em=document.createElement('div');
     em.className='empty';
-    em.innerHTML='<h3>검색 결과 없음</h3><p>"'+esc(state.q)+'"에 해당하는 단어가 없습니다.</p>';
+    if(state.q){em.innerHTML='<h3>검색 결과 없음</h3><p>"'+esc(state.q)+'"에 해당하는 단어가 없습니다.</p>';}
+    else{em.innerHTML='<h3>해당하는 단어가 없습니다</h3><p>'+({s:'☆ 버튼으로 즐겨찾기를 추가해 보세요.',l:'카드의 "☐ 외움" 버튼으로 외운 단어를 표시해 보세요.',u:'모든 단어를 외웠습니다! 🎉'}[state.mark]||'')+'</p>';}
     grid.appendChild(em);
     renderPag(0,0);
     return;
@@ -249,9 +288,54 @@ function render(){
   renderPag(filtered.length,totalPages);
 }
 
+// 학습 현황
+function renderProgress(){
+  var ns=0,nl=0;
+  words.forEach(function(w){var m=getMark(w.word);if(m.s)ns++;if(m.l)nl++;});
+  prog.textContent='✅ 외움 '+nl+' / '+words.length+' · ⭐ '+ns;
+}
+
+// 즐겨찾기·외움 토글 (현재 화면은 그대로 두고, 필터는 다음 렌더 때 반영)
+function toggleMark(btn){
+  var w=btn.getAttribute('data-word'),k=btn.getAttribute('data-mark');
+  var m=marks[w]||{};
+  if(m[k])delete m[k];else m[k]=1;
+  if(m.s||m.l)marks[w]=m;else delete marks[w];
+  saveMarks();
+  var tmp=document.createElement('div');tmp.innerHTML=markBtn(w,k,!!m[k]);
+  var nb=tmp.firstChild;
+  btn.replaceWith(nb);
+  if(k==='l'){var card=nb.closest('.card');if(card)card.classList.toggle('learned',!!m.l);}
+  renderProgress();
+}
+
+// CSV 내보내기 (현재 검색·필터·정렬 결과 전체, 엑셀 한글 호환을 위해 UTF-8 BOM)
+function csvCell(v){
+  var s=String(v==null?'':v);
+  if(/^[=+\-@\t\r]/.test(s))s="'"+s;
+  return '"'+s.replace(/"/g,'""')+'"';
+}
+function exportCsv(){
+  var rows=[['단어','품사','발음','뜻','영어 정의','빈도','논문 수','예문 1','출처 1','예문 2','출처 2','즐겨찾기','외움']];
+  fs().forEach(function(w){
+    var e=w.examples||[],m=getMark(w.word);
+    rows.push([w.word,w.pos_ko||w.pos,w.ipa,w.meaning_ko,w.en_def,w.frequency,w.doc_spread,
+      e[0]&&e[0].sentence,e[0]&&e[0].source,e[1]&&e[1].sentence,e[1]&&e[1].source,m.s?'O':'',m.l?'O':'']);
+  });
+  var csv='﻿'+rows.map(function(r){return r.map(csvCell).join(',');}).join('\r\n');
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+  var d=new Date(),p=function(n){return (n<10?'0':'')+n;};
+  a.download='PaperVoca_'+d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'.csv';
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},1000);
+}
+
 // TTS
 var curUtter=null;
 grid.addEventListener('click',function(e){
+  var mb=e.target.closest('.btn-m');
+  if(mb){toggleMark(mb);return;}
   var btn=e.target.closest('.btn-t');
   if(!btn)return;
   if(!window.speechSynthesis){alert('이 브라우저는 음성 합성을 지원하지 않습니다.');return;}
@@ -274,6 +358,8 @@ var t;
 inp.addEventListener('input',function(){clearTimeout(t);t=setTimeout(function(){state.q=inp.value.trim();state.page=0;render();},200);});
 psel.addEventListener('change',function(){state.pos=psel.value;state.page=0;render();});
 ssel.addEventListener('change',function(){state.sort=ssel.value;state.page=0;render();});
+msel.addEventListener('change',function(){state.mark=msel.value;state.page=0;render();});
+csvb.addEventListener('click',exportCsv);
 bg.addEventListener('click',function(){state.view='grid';grid.classList.remove('lv');bg.classList.add('on');bl.classList.remove('on');});
 bl.addEventListener('click',function(){state.view='list';grid.classList.add('lv');bl.classList.add('on');bg.classList.remove('on');});
 window.addEventListener('scroll',function(){sbt.classList.toggle('show',window.scrollY>300);});
@@ -281,6 +367,7 @@ sbt.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'
 
 if(window.speechSynthesis){window.speechSynthesis.getVoices();}
 
+renderProgress();
 render();
 })();
 </script>

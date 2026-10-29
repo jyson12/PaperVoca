@@ -11,6 +11,10 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 ```
 빌드 후 항상 `cp web/index.html index.html` (git이 추적하는 건 root의 index.html).
 
+**파이썬은 `py -3.14`로 실행한다** (예: `py -3.14 scripts/build_dashboard.py`). 2026-10-25에 설치된 Python 3.15가
+`python` 명령을 차지했는데, 거기에는 nltk·pymupdf가 없다 — `check_ipa.py`는 바로 실패하고,
+`reextract_examples.py`는 불용어 목록 없이 조용히 돌아 판정이 달라질 수 있다. 아래 `python …` 명령도 모두 같다.
+
 원본 논문 PDF 폴더: **`D:\논문집`** (2026-10-21 폴더 이름 변경 — 이전 이름 `D:\논리전개연습`(10/20~), 그 전 `D:\논문`).
 영문 저널 6종 + 한국 학술지 4종(★ 폴더)이 있지만, **한국 학술지(최상위 ★ 폴더)는 단어장 대상에서 제외**한다
 (`pdf_extractor.py`의 `collect_pdfs()` — 대상 872개).
@@ -102,3 +106,10 @@ git push origin main
   (TSV: `word⇥pos⇥meaning_ko⇥en_def`, `=`는 유지 / `#REEX⇥word[⇥정규식]` 예문 교체 / `#RENAME` 표제어 교정)
   + `data/ipa_fixes.json` (IPA 교정 원장: 3차 Wiktionary 기반 보완 + 4차 CMU 사전 대조 교정, 영국식(RP) 기준)
 - ⛔ `review_vocabulary.py` — 접두 오매칭 결함. 재실행 금지(참고용으로만 보존).
+
+### 대시보드 학습 기능 (build_dashboard.py v3, 2026-10-29)
+- 카드의 ☆(즐겨찾기)·☐ 외움 버튼 → 브라우저 localStorage `pv-marks`에 **표제어 기준**으로 저장
+  (`{"word": {"s":1, "l":1}}`). 서버·저장소에는 아무것도 보내지 않으며, 기기·브라우저마다 따로 저장된다.
+- 표제어를 바꾸거나(`#RENAME`) 단어를 교체하면 그 단어의 학습 기록은 화면에서 빠진다(기록 자체는 남지만 집계 제외).
+- ⬇ CSV: 현재 검색·필터·정렬 결과 전체를 UTF-8 BOM CSV로 저장(엑셀 한글 호환, `=+-@`로 시작하는 칸은 `'` 접두).
+- UI를 고친 뒤에는 headless Chrome으로 동작을 시험한다 (log.md "2026-10-29 작업 내역" 참고).
