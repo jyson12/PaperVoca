@@ -2,7 +2,7 @@
 
 > 마지막 업데이트: 2026-10-29
 > 작업 디렉토리: `d:\test\논문단어집\`
-> 현재 배포 상태: **2000개 단어, 3차 전수 검토 + 4차 품질 점검(IPA 사전 대조·잔여 깨진 예문) 반영, 소스 백업·보안 정리 완료** (최신 커밋은 `git log -1`)
+> 현재 배포 상태: **2000개 단어, 3차 전수 검토 + 4차 품질 점검(IPA 사전 대조·잔여 깨진 예문) 반영, 학습 기능(즐겨찾기·외움·CSV) 추가, 소스 백업·보안 정리 완료** (최신 커밋은 `git log -1`)
 > ▶ **새 창·새 세션에서는 바로 아래 "인수인계" 섹션부터 읽을 것.**
 
 ---
@@ -10,12 +10,14 @@
 ## ▶ 새 세션 인수인계 (2026-10-29 기준)
 
 ### 한눈에 보는 현재 상태
-- **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 + 4차 품질 점검 완료.
+- **단어장**: 2000개 (표제어·id 중복 0), 3차 전수 검토 + 4차 품질 점검 완료. (10-29 학습 기능 추가 때 데이터는 무변경)
   예문 2개씩 — `is_bad_example()` 불합격 0개(10-21 규칙 강화 후), IPA·en_def 2000/2000.
   IPA는 영국식(RP) 기준으로 CMU 사전 대조·표기 스캔 통과 (`scripts/check_ipa.py` 표기 문제 0개).
 - **배포**: https://jyson12.github.io/PaperVoca (원격 `origin/main`과 동기화 상태로 마무리).
   10-29 마지막 반영 확인: 학습 기능 커밋 `716626c` 푸시 후 사이트 HTTP 200, 배포본 = 커밋한 `index.html`(바이트 동일, 줄바꿈 LF).
   (로컬 `index.html`은 CRLF로 보이지만 git이 LF로 저장 — 정상.)
+- **대시보드 기능** (10-29~): 검색·품사 필터·정렬·카드/리스트 보기·다크 모드·음성 듣기(Web Speech)에 더해
+  **☆ 즐겨찾기·☐ 외움 표시·학습 기록 필터·진행 현황·⬇ CSV 내보내기**. 학습 기록은 보는 사람의 브라우저(localStorage `pv-marks`)에만 저장.
 - **결정 대기**: 없음. 남은 것은 선택 기능 작업뿐 (아래 "이어서 할 수 있는 작업").
 - **원본 PDF**: `D:\논문집`(10-21 폴더 이름 변경, 이전 `D:\논리전개연습`) — 영문 저널 6종 872편만 대상, 최상위 ★ 폴더(한국 학술지 4종 1,213편)는 제외.
   `raw_text/`에는 기존에 추출한 734편이 그대로 있음 (재추출하지 않음).
@@ -67,7 +69,11 @@
 2. 대시보드에 **즐겨찾기(☆)·외움 표시·학습 기록 필터·진행 현황·CSV 내보내기** 추가 (`build_dashboard.py` v3).
    단어장 데이터(`vocabulary.json`)는 바꾸지 않음. 학습 기록은 보는 사람의 브라우저에만 저장(서버 전송 없음).
 3. `scripts/test_dashboard.mjs` 추가: headless Chrome으로 25개 항목 자동 시험 (8회 반복 25/25 통과).
-4. CLAUDE.md(파이썬 버전·대시보드 학습 기능)·log.md 갱신 → 빌드 → 커밋·푸시 → 배포 확인.
+4. CLAUDE.md(파이썬 버전·대시보드 학습 기능)·log.md 갱신 → 빌드 → 커밋 `716626c` 푸시 →
+   배포 사이트 HTTP 200·배포본 = 커밋한 `index.html` 확인 → 배포 확인 기록 커밋 `c6e4dd9`.
+5. 시험 스크립트가 남기던 임시 브라우저 프로필(`%TEMP%\pv-uitest-*`, 12개)을 지우고, 브라우저가 완전히 끝난 뒤
+   재시도하며 지우도록 고침 (이후 시험 후 잔존 0개 확인).
+6. 이 인수인계 섹션 갱신 (창을 바꿔도 이어갈 수 있게).
 
 ### 새 세션 시작 시 점검 순서 (권장)
 ```bash
@@ -76,24 +82,29 @@ git status -sb && git log -1 --oneline          # 원격과 동기화·작업 �
 git config user.email                           # …@users.noreply.github.com 이어야 함
 py -3.14 scripts/reextract_examples.py --dry-run  # "재추출 대상 단어: 0개"여야 정상 (약 1~2분)
 py -3.14 scripts/check_ipa.py                     # "표기 문제 0" 이어야 정상 (CMU 불일치 81은 영·미 차이로 정상)
+node scripts/test_dashboard.mjs                   # (선택) 대시보드 자동 시험 — "25 통과 / 0 실패"여야 정상 (약 20초)
 ```
 - ⚠ **파이썬은 `py -3.14`로 실행** (10-29 확인): 10-25에 설치된 Python 3.15가 `python` 명령을 차지했고,
   거기엔 nltk·pymupdf가 없다. 사용자 PC 전역 설정(PATH·패키지)이라 건드리지 않았다.
   이 문서의 다른 곳에 적힌 `python scripts/…`도 모두 `py -3.14 scripts/…`로 읽을 것.
 - **환경 준비 (다른 PC·새 환경일 때만)**: `check_ipa.py`는 NLTK CMU 발음사전이 필요하다 →
-  `python -c "import nltk; nltk.download('cmudict')"` (이 PC에는 10-21에 설치함).
+  `py -3.14 -c "import nltk; nltk.download('cmudict')"` (이 PC의 Python 3.14에는 10-21에 설치함).
+  `test_dashboard.mjs`는 Node 22 이상(내장 WebSocket)과 Chrome 또는 Edge가 필요하다 (이 PC: Node 24, Chrome 있음).
   `reextract_examples.py`는 NLTK 불용어(stopwords)를 쓰고, 첫 실행 때 `raw_text/token_counts.json`(코퍼스 빈도 캐시)을
   만든다 — `raw_text/`가 없는 새 클론에서는 코퍼스 기반 규칙이 꺼진 채로 동작한다(오류는 아님).
 
 ### 작업 규칙 (사용자 선호 포함)
 - **진행 메모·보고는 모두 한국어로** 쓴다 (사용자 요청).
 - 단어를 추가·수정할 때는 **CLAUDE.md의 QA 3단계**를 따르고, 끝나면 예문을 검증한다:
-  `python scripts/reextract_examples.py --dry-run` → 대상 0개여야 정상 (불합격 예문만 교체하는 스크립트라 재실행해도 안전).
+  `py -3.14 scripts/reextract_examples.py --dry-run` → 대상 0개여야 정상 (불합격 예문만 교체하는 스크립트라 재실행해도 안전).
   교체된 예문은 `data/reextract_report.json`에서 **뜻·품사에 맞는 용례인지 직접 읽고** 확인한다.
   깨졌거나 뜻이 다른 문장은 `data/bad_examples.tsv`에 등록(또는 `#REEX` 용례 정규식 지정) 후 다시 실행.
-- IPA를 고칠 때: `python scripts/check_ipa.py`로 점검 → 고칠 값은 `data/ipa_fixes.json`에 넣고
-  `python scripts/apply_ipa_fixes.py`로 적용 (재실행 안전). 품사별 발음(lead·live·close, -ate 동사/형용사 등) 주의.
-- 빌드·배포: `python scripts/build_dashboard.py` → `cp web/index.html index.html` → 변경 파일 add → commit → `git push origin main`.
+- IPA를 고칠 때: `py -3.14 scripts/check_ipa.py`로 점검 → 고칠 값은 `data/ipa_fixes.json`에 넣고
+  `py -3.14 scripts/apply_ipa_fixes.py`로 적용 (재실행 안전). 품사별 발음(lead·live·close, -ate 동사/형용사 등) 주의.
+- 빌드·배포: `py -3.14 scripts/build_dashboard.py` → `cp web/index.html index.html` → 변경 파일 add → commit → `git push origin main`.
+- 대시보드 화면·동작(`build_dashboard.py`의 CSS/JS)을 고치면 `node scripts/test_dashboard.mjs`로 25개 시험을 통과시킨 뒤 올린다.
+  기능을 더하면 시험 항목도 같이 추가한다. 학습 기록 키(`pv-marks`)·형식(표제어 → `{s,l}`)을 바꾸면
+  사용자들의 기존 기록이 사라지므로 바꾸지 말 것 (바꿔야 하면 옛 형식을 읽어 옮기는 코드를 함께 넣는다).
 - ⛔ 재실행 금지: `full_review_fix3.py`(1회용 — 다시 돌리면 지정 용례 예문이 또 교체됨), `review_vocabulary.py`(접두 오매칭 결함).
 - 공개 저장소이므로 새 파일을 올리기 전에 개인정보·인증 정보(이메일·전화번호·API 키·토큰 등)를 검사한다.
   계정 보안 관련 경위(인증·로그인 문제 등)는 log.md 같은 추적 파일에 쓰지 않는다.
@@ -104,7 +115,9 @@ py -3.14 scripts/check_ipa.py                     # "표기 문제 0" 이어야 
 - `.mcp.json`의 MCP 서버 버전을 올릴 때는 GitHub 보안 권고와 출시 시점(최소 2주 경과)을 먼저 확인한다.
 
 ### 결정 대기 중 (사용자 응답 필요)
-- 없음 (10-24 기준).
+- 없음 (10-29 기준).
+- 참고: Python 3.15에 nltk 등을 설치할지(또는 3.15를 지울지)는 이 프로젝트와 무관한 사용자 PC 설정이라 묻지 않았다.
+  `py -3.14`로 실행하면 지금 상태로 문제없다.
 1. ~~`D:\논문` 폴더 삭제~~ → 사용자가 삭제함 (10-24 확인, 프로젝트 영향 없음은 10-20에 검토 완료).
 2. ~~이 PC의 전역 git 작성자 이메일 변경 여부~~ → 사용자 결정으로 noreply로 변경 (10-24).
 
