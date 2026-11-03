@@ -107,9 +107,13 @@ git push origin main
   + `data/ipa_fixes.json` (IPA 교정 원장: 3차 Wiktionary 기반 보완 + 4차 CMU 사전 대조 교정, 영국식(RP) 기준)
 - ⛔ `review_vocabulary.py` — 접두 오매칭 결함. 재실행 금지(참고용으로만 보존).
 
-### 대시보드 학습 기능 (build_dashboard.py v3, 2026-10-29)
+### 대시보드 학습 기능 (build_dashboard.py v3 2026-10-29, v4 2026-11-03)
 - 카드의 ☆(즐겨찾기)·☐ 외움 버튼 → 브라우저 localStorage `pv-marks`에 **표제어 기준**으로 저장
   (`{"word": {"s":1, "l":1}}`). 서버·저장소에는 아무것도 보내지 않으며, 기기·브라우저마다 따로 저장된다.
 - 표제어를 바꾸거나(`#RENAME`) 단어를 교체하면 그 단어의 학습 기록은 화면에서 빠진다(기록 자체는 남지만 집계 제외).
 - ⬇ CSV: 현재 검색·필터·정렬 결과 전체를 UTF-8 BOM CSV로 저장(엑셀 한글 호환, `=+-@`로 시작하는 칸은 `'` 접두).
-- UI를 고친 뒤에는 headless Chrome으로 동작을 시험한다 (log.md "2026-10-29 작업 내역" 참고).
+- 💾 학습 기록(v4, 2026-11-03): 기록을 JSON 파일로 백업·불러오기. 파일 형식
+  `{"app":"PaperVoca","type":"study-marks","version":1,"exported_at":…,"marks":{표제어:{s,l}}}`.
+  불러오기는 **합치기만** 한다(표시를 더할 뿐 지우지 않음). `app`이 다르거나 깨진 파일은 거부.
+  이 형식과 `pv-marks` 키는 사용자들의 기존 백업 파일·기록과 호환돼야 하므로 바꾸지 않는다.
+- UI를 고친 뒤에는 `node scripts/test_dashboard.mjs`로 시험한다 (36개 항목, 모두 통과해야 함).

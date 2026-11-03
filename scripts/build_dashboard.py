@@ -4,6 +4,8 @@ vocabulary.json + CSS + JS를 모두 index.html 단일 파일에 인라인 삽�
 → 외부 파일 없이 더블클릭만으로 실행 가능
 v3 (2026-10-29): 즐겨찾기·외움 표시(localStorage 'pv-marks', 표제어 기준 — 이 브라우저에만 저장),
                  학습 기록 필터·진행 현황, 현재 목록 CSV 내보내기(UTF-8 BOM, 엑셀 호환)
+v4 (2026-11-03): 학습 기록 백업(JSON 파일 저장)·불러오기(지금 기록에 합침 — 지우지 않음)
+                 파일 형식 {"app":"PaperVoca","type":"study-marks","version":1,"exported_at":…,"marks":{표제어:{s,l}}}
 """
 import json
 from pathlib import Path
@@ -94,6 +96,12 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 .card.learned{opacity:.7}
 .card.learned:hover{opacity:1}
 .pr{font-size:.8rem;color:var(--muted);white-space:nowrap}
+.mkp{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:4px}
+.mkp[hidden]{display:none}
+.mkp p{flex:1;min-width:220px;font-size:.78rem;color:var(--muted);line-height:1.5}
+#mkMenu[aria-expanded=true]{background:var(--primary-light);border-color:var(--primary);color:var(--primary)}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--text);color:var(--surface);padding:10px 16px;border-radius:var(--rs);font-size:.85rem;line-height:1.4;box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:300;max-width:calc(100% - 32px)}
+#toast.show{opacity:1;transform:translate(-50%,0)}
 .empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted)}
 .empty h3{font-size:1.1rem;margin-bottom:8px}
 #st{position:fixed;bottom:24px;right:24px;width:44px;height:44px;border-radius:50%;background:var(--primary);color:#fff;border:none;cursor:pointer;font-size:1rem;box-shadow:var(--shadow-lg);display:none;align-items:center;justify-content:center;z-index:200}
@@ -319,6 +327,13 @@ function csvCell(v){
   if(/^[=+\-@\t\r]/.test(s))s="'"+s;
   return '"'+s.replace(/"/g,'""')+'"';
 }
+function today(){var d=new Date(),p=function(n){return (n<10?'0':'')+n;};return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate());}
+function download(name,blob){
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);a.download=name;
+  document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},1000);
+}
 function exportCsv(){
   var rows=[['단어','품사','발음','뜻','영어 정의','빈도','논문 수','예문 1','출처 1','예문 2','출처 2','즐겨찾기','외움']];
   fs().forEach(function(w){
@@ -327,12 +342,45 @@ function exportCsv(){
       e[0]&&e[0].sentence,e[0]&&e[0].source,e[1]&&e[1].sentence,e[1]&&e[1].source,m.s?'O':'',m.l?'O':'']);
   });
   var csv='﻿'+rows.map(function(r){return r.map(csvCell).join(',');}).join('\r\n');
-  var a=document.createElement('a');
-  a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
-  var d=new Date(),p=function(n){return (n<10?'0':'')+n;};
-  a.download='PaperVoca_'+d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'.csv';
-  document.body.appendChild(a);a.click();a.remove();
-  setTimeout(function(){URL.revokeObjectURL(a.href);},1000);
+  download('PaperVoca_'+today()+'.csv',new Blob([csv],{type:'text/csv;charset=utf-8'}));
+}
+
+// 화면 아래 짧은 알림
+var toastTimer;
+function toast(msg){
+  var t=document.getElementById('toast');
+  t.textContent=msg;t.classList.add('show');
+  clearTimeout(toastTimer);toastTimer=setTimeout(function(){t.classList.remove('show');},4000);
+}
+
+// 학습 기록 백업·불러오기 — 파일로만 오가며 서버로는 아무것도 보내지 않음.
+// 불러오기는 지금 기록에 합친다(표시를 더하기만 하고 지우지 않음).
+function exportMarks(){
+  var n=Object.keys(marks).length;
+  if(!n){toast('아직 저장할 학습 기록이 없습니다.');return;}
+  var data={app:'PaperVoca',type:'study-marks',version:1,exported_at:new Date().toISOString(),marks:marks};
+  download('PaperVoca_study_'+today()+'.json',new Blob([JSON.stringify(data,null,1)],{type:'application/json'}));
+  toast('학습 기록('+n+'개 단어)을 파일로 저장했습니다.');
+}
+function importMarks(file){
+  if(!file)return;
+  if(file.size>5*1024*1024){toast('PaperVoca 학습 기록 파일이 아닙니다.');return;}
+  file.text().then(function(txt){
+    var d=null;try{d=JSON.parse(txt);}catch(e){}
+    var src=d&&d.app==='PaperVoca'&&d.marks;
+    if(!src||typeof src!=='object'||Array.isArray(src)){toast('PaperVoca 학습 기록 파일이 아닙니다.');return;}
+    var n=0;
+    Object.keys(src).forEach(function(w){
+      var v=src[w];
+      if(!v||typeof v!=='object')return;
+      var m=marks[w]||{},changed=false;
+      if(v.s&&!m.s){m.s=1;changed=true;}
+      if(v.l&&!m.l){m.l=1;changed=true;}
+      if(changed){marks[w]=m;n++;}
+    });
+    saveMarks();renderProgress();render();
+    toast(n?'학습 기록을 합쳤습니다 — '+n+'개 단어에 표시가 더해졌습니다.':'새로 더할 기록이 없습니다 (이미 같은 기록이 있습니다).');
+  },function(){toast('파일을 읽지 못했습니다.');});
 }
 
 // TTS
@@ -364,6 +412,14 @@ psel.addEventListener('change',function(){state.pos=psel.value;state.page=0;rend
 ssel.addEventListener('change',function(){state.sort=ssel.value;state.page=0;render();});
 msel.addEventListener('change',function(){state.mark=msel.value;state.page=0;render();});
 csvb.addEventListener('click',exportCsv);
+var mkFile=document.getElementById('mkFile');
+var mkMenu=document.getElementById('mkMenu');
+var mkPanel=document.getElementById('mkPanel');
+function showPanel(open){mkPanel.hidden=!open;mkMenu.setAttribute('aria-expanded',open?'true':'false');}
+mkMenu.addEventListener('click',function(){showPanel(mkPanel.hidden);});
+document.getElementById('mkExp').addEventListener('click',function(){exportMarks();showPanel(false);});
+document.getElementById('mkImp').addEventListener('click',function(){mkFile.value='';mkFile.click();});
+mkFile.addEventListener('change',function(){importMarks(mkFile.files[0]);showPanel(false);});
 bg.addEventListener('click',function(){state.view='grid';grid.classList.remove('lv');bg.classList.add('on');bl.classList.remove('on');});
 bl.addEventListener('click',function(){state.view='list';grid.classList.add('lv');bl.classList.add('on');bg.classList.remove('on');});
 window.addEventListener('scroll',function(){sbt.classList.toggle('show',window.scrollY>300);});
@@ -400,10 +456,19 @@ html = (
     "  <div class='vt'><button id='bg' class='bv on' title='카드뷰'>⊞</button><button id='bl' class='bv' title='리스트뷰'>☰</button></div>\n"
     "  <button id='csvBtn' class='bv' title='지금 보이는 목록 전체(검색·필터 결과)를 CSV로 저장 — 엑셀에서 바로 열림'>⬇ CSV</button>\n"
     f"  <span class='sc' id='sc'>{word_count}개</span>\n"
-    "  <span class='pr' id='pr' title='학습 기록은 이 브라우저에만 저장됩니다'></span>\n"
+    "  <span class='pr' id='pr' title='학습 기록은 이 브라우저에만 저장됩니다 — 💾 학습 기록에서 파일로 백업할 수 있습니다'></span>\n"
+    "  <button id='mkMenu' class='bv' aria-expanded='false' aria-controls='mkPanel' title='학습 기록 백업·불러오기'>💾 학습 기록 ▾</button>\n"
+    "  <div id='mkPanel' class='mkp' hidden>\n"
+    "    <button id='mkExp' class='bv'>💾 파일로 백업</button>\n"
+    "    <button id='mkImp' class='bv'>📂 파일에서 불러오기</button>\n"
+    "    <input id='mkFile' type='file' accept='.json,application/json' hidden>\n"
+    "    <p>즐겨찾기·외움 기록은 이 브라우저에만 저장됩니다. 다른 기기로 옮기거나 지켜 두려면 파일로 백업한 뒤,"
+    " 그 기기에서 불러오세요. 불러오면 지금 기록에 합쳐집니다(기존 기록은 지우지 않음).</p>\n"
+    "  </div>\n"
     "</div>\n"
     "<main><div id='grid'></div><div id='pag'></div></main>\n"
     "<button id='st' title='맨 위로'>▲</button>\n"
+    "<div id='toast' role='status' aria-live='polite'></div>\n"
     "<script>var VOCAB=" + vocab_json + ";</script>\n"
     "<script>" + js + "</script>\n"
     "</body>\n"

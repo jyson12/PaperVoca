@@ -1,9 +1,10 @@
 // 대시보드 UI 시험: headless Chrome(없으면 Edge) + CDP — Node 22+ 내장 WebSocket 사용, 추가 패키지 없음.
 // 사용법: node scripts/test_dashboard.mjs [web/index.html]
-// 즐겨찾기·외움 표시, 학습 기록 필터, 저장·새로고침 유지, CSV(BOM·원본 왕복 비교), 저장소 차단 환경을 시험한다.
+// 즐겨찾기·외움 표시, 학습 기록 필터, 저장·새로고침 유지, CSV(BOM·원본 왕복 비교),
+// 학습 기록 백업·불러오기(합치기·잘못된 파일 거부), 저장소 차단 환경을 시험한다.
 // 시험용 브라우저 프로필은 임시 폴더에 만들고 끝나면 지운다 (사용자 브라우저 기록과 무관).
 import { spawn } from "node:child_process";
-import { existsSync, mkdtempSync, rmSync } from "node:fs";
+import { existsSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -139,6 +140,52 @@ try {
   await ev("var s=document.getElementById('mf');s.value='l';s.dispatchEvent(new Event('change'))");
   check("외움 해제 → 외운 단어 0개 안내", (await ev("document.querySelector('.empty h3').textContent")) === "해당하는 단어가 없습니다");
   check("외움 해제 후 저장소", await ev("localStorage.getItem('pv-marks')") === JSON.stringify({ [w1]: { s: 1 } }));
+
+  // 5b) 학습 기록 백업·불러오기 (현재 기록: w1 즐겨찾기)
+  await nav(PAGE);
+  await ev("URL.createObjectURL=function(b){window.__blob=b;return 'about:blank';};HTMLAnchorElement.prototype.click=function(){window.__dl=this.download;};");
+  check("학습 기록 패널: 처음엔 닫힘", await ev("document.getElementById('mkPanel').hidden && document.getElementById('mkMenu').getAttribute('aria-expanded')==='false'"));
+  await ev("document.getElementById('mkMenu').click()");
+  check("학습 기록 패널: 버튼으로 열림", await ev("!document.getElementById('mkPanel').hidden && document.getElementById('mkPanel').offsetHeight>0 && document.getElementById('mkMenu').getAttribute('aria-expanded')==='true'"));
+  await ev("document.getElementById('mkExp').click()");
+  check("학습 기록 패널: 백업 후 닫힘", await ev("document.getElementById('mkPanel').hidden"));
+  const bak = JSON.parse(await ev("window.__blob.text()"));
+  const bakName = await ev("window.__dl");
+  check("기록 백업: 파일 형식·내용", bak.app === "PaperVoca" && bak.type === "study-marks" && bak.version === 1 &&
+    JSON.stringify(bak.marks) === JSON.stringify({ [w1]: { s: 1 } }) && /^PaperVoca_study_\d{4}-\d{2}-\d{2}\.json$/.test(bakName),
+    bakName + " " + JSON.stringify(bak.marks));
+  check("기록 백업 알림", await waitFor("document.getElementById('toast').classList.contains('show')") &&
+    (await ev("document.getElementById('toast').textContent")) === "학습 기록(1개 단어)을 파일로 저장했습니다.");
+
+  // 다른 기기에서 만든 백업을 불러온다고 가정: w1 외움 추가, w3 즐겨찾기+외움, 단어장에 없는 단어, 형식이 틀린 항목
+  const w3 = await ev("document.querySelectorAll('#grid .card')[2].querySelector('.btn-star').getAttribute('data-word')");
+  async function importFile(name, content) {
+    const path = join(prof, name);
+    writeFileSync(path, content);
+    await ev("document.getElementById('toast').textContent='';document.getElementById('mkFile').value=''");
+    const doc = await send("DOM.getDocument", { depth: 0 });
+    const q = await send("DOM.querySelector", { nodeId: doc.root.nodeId, selector: "#mkFile" });
+    await send("DOM.setFileInputFiles", { nodeId: q.nodeId, files: [path] });
+    await waitFor("document.getElementById('toast').textContent");
+    return ev("document.getElementById('toast').textContent");
+  }
+  const imp = JSON.stringify({ app: "PaperVoca", type: "study-marks", version: 1,
+    marks: { [w1]: { l: 1 }, [w3]: { s: 1, l: 1 }, notaword_xyz: { s: 1 }, broken: "x" } });
+  let msg = await importFile("import.json", imp);
+  check("불러오기 알림", msg === "학습 기록을 합쳤습니다 — 3개 단어에 표시가 더해졌습니다.", msg);
+  check("불러오기: 기존 기록을 지우지 않고 합침",
+    await ev("localStorage.getItem('pv-marks')") === JSON.stringify({ [w1]: { s: 1, l: 1 }, [w3]: { s: 1, l: 1 }, notaword_xyz: { s: 1 } }),
+    await ev("localStorage.getItem('pv-marks')"));
+  check("불러오기 후 진행 현황(단어장 밖 단어 제외)", await ev("document.getElementById('pr').textContent") === "✅ 외움 2 / 2000 · ⭐ 2",
+    await ev("document.getElementById('pr').textContent"));
+  check("불러오기 후 카드 표시 갱신", await ev("document.querySelectorAll('#grid .card')[2].classList.contains('learned') && document.querySelectorAll('#grid .card')[2].querySelector('.btn-star').textContent==='★'"));
+  msg = await importFile("import2.json", imp);
+  check("같은 파일 다시 불러오기 → 더할 것 없음 안내", msg === "새로 더할 기록이 없습니다 (이미 같은 기록이 있습니다).", msg);
+  const before = await ev("localStorage.getItem('pv-marks')");
+  const m1 = await importFile("bad.json", "{ not json");
+  const m2 = await importFile("other.json", JSON.stringify({ app: "Other", marks: { x: { s: 1 } } }));
+  check("잘못된 파일 거부(깨진 JSON·다른 앱 파일)", m1 === "PaperVoca 학습 기록 파일이 아닙니다." && m2 === m1 &&
+    await ev("localStorage.getItem('pv-marks')") === before, m1 + " / " + m2);
 
   // 6) 저장소가 막힌 환경(사생활 보호 모드 등)에서도 동작
   await send("Page.addScriptToEvaluateOnNewDocument", { source: "Storage.prototype.getItem=function(){throw new Error('blocked')};Storage.prototype.setItem=function(){throw new Error('blocked')};" });
