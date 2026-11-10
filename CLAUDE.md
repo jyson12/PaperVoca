@@ -107,7 +107,7 @@ git push origin main
   + `data/ipa_fixes.json` (IPA 교정 원장: 3차 Wiktionary 기반 보완 + 4차 CMU 사전 대조 교정, 영국식(RP) 기준)
 - ⛔ `review_vocabulary.py` — 접두 오매칭 결함. 재실행 금지(참고용으로만 보존).
 
-### 대시보드 학습 기능 (build_dashboard.py v3 2026-10-29, v4 2026-11-03)
+### 대시보드 학습 기능 (build_dashboard.py v3 2026-10-29, v4 2026-11-03, v5 2026-11-10)
 - 카드의 ☆(즐겨찾기)·☐ 외움 버튼 → 브라우저 localStorage `pv-marks`에 **표제어 기준**으로 저장
   (`{"word": {"s":1, "l":1}}`). 서버·저장소에는 아무것도 보내지 않으며, 기기·브라우저마다 따로 저장된다.
 - 표제어를 바꾸거나(`#RENAME`) 단어를 교체하면 그 단어의 학습 기록은 화면에서 빠진다(기록 자체는 남지만 집계 제외).
@@ -116,4 +116,7 @@ git push origin main
   `{"app":"PaperVoca","type":"study-marks","version":1,"exported_at":…,"marks":{표제어:{s,l}}}`.
   불러오기는 **합치기만** 한다(표시를 더할 뿐 지우지 않음). `app`이 다르거나 깨진 파일은 거부.
   이 형식과 `pv-marks` 키는 사용자들의 기존 백업 파일·기록과 호환돼야 하므로 바꾸지 않는다.
-- UI를 고친 뒤에는 `node scripts/test_dashboard.mjs`로 시험한다 (36개 항목, 모두 통과해야 함).
+- 🎴 학습 모드(v5, 2026-11-10, 머리말 버튼): 지금 목록(검색·필터·정렬 결과)을 한 장씩 — 단어·예문 → 뜻 보기 →
+  ✅ 알아요(=외움 표시) / 🔁 모르겠어요(=외움 표시 해제). 끝나면 "모르겠어요 N개 다시". 키보드 Space·1·2·←·Esc.
+  기록은 `pv-marks`를 그대로 쓴다(새 저장 키 없음). 열린 동안 뒤 화면은 `inert`.
+- UI를 고친 뒤에는 `node scripts/test_dashboard.mjs`로 시험한다 (48개 항목, 모두 통과해야 함).

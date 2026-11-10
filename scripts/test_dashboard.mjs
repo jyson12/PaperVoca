@@ -1,7 +1,7 @@
 // 대시보드 UI 시험: headless Chrome(없으면 Edge) + CDP — Node 22+ 내장 WebSocket 사용, 추가 패키지 없음.
 // 사용법: node scripts/test_dashboard.mjs [web/index.html]
 // 즐겨찾기·외움 표시, 학습 기록 필터, 저장·새로고침 유지, CSV(BOM·원본 왕복 비교),
-// 학습 기록 백업·불러오기(합치기·잘못된 파일 거부), 저장소 차단 환경을 시험한다.
+// 학습 기록 백업·불러오기(합치기·잘못된 파일 거부), 학습 모드(뜻 보기·알아요/모르겠어요·키보드), 저장소 차단 환경을 시험한다.
 // 시험용 브라우저 프로필은 임시 폴더에 만들고 끝나면 지운다 (사용자 브라우저 기록과 무관).
 import { spawn } from "node:child_process";
 import { existsSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
@@ -186,6 +186,57 @@ try {
   const m2 = await importFile("other.json", JSON.stringify({ app: "Other", marks: { x: { s: 1 } } }));
   check("잘못된 파일 거부(깨진 JSON·다른 앱 파일)", m1 === "PaperVoca 학습 기록 파일이 아닙니다." && m2 === m1 &&
     await ev("localStorage.getItem('pv-marks')") === before, m1 + " / " + m2);
+
+  // 5c) 학습 모드 (현재 기록: w1·w3 즐겨찾기+외움) — 즐겨찾기 필터로 2개만, 순서 섞기 끄고 시험
+  const key = (k) => send("Input.dispatchKeyEvent", { type: "keyDown", key: k, code: k === " " ? "Space" : k.length === 1 ? "Digit" + k : k,
+    text: k.length === 1 ? k : undefined, windowsVirtualKeyCode: k === " " ? 32 : k === "Escape" ? 27 : k === "ArrowLeft" ? 37 : k.charCodeAt(0) })
+    .then(() => send("Input.dispatchKeyEvent", { type: "keyUp", key: k, windowsVirtualKeyCode: k === " " ? 32 : k === "Escape" ? 27 : k === "ArrowLeft" ? 37 : k.charCodeAt(0) }));
+  const sdWord = () => ev("(document.querySelector('#sdBody .fc-word')||{}).textContent||''");
+  const meaningOf = (w) => ev(`VOCAB.words.find(x=>x.word===${JSON.stringify(w)}).meaning_ko`);
+  await ev(`var i=document.getElementById('si');i.value='zzzz';i.dispatchEvent(new Event('input'))`);
+  await waitFor("document.querySelector('.empty')");
+  await ev("document.getElementById('toast').textContent='';document.getElementById('studyBtn').click()");
+  check("학습 모드: 목록이 비면 열지 않고 안내", await ev("document.getElementById('study').hidden") &&
+    (await ev("document.getElementById('toast').textContent")).startsWith("학습할 단어가 없습니다"));
+  await ev(`var i=document.getElementById('si');i.value='';i.dispatchEvent(new Event('input'))`);
+  await waitFor("document.getElementById('sc').textContent==='2000 / 2000개'");
+  await ev("var s=document.getElementById('mf');s.value='s';s.dispatchEvent(new Event('change'))");
+  await ev("document.getElementById('studyBtn').click()");
+  check("학습 모드: 시작 화면에 대상 개수", await ev("!document.getElementById('study').hidden") &&
+    (await ev("document.querySelector('#sdBody .sd-big').textContent")) === "지금 목록의 단어 2개로 학습합니다.");
+  check("학습 모드: 뒤 화면 조작 막힘(inert)·스크롤 잠금", await ev("document.getElementById('main').inert && document.getElementById('ctl').inert && document.body.style.overflow==='hidden'"));
+  await ev("document.getElementById('sdShuffle').checked=false;document.querySelector('#sdBody [data-act=start]').click()");
+  check("학습 모드: 첫 카드 = 목록 첫 단어, 뜻은 가려짐", (await sdWord()) === w1 && await ev("!document.querySelector('#sdBody .fc-back')") &&
+    (await ev("document.getElementById('sdProg').textContent")) === "1 / 2", await sdWord());
+  await ev("document.activeElement.blur()");
+  await key(" ");
+  check("학습 모드: Space로 뜻 보기", await waitFor("document.querySelector('#sdBody .fc-back')") &&
+    (await ev("document.querySelector('#sdBody .fc-back .mk').textContent")) === await meaningOf(w1));
+  await key("2");
+  await waitFor(`document.querySelector('#sdBody .fc-word') && document.querySelector('#sdBody .fc-word').textContent===${JSON.stringify(w3)}`);
+  check("학습 모드: 2(모르겠어요) → 외움 해제·다음 카드", JSON.parse(await ev("localStorage.getItem('pv-marks')"))[w1].l === undefined &&
+    (await sdWord()) === w3 && (await ev("document.getElementById('sdProg').textContent")) === "2 / 2");
+  await ev("document.querySelector('#sdBody [data-act=prev]').click()");
+  check("학습 모드: ‹ 이전으로 돌아가면 다시 앞면", (await sdWord()) === w1 && await ev("!document.querySelector('#sdBody .fc-back')"));
+  await ev("document.querySelector('#sdBody [data-act=reveal]').click()");
+  await ev("document.querySelector('#sdBody [data-act=dont]').click()");
+  await ev("document.querySelector('#sdBody [data-act=reveal]').click()");
+  await ev("document.querySelector('#sdBody [data-act=know]').click()");
+  check("학습 모드: 끝 화면 집계", (await ev("document.querySelector('#sdBody .sd-end p:nth-child(2)').textContent")) === "✅ 알아요 1 · 🔁 모르겠어요 1" &&
+    JSON.parse(await ev("localStorage.getItem('pv-marks')"))[w3].l === 1);
+  await ev("document.querySelector('#sdBody [data-act=retry]').click()");
+  check("학습 모드: 모르겠어요 단어만 다시", (await sdWord()) === w1 && (await ev("document.getElementById('sdProg').textContent")) === "1 / 1");
+  await ev("document.querySelector('#sdBody [data-act=reveal]').click()");
+  await key("1");
+  await waitFor("document.querySelector('#sdBody .sd-end')");
+  check("학습 모드: 1(알아요) → 외움 표시", JSON.parse(await ev("localStorage.getItem('pv-marks')"))[w1].l === 1 &&
+    (await ev("document.querySelector('#sdBody .sd-end p:nth-child(2)').textContent")) === "✅ 알아요 1 · 🔁 모르겠어요 0");
+  await key("Escape");
+  check("학습 모드: Esc로 닫으면 목록·진행 현황 갱신, 조작 복구", await waitFor("document.getElementById('study').hidden") &&
+    (await ev("document.getElementById('pr').textContent")) === "✅ 외움 2 / 2000 · ⭐ 2" &&
+    await ev("!document.getElementById('main').inert && document.body.style.overflow===''") &&
+    await ev("document.activeElement===document.getElementById('studyBtn')"));
+  check("학습 모드: 스크립트 오류 없음", errs().length === 0, errs().map(e => JSON.stringify(e.params).slice(0, 200)).join(" | "));
 
   // 6) 저장소가 막힌 환경(사생활 보호 모드 등)에서도 동작
   await send("Page.addScriptToEvaluateOnNewDocument", { source: "Storage.prototype.getItem=function(){throw new Error('blocked')};Storage.prototype.setItem=function(){throw new Error('blocked')};" });

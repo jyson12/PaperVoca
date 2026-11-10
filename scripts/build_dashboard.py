@@ -5,6 +5,7 @@ vocabulary.json + CSS + JS를 모두 index.html 단일 파일에 인라인 삽�
 v3 (2026-10-29): 즐겨찾기·외움 표시(localStorage 'pv-marks', 표제어 기준 — 이 브라우저에만 저장),
                  학습 기록 필터·진행 현황, 현재 목록 CSV 내보내기(UTF-8 BOM, 엑셀 호환)
 v4 (2026-11-03): 학습 기록 백업(JSON 파일 저장)·불러오기(지금 기록에 합침 — 지우지 않음)
+v5 (2026-11-10): 학습 모드 — 지금 목록을 한 장씩 뜻 맞히기(알아요=외움 표시, 모르겠어요=해제, 모른 단어만 다시)
                  파일 형식 {"app":"PaperVoca","type":"study-marks","version":1,"exported_at":…,"marks":{표제어:{s,l}}}
 """
 import json
@@ -42,9 +43,13 @@ css = r"""
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 header{background:var(--primary);color:#fff;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;gap:12px;position:sticky;top:0;z-index:100;box-shadow:var(--shadow-lg)}
 .hl h1{font-size:1.35rem;font-weight:700}
-.hl p{font-size:.8rem;opacity:.8;margin-top:2px}
+.hl p{font-size:.8rem;opacity:.8;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hl{min-width:0}
 #themeBtn{background:rgba(255,255,255,.2);border:none;border-radius:50%;width:36px;height:36px;cursor:pointer;font-size:1.1rem;color:#fff;display:flex;align-items:center;justify-content:center}
 #themeBtn:hover{background:rgba(255,255,255,.35)}
+.hr{display:flex;align-items:center;gap:8px}
+#studyBtn{background:rgba(255,255,255,.2);border:none;border-radius:99px;padding:8px 14px;cursor:pointer;font-size:.88rem;font-weight:600;color:#fff;white-space:nowrap}
+#studyBtn:hover{background:rgba(255,255,255,.35)}
 .controls{background:var(--surface);border-bottom:1px solid var(--border);padding:14px 24px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:sticky;top:64px;z-index:90;box-shadow:var(--shadow)}
 .sw{position:relative;flex:1;min-width:180px}
 .sw input{width:100%;padding:8px 12px 8px 34px;border:1px solid var(--border);border-radius:var(--rs);background:var(--surface2);color:var(--text);font-size:.9rem;outline:none}
@@ -100,6 +105,38 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 .mkp[hidden]{display:none}
 .mkp p{flex:1;min-width:220px;font-size:.78rem;color:var(--muted);line-height:1.5}
 #mkMenu[aria-expanded=true]{background:var(--primary-light);border-color:var(--primary);color:var(--primary)}
+#study{position:fixed;inset:0;background:rgba(15,23,42,.6);z-index:250;display:flex;align-items:center;justify-content:center;padding:16px}
+#study[hidden]{display:none}
+.sd{background:var(--surface);color:var(--text);border-radius:var(--r);box-shadow:var(--shadow-lg);width:100%;max-width:560px;max-height:100%;overflow:auto;padding:20px;display:flex;flex-direction:column;gap:14px}
+.sd-h{display:flex;align-items:center;gap:10px}
+.sd-t{font-weight:700;font-size:1rem}
+.sd-p{font-size:.8rem;color:var(--muted);margin-left:auto}
+.sd-x{background:none;border:1px solid var(--border);border-radius:50%;width:32px;height:32px;cursor:pointer;color:var(--muted);font-size:.9rem;flex:none}
+.sd-x:hover{border-color:var(--primary);color:var(--primary)}
+.sd-bar{height:4px;background:var(--border);border-radius:99px;overflow:hidden}
+.sd-bar i{display:block;height:100%;width:0;background:var(--primary);transition:width .2s}
+.sd-big{font-size:1.05rem;font-weight:600;line-height:1.5}
+.sd-note,.sd-how{font-size:.84rem;color:var(--muted);line-height:1.6}
+.sd-how{padding-left:18px;margin-top:6px}
+.sd-chk{display:flex;align-items:center;gap:6px;font-size:.88rem;margin-top:8px;cursor:pointer}
+.sd-start,.sd-end{display:flex;flex-direction:column;gap:8px}
+.sd-end{align-items:center;text-align:center;padding:12px 0}
+.sd-btns{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;margin-top:6px}
+.sd-end .sd-btns{justify-content:center}
+.bt{padding:10px 16px;border:1px solid var(--border);border-radius:var(--rs);background:var(--surface2);color:var(--text);font-size:.92rem;cursor:pointer;min-height:44px}
+.bt:hover:not(:disabled){border-color:var(--primary);color:var(--primary)}
+.bt:disabled{opacity:.4;cursor:default}
+.bt-primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.bt-primary:hover:not(:disabled){background:var(--primary-dark);color:#fff}
+.bt-ok{background:#10b981;border-color:#10b981;color:#fff}
+.bt-ok:hover:not(:disabled){background:#059669;color:#fff;border-color:#059669}
+.bt-no{background:#fffbeb;border-color:#f59e0b;color:#b45309}
+[data-theme=dark] .bt-no{background:#451a03;color:#fbbf24}
+.fc{display:flex;flex-direction:column;gap:10px;outline:none}
+.fc-top{display:flex;justify-content:space-between;align-items:center}
+.fc-word{font-size:2rem;font-weight:700;line-height:1.2;word-break:break-word}
+.fc-back{border-top:1px dashed var(--border);padding-top:12px}
+.fc-back .mk{font-size:1.05rem}
 #toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--text);color:var(--surface);padding:10px 16px;border-radius:var(--rs);font-size:.85rem;line-height:1.4;box-shadow:var(--shadow-lg);opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:300;max-width:calc(100% - 32px)}
 #toast.show{opacity:1;transform:translate(-50%,0)}
 .empty{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--muted)}
@@ -113,7 +150,7 @@ main{padding:20px 24px;max-width:1400px;margin:0 auto}
 .pg-btn:disabled{opacity:.4;cursor:default}
 .pg-ellipsis{padding:7px 6px;color:var(--muted);font-size:.85rem}
 .pg-info{font-size:.8rem;color:var(--muted);padding:0 8px}
-@media(max-width:640px){header{padding:12px 16px}.controls{padding:10px 16px;top:58px}main{padding:14px 16px}#grid{grid-template-columns:1fr}.lv .card{flex-direction:column}.pg-btn{padding:6px 10px;font-size:.8rem}}
+@media(max-width:640px){#study{padding:0}.sd{max-width:none;height:100%;border-radius:0}#sdBody{flex:1;display:flex;flex-direction:column}#sdBody>.sd-btns{margin-top:auto;padding-top:12px}.sd-keys{display:none}#studyBtn{padding:7px 11px;font-size:.82rem}header{padding:12px 16px}.controls{padding:10px 16px;top:58px}main{padding:14px 16px}#grid{grid-template-columns:1fr}.lv .card{flex-direction:column}.pg-btn{padding:6px 10px;font-size:.8rem}}
 """
 
 js = r"""
@@ -383,9 +420,9 @@ function importMarks(file){
   },function(){toast('파일을 읽지 못했습니다.');});
 }
 
-// TTS
+// 카드 안 버튼 (즐겨찾기·외움 토글, 음성) — 단어 목록과 학습 모드가 함께 씀
 var curUtter=null;
-grid.addEventListener('click',function(e){
+function onCardClick(e){
   var mb=e.target.closest('.btn-m');
   if(mb){toggleMark(mb);return;}
   var btn=e.target.closest('.btn-t');
@@ -403,7 +440,122 @@ grid.addEventListener('click',function(e){
   u.onstart=function(){btn.classList.add('pl');curUtter=u;};
   u.onend=u.onerror=function(){btn.classList.remove('pl');curUtter=null;};
   window.speechSynthesis.speak(u);
+}
+grid.addEventListener('click',onCardClick);
+
+// 학습 모드 — 지금 목록(검색·필터·정렬 결과)을 한 장씩: 단어·예문 보고 뜻 떠올리기 → 뜻 보기 → 알아요/모르겠어요
+// 알아요 = 외움 표시, 모르겠어요 = 외움 표시 해제 (기록 형식은 pv-marks 그대로)
+var sdEl=document.getElementById('study');
+var sdBody=document.getElementById('sdBody');
+var sdProg=document.getElementById('sdProg');
+var sdBar=document.getElementById('sdBarIn');
+var studyBtn=document.getElementById('studyBtn');
+var BG_IDS=['hdr','ctl','main','st'];
+var study={pool:[],list:[],i:0,shown:false,ans:[]};
+
+function setLearned(w,on){
+  var m=marks[w]||{};
+  if(on)m.l=1;else delete m.l;
+  if(m.s||m.l)marks[w]=m;else delete marks[w];
+  saveMarks();renderProgress();
+}
+function shuffled(a){a=a.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var x=a[i];a[i]=a[j];a[j]=x;}return a;}
+function sdButtons(html){return '<div class="sd-btns">'+html+'</div>';}
+function setProg(){
+  var n=study.list.length,i=Math.min(study.i,n);
+  sdProg.textContent=n?(i+(study.i<n?1:0))+' / '+n:'';
+  sdBar.style.width=n?(i/n*100)+'%':'0';
+}
+
+function openStudy(){
+  var list=fs();
+  if(!list.length){toast('학습할 단어가 없습니다 — 검색어나 필터를 바꿔 보세요.');return;}
+  study.pool=list;study.list=[];study.i=0;
+  setProg();
+  sdBody.innerHTML='<div class="sd-start">'
+    +'<p class="sd-big">지금 목록의 단어 <b>'+list.length+'개</b>로 학습합니다.</p>'
+    +'<p class="sd-note">검색·품사·학습 기록 필터를 먼저 고르면 그 단어들만 나옵니다. 예) 📖 아직 안 외운 단어</p>'
+    +'<ul class="sd-how"><li>단어와 예문을 보고 뜻을 떠올린 뒤 <b>뜻 보기</b></li>'
+    +'<li><b>✅ 알아요</b> → 외움 표시 · <b>🔁 모르겠어요</b> → 외움 표시 해제</li>'
+    +'<li class="sd-keys">키보드: Space 뜻 보기 · 1 알아요 · 2 모르겠어요 · ← 이전 · Esc 닫기</li></ul>'
+    +'<label class="sd-chk"><input type="checkbox" id="sdShuffle" checked> 순서 섞기</label>'
+    +sdButtons('<button class="bt bt-primary" data-act="start">시작</button>')+'</div>';
+  sdEl.hidden=false;
+  BG_IDS.forEach(function(id){var el=document.getElementById(id);if(el)el.inert=true;});
+  document.body.style.overflow='hidden';
+  sdBody.querySelector('[data-act=start]').focus();
+}
+function closeStudy(){
+  if(sdEl.hidden)return;
+  if(curUtter&&window.speechSynthesis){window.speechSynthesis.cancel();}
+  sdEl.hidden=true;
+  BG_IDS.forEach(function(id){var el=document.getElementById(id);if(el)el.inert=false;});
+  document.body.style.overflow='';
+  render();
+  studyBtn.focus();
+}
+function startStudy(words){
+  study.list=words;study.i=0;study.ans=[];study.shown=false;
+  showCard();
+}
+function showCard(){
+  setProg();
+  if(study.i>=study.list.length){showEnd();return;}
+  var w=study.list[study.i],ex=w.examples&&w.examples[0],sh=study.shown;
+  sdBody.innerHTML='<div class="fc" tabindex="-1">'
+    +'<div class="fc-top"><span class="b bp">'+esc(w.pos_ko||w.pos)+'</span>'+markBtn(w.word,'s',getMark(w.word).s)+'</div>'
+    +'<div class="fc-word">'+esc(w.word)+'</div>'+(w.ipa?'<div class="wi">'+esc(w.ipa)+'</div>':'')
+    +(ex?'<div class="ex"><div class="es">'+hiEx(ex.sentence,w.word,'')+'</div></div>':'')
+    +'<div class="tb"><button class="btn-t" data-word="'+esc(w.word)+'" data-type="word">🔊 단어</button>'
+    +(ex?'<button class="btn-t" data-sentence="'+esc(ex.sentence)+'" data-type="example">🔊 예문</button>':'')+'</div>'
+    +(sh?'<div class="fc-back"><div class="mk">'+esc(w.meaning_ko)+'</div>'+(w.en_def?'<div class="me">'+esc(w.en_def)+'</div>':'')+'</div>':'')
+    +'</div>'
+    +sdButtons('<button class="bt" data-act="prev"'+(study.i?'':' disabled')+'>‹ 이전</button>'
+      +(sh?'<button class="bt bt-no" data-act="dont">🔁 모르겠어요</button><button class="bt bt-ok" data-act="know">✅ 알아요</button>'
+          :'<button class="bt bt-primary" data-act="reveal">뜻 보기</button>'));
+  if(sh)sdBody.querySelector('.fc').focus();else sdBody.querySelector('[data-act=reveal]').focus();
+}
+function answer(k){
+  if(!study.shown||study.i>=study.list.length)return;
+  setLearned(study.list[study.i].word,k==='k');
+  study.ans[study.i]=k;study.i++;study.shown=false;
+  showCard();
+}
+function showEnd(){
+  var k=0,miss=[];
+  study.list.forEach(function(w,i){if(study.ans[i]==='k')k++;else miss.push(w);});
+  study.miss=miss;
+  sdBody.innerHTML='<div class="sd-end"><p class="sd-big">🎉 학습 끝!</p>'
+    +'<p>✅ 알아요 '+k+' · 🔁 모르겠어요 '+miss.length+'</p>'
+    +sdButtons((miss.length?'<button class="bt bt-no" data-act="retry">🔁 모르겠어요 '+miss.length+'개 다시</button>':'')
+      +'<button class="bt" data-act="restart">처음부터 다시</button><button class="bt bt-primary" data-act="close">닫기</button>')+'</div>';
+  sdBody.querySelector('.sd-end .bt').focus();
+}
+sdEl.addEventListener('click',function(e){
+  var b=e.target.closest('[data-act]');
+  if(!b){onCardClick(e);return;}
+  var a=b.getAttribute('data-act');
+  if(a==='close')closeStudy();
+  else if(a==='start'){var sf=document.getElementById('sdShuffle');study.shuf=!!(sf&&sf.checked);startStudy(study.shuf?shuffled(study.pool):study.pool.slice());}
+  else if(a==='reveal'){study.shown=true;showCard();}
+  else if(a==='know')answer('k');
+  else if(a==='dont')answer('u');
+  else if(a==='prev'&&study.i>0){study.i--;study.shown=false;showCard();}
+  else if(a==='retry')startStudy(study.shuf?shuffled(study.miss):study.miss);
+  else if(a==='restart')startStudy(study.shuf?shuffled(study.list):study.list.slice());
 });
+document.addEventListener('keydown',function(e){
+  if(sdEl.hidden||e.ctrlKey||e.metaKey||e.altKey)return;
+  if(e.key==='Escape'){e.preventDefault();closeStudy();return;}
+  var inCard=study.list.length&&study.i<study.list.length&&sdBody.querySelector('.fc');
+  if(!inCard)return;
+  var onBtn=e.target.closest&&e.target.closest('button,input');
+  if((e.key===' '||e.key==='Enter')&&!onBtn&&!study.shown){e.preventDefault();study.shown=true;showCard();}
+  else if(e.key==='1'&&study.shown){e.preventDefault();answer('k');}
+  else if(e.key==='2'&&study.shown){e.preventDefault();answer('u');}
+  else if(e.key==='ArrowLeft'&&study.i>0){e.preventDefault();study.i--;study.shown=false;showCard();}
+});
+studyBtn.addEventListener('click',openStudy);
 
 // 이벤트
 var t;
@@ -442,12 +594,13 @@ html = (
     "<style>" + css + "</style>\n"
     "</head>\n"
     "<body>\n"
-    "<header>\n"
+    "<header id='hdr'>\n"
     "  <div class='hl'><h1>📚 PaperVoca</h1>"
     f"<p>논문 {paper_count}편 · 학습 어휘 {word_count}개 · {generated_at}</p></div>\n"
-    "  <button id='themeBtn' title='다크/라이트 전환'>🌙</button>\n"
+    "  <div class='hr'><button id='studyBtn' title='지금 목록으로 뜻 맞히기 학습 (알아요 → 외움 표시)'>🎴 학습 모드</button>"
+    "<button id='themeBtn' title='다크/라이트 전환'>🌙</button></div>\n"
     "</header>\n"
-    "<div class='controls'>\n"
+    "<div class='controls' id='ctl'>\n"
     "  <div class='sw'><span class='si'>🔍</span><input id='si' type='search' placeholder='단어, 뜻으로 검색...' autocomplete='off'></div>\n"
     "  <select id='pf'><option value='all'>모든 품사</option>" + pos_options + "</select>\n"
     "  <select id='mf' title='학습 기록으로 거르기'><option value='all'>모든 단어</option><option value='s'>⭐ 즐겨찾기</option>"
@@ -466,8 +619,12 @@ html = (
     " 그 기기에서 불러오세요. 불러오면 지금 기록에 합쳐집니다(기존 기록은 지우지 않음).</p>\n"
     "  </div>\n"
     "</div>\n"
-    "<main><div id='grid'></div><div id='pag'></div></main>\n"
+    "<main id='main'><div id='grid'></div><div id='pag'></div></main>\n"
     "<button id='st' title='맨 위로'>▲</button>\n"
+    "<div id='study' role='dialog' aria-modal='true' aria-labelledby='sdTitle' hidden><div class='sd'>"
+    "<div class='sd-h'><span class='sd-t' id='sdTitle'>🎴 학습 모드</span><span class='sd-p' id='sdProg'></span>"
+    "<button class='sd-x' data-act='close' aria-label='학습 모드 닫기' title='닫기 (Esc)'>✕</button></div>"
+    "<div class='sd-bar'><i id='sdBarIn'></i></div><div id='sdBody'></div></div></div>\n"
     "<div id='toast' role='status' aria-live='polite'></div>\n"
     "<script>var VOCAB=" + vocab_json + ";</script>\n"
     "<script>" + js + "</script>\n"
