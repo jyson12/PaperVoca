@@ -19,7 +19,10 @@ raw_text/*.txt → vocab_analyzer.py → selected_words.json
 영문 저널 6종 + 한국 학술지 4종(★ 폴더)이 있지만, **한국 학술지(최상위 ★ 폴더)는 단어장 대상에서 제외**한다
 (`pdf_extractor.py`의 `collect_pdfs()` — 대상 872개).
 
-저장소 구성: `scripts/`·`.claude/`·`.mcp.json`·`data/`(중간 산출물·검수표)는 git으로 백업한다.
+저장소 구성: `scripts/`·`.claude/`·`data/`(중간 산출물·검수표)는 git으로 백업한다.
+(Filesystem MCP·`.mcp.json`은 2026-11-16 제거 — 쓰는 스크립트·에이전트가 없고 세션 시작 때 연결 실패만 반복했다.
+원본 PDF는 파이썬 스크립트가 직접 읽는다. Claude가 `D:\논문집`을 기본 도구로 열 때 권한 창이 뜨면,
+MCP를 되살리지 말고 Claude 설정의 허용 폴더(`additionalDirectories`)에 추가한다.)
 `raw_text/`(논문 본문, 저작권·용량)와 `web/`(빌드 산출물)는 `.gitignore`로 로컬 전용.
 
 ## 단어장 불변 규칙
