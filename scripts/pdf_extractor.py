@@ -20,13 +20,16 @@ SOURCE_DIR = Path("D:/논문집")
 OUTPUT_DIR = Path("raw_text")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# 한국 학술지(★교육공학연구 등 최상위 ★ 폴더)는 영어 단어장 대상이 아니므로 제외
-EXCLUDE_TOP_PREFIX = "★"
+# 단어장 대상은 번호가 붙은 영문 저널 폴더(1.~6.)만이다.
+# 그 밖의 최상위 폴더 — 한국 학술지(★교육공학연구 등 ★ 폴더), 연구방법도서(2026-11 추가된 방법론 자료),
+# 앞으로 추가될 기타 자료 폴더 — 는 모두 제외한다. 새 영문 저널은 "7.저널명"처럼 번호를 붙이면 포함된다.
+JOURNAL_DIR_RE = re.compile(r"^\d+\.")
 
 
 def collect_pdfs() -> list[Path]:
     return [p for p in SOURCE_DIR.rglob("*.pdf")
-            if not p.relative_to(SOURCE_DIR).parts[0].startswith(EXCLUDE_TOP_PREFIX)]
+            if len(p.relative_to(SOURCE_DIR).parts) > 1
+            and JOURNAL_DIR_RE.match(p.relative_to(SOURCE_DIR).parts[0])]
 
 REFERENCE_HEADERS = re.compile(
     r"^\s*(references|bibliography|works cited|reference list)\s*$",
